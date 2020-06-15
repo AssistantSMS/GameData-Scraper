@@ -1,0 +1,146 @@
+[
+  {
+    "ItemId": "2aa8cb2c-2311-440c-8162-829ee394fbc2",
+    "AppId": "man1",
+    "Name": "Shack Wall",
+    "Color": "0a4444",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b94a113d-ddd4-45db-844c-1d97ca0e1d61",
+    "AppId": "man2",
+    "Name": "Shack Half Wall",
+    "Color": "0a4444",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c8ca8731-3af2-4554-9019-6b941affcb16",
+    "AppId": "man3",
+    "Name": "Shade Sails",
+    "Color": "0e8031",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5",
+    "AppId": "man4",
+    "Name": "Awning",
+    "Color": "0e8031",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0c07dba0-be79-40fd-9ed8-5a1c34e2d196",
+    "AppId": "man5",
+    "Name": "Shack Roof",
+    "Color": "3a5964",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ebefa387-fe4a-4839-bdd9-b6b4da39368f",
+    "AppId": "man6",
+    "Name": "Shack Light",
+    "Color": "e17f51",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "27c00cfb-4e7f-45fc-a037-f9a941464ce6",
+    "AppId": "man7",
+    "Name": "Fresh Neon Sign",
+    "Color": "19f088",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "20bd2885-d184-44ae-b72b-f90b786f8664",
+    "AppId": "man8",
+    "Name": "Hard Work Sign",
+    "Color": "eb6a90",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2289e96f-f9c6-440c-b7c9-ce9474da8264",
+    "AppId": "man9",
+    "Name": "Sale Sign",
+    "Color": "e9e9e9",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

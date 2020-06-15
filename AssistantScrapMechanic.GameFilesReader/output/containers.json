@@ -1,0 +1,162 @@
+[
+  {
+    "ItemId": "c76b89a3-7731-4ae1-99d4-788a29319360",
+    "AppId": "cont1",
+    "Name": "Hay Crate",
+    "Color": "902513",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3bd4430f-75bc-452c-9e80-1bd639898689",
+    "AppId": "cont2",
+    "Name": "Stone Crate",
+    "Color": "902513",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f8b984da-4b24-4e36-b440-86ead126b6dc",
+    "AppId": "cont3",
+    "Name": "Tree Crate",
+    "Color": "902513",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8a4a55b0-0228-4839-933b-0716cedb3f96",
+    "AppId": "cont4",
+    "Name": "Unfolded Banana Box",
+    "Color": "83a633",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f8da6b41-03d7-4bc1-ba94-011a351b1569",
+    "AppId": "cont5",
+    "Name": "Unfolded Onion Box",
+    "Color": "bc8543",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "71665314-db59-4c43-bfe2-2746baa8ffe9",
+    "AppId": "cont6",
+    "Name": "Unfolded Grow Box",
+    "Color": "73adb7",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d296c1ad-e893-4866-ba73-1cbbb38ebd37",
+    "AppId": "cont7",
+    "Name": "Main Humidifier",
+    "Color": "981e11",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 8,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "10590ecd-7d2f-4ff9-a6de-e749870ae8b8",
+    "AppId": "cont8",
+    "Name": "Warehouse Crate",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7e2b1dcb-4853-43ed-a7c5-0eb1a24b49d0",
+    "AppId": "cont9",
+    "Name": "Blueberry Juice Cylinder",
+    "Color": "655dd5",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a0654dd8-f36a-4c41-bafd-18d9e5f0df2e",
+    "AppId": "cont10",
+    "Name": "Tomato Juice Cylinder",
+    "Color": "d33520",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 1300.0,
+    "QualityLevel": 0
+  }
+]

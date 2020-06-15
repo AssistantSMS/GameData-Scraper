@@ -1,0 +1,548 @@
+[
+  {
+    "ItemId": "e49b210a-0d46-4f06-bcd8-08862379d156",
+    "AppId": "surv1",
+    "Name": "Warehouse Key",
+    "Description": "Used to activate a Warehouse elevator",
+    "Color": "cbcbcb",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 10,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ff09d816-843a-43e9-aab6-dc35e73787fd",
+    "AppId": "surv2",
+    "Name": "obj_survivalobject_cardreader",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9a3058f3-6771-464f-a3e0-25d247f1422f",
+    "AppId": "surv3",
+    "Name": "obj_survivalobject_cardreader_arm",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "75c11f33-7592-427f-96ac-d89994438042",
+    "AppId": "surv4",
+    "Name": "obj_packingstation_front",
+    "Color": "c8e6ff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4fbf640a-200d-45c6-862a-cc2900f84f2c",
+    "AppId": "surv5",
+    "Name": "obj_packingstation_mid",
+    "Color": "c8e6ff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3a135dd2-510c-434b-b019-ce077042a5c8",
+    "AppId": "surv6",
+    "Name": "obj_packingstation_crateload",
+    "Color": "e39c04",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "cc7fdd4a-ae17-44c8-9f91-089ea00f4891",
+    "AppId": "surv7",
+    "Name": "obj_packingstation_screen_fruit",
+    "Color": "c8e6ff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6a620faa-ca0d-4e39-bc67-97fb93d808c2",
+    "AppId": "surv8",
+    "Name": "obj_packingstation_screen_veggie",
+    "Color": "c8e6ff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d2e0d468-858b-4a8b-98b4-8c5900309aef",
+    "AppId": "surv9",
+    "Name": "obj_survivalobject_elevatorfloor",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a553bf2f-3a66-404a-b4c6-ce9e7b73f9d4",
+    "AppId": "surv10",
+    "Name": "obj_survivalobject_elevatorbutton",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "61bdf048-c09f-4cf5-8b47-35ba28c0580c",
+    "AppId": "surv11",
+    "Name": "obj_survivalobject_elevatorcallbutton",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "004bb5ee-34ba-484a-924b-31412d898e7e",
+    "AppId": "surv12",
+    "Name": "obj_survivalobject_elevatordoor_left",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f47612db-e035-4d62-81e2-64fc3453ccc3",
+    "AppId": "surv13",
+    "Name": "obj_survivalobject_bananabox",
+    "Color": "c48c13",
+    "PhysicsMaterial": "Glass",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c4a0a65b-3b24-4beb-bd7a-d687f4210169",
+    "AppId": "surv14",
+    "Name": "obj_survivalobject_elevatorlamp",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c8650c34-30ec-42c5-8dc3-7652ba4034ff",
+    "AppId": "surv15",
+    "Name": "obj_survivalobject_elevatorwallleft",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d2093f3c-178c-4220-bfe0-e8a3d87f96c0",
+    "AppId": "surv16",
+    "Name": "obj_survivalobject_elevatorwallright",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "256fde90-4225-4c22-b107-fcaabe2bec9c",
+    "AppId": "surv17",
+    "Name": "obj_survivalobject_elevatorfan",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5ff56026-7af2-4644-b30c-f0b43230093f",
+    "AppId": "surv18",
+    "Name": "obj_survivalobject_elevatorceiling",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2ff2b13f-5a50-443c-bbda-1f40f6aa917f",
+    "AppId": "surv19",
+    "Name": "obj_survivalobject_workbench",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e59afe5b-2c5f-4934-95d7-8c187b22fd6d",
+    "AppId": "surv20",
+    "Name": "obj_survivalobject_capsuledoor",
+    "Color": "3ca3f0",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c0159b96-edf3-46cd-9fbe-96ee1126304b",
+    "AppId": "surv21",
+    "Name": "obj_survivalobject_powercoresocket",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c654a023-ca53-4109-9f18-d297c18e9a02",
+    "AppId": "surv22",
+    "Name": "Master Battery",
+    "Description": "Used to power on large spaceships or stations",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 8,
+      "Durability": 10,
+      "Friction": 2,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ebd73cee-988f-4ffb-95d1-d3c3c81fd506",
+    "AppId": "surv23",
+    "Name": "obj_survivalobject_dispenserbot",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "eed5ea94-2b85-4c1d-881d-7e07574480f9",
+    "AppId": "surv24",
+    "Name": "obj_survivalobject_dispenserbot_spawner",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ec0bb005-f3c1-425a-94c4-6feca8567068",
+    "AppId": "surv25",
+    "Name": "obj_survivalobject_terminal",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7",
+    "AppId": "surv26",
+    "Name": "Caged Farmer",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 6,
+      "Friction": 3,
+      "Buoyancy": 8
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "614c3193-13da-40f4-9b03-37f26e760fd6",
+    "AppId": "surv27",
+    "Name": "obj_hideout_questgiver",
+    "Color": "ffffff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "712a5ebd-0793-49ba-b1ef-681a8fdceba6",
+    "AppId": "surv28",
+    "Name": "obj_hideout_button",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d1840356-ad77-4505-a9a0-10d11a77986f",
+    "AppId": "surv29",
+    "Name": "obj_hideout_dropoff",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "de7eea5b-9262-476b-a5bb-238d0e91f81f",
+    "AppId": "surv30",
+    "Name": "obj_survivalobject_kobag",
+    "Color": "cbcbcb",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "79cc711e-7094-4029-8419-bbbf8f08c6f2",
+    "AppId": "surv31",
+    "Name": "obj_survivalobject_ruinchest",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9769c4b2-67f0-446b-a00d-ee432218b038",
+    "AppId": "surv32",
+    "Name": "obj_construction_signcone_taped",
+    "Color": "f15814",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b4831236-a9b3-4422-92da-803f9252a279",
+    "AppId": "surv33",
+    "Name": "obj_office_waterdispensertank_taped",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "da2efa37-370d-4848-bc2e-2bae01173ce1",
+    "AppId": "surv34",
+    "Name": "obj_office_officechair_taped",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 500.0,
+    "QualityLevel": 0
+  }
+]

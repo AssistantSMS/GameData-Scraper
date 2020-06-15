@@ -1,0 +1,322 @@
+[
+  {
+    "ItemId": "9b4ea447-9cd9-4cd1-84d5-8c414890e523",
+    "AppId": "build1",
+    "Name": "Stand Support A",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e22c8acb-151f-4837-ba32-7c61896b4eec",
+    "AppId": "build2",
+    "Name": "Stand Support Long",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "109e1514-4f3b-4bd9-8d95-2d81fdb8fb25",
+    "AppId": "build3",
+    "Name": "Stand Support Corner",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1dc643c9-6f8e-478a-8ebb-4adf3cb9960f",
+    "AppId": "build4",
+    "Name": "Stand Support",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b1c6bac0-4055-4193-8490-7704d0ea7113",
+    "AppId": "build5",
+    "Name": "Stand Support Base",
+    "Color": "ee9e28",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0dff60c2-f7ae-4c13-b9c4-962ec1039be8",
+    "AppId": "build6",
+    "Name": "Mop Set",
+    "Color": "ebb100",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4c17571c-89b5-40f3-b13f-e9399591d0b4",
+    "AppId": "build7",
+    "Name": "Bathroom Stall Door",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ce66734b-2122-460e-94dc-ccc73d799e32",
+    "AppId": "build8",
+    "Name": "Slippery Surface Sign",
+    "Color": "ebb100",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f092e8b5-4b10-48be-8ad1-2ac5625f49b8",
+    "AppId": "build9",
+    "Name": "Plunger",
+    "Color": "9a3535",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0ebf382a-e2e4-4c46-a48e-87808308c1e3",
+    "AppId": "build10",
+    "Name": "Warehouse sink",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0c077288-d15d-45d6-8439-3dabe7144034",
+    "AppId": "build11",
+    "Name": "Water Dispenser",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "239c9c71-e5c7-4ccb-ad40-7bdbb32f3cc9",
+    "AppId": "build12",
+    "Name": "Cup Holder",
+    "Color": "b43320",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e7eae129-9e3f-45d2-997c-637865c60a5e",
+    "AppId": "build13",
+    "Name": "Water Tank",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b627c533-f0e7-4fa7-83e6-5c3d517568e0",
+    "AppId": "build14",
+    "Name": "Cubicle Wall",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3526de39-dcf4-484b-84ec-3336538be192",
+    "AppId": "build15",
+    "Name": "Corner Brace",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "47d33078-a9b0-4e30-9610-ad0556be5fa2",
+    "AppId": "build16",
+    "Name": "Office Table B",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1991e0c6-4dd8-4e44-9da8-7fdf4d938fdc",
+    "AppId": "build17",
+    "Name": "Office Table A",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3de61f00-5782-40ca-923d-7efabe334572",
+    "AppId": "build18",
+    "Name": "Office Table Leg",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4c93de5a-72ab-40d0-a081-c41e3aa87e86",
+    "AppId": "build19",
+    "Name": "Office Chair Top",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1f343b76-3622-4e4b-9de4-238d43d60734",
+    "AppId": "build20",
+    "Name": "Office Chair Base",
+    "Color": "8c9c3f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "ItemId": "3e10ef67-383a-4b60-aa5b-b1173134e437",
+    "AppId": "powertool1",
+    "Name": "Saw Blade",
+    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 2,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
+    "AppId": "powertool2",
+    "Name": "Drill",
+    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 2,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  }
+]

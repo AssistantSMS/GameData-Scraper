@@ -1,0 +1,154 @@
+[
+  {
+    "AppId": "recipeCook1",
+    "Title": "Pizza Burger",
+    "Description": "A mechanics favorite food. Fills up the hunger meter to the max",
+    "IngredientListLocalised": [
+      {
+        "Title": "Woc Steak",
+        "Quantity": 1,
+        "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e"
+      },
+      {
+        "Title": "Woc Milk",
+        "Quantity": 2,
+        "ItemId": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8"
+      },
+      {
+        "Title": "Potato",
+        "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns.",
+        "Quantity": 2,
+        "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
+      },
+      {
+        "Title": "Tomato",
+        "Description": "A juicy Tomato.",
+        "Quantity": 1,
+        "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8"
+      }
+    ],
+    "ItemId": "54d84731-d9ec-435d-bc9d-d48e0763b1bf",
+    "Quantity": 1,
+    "CraftTime": 10,
+    "IngredientList": [
+      {
+        "Quantity": 1,
+        "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeCook2",
+    "Title": "Veggie Burger",
+    "Description": "A vegetarian alternative. Fills up the hunger meter to the max",
+    "IngredientListLocalised": [
+      {
+        "Title": "Carrot",
+        "Description": "A nutritious Carrot.",
+        "Quantity": 2,
+        "ItemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da"
+      },
+      {
+        "Title": "Redbeet",
+        "Description": "A nutritious Redbeet.",
+        "Quantity": 1,
+        "ItemId": "4ce00048-f735-4fab-b978-5f405e60f48f"
+      },
+      {
+        "Title": "Potato",
+        "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns.",
+        "Quantity": 1,
+        "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
+      },
+      {
+        "Title": "Tomato",
+        "Description": "A juicy Tomato.",
+        "Quantity": 1,
+        "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8"
+      }
+    ],
+    "ItemId": "54d8ef21-357d-48a3-a66d-40446f6bb686",
+    "Quantity": 1,
+    "CraftTime": 10,
+    "IngredientList": [
+      {
+        "Quantity": 2,
+        "ItemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "4ce00048-f735-4fab-b978-5f405e60f48f"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeCook3",
+    "Title": "Revival Baguette",
+    "Description": "Feed your fallen friends to get them back on their feet and back in action",
+    "IngredientListLocalised": [
+      {
+        "Title": "Woc Steak",
+        "Quantity": 1,
+        "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e"
+      },
+      {
+        "Title": "Woc Milk",
+        "Quantity": 2,
+        "ItemId": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8"
+      },
+      {
+        "Title": "Redbeet",
+        "Description": "A nutritious Redbeet.",
+        "Quantity": 1,
+        "ItemId": "4ce00048-f735-4fab-b978-5f405e60f48f"
+      },
+      {
+        "Title": "Tomato",
+        "Description": "A juicy Tomato.",
+        "Quantity": 1,
+        "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8"
+      }
+    ],
+    "ItemId": "e243f642-6934-42bb-8cdd-f8ff1704d411",
+    "Quantity": 1,
+    "CraftTime": 24,
+    "IngredientList": [
+      {
+        "Quantity": 1,
+        "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "4ce00048-f735-4fab-b978-5f405e60f48f"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8"
+      }
+    ]
+  }
+]

@@ -1,0 +1,237 @@
+[
+  {
+    "ItemId": "f08d772f-9851-400f-a014-d847900458a7",
+    "AppId": "intera1",
+    "Name": "Fridge",
+    "Description": "Keeps your food fresh",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d0afb527-e786-4a22-a907-6da7e7cba8cb",
+    "AppId": "intera2",
+    "Name": "Locker",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8",
+    "AppId": "intera3",
+    "Name": "File Cabinet",
+    "Color": "beb16c",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 7,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5",
+    "AppId": "intera4",
+    "Name": "Chest",
+    "Description": "A simple chest to store your items.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 8,
+      "Durability": 6,
+      "Friction": 5,
+      "Buoyancy": 8
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
+    "AppId": "intera5",
+    "Name": "Large Chest",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c8b1bc7b-304e-44ce-9ca1-937b8e69d70c",
+    "AppId": "intera6",
+    "Name": "Protector: Anti-Destruction",
+    "Description": "Helps protecting your creation from damage. Connect it to a Battery container",
+    "Color": "c36512",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8fd2cf31-70b3-499a-bfb0-7e3d2c580258",
+    "AppId": "intera7",
+    "Name": "Encryptor: Anti-Connection",
+    "Description": "Hides the connections on your creations from other mechanics. Connect it to a Battery container",
+    "Color": "2f97df",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8694192c-d91b-444c-a184-910911bbb354",
+    "AppId": "intera8",
+    "Name": "Oily Toilet Seat",
+    "Color": "d37676",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 2,
+      "Friction": 1,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a930a42f-63ed-4fb0-933e-56ce8a889cc5",
+    "AppId": "intera9",
+    "Name": "Resource Collector",
+    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c",
+    "AppId": "intera10",
+    "Name": "Refinebot",
+    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 7,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "767a3121-2c31-473c-a5ab-27e188fdd55a",
+    "AppId": "intera11",
+    "Name": "Dressbot",
+    "Description": "Use the Dressbot to make new clothes for your Mechanic. Just add your garment boxes and the right amount of cotton. You can also customise your look by using the blue wardrobe.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 7,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54",
+    "AppId": "intera12",
+    "Name": "Water Cannon",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "454ad69d-bac2-4b06-9386-6267bcbfece2",
+    "AppId": "intera13",
+    "Name": "Mountable Spud Gun",
+    "Description": "Connect it to a Ammo container with a trigger to shoot",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7",
+    "AppId": "intera14",
+    "Name": "Respawn Bed",
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  }
+]

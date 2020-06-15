@@ -1,0 +1,402 @@
+[
+  {
+    "ItemId": "f5670a5a-7782-4683-bed0-a6eda785a5e2",
+    "AppId": "deco1",
+    "Name": "Produce Billboard",
+    "Color": "4f4f4f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "080ef1dd-07a7-4d31-86b8-ac907e1468bf",
+    "AppId": "deco2",
+    "Name": "Berry Billboard",
+    "Color": "4f4f4f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4d54298c-93a0-4b6d-8719-7380430a27bb",
+    "AppId": "deco3",
+    "Name": "Sickle-Down Billboard",
+    "Color": "4f4f4f",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4724913e-4f9b-4334-8408-4b0850a1c7de",
+    "AppId": "deco4",
+    "Name": "Warehouse Sign",
+    "Color": "d07500",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2bacc33e-60fb-40c3-b751-ef76f79392c7",
+    "AppId": "deco5",
+    "Name": "Elevator Sign",
+    "Color": "d07500",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e71b55c7-8547-4bef-bb77-e976c8abde0b",
+    "AppId": "deco6",
+    "Name": "Storage Sign",
+    "Color": "d07500",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "acc00050-d40e-42e9-9c2e-22ec2109dc3e",
+    "AppId": "deco7",
+    "Name": "Packing Sign",
+    "Color": "d07500",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7728c105-1fd9-4aaa-95ec-1da45b425d89",
+    "AppId": "deco8",
+    "Name": "Growroom Sign",
+    "Color": "d07500",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "884080be-c723-4e6e-828b-6019af8beed6",
+    "AppId": "deco9",
+    "Name": "Utility Sign",
+    "Color": "d07500",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "221badef-0313-419c-9a7c-7469d26b0d5b",
+    "AppId": "deco10",
+    "Name": "Man Sign",
+    "Color": "3495e8",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e08d860d-650e-4b81-8cfa-411ea8e6e9c0",
+    "AppId": "deco11",
+    "Name": "Woman Sign",
+    "Color": "3495e8",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d053adac-e217-49de-b184-ad4bfbe1e52d",
+    "AppId": "deco12",
+    "Name": "Recycling Bin",
+    "Color": "c8c628",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 2,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "da86d1c6-e29b-4741-8b65-eed067222dc7",
+    "AppId": "deco13",
+    "Name": "Paper Stack",
+    "Color": "d2c6af",
+    "PhysicsMaterial": "Cardboard",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 1,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "659488be-3d33-4244-b762-e7d77dcdcbbe",
+    "AppId": "deco14",
+    "Name": "Old Restroom Mirror",
+    "Color": "3495e8",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c7772f74-f120-4008-8121-977e52a1d7c0",
+    "AppId": "deco15",
+    "Name": "Traffic Sign",
+    "Color": "323232",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 5,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ea64acf0-c0a8-44c4-a946-f358d232e965",
+    "AppId": "deco16",
+    "Name": "Metallic Tube",
+    "Color": "323232",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7bc20d55-6b49-450c-830c-16282ce7fb2d",
+    "AppId": "deco17",
+    "Name": "Road Sign Base",
+    "Color": "323232",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "31ada55e-7c79-4aee-86b6-809c0e5468df",
+    "AppId": "deco18",
+    "Name": "Cash Register",
+    "Color": "005952",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d4ae8963-40e9-4680-934d-5626a3bfc363",
+    "AppId": "deco19",
+    "Name": "Open Sign",
+    "Color": "005952",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7540ef9a-5c84-4dd2-b111-176d8de66e47",
+    "AppId": "deco20",
+    "Name": "Old Fruit Stand",
+    "Color": "5f7514",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d361b477-69b2-4a3a-b119-ec99a3938f5b",
+    "AppId": "deco21",
+    "Name": "Stacked Crates",
+    "Color": "5f7514",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Flammable": true,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5ad298e4-f5ad-479c-9ec6-6c4f9d3fb8ae",
+    "AppId": "deco22",
+    "Name": "Sunshake Vending Machine",
+    "Color": "fc949d",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "db2ce519-490e-4432-b329-c973ecc8f5d9",
+    "AppId": "deco23",
+    "Name": "Udder Decoration",
+    "Color": "fc949d",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "23ac6823-51a4-4581-b8ca-061c76f093f6",
+    "AppId": "deco24",
+    "Name": "Haystack",
+    "Color": "0a956d",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "74a3f240-65b2-4f52-9555-9b52173fca0a",
+    "AppId": "deco25",
+    "Name": "Hay Bale",
+    "Color": "0a956d",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  }
+]

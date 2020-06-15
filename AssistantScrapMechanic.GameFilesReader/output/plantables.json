@@ -1,0 +1,299 @@
+[
+  {
+    "ItemId": "22beade5-38ca-47b4-a2ee-32403f58a862",
+    "AppId": "plant1",
+    "Name": "Banana Seed",
+    "Color": "83a633",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2",
+    "AppId": "plant2",
+    "Name": "Blueberry Seed",
+    "Color": "5d41d9",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4",
+    "AppId": "plant3",
+    "Name": "Orange Seed",
+    "Color": "fd5d38",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a",
+    "AppId": "plant4",
+    "Name": "Pineapple Seed",
+    "Color": "23b777",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9c82a525-8a8b-4483-9595-505aaa042486",
+    "AppId": "plant5",
+    "Name": "Carrot Seed",
+    "Color": "3f7abc",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "64051718-a3f1-422b-bda3-277efa0c4545",
+    "AppId": "plant6",
+    "Name": "Redbeet Seed",
+    "Color": "a42039",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "38e41fb5-dd50-4294-829d-a517f0282fed",
+    "AppId": "plant7",
+    "Name": "Tomato Seed",
+    "Color": "e39c04",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1c6756ca-3a60-4dcb-a5d1-353edf818308",
+    "AppId": "plant8",
+    "Name": "Broccoli Seed",
+    "Color": "7c862c",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "eb1ef696-5c05-4662-9e47-fe1e0875ff84",
+    "AppId": "plant9",
+    "Name": "Potato Seed",
+    "Color": "52662e",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "aa4c9c5e-7fc6-4c27-967f-c550e551c872",
+    "AppId": "plant10",
+    "Name": "Banana",
+    "Description": "A fresh Banana.",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6a43fff2-8c6d-4460-9f44-e5483b5267dd",
+    "AppId": "plant11",
+    "Name": "Blueberry",
+    "Description": "A sweet Blueberry.",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f5098301-1693-457b-8efc-83b3504105ac",
+    "AppId": "plant12",
+    "Name": "Orange",
+    "Description": "A juicy Orange.",
+    "Color": "e9c410",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4ec64cda-1a5b-4465-88b4-5ea452c4a556",
+    "AppId": "plant13",
+    "Name": "Pineapple",
+    "Description": "A juicy Pineapple.",
+    "Color": "e3ae20",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da",
+    "AppId": "plant14",
+    "Name": "Carrot",
+    "Description": "A nutritious Carrot.",
+    "Color": "a64102",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4ce00048-f735-4fab-b978-5f405e60f48f",
+    "AppId": "plant15",
+    "Name": "Redbeet",
+    "Description": "A nutritious Redbeet.",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8",
+    "AppId": "plant16",
+    "Name": "Tomato",
+    "Description": "A juicy Tomato.",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f",
+    "AppId": "plant17",
+    "Name": "Broccoli",
+    "Description": "A nutritious Broccoli.",
+    "Color": "a6274d",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+    "AppId": "plant18",
+    "Name": "Potato",
+    "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns.",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

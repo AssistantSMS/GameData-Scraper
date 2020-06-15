@@ -1,0 +1,53 @@
+[
+  {
+    "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae",
+    "AppId": "out1",
+    "Name": "Garment Box (Common)",
+    "Description": "Use it in a Dressbot to make new clothes",
+    "Color": "19e753",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 9,
+      "Friction": 3,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6",
+    "AppId": "out2",
+    "Name": "Garment Box (Rare)",
+    "Description": "Use it in a Dressbot to make new clothes",
+    "Color": "a20fff",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 9,
+      "Friction": 3,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b",
+    "AppId": "out3",
+    "Name": "Garment Box (Epic)",
+    "Description": "Use it in a Dressbot to make new clothes",
+    "Color": "f9b303",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 9,
+      "Friction": 3,
+      "Buoyancy": 7
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

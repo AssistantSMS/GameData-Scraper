@@ -1,0 +1,146 @@
+[
+  {
+    "ItemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4",
+    "AppId": "pack1",
+    "Name": "Banana Crate",
+    "Color": "83a633",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e77d9577-589a-446b-96c1-f6d0d7495489",
+    "AppId": "pack2",
+    "Name": "Blueberry Crate",
+    "Color": "5d41d9",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "99477093-e819-4199-b62a-fda6143aae89",
+    "AppId": "pack3",
+    "Name": "Broccoli Crate",
+    "Color": "7c862c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2",
+    "AppId": "pack4",
+    "Name": "Orange Crate",
+    "Color": "fd5d38",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3",
+    "AppId": "pack5",
+    "Name": "Pineapple Crate",
+    "Color": "23b777",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9cd8288c-5a19-479f-af47-9eb55230ade2",
+    "AppId": "pack6",
+    "Name": "Carrot Crate",
+    "Color": "3f7abc",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8",
+    "AppId": "pack7",
+    "Name": "Redbeet Crate",
+    "Color": "a42039",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4",
+    "AppId": "pack8",
+    "Name": "Tomato Crate",
+    "Color": "e39c04",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "deabb19a-1acd-4bbf-8bd2-f8f17410170b",
+    "AppId": "pack9",
+    "Name": "Woc Crate",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 10,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

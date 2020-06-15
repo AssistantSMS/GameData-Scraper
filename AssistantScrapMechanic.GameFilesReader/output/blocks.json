@@ -2,7 +2,7 @@
   {
     "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811",
     "AppId": "blk1",
-    "Name": "blk_scrapwood",
+    "Name": "Scrap Wood Block",
     "Color": "cd9d71",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -18,7 +18,7 @@
   {
     "ItemId": "1897ee42-0291-43e4-9645-8c5a5d310398",
     "AppId": "blk2",
-    "Name": "blk_wood2",
+    "Name": "Wood Block 2",
     "Color": "dc9153",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -34,7 +34,7 @@
   {
     "ItemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb",
     "AppId": "blk3",
-    "Name": "blk_wood3",
+    "Name": "Wood Block 3",
     "Color": "f2ad74",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -50,7 +50,7 @@
   {
     "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39",
     "AppId": "blk4",
-    "Name": "blk_scrapmetal",
+    "Name": "Scrap Metal Block",
     "Color": "df6226",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -66,7 +66,7 @@
   {
     "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f",
     "AppId": "blk5",
-    "Name": "blk_metal2",
+    "Name": "Metal Block 2",
     "Color": "869499",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -82,7 +82,7 @@
   {
     "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46",
     "AppId": "blk6",
-    "Name": "blk_metal3",
+    "Name": "Metal Block 3",
     "Color": "88a5ac",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -98,7 +98,7 @@
   {
     "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac",
     "AppId": "blk7",
-    "Name": "blk_scrapstone",
+    "Name": "Scrap Stone Block",
     "Color": "848484",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -114,7 +114,7 @@
   {
     "ItemId": "ff234e42-5da4-43cc-8893-940547c97882",
     "AppId": "blk8",
-    "Name": "blk_concrete2",
+    "Name": "Concrete Block 2",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -130,7 +130,7 @@
   {
     "ItemId": "e281599c-2343-4c86-886e-b2c1444e8810",
     "AppId": "blk9",
-    "Name": "blk_concrete3",
+    "Name": "Concrete Block 3",
     "Color": "c9d7dc",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -146,7 +146,7 @@
   {
     "ItemId": "f5ceb7e3-5576-41d2-82d2-29860cf6e20e",
     "AppId": "blk10",
-    "Name": "blk_crackedconcrete",
+    "Name": "Cracked Concrete Block",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -162,7 +162,7 @@
   {
     "ItemId": "cd0eff89-b693-40ee-bd4c-3500b23df44e",
     "AppId": "blk11",
-    "Name": "blk_concretetiles",
+    "Name": "Concrete Slab Block",
     "Color": "af967b",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -178,7 +178,7 @@
   {
     "ItemId": "220b201e-aa40-4995-96c8-e6007af160de",
     "AppId": "blk12",
-    "Name": "blk_metalbricks",
+    "Name": "Rusted Metal Block",
     "Color": "738192",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -194,7 +194,7 @@
   {
     "ItemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e",
     "AppId": "blk13",
-    "Name": "blk_beam",
+    "Name": "Extruded Metal Block",
     "Color": "858795",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -210,7 +210,7 @@
   {
     "ItemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e",
     "AppId": "blk14",
-    "Name": "blk_bubblewrap",
+    "Name": "Bubble Plastic Block",
     "Color": "9acfd2",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -226,7 +226,7 @@
   {
     "ItemId": "628b2d61-5ceb-43e9-8334-a4135566df7a",
     "AppId": "blk15",
-    "Name": "blk_plastic",
+    "Name": "Plastic Block",
     "Color": "0b9ade",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -242,7 +242,7 @@
   {
     "ItemId": "9be6047c-3d44-44db-b4b9-9bcf8a9aab20",
     "AppId": "blk16",
-    "Name": "blk_insulation",
+    "Name": "Insulation Block",
     "Color": "fff063",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -258,7 +258,7 @@
   {
     "ItemId": "b145d9ae-4966-4af6-9497-8fca33f9aee3",
     "AppId": "blk17",
-    "Name": "blk_drywall",
+    "Name": "Plaster Block",
     "Color": "979797",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -274,7 +274,7 @@
   {
     "ItemId": "febce8a6-6c05-4e5d-803b-dfa930286944",
     "AppId": "blk18",
-    "Name": "blk_carpet",
+    "Name": "Carpet Block",
     "Color": "368085",
     "PhysicsMaterial": "Grass",
     "Ratings": {
@@ -290,7 +290,7 @@
   {
     "ItemId": "e981c337-1c8a-449c-8602-1dd990cbba3a",
     "AppId": "blk19",
-    "Name": "blk_plasticwall",
+    "Name": "Painted Wall Block",
     "Color": "eeeeee",
     "PhysicsMaterial": "Grass",
     "Ratings": {
@@ -306,7 +306,7 @@
   {
     "ItemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b",
     "AppId": "blk20",
-    "Name": "blk_metalnet",
+    "Name": "Net Block",
     "Color": "435359",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -322,7 +322,7 @@
   {
     "ItemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a",
     "AppId": "blk21",
-    "Name": "blk_crossnet",
+    "Name": "Solid Net Block",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -338,7 +338,7 @@
   {
     "ItemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a",
     "AppId": "blk22",
-    "Name": "blk_tryponet",
+    "Name": "Punched Steel Block",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -354,7 +354,7 @@
   {
     "ItemId": "a479066d-4b03-46b5-8437-e99fec3f43ee",
     "AppId": "blk23",
-    "Name": "blk_stripednet",
+    "Name": "Striped Net Block",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -370,7 +370,7 @@
   {
     "ItemId": "b4fa180c-2111-4339-b6fd-aed900b57093",
     "AppId": "blk24",
-    "Name": "blk_squarenet",
+    "Name": "Square Mesh Block",
     "Color": "c36512",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -386,7 +386,7 @@
   {
     "ItemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6",
     "AppId": "blk25",
-    "Name": "blk_restroom",
+    "Name": "Restroom Block",
     "Color": "607b79",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -402,7 +402,7 @@
   {
     "ItemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4",
     "AppId": "blk26",
-    "Name": "blk_treadplate",
+    "Name": "Diamond Plate Block",
     "Color": "43494d",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -418,7 +418,7 @@
   {
     "ItemId": "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c",
     "AppId": "blk27",
-    "Name": "blk_warehousefloor",
+    "Name": "Aluminum Block",
     "Color": "727272",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -434,7 +434,7 @@
   {
     "ItemId": "d740a27d-cc0f-4866-9e07-6a5c516ad719",
     "AppId": "blk28",
-    "Name": "blk_wornmetal",
+    "Name": "Worn Metal Block",
     "Color": "66837c",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -450,7 +450,7 @@
   {
     "ItemId": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50",
     "AppId": "blk29",
-    "Name": "blk_spaceshipfloor",
+    "Name": "Spaceship Floor Block",
     "Color": "dadada",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -466,7 +466,7 @@
   {
     "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
     "AppId": "blk30",
-    "Name": "blk_sand",
+    "Name": "Sand Block",
     "Color": "c69146",
     "PhysicsMaterial": "Sand",
     "Ratings": {
@@ -482,7 +482,7 @@
   {
     "ItemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
     "AppId": "blk31",
-    "Name": "blk_armoredglass",
+    "Name": "Armored Glass Block",
     "Color": "3abfb1",
     "PhysicsMaterial": "Glass",
     "Ratings": {

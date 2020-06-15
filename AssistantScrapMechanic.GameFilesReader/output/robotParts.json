@@ -1,0 +1,226 @@
+[
+  {
+    "ItemId": "1e89879f-1171-4bcd-9465-db7f740ab09e",
+    "AppId": "robo1",
+    "Name": "obj_robotparts_tapebothead01",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "50380984-9ad6-4092-88e9-5a84b8212899",
+    "AppId": "robo2",
+    "Name": "obj_robotparts_tapebottorso01",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7faccb34-95df-4f3d-9250-054bb04b2719",
+    "AppId": "robo3",
+    "Name": "obj_robotparts_tapebotleftarm01",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f293a245-2415-4da5-b012-01134652611f",
+    "AppId": "robo4",
+    "Name": "obj_robotparts_tapebotshooter",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e9b6ef48-2a41-4db2-b8bc-5fd3f179b04e",
+    "AppId": "robo5",
+    "Name": "obj_robotparts_haybothead",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4617f9a6-8724-43ee-97e2-20904fd660ab",
+    "AppId": "robo6",
+    "Name": "obj_robotparts_haybotbody",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6e480a17-57f1-4c06-9313-9b1c80e1be05",
+    "AppId": "robo7",
+    "Name": "obj_robotparts_haybotpelvis",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7085387b-a2ce-4ef5-be67-b67501754b9e",
+    "AppId": "robo8",
+    "Name": "obj_robotparts_haybotfork",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7b4d4f21-9164-4d55-854f-670afd54f1cc",
+    "AppId": "robo9",
+    "Name": "obj_robotparts_farmbotpart_head",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "79b93e3a-79fd-4a1e-88cb-1eda65d3535f",
+    "AppId": "robo10",
+    "Name": "obj_robotparts_farmbotpart_cannonarm",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "369b43d3-4ed3-464d-82e8-c9aa11251afc",
+    "AppId": "robo11",
+    "Name": "obj_robotparts_farmbotpart_drill",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5de17a8f-f447-4204-886e-6ba015347f89",
+    "AppId": "robo12",
+    "Name": "obj_robotparts_farmbotpart_scytharm",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b9b4f8ef-9d30-4662-8696-d27a2ba0a7fa",
+    "AppId": "robo13",
+    "Name": "obj_robotpart_totebotbody",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "243afe95-8058-47b0-bccf-49cc0445cd55",
+    "AppId": "robo14",
+    "Name": "obj_robotpart_totebotleg",
+    "Color": "035cff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

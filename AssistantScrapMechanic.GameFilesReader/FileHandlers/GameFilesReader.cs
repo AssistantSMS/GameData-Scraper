@@ -37,11 +37,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return survivalDict;
         }
 
-        public void GenerateBlockIntermediate()
+        public void GenerateBlockIntermediate(Dictionary<string, InventoryDescription> itemNames)
         {
             Blocklist blocklist = _shapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
 
-            List<BlockLocalised> fileData = blocklist.BlockList.Select((block, blockIndex) => block.Localise(Prefix.Block, blockIndex)).ToList();
+            List<GameItemLocalised> fileData = blocklist.BlockList.Select((block, blockIndex) => block.Localise(Prefix.Block, blockIndex, itemNames)).ToList();
 
             _outputFileSysRepo.WriteBackToJsonFile(fileData, OutputFile.Blocks);
         }
@@ -50,15 +50,41 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         {
             Dictionary<string, InventoryDescription> itemNames = LoadItemNames();
 
-            LoadItemRecipes(GameFile.CookBot, itemNames, Prefix.CookBot, OutputFile.CookBot);
-            LoadItemRecipes(GameFile.CraftBot, itemNames, Prefix.CraftBot, OutputFile.CraftBot);
-            LoadItemRecipes(GameFile.Dispenser, itemNames, Prefix.Dispenser, OutputFile.Dispenser);
-            LoadItemRecipes(GameFile.DressBot, itemNames, Prefix.DressBot, OutputFile.DressBot);
-            LoadRefinerRecipes(GameFile.Refinery, itemNames, Prefix.Refinery, OutputFile.Refinery);
-            LoadItemRecipes(GameFile.Workbench, itemNames, Prefix.Workbench, OutputFile.Workbench);
+            GenerateBlockIntermediate(itemNames);
+            GenerateGameItemIntermediate(GameFile.Building, Prefix.Build, OutputFile.Building, itemNames);
+            GenerateGameItemIntermediate(GameFile.Construction, Prefix.Construction, OutputFile.Construction, itemNames);
+            GenerateGameItemIntermediate(GameFile.Consumable, Prefix.Consumable, OutputFile.Consumable, itemNames);
+            GenerateGameItemIntermediate(GameFile.Containers, Prefix.Container, OutputFile.Containers, itemNames);
+            GenerateGameItemIntermediate(GameFile.Craftbot, Prefix.Craftbot, OutputFile.Craftbot, itemNames);
+            GenerateGameItemIntermediate(GameFile.Decor, Prefix.Decor, OutputFile.Decor, itemNames);
+            GenerateGameItemIntermediate(GameFile.Fitting, Prefix.Fitting, OutputFile.Fitting, itemNames);
+            GenerateGameItemIntermediate(GameFile.Harvest, Prefix.Harvest, OutputFile.Harvest, itemNames);
+            GenerateGameItemIntermediate(GameFile.Industrial, Prefix.Industrial, OutputFile.Industrial, itemNames);
+            GenerateGameItemIntermediate(GameFile.Interactive, Prefix.Interactive, OutputFile.Interactive, itemNames);
+            GenerateGameItemIntermediate(GameFile.InteractiveUpgradable, Prefix.InteractiveUpgradable, OutputFile.InteractiveUpgradable, itemNames);
+            GenerateGameItemIntermediate(GameFile.InteractiveContainer, Prefix.InteractiveContainer, OutputFile.InteractiveContainer, itemNames);
+            GenerateGameItemIntermediate(GameFile.Light, Prefix.Light, OutputFile.Light, itemNames);
+            GenerateGameItemIntermediate(GameFile.ManMade, Prefix.ManMade, OutputFile.ManMade, itemNames);
+            GenerateGameItemIntermediate(GameFile.Outfit, Prefix.Outfit, OutputFile.Outfit, itemNames);
+            GenerateGameItemIntermediate(GameFile.PackingCrate, Prefix.PackingCrate, OutputFile.PackingCrate, itemNames);
+            GenerateGameItemIntermediate(GameFile.Plant, Prefix.Plant, OutputFile.Plant, itemNames);
+            GenerateGameItemIntermediate(GameFile.Power, Prefix.Power, OutputFile.Power, itemNames);
+            GenerateGameItemIntermediate(GameFile.Resources, Prefix.Resource, OutputFile.Resources, itemNames);
+            GenerateGameItemIntermediate(GameFile.Robot, Prefix.Robot, OutputFile.Robot, itemNames);
+            GenerateGameItemIntermediate(GameFile.Survival, Prefix.Survival, OutputFile.Survival, itemNames);
+            GenerateGameItemIntermediate(GameFile.Tool, Prefix.Tool, OutputFile.Tool, itemNames);
+            GenerateGameItemIntermediate(GameFile.Vehicle, Prefix.Vehicle, OutputFile.Vehicle, itemNames);
+            GenerateGameItemIntermediate(GameFile.Warehouse, Prefix.Warehouse, OutputFile.Warehouse, itemNames);
+
+            GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes);
+            GenerateRecipeIntermediate(GameFile.CraftBotRecipes, itemNames, Prefix.CraftBot, OutputFile.CraftBotRecipes);
+            GenerateRecipeIntermediate(GameFile.DispenserRecipes, itemNames, Prefix.Dispenser, OutputFile.DispenserRecipes);
+            GenerateRecipeIntermediate(GameFile.DressBotRecipes, itemNames, Prefix.DressBot, OutputFile.DressBotRecipes);
+            GenerateRefinerIntermediate(GameFile.RefineryRecipes, itemNames, Prefix.Refinery, OutputFile.RefineryRecipes);
+            GenerateRecipeIntermediate(GameFile.WorkbenchRecipes, itemNames, Prefix.Workbench, OutputFile.WorkbenchRecipes);
         }
 
-        private void LoadItemRecipes(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
+        private void GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
         {
             string filePath = Path.Combine("Survival", "CraftingRecipes", filename);
             List<Recipe> jsonContent = _fileSysRepo.LoadListJsonFile<Recipe>(filePath);
@@ -68,7 +94,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);
         }
 
-        private void LoadRefinerRecipes(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
+        private void GenerateRefinerIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
         {
             string filePath = Path.Combine("Survival", "CraftingRecipes", filename);
             Dictionary<string, RefinerRecipe> jsonContent = _fileSysRepo.LoadJsonDictOfType<RefinerRecipe>(filePath);
@@ -78,10 +104,24 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             {
                 string jsonContentKey = jsonContent.Keys.ToList()[keyIndex];
                 RefinerRecipe obj = jsonContent[jsonContentKey];
-                recipes.Add(obj.Localise(jsonContentKey, "ref", keyIndex, itemNames));
+                recipes.Add(obj.Localise(jsonContentKey, prefix, keyIndex, itemNames));
             }
 
             _outputFileSysRepo.WriteBackToJsonFile(recipes, outputFilename);
+        }
+
+        public void GenerateGameItemIntermediate(string filename, string prefix, string outputFilename, Dictionary<string, InventoryDescription> itemNames)
+        {
+            GameItemlist gameItemList = _shapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
+
+            List<GameItemLocalised> fileData = gameItemList.GameItemList.Select((gameItem, gameItemIndex) => gameItem.Localise(prefix, gameItemIndex, itemNames)).ToList();
+
+            if (fileData.Count < 1)
+            {
+                var k = 1 + 1;
+            }
+
+            _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);
         }
     }
 }

@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.Constant;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
@@ -26,17 +23,40 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateAppFiles()
         {
-            List<BlockLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<BlockLocalised>(GameFile.Blocks);
-            WriteAppFile(OutputFile.Blocks, blocks);
+            WriteAppFile(AppFile.Blocks, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks));
+            WriteAppFile(AppFile.Building, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building));
+            WriteAppFile(AppFile.Construction, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction));
+            WriteAppFile(AppFile.Consumable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable));
+            WriteAppFile(AppFile.Containers, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers));
+            WriteAppFile(AppFile.Craftbot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot));
+            WriteAppFile(AppFile.Decor, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor));
+            WriteAppFile(AppFile.Fitting, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting));
+            WriteAppFile(AppFile.Harvest, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest));
+            WriteAppFile(AppFile.Industrial, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial));
+            WriteAppFile(AppFile.Interactive, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive));
+            WriteAppFile(AppFile.InteractiveUpgradable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable));
+            WriteAppFile(AppFile.InteractiveContainer, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer));
+            WriteAppFile(AppFile.Light, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light));
+            WriteAppFile(AppFile.ManMade, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ManMade));
+            WriteAppFile(AppFile.Outfit, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Outfit));
+            WriteAppFile(AppFile.PackingCrate, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.PackingCrate));
+            WriteAppFile(AppFile.Plant, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Plant));
+            WriteAppFile(AppFile.Power, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power));
+            WriteAppFile(AppFile.Resources, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources));
+            WriteAppFile(AppFile.Robot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot));
+            WriteAppFile(AppFile.Survival, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival));
+            WriteAppFile(AppFile.Tool, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool));
+            WriteAppFile(AppFile.Vehicle, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle));
+            WriteAppFile(AppFile.Warehouse, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Warehouse));
 
             Dictionary<string, List<dynamic>> lookup = GetKeyValueOfGameItems();
             
-            WriteAppFile(OutputFile.CookBot, LoadIntermediateFile(GameFile.CookBot), lookup);
-            WriteAppFile(OutputFile.CraftBot, LoadIntermediateFile(GameFile.CraftBot), lookup);
-            WriteAppFile(OutputFile.Dispenser, LoadIntermediateFile(GameFile.Dispenser), lookup);
-            WriteAppFile(OutputFile.DressBot, LoadIntermediateFile(GameFile.DressBot), lookup);
-            WriteAppFile(OutputFile.Refinery, LoadIntermediateFile(GameFile.Refinery), lookup);
-            WriteAppFile(OutputFile.Workbench, LoadIntermediateFile(GameFile.Workbench), lookup);
+            WriteAppFile(AppFile.CookBotRecipes, LoadIntermediateFile(OutputFile.CookBotRecipes), lookup);
+            WriteAppFile(AppFile.CraftBotRecipes, LoadIntermediateFile(OutputFile.CraftBotRecipes), lookup);
+            WriteAppFile(AppFile.DispenserRecipes, LoadIntermediateFile(OutputFile.DispenserRecipes), lookup);
+            WriteAppFile(AppFile.DressBotRecipes, LoadIntermediateFile(OutputFile.DressBotRecipes), lookup);
+            WriteAppFile(AppFile.RefineryRecipes, LoadIntermediateFile(OutputFile.RefineryRecipes), lookup);
+            WriteAppFile(AppFile.WorkbenchRecipes, LoadIntermediateFile(OutputFile.WorkbenchRecipes), lookup);
         }
 
         private List<RecipeLocalised> LoadIntermediateFile(string filename)
@@ -46,13 +66,13 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return englishIntermediate;
         }
 
-        private void WriteAppFile(string outputFileName, IEnumerable<BlockLocalised> localisedData)
+        private void WriteAppFile(string outputFileName, IEnumerable<GameItemLocalised> localisedData)
         {
-            List<AppBlockLang> appBlock = new List<AppBlockLang>();
-            List<AppBlockBase> appBlockBaseItems = new List<AppBlockBase>();
-            foreach (BlockLocalised blockLocalised in localisedData)
+            List<AppGameItemLang> appBlock = new List<AppGameItemLang>();
+            List<AppGameItemBase> appBlockBaseItems = new List<AppGameItemBase>();
+            foreach (GameItemLocalised blockLocalised in localisedData)
             {
-                AppBlock full = AppFileBlockMapper.ToAppFile(blockLocalised);
+                AppGameItem full = AppFileBlockMapper.ToAppFile(blockLocalised);
                 appBlock.Add(full.ToLang());
                 string image = GetItemImage(full.AppId);
                 appBlockBaseItems.Add(full.ToBase(image));
@@ -95,14 +115,14 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         {
             Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
 
-            List<RecipeLocalised> cook = LoadIntermediateFile(GameFile.CookBot);
-            List<RecipeLocalised> craft = LoadIntermediateFile(GameFile.CraftBot);
-            List<RecipeLocalised> disp = LoadIntermediateFile(GameFile.Dispenser);
-            List<RecipeLocalised> dress = LoadIntermediateFile(GameFile.DressBot);
-            List<RecipeLocalised> refiner = LoadIntermediateFile(GameFile.Refinery);
-            List<RecipeLocalised> workb = LoadIntermediateFile(GameFile.Workbench);
+            List<RecipeLocalised> cook = LoadIntermediateFile(OutputFile.CookBotRecipes);
+            List<RecipeLocalised> craft = LoadIntermediateFile(OutputFile.CraftBotRecipes);
+            List<RecipeLocalised> disp = LoadIntermediateFile(OutputFile.DispenserRecipes);
+            List<RecipeLocalised> dress = LoadIntermediateFile(OutputFile.DressBotRecipes);
+            List<RecipeLocalised> refiner = LoadIntermediateFile(OutputFile.RefineryRecipes);
+            List<RecipeLocalised> workb = LoadIntermediateFile(OutputFile.WorkbenchRecipes);
 
-            List<RecipeLocalised> all = cook
+            List<RecipeLocalised> allRecipes = cook
                 .Concat(craft)
                 .Concat(disp)
                 .Concat(dress)
@@ -110,7 +130,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 .Concat(workb)
                 .ToList();
 
-            foreach (RecipeLocalised recipe in all)
+            foreach (RecipeLocalised recipe in allRecipes)
             {
                 if (result.ContainsKey(recipe.ItemId))
                 {
@@ -124,18 +144,70 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 }
             }
 
-            List<BlockLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<BlockLocalised>(GameFile.Blocks);
-            foreach (BlockLocalised block in blocks)
+            List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
+            List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
+            List<GameItemLocalised> construction = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction);
+            List<GameItemLocalised> consumable = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable);
+            List<GameItemLocalised> containers = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers);
+            List<GameItemLocalised> craftBot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot);
+            List<GameItemLocalised> decor = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor);
+            List<GameItemLocalised> fitting = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting);
+            List<GameItemLocalised> harvest = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest);
+            List<GameItemLocalised> industrial = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial);
+            List<GameItemLocalised> intera = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive);
+            List<GameItemLocalised> interu = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable);
+            List<GameItemLocalised> interc = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer);
+            List<GameItemLocalised> light = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light);
+            List<GameItemLocalised> manMade = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ManMade);
+            List<GameItemLocalised> outfit = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Outfit);
+            List<GameItemLocalised> packing = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.PackingCrate);
+            List<GameItemLocalised> plant = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Plant);
+            List<GameItemLocalised> power = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power);
+            List<GameItemLocalised> resource = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources);
+            List<GameItemLocalised> robot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot);
+            List<GameItemLocalised> survival = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival);
+            List<GameItemLocalised> tool = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool);
+            List<GameItemLocalised> vehicle = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle);
+            List<GameItemLocalised> warehouse = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Warehouse);
+
+            List<GameItemLocalised> allItems = blocks
+                .Concat(buildings)
+                .Concat(construction)
+                .Concat(consumable)
+                .Concat(containers)
+                .Concat(craftBot)
+                .Concat(decor)
+                .Concat(fitting)
+                .Concat(harvest)
+                .Concat(industrial)
+                .Concat(intera)
+                .Concat(interu)
+                .Concat(interc)
+                .Concat(light)
+                .Concat(manMade)
+                .Concat(outfit)
+                .Concat(packing)
+                .Concat(plant)
+                .Concat(power)
+                .Concat(resource)
+                .Concat(robot)
+                .Concat(survival)
+                .Concat(tool)
+                .Concat(vehicle)
+                .Concat(warehouse)
+                .ToList();
+
+            foreach (GameItemLocalised item in allItems)
             {
-                if (result.ContainsKey(block.ItemId))
+                if (result.ContainsKey(item.ItemId))
                 {
-                    List<dynamic> current = result[block.ItemId];
-                    current.Add(block);
-                    result[block.ItemId] = current;
+                    List<dynamic> current = result[item.ItemId];
+                    current.Add(item);
+                    result[item.ItemId] = current;
                 }
                 else
                 {
-                    result.Add(block.ItemId, new List<dynamic> { block });
+                    result.Add(item.ItemId, new List<dynamic> { item });
                 }
             }
 

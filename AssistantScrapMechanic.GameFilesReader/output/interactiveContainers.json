@@ -1,0 +1,120 @@
+[
+  {
+    "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92",
+    "AppId": "interc1",
+    "Name": "Gas Container",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected",
+    "Color": "c52319",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
+    "AppId": "interc2",
+    "Name": "Water Container",
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water",
+    "Color": "008ae1",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "76331bbf-abbd-4b8d-bb54-f721a5b6193b",
+    "AppId": "interc3",
+    "Name": "Fertilizer Container",
+    "Description": "Place furtilizer and connect it to a Vacuum Pump with a trigger to shoot furtilizer on to plants",
+    "Color": "357a1b",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146",
+    "AppId": "interc4",
+    "Name": "Battery Container",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected",
+    "Color": "f1a400",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
+    "AppId": "interc5",
+    "Name": "Potato Ammo Container",
+    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "38ec258d-c644-4f08-8635-3f7434c884dd",
+    "AppId": "interc6",
+    "Name": "Seed Container",
+    "Description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil",
+    "Color": "4c9938",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "be29592a-ef58-4b1d-b18c-895023abd27f",
+    "AppId": "interc7",
+    "Name": "Chemical Container",
+    "Color": "495975",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  }
+]

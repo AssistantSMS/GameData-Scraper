@@ -1,0 +1,322 @@
+[
+  {
+    "ItemId": "7feba511-4910-429d-a0e3-f1727259ae5c",
+    "AppId": "indus1",
+    "Name": "Generator Coil Segment",
+    "Color": "909090",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "23572f75-03c0-4c33-b643-70250d0e4ae0",
+    "AppId": "indus2",
+    "Name": "Generator Coil Corner",
+    "Color": "909090",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7237080a-676b-4be1-bb7f-2fb1a9f6f274",
+    "AppId": "indus3",
+    "Name": "Ventilation Frame",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6f699ce5-4955-4725-9829-2b6e1dd6eee9",
+    "AppId": "indus4",
+    "Name": "Steel Support Bracket",
+    "Color": "73adb7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "916cbfc2-776f-49d4-838a-eb946136be3e",
+    "AppId": "indus5",
+    "Name": "Encryptor Base",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 400.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ddaa82ea-22c5-4a2c-8367-c2ee12d5ea5b",
+    "AppId": "indus6",
+    "Name": "Encryptor Base Plate",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 300.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3cbf5f08-14da-4db5-8360-de5078e7c4c1",
+    "AppId": "indus7",
+    "Name": "Encryptor Frame Top",
+    "Color": "ebb600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f1831414-735f-4323-834a-85d5953fc160",
+    "AppId": "indus8",
+    "Name": "Small Steel Bracket",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3b47a99f-85c4-4490-8dc5-3560b7c4c863",
+    "AppId": "indus9",
+    "Name": "Encryptor Frame Beam",
+    "Color": "a2a2a2",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0ee4fc0a-9f69-4d67-b5c2-09ea5a22712f",
+    "AppId": "indus10",
+    "Name": "Encryptor Holder",
+    "Color": "a2a2a2",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "fff76292-79aa-4f0d-814f-72e51159d6d7",
+    "AppId": "indus11",
+    "Name": "Base Extension",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8ca9a4f2-c8c8-439d-9945-e2e95dafbc21",
+    "AppId": "indus12",
+    "Name": "Generator B",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7997f4a5-6f5f-492e-95cb-65a5e2a0f2f2",
+    "AppId": "indus13",
+    "Name": "Generator C",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "af389b10-a31b-46f7-bbe9-0bfad8181e97",
+    "AppId": "indus14",
+    "Name": "Generator D",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5cd67a6e-52cc-4eb0-9f44-275d366516c5",
+    "AppId": "indus15",
+    "Name": "Generator A",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "38934d9d-69a8-4a1f-8137-892ede148cb4",
+    "AppId": "indus16",
+    "Name": "Power Generator Side",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "684002ad-3218-4dd0-a6dd-53e6dfdec562",
+    "AppId": "indus17",
+    "Name": "Generator Tank",
+    "Color": "529374",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c349afdf-aded-47bc-9a5c-606372bc535b",
+    "AppId": "indus18",
+    "Name": "Generator E",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "346a4ea9-d360-4133-b62f-4c188000c60b",
+    "AppId": "indus19",
+    "Name": "Trigger Frame",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 6,
+      "Durability": 5,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ad9f6357-b0b4-4dab-b84e-fb20df54d1ac",
+    "AppId": "indus20",
+    "Name": "Generator Pipe Holder",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 100.0,
+    "QualityLevel": 0
+  }
+]

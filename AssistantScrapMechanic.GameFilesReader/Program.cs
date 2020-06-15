@@ -40,7 +40,6 @@ namespace AssistantScrapMechanic.GameFilesReader
                     case 1:
                         FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(fileSysRepo, outputFileSysRepo, shapeSetsFileSysRepo);
                         gameFilesReader.GenerateIntermediate();
-                        gameFilesReader.GenerateBlockIntermediate();
                         break;
                     case 2:
                         AppFilesHandler appFilesHandler = new AppFilesHandler(outputFileSysRepo, appFilesSysRepo, appImagesRepo);

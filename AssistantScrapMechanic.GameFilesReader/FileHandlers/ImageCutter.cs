@@ -5,8 +5,6 @@ using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
-using System.Net.Mime;
-using System.Threading.Tasks;
 using System.Xml;
 using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
@@ -35,11 +33,18 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void CutOutImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
         {
-            CutOutDataImages(keyValueOfGameItems);
-            CutOutSurvivalImages(keyValueOfGameItems);
+            List<string> imageListForPubSpec = new List<string>();
+            imageListForPubSpec.AddRange(CutOutDataImages(keyValueOfGameItems));
+            imageListForPubSpec.AddRange(CutOutSurvivalImages(keyValueOfGameItems));
+
+            string outputPath = Path.Combine(_outputDirectory, "pubspecImageList.txt");
+            if (File.Exists(outputPath)) File.Delete(outputPath);
+            
+            imageListForPubSpec.Sort();
+            File.WriteAllLines(outputPath, imageListForPubSpec);
         }
 
-        private void CutOutDataImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutDataImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Path.Combine(_dataGuiDirectory, ImageCoordinatesMap));
@@ -50,10 +55,10 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 coords.AddRange(tableItem.ChildNodes.MapImageCoordinates());
             }
 
-            CutOutImage(coords, Path.Combine(_dataGuiDirectory, ImageMap), keyValueOfGameItems);
+            return CutOutImage(coords, Path.Combine(_dataGuiDirectory, ImageMap), keyValueOfGameItems);
         }
 
-        private void CutOutSurvivalImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutSurvivalImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Path.Combine(_survivalGuiDirectory, SurvivalImageCoordinatesMap));
@@ -64,12 +69,12 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 coords.AddRange(tableItem.ChildNodes.MapImageCoordinates());
             }
 
-            CutOutImage(coords, Path.Combine(_survivalGuiDirectory, SurvivalImageMap), keyValueOfGameItems);
+            return CutOutImage(coords, Path.Combine(_survivalGuiDirectory, SurvivalImageMap), keyValueOfGameItems);
         }
 
-        private void CutOutImage(List<IconMapCoordinates> coords, string bitMapPath, Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutImage(List<IconMapCoordinates> coords, string bitMapPath, Dictionary<string, List<dynamic>> keyValueOfGameItems)
         {
-
+            List<string> imageListForPubSpec = new List<string>();
             using Bitmap imageMap = new Bitmap(Image.FromFile(bitMapPath));
             //imageMap.MakeTransparent();
             foreach (IconMapCoordinates imageCoordinates in coords)
@@ -79,12 +84,12 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 List<dynamic> items = keyValueOfGameItems[imageCoordinates.ItemId];
                 foreach (dynamic item in items)
                 {
-                    bool isKnownType = item is RecipeLocalised || item is BlockLocalised;
+                    bool isKnownType = item is RecipeLocalised || item is GameItemLocalised;
                     if (!isKnownType) continue;
 
                     string appId = string.Empty;
                     if (item is RecipeLocalised recipeLocalised) appId = recipeLocalised.AppId;
-                    if (item is BlockLocalised blockLocalised) appId = blockLocalised.AppId;
+                    if (item is GameItemLocalised blockLocalised) appId = blockLocalised.AppId;
 
                     Bitmap newImage = new Bitmap(ImageSize, ImageSize);
                     newImage.MakeTransparent();
@@ -96,6 +101,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                         new Rectangle(imageCoordinates.X, imageCoordinates.Y, ImageSize, ImageSize),
                         GraphicsUnit.Pixel);
 
+                    imageListForPubSpec.Add($"assets/img/items/{appId}.png");
                     string outputPath = Path.Combine(_outputDirectory, "img", $"{appId}.png");
                     if (File.Exists(outputPath))
                     {
@@ -119,6 +125,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     newImage.Save(output, codec, encoderParameters);
                 }
             }
+
+            return imageListForPubSpec;
         }
     }
 }

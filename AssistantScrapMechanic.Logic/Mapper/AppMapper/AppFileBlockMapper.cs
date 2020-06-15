@@ -6,9 +6,9 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
 {
     public static class AppFileBlockMapper
     {
-        public static AppBlock ToAppFile(BlockLocalised localisedData)
+        public static AppGameItem ToAppFile(GameItemLocalised localisedData)
         {
-            AppBlock recipe = new AppBlock
+            AppGameItem recipe = new AppGameItem
             {
                 AppId = localisedData.AppId,
                 Flammable = localisedData.Flammable,

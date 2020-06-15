@@ -1,20 +1,21 @@
 ﻿using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
+using System.Collections.Generic;
 
 namespace AssistantScrapMechanic.Logic.Localiser
 {
     public static class BlockLocaliser
     {
-        public static BlockLocalised Localise(this Blocks block, string prefix, int index)
+        public static GameItemLocalised Localise(this Blocks block, string prefix, int index, Dictionary<string, InventoryDescription> itemNames)
         {
-            BlockLocalised blockLocalised = new BlockLocalised
+            GameItemLocalised blockLocalised = new GameItemLocalised
             {
                 AppId = $"{prefix}{(index + 1)}",
                 ItemId = block.Uuid,
                 Color = block.Color,
                 Density = block.Density,
                 Flammable = block.Flammable,
-                Name = block.Name,
+                Name = itemNames.GetTitle(block.Uuid),
                 PhysicsMaterial = block.PhysicsMaterial,
                 QualityLevel = block.QualityLevel,
                 Ratings = block.Ratings,

@@ -42,7 +42,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             foreach (dynamic match in matches)
             {
                 if (match is RecipeLocalised recipeLocalised) appId = recipeLocalised.AppId;
-                if (match is BlockLocalised blockLocalised) appId = blockLocalised.AppId;
+                if (match is GameItemLocalised blockLocalised) appId = blockLocalised.AppId;
                 return appId;
             }
 
