@@ -318,5 +318,725 @@
     "Flammable": false,
     "Density": 100.0,
     "QualityLevel": 0
+  },
+  {
+    "ItemId": "87878e83-8170-4796-9401-6baba45ccef2",
+    "AppId": "indus21",
+    "Name": "Short I-Beam",
+    "Color": "f3871c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4c7b8096-b8ca-4341-bfe9-d31d2d5443b8",
+    "AppId": "indus22",
+    "Name": "Long I-Beam",
+    "Color": "f3871c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "31768765-5a08-499a-a7e6-7e7613363f75",
+    "AppId": "indus23",
+    "Name": "I-Beam Corner",
+    "Color": "f3871c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1ed1d5a8-466a-4b5e-867b-0d93cd9d2dcb",
+    "AppId": "indus24",
+    "Name": "I-Beam Holder",
+    "Color": "f3871c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b9775316-7272-4a66-a8a9-179108d76f18",
+    "AppId": "indus25",
+    "Name": "I-Beam End",
+    "Color": "f3871c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c8c07259-bc23-45a1-8a4c-585962274f19",
+    "AppId": "indus26",
+    "Name": "Shelf",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d5da6d42-69e2-49ca-8def-3339bf9f0d35",
+    "AppId": "indus27",
+    "Name": "Staircase Landing",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "85379fe5-da83-4aa2-b9c2-d67476ad6079",
+    "AppId": "indus28",
+    "Name": "Staircase Long Railing",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8336bf8b-cde0-46a0-b995-5000cba4f27f",
+    "AppId": "indus29",
+    "Name": "Staircase Short Railing",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1ef1f0e8-389c-4eb9-b4a8-784499353f14",
+    "AppId": "indus30",
+    "Name": "Staircase Baluster",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "295451dd-f5b2-421d-9113-b3f704d799d4",
+    "AppId": "indus31",
+    "Name": "Staircase Railing Join",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f5786e5d-8366-4ebf-be00-f3a4b036a77b",
+    "AppId": "indus32",
+    "Name": "Staircase Step",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b50a014c-0785-4b1b-b63e-51cfdb7e49ad",
+    "AppId": "indus33",
+    "Name": "Staircase Banister",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e02620a5-371b-4d63-be35-fd8a0552eba9",
+    "AppId": "indus34",
+    "Name": "Staircase Wedge",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "635eee58-9a36-437f-9e30-78dab0cbcc59",
+    "AppId": "indus35",
+    "Name": "Staircase Ramp",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0a597f6d-eb45-4f93-91e5-130e19e0f1f5",
+    "AppId": "indus36",
+    "Name": "Ventilation Grid",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2228cef0-f22a-4901-93c5-48e4df52caf6",
+    "AppId": "indus37",
+    "Name": "Net Fence",
+    "Color": "ffd504",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 6,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c40683f3-d9ce-4067-af24-3514c1867a1a",
+    "AppId": "indus38",
+    "Name": "Metal Support",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "15a8f24b-016a-4db6-adcc-967ee1b6c7b1",
+    "AppId": "indus39",
+    "Name": "Large Support Structure",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "33d5f0c1-f80c-478a-b69d-9edafe376474",
+    "AppId": "indus40",
+    "Name": "Support Structure",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "29ededf7-6436-41bf-84f4-8fb5361d29ea",
+    "AppId": "indus41",
+    "Name": "Small Support Structure",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "56545d5c-556d-4cd5-9125-6e34acf37c3d",
+    "AppId": "indus42",
+    "Name": "U-Beam",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 6,
+      "Friction": 5,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6b78fb4b-2af9-4a01-a7c5-7e333d245adb",
+    "AppId": "indus43",
+    "Name": "Metal Column",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "aa5325da-03f9-46cc-9655-983ee7ac2ab2",
+    "AppId": "indus44",
+    "Name": "Support Pillar",
+    "Color": "597c8d",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "45e5c193-8896-4687-a4b0-cf4b2da047d1",
+    "AppId": "indus45",
+    "Name": "Support Pillar Stand",
+    "Color": "597c8d",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 6,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "dbd509b5-b7cc-43cf-9a89-b3befecfe991",
+    "AppId": "indus46",
+    "Name": "Shelf Pillar",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8d7be7bf-37c9-44d6-8adf-fc87b141cadf",
+    "AppId": "indus47",
+    "Name": "Shelf Support",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f80026c5-2019-4f87-8abd-345bd23aa156",
+    "AppId": "indus48",
+    "Name": "Tall Shelf Support",
+    "Color": "408fc7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f37b101c-508b-4630-9f9d-47ef1c834183",
+    "AppId": "indus49",
+    "Name": "Small Tank",
+    "Color": "cc7f3b",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d71d8897-5af6-4adc-b626-50e45f931157",
+    "AppId": "indus50",
+    "Name": "Medium Tank",
+    "Color": "73adb7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "68c2baa5-1274-4bfd-8b12-6e522123f4de",
+    "AppId": "indus51",
+    "Name": "Large Tank",
+    "Color": "73adb7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8c4b9721-3de4-4ae3-a7d1-6f66a16d1368",
+    "AppId": "indus52",
+    "Name": "Metal Window",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "007d6afc-59ef-4fb4-9bb7-52ab9bcfec22",
+    "AppId": "indus53",
+    "Name": "Steel Pallet",
+    "Color": "902513",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6a720005-ba27-4cfc-8fb3-b1af8b9c8bd3",
+    "AppId": "indus54",
+    "Name": "Table Support",
+    "Color": "909090",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f9e8707a-62f8-4051-84e9-c2e17b686d9e",
+    "AppId": "indus55",
+    "Name": "Tower Pole",
+    "Color": "930000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e3e58881-69e6-4593-8211-017bcd72c907",
+    "AppId": "indus56",
+    "Name": "Tower Pole Top",
+    "Color": "930000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1daf2b8a-fd2f-4266-9942-c04feede4f7b",
+    "AppId": "indus57",
+    "Name": "Satellite Dish",
+    "Color": "930000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ce350b5c-cebb-42b0-b8ba-1bf084a0090c",
+    "AppId": "indus58",
+    "Name": "Satellite Reflector Dish",
+    "Color": "930000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e585bcd6-5828-4a37-8ec7-dffb561f0956",
+    "AppId": "indus59",
+    "Name": "Antenna",
+    "Color": "930000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c938e84c-ff59-4e7e-a87c-5211ac903927",
+    "AppId": "indus60",
+    "Name": "Reflector Antenna",
+    "Color": "930000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "57fad8e9-2aff-40c3-9d5c-8f81573b58b9",
+    "AppId": "indus61",
+    "Name": "Small Rectangular Window",
+    "Color": "65caff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "53349c8d-14e8-4055-bd79-a1ab56fe876e",
+    "AppId": "indus62",
+    "Name": "Square Window",
+    "Color": "65caff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "763fd838-7ed5-420e-8984-c2ae86da1e5c",
+    "AppId": "indus63",
+    "Name": "Large Rectangular Window",
+    "Color": "65caff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7a0e9041-9dd5-4cb1-b804-69ee16c45efe",
+    "AppId": "indus64",
+    "Name": "Large Windshield",
+    "Color": "65caff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "50007ac9-e97d-4b32-9fd6-de919c8a34a4",
+    "AppId": "indus65",
+    "Name": "Small Windshield",
+    "Color": "65caff",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 2,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
   }
 ]

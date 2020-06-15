@@ -16,7 +16,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 AppId = localisedData.ItemId.GetAppId(lookup),
                 Title = localisedData.Title,
                 Description = localisedData.Description,
-                Ingredients = localisedData.IngredientListLocalised.Select(il => il.ToAppFile(lookup)).ToList()
+                Inputs = localisedData.IngredientListLocalised.Select(il => il.ToAppFile(lookup)).ToList()
             };
             return recipe;
         }

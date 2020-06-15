@@ -9,15 +9,17 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public string AppId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
-        public List<AppIngredient> Ingredients { get; set; }
+        public AppIngredient Output { get; set; }
+        public List<AppIngredient> Inputs { get; set; }
 
-        public AppRecipeBase ToBase(string icon)
+        public AppRecipeBase ToBase(string icon, AppIngredient output)
         {
             AppRecipeBase baseObj = new AppRecipeBase
             {
                 AppId = AppId,
                 Icon = icon,
-                Ingredients = Ingredients
+                Output = output,
+                Inputs = Inputs,
             };
             return baseObj;
         }
@@ -39,7 +41,8 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         [JsonProperty("Id")]
         public string AppId { get; set; }
         public string Icon { get; set; }
-        public List<AppIngredient> Ingredients { get; set; }
+        public AppIngredient Output { get; set; }
+        public List<AppIngredient> Inputs { get; set; }
     }
 
     public class AppIngredient

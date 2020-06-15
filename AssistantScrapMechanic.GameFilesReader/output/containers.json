@@ -158,5 +158,181 @@
     "Flammable": false,
     "Density": 1300.0,
     "QualityLevel": 0
+  },
+  {
+    "ItemId": "c3990931-b471-4e89-beb5-0baaef47f0af",
+    "AppId": "cont11",
+    "Name": "Wooden Crate",
+    "Color": "cb8d43",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "80550b05-f9eb-433c-9773-2af3beb1479d",
+    "AppId": "cont12",
+    "Name": "Vegetable Box",
+    "Color": "7d9f2b",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f0438bd7-6307-4991-943f-d78b04877d96",
+    "AppId": "cont13",
+    "Name": "Cucumber Box",
+    "Color": "be4d22",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f6687d52-efc1-4f00-b573-bee4363ee14f",
+    "AppId": "cont14",
+    "Name": "Carrot Box",
+    "Color": "62cedc",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "18a38c8e-18ec-46c5-be00-cee7724401e2",
+    "AppId": "cont15",
+    "Name": "Banana Box",
+    "Color": "83a633",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8b684022-254b-41af-a58c-ec4b14791000",
+    "AppId": "cont16",
+    "Name": "Fruit Box",
+    "Color": "84dfd2",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "de467c9b-a0ab-4e20-95ae-0e5fe8140989",
+    "AppId": "cont17",
+    "Name": "Onion Box",
+    "Color": "bc8543",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7ece2c9b-bc74-45b7-b5f1-4c6f41a03a7a",
+    "AppId": "cont18",
+    "Name": "Beetroot Box",
+    "Color": "c57246",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8bcc5a38-b566-45fe-b47e-45118ee70d2d",
+    "AppId": "cont19",
+    "Name": "Orange Box",
+    "Color": "f59d39",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "faae6e1a-f431-49fd-b8b8-16f12139ee88",
+    "AppId": "cont20",
+    "Name": "Plant Container",
+    "Color": "73adb7",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "102565a0-c864-463e-b517-72e82242eec2",
+    "AppId": "cont21",
+    "Name": "Open Plant Container",
+    "Color": "73adb7",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 1,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
   }
 ]

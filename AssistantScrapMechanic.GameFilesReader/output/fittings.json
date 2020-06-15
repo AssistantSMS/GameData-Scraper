@@ -414,5 +414,565 @@
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
+  },
+  {
+    "ItemId": "9d7e182f-c5d6-45e9-af21-1c24977b30c9",
+    "AppId": "fitt27",
+    "Name": "Duct Short",
+    "Color": "a4b3b7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "01d2298b-6cdb-4f4f-bd73-37c76cd60ca3",
+    "AppId": "fitt28",
+    "Name": "Duct Long",
+    "Color": "a4b3b7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d97a85c5-7c0f-4bfb-9ef4-ce6ecdab9539",
+    "AppId": "fitt29",
+    "Name": "Duct Corner",
+    "Color": "a4b3b7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6f0c29d3-f8c1-4314-b13d-db637ed89061",
+    "AppId": "fitt30",
+    "Name": "Duct Join",
+    "Color": "a4b3b7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b050533f-200b-4253-9532-c2cfa273f982",
+    "AppId": "fitt31",
+    "Name": "Duct Holder",
+    "Color": "a4b3b7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "fbc0fbfb-803c-42dd-aace-1ae10e55a785",
+    "AppId": "fitt32",
+    "Name": "Duct End",
+    "Color": "a4b3b7",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1325d152-3dd1-41a1-9027-5823c5cb55c4",
+    "AppId": "fitt33",
+    "Name": "Air Conditioner",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 6,
+      "Friction": 6,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "bbc5cc77-443d-4aa7-a175-ebdeb09c2df3",
+    "AppId": "fitt34",
+    "Name": "Pipe Short",
+    "Color": "1c8687",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "07232236-22eb-4912-8774-ab185f368bb9",
+    "AppId": "fitt35",
+    "Name": "Pipe Long",
+    "Color": "1c8687",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "4f1c0036-389b-432e-81de-8261cb9f9d57",
+    "AppId": "fitt36",
+    "Name": "Pipe Corner",
+    "Color": "565656",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9f37d9e9-be8d-49c8-a7ac-e59c67786083",
+    "AppId": "fitt37",
+    "Name": "Pipe Join",
+    "Color": "1c8687",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "04782466-eca1-4ed9-8502-036ea269aed9",
+    "AppId": "fitt38",
+    "Name": "Valve",
+    "Color": "a41717",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "862f6857-3050-4a84-8191-6a7cbb50bd1a",
+    "AppId": "fitt39",
+    "Name": "Large Pipe Short",
+    "Color": "b42119",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "53e8478f-517f-4ea0-be9c-f4a357400cc1",
+    "AppId": "fitt40",
+    "Name": "Large Pipe Long",
+    "Color": "b42119",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "17153a0e-8461-442f-b172-3a899c1ae99f",
+    "AppId": "fitt41",
+    "Name": "Large Pipe Corner",
+    "Color": "b42119",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "08918d4d-29e6-427d-ad8c-1eafcc4af1f9",
+    "AppId": "fitt42",
+    "Name": "Large Pipe Join",
+    "Color": "b42119",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "6be64f78-927b-4f61-b645-20adfbd9bfce",
+    "AppId": "fitt43",
+    "Name": "Wires Short",
+    "Color": "2b3f70",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0535b90e-f0a8-491c-8c70-1fc81b939fb4",
+    "AppId": "fitt44",
+    "Name": "Wires Long",
+    "Color": "2b3f70",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "33102836-a94d-4ab3-9864-3d54d32c230d",
+    "AppId": "fitt45",
+    "Name": "Wires Bend",
+    "Color": "2b3f70",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f0713386-8c95-493d-b013-e8e53e32d1ed",
+    "AppId": "fitt46",
+    "Name": "Wires Convex Bend",
+    "Color": "2b3f70",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a8164438-65fa-4840-8bc2-766fad543841",
+    "AppId": "fitt47",
+    "Name": "Wires Concave Bend",
+    "Color": "2b3f70",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "697e3b80-d3f7-4f4a-aba2-23611a45f967",
+    "AppId": "fitt48",
+    "Name": "Fuse Box",
+    "Color": "79859c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "647296c4-41ef-4173-8a54-d2a1ae1e89c3",
+    "AppId": "fitt49",
+    "Name": "Tubes Short",
+    "Color": "a97700",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2ba72fca-443a-49e4-8eb2-073c4226866e",
+    "AppId": "fitt50",
+    "Name": "Tubes Long",
+    "Color": "a97700",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "903b0823-4ce1-48e6-9702-aeaa7598c347",
+    "AppId": "fitt51",
+    "Name": "Tubes Corner",
+    "Color": "a97700",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "885ab381-007d-4a60-99e3-c58dec54c880",
+    "AppId": "fitt52",
+    "Name": "Tubes Join",
+    "Color": "a97700",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "0dba257b-b907-4919-baaf-2fefe19f4e24",
+    "AppId": "fitt53",
+    "Name": "Small Pipe Short",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "927d80d8-84ee-44f0-9d8b-cb7a688e0b6c",
+    "AppId": "fitt54",
+    "Name": "Small Pipe Long",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8024db09-9147-4fe3-a747-00bc30ab724b",
+    "AppId": "fitt55",
+    "Name": "Small Pipe Bend",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e1273b8a-945b-4080-81eb-cbf79961cccb",
+    "AppId": "fitt56",
+    "Name": "Small Pipe Tee",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "203fdf06-b311-49fd-933d-a1c6b671a017",
+    "AppId": "fitt57",
+    "Name": "Small Pipe Corner",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "387095d6-5aba-45e3-abd0-098710c268f8",
+    "AppId": "fitt58",
+    "Name": "Small Pipe Four Way",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5a106512-9284-40de-be68-2c186e903097",
+    "AppId": "fitt59",
+    "Name": "Small Pipe Four Way Tee",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c6ebae46-8e69-4ddd-a3c0-895d887027bd",
+    "AppId": "fitt60",
+    "Name": "Small Pipe Five Way",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9c6d8dba-1783-4c42-8a02-6af1c5d63ec6",
+    "AppId": "fitt61",
+    "Name": "Small Pipe Six Way",
+    "Color": "7a7a7a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
   }
 ]

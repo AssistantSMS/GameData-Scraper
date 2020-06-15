@@ -398,5 +398,340 @@
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
+  },
+  {
+    "ItemId": "e2a0770b-9bb9-4b3b-b9f2-994b534b79f3",
+    "AppId": "deco26",
+    "Name": "Toilet Paper",
+    "Color": "e44949",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3fa0afca-7715-459e-86fa-2a81cf3027b8",
+    "AppId": "deco27",
+    "Name": "Sink",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63",
+    "AppId": "deco28",
+    "Name": "Mug",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 3,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c89f7bc8-5720-474d-989d-761916a411b2",
+    "AppId": "deco29",
+    "Name": "Mannequin Boot",
+    "Color": "8d4104",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 7,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b1dd7967-da2a-4ff5-a90f-bbd7e9bae4d7",
+    "AppId": "deco30",
+    "Name": "Mannequin Hand",
+    "Color": "e48c71",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 7,
+      "Friction": 7,
+      "Buoyancy": 1
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "80bc2b9f-98a9-44e4-9cb8-d4ec7e95b40f",
+    "AppId": "deco31",
+    "Name": "Baby Duck Statuette",
+    "Color": "ffd504",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 4,
+      "Friction": 5,
+      "Buoyancy": 8
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c5e56da5-bc3f-4519-91c2-b307d36e15aa",
+    "AppId": "deco32",
+    "Name": "Screw",
+    "Color": "59615c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "edd445cc-c298-4ce3-9a58-745c1bee1bc7",
+    "AppId": "deco33",
+    "Name": "Nut",
+    "Color": "59615c",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2ccaa006-008e-4069-8de1-15668050f92e",
+    "AppId": "deco34",
+    "Name": "Skull Sign",
+    "Color": "ffd504",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "70bf77d0-c9dd-4232-9e05-fbf7f49bd62c",
+    "AppId": "deco35",
+    "Name": "Construction Zone Sign",
+    "Color": "ffc605",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "99b7fd1d-7126-4928-bfc2-f82befcbd905",
+    "AppId": "deco36",
+    "Name": "Caution Sign",
+    "Color": "ffd504",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a5198434-2639-4cb0-8e01-865bc4d9b791",
+    "AppId": "deco37",
+    "Name": "Danger Sign",
+    "Color": "ed541b",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "068a89ca-504e-4782-9ede-48f710aeea73",
+    "AppId": "deco38",
+    "Name": "Stop Sign",
+    "Color": "c60000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "14e8f5d0-7d6a-41ab-96a1-fc34588de868",
+    "AppId": "deco39",
+    "Name": "Beware Farmbots Sign",
+    "Color": "c60000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d509a432-85f9-419f-8b02-8d58b1082f97",
+    "AppId": "deco40",
+    "Name": "Welcome Sign",
+    "Color": "ffc605",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "b4498227-6650-4e52-b5a6-6db7a7b34d14",
+    "AppId": "deco41",
+    "Name": "Do Not Enter Sign",
+    "Color": "c60000",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c79a1857-a5c7-4616-b507-f1b151c31fe8",
+    "AppId": "deco42",
+    "Name": "Falling Objects Sign",
+    "Color": "ffc605",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "3878d965-de4a-4e7b-a15a-73cc032158b6",
+    "AppId": "deco43",
+    "Name": "Arrow Sign",
+    "Color": "f26c23",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1f334b62-8955-4406-8848-91e03228c330",
+    "AppId": "deco44",
+    "Name": "Traffic Cone",
+    "Color": "f15814",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 3,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9eead4cf-4743-486e-99be-a553c4c10740",
+    "AppId": "deco45",
+    "Name": "Mattress",
+    "Color": "b58d59",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ff2207c1-e40b-416f-8bdd-66a9efd6d1a9",
+    "AppId": "deco46",
+    "Name": "Pillow",
+    "Color": "5aa0d2",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 0
   }
 ]

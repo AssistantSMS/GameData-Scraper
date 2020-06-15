@@ -11,6 +11,7 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static string _recipesDirectory = $@"{_baseDirectory}\Survival\CraftingRecipes";
         private static string _dataGuiDirectory = $@"{_baseDirectory}\Data\Gui";
         private static string _survivalGuiDirectory = $@"{_baseDirectory}\Survival\Gui";
+        private static string _legacyShapeSetsDirectory = $@"{_baseDirectory}\Data\Objects\Database\ShapeSets";
         private static string _shapeSetsDirectory = $@"{_baseDirectory}\Survival\Objects\Database\ShapeSets";
         private static string _outputDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader\output";
         private static string _appFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets\json";
@@ -19,6 +20,7 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static int Main(string[] args)
         {
             FileSystemRepository fileSysRepo = new FileSystemRepository(_baseDirectory);
+            FileSystemRepository legacyShapeSetsFileSysRepo = new FileSystemRepository(_legacyShapeSetsDirectory);
             FileSystemRepository shapeSetsFileSysRepo = new FileSystemRepository(_shapeSetsDirectory);
             FileSystemRepository outputFileSysRepo = new FileSystemRepository(_outputDirectory);
             FileSystemRepository appFilesSysRepo = new FileSystemRepository(_appFilesDirectory);
@@ -38,7 +40,7 @@ namespace AssistantScrapMechanic.GameFilesReader
                 switch (numberInput)
                 {
                     case 1:
-                        FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(fileSysRepo, outputFileSysRepo, shapeSetsFileSysRepo);
+                        FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(fileSysRepo, outputFileSysRepo, legacyShapeSetsFileSysRepo, shapeSetsFileSysRepo);
                         gameFilesReader.GenerateIntermediate();
                         break;
                     case 2:

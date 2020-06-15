@@ -90,8 +90,10 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             {
                 AppRecipe full = AppFileReciperMapper.ToAppFile(recipeLocalised, lookup);
                 appRecipe.Add(full.ToLang());
+
                 string image = GetItemImage(full.AppId);
-                appRecipeBaseItems.Add(full.ToBase(image));
+                AppIngredient output = GetOutputIngredient(recipeLocalised.ItemId, lookup);
+                appRecipeBaseItems.Add(full.ToBase(image, output));
             }
 
             _appFileSysRepo.WriteBackToJsonFile(appRecipeBaseItems, outputFileName);
@@ -109,6 +111,32 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             if (!exists) return "unknown.png";
 
             return $"items/{appId}.png";
+        }
+
+        private static AppIngredient GetOutputIngredient(string itemId, IReadOnlyDictionary<string, List<dynamic>> lookup)
+        {
+            bool exists = lookup.ContainsKey(itemId);
+            if (exists)
+            {
+                List<dynamic> matches = lookup[itemId];
+
+                foreach (dynamic match in matches)
+                {
+                    string appId = itemId;
+                    if (match is RecipeLocalised recipeLocalised) appId = recipeLocalised.AppId;
+                    if (match is GameItemLocalised blockLocalised) appId = blockLocalised.AppId;
+
+                    if (appId.Contains("recipe")) continue;
+
+                    return new AppIngredient
+                    {
+                        AppId = appId,
+                        Quantity = 1,
+                    };
+                }
+            };
+
+            return null;
         }
 
         public Dictionary<string, List<dynamic>> GetKeyValueOfGameItems()

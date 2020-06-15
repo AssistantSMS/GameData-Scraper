@@ -14,11 +14,13 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         private readonly FileSystemRepository _fileSysRepo;
         private readonly FileSystemRepository _outputFileSysRepo;
         private readonly FileSystemRepository _shapeSetsFileSysRepo;
+        private readonly FileSystemRepository _legacyShapeSetsFileSysRepo;
 
-        public GameFilesReader(FileSystemRepository fileSysRepo, FileSystemRepository outputFileSysRepo, FileSystemRepository shapeSetsFileSysRepo)
+        public GameFilesReader(FileSystemRepository fileSysRepo, FileSystemRepository outputFileSysRepo, FileSystemRepository legacyShapeSetsFileSysRepo, FileSystemRepository shapeSetsFileSysRepo)
         {
             _fileSysRepo = fileSysRepo;
             _outputFileSysRepo = outputFileSysRepo;
+            _legacyShapeSetsFileSysRepo = legacyShapeSetsFileSysRepo;
             _shapeSetsFileSysRepo = shapeSetsFileSysRepo;
         }
 
@@ -75,7 +77,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Tool, Prefix.Tool, OutputFile.Tool, itemNames);
             GenerateGameItemIntermediate(GameFile.Vehicle, Prefix.Vehicle, OutputFile.Vehicle, itemNames);
             GenerateGameItemIntermediate(GameFile.Warehouse, Prefix.Warehouse, OutputFile.Warehouse, itemNames);
-
+            
             GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes);
             GenerateRecipeIntermediate(GameFile.CraftBotRecipes, itemNames, Prefix.CraftBot, OutputFile.CraftBotRecipes);
             GenerateRecipeIntermediate(GameFile.DispenserRecipes, itemNames, Prefix.Dispenser, OutputFile.DispenserRecipes);
@@ -112,9 +114,21 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateGameItemIntermediate(string filename, string prefix, string outputFilename, Dictionary<string, InventoryDescription> itemNames)
         {
+            GameItemlist legacyGameItemList = _legacyShapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
             GameItemlist gameItemList = _shapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
 
-            List<GameItemLocalised> fileData = gameItemList.GameItemList.Select((gameItem, gameItemIndex) => gameItem.Localise(prefix, gameItemIndex, itemNames)).ToList();
+            Dictionary<string, GameItem> distinctItems = new Dictionary<string, GameItem>();
+            foreach (GameItem gameItem in gameItemList?.GameItemList ?? new List<GameItem>())
+            {
+                if (!distinctItems.ContainsKey(gameItem.Uuid)) distinctItems.Add(gameItem.Uuid, gameItem);
+            }
+            foreach (GameItem legacyGameItem in legacyGameItemList?.GameItemList ?? new List<GameItem>())
+            {
+                if (!distinctItems.ContainsKey(legacyGameItem.Uuid)) distinctItems.Add(legacyGameItem.Uuid, legacyGameItem);
+            }
+
+            List<GameItem> all = distinctItems.Values.ToList();
+            List<GameItemLocalised> fileData = all.Select((gameItem, gameItemIndex) => gameItem.Localise(prefix, gameItemIndex, itemNames)).ToList();
 
             if (fileData.Count < 1)
             {

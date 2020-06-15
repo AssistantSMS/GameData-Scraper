@@ -78,5 +78,37 @@
     "Flammable": false,
     "Density": 150.0,
     "QualityLevel": 0
+  },
+  {
+    "ItemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d",
+    "AppId": "veh6",
+    "Name": "Wheel",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "db66f0b1-0c50-4b74-bdc7-771374204b1f",
+    "AppId": "veh7",
+    "Name": "Big Wheel",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 4,
+      "Durability": 5,
+      "Friction": 5,
+      "Buoyancy": 6
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]
