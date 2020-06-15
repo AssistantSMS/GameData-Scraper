@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CoreCompat.System.Drawing" Version="1.0.0-beta006" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AssistantScrapMechanic.Domain\AssistantScrapMechanic.Domain.csproj" />
   </ItemGroup>
 

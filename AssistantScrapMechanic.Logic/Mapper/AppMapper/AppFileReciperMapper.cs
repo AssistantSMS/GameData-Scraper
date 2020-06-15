@@ -9,37 +9,42 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
 {
     public static class AppFileReciperMapper
     {
-        public static AppRecipe ToAppFile(RecipeLocalised localisedData, List<RecipeLocalised> all, List<BlockLocalised> blocks)
+        public static AppRecipe ToAppFile(RecipeLocalised localisedData, Dictionary<string, List<dynamic>> lookup)
         {
             AppRecipe recipe = new AppRecipe
             {
-                AppId = localisedData.ItemId.GetAppId(all, blocks),
+                AppId = localisedData.ItemId.GetAppId(lookup),
                 Title = localisedData.Title,
                 Description = localisedData.Description,
-                Ingredients = localisedData.IngredientListLocalised.Select(il => il.ToAppFile(all, blocks)).ToList()
+                Ingredients = localisedData.IngredientListLocalised.Select(il => il.ToAppFile(lookup)).ToList()
             };
             return recipe;
         }
 
-        private static AppIngredient ToAppFile(this IngredientList localisedData, IReadOnlyCollection<RecipeLocalised> all, List<BlockLocalised> blocks)
+        private static AppIngredient ToAppFile(this IngredientList localisedData, Dictionary<string, List<dynamic>> lookup)
         {
             AppIngredient recipe = new AppIngredient
             {
-                AppId = localisedData.ItemId.GetAppId(all, blocks),
+                AppId = localisedData.ItemId.GetAppId(lookup),
                 Quantity = localisedData.Quantity
             };
             return recipe;
         }
 
-        private static string GetAppId(this string gameId, IEnumerable<RecipeLocalised> all, IReadOnlyCollection<BlockLocalised> blocks)
+        private static string GetAppId(this string gameId, IReadOnlyDictionary<string, List<dynamic>> lookup)
         {
             if (gameId == null) return string.Empty;
+            if (!lookup.ContainsKey(gameId)) return string.Empty;
 
-            RecipeLocalised match = all.FirstOrDefault(a => a.ItemId.Equals(gameId));
-            if (match != null) return match.AppId;
+            List<dynamic> matches = lookup[gameId];
+            string appId = string.Empty;
 
-            BlockLocalised blockMatch = blocks.FirstOrDefault(a => a.ItemId.Equals(gameId));
-            if (blockMatch != null) return blockMatch.AppId;
+            foreach (dynamic match in matches)
+            {
+                if (match is RecipeLocalised recipeLocalised) appId = recipeLocalised.AppId;
+                if (match is BlockLocalised blockLocalised) appId = blockLocalised.AppId;
+                return appId;
+            }
 
             return string.Empty;
         }

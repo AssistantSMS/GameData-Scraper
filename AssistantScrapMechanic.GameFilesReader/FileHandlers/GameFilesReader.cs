@@ -24,8 +24,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         private Dictionary<string, InventoryDescription> LoadItemNames()
         {
-            Dictionary<string, InventoryDescription> survivalDict = _fileSysRepo.LoadJsonInventoryDescriptionDict(@"Survival\Gui\Language\English\inventoryDescriptions.json");
-            Dictionary<string, InventoryDescription> baseGameDict = _fileSysRepo.LoadJsonInventoryDescriptionDict(@"Data\Gui\Language\English\InventoryItemDescriptions.json");
+            Dictionary<string, InventoryDescription> survivalDict = _fileSysRepo.LoadJsonDictOfType<InventoryDescription>(@"Survival\Gui\Language\English\inventoryDescriptions.json");
+            Dictionary<string, InventoryDescription> baseGameDict = _fileSysRepo.LoadJsonDictOfType<InventoryDescription>(@"Data\Gui\Language\English\InventoryItemDescriptions.json");
 
             foreach (KeyValuePair<string, InventoryDescription> inventoryDescription in baseGameDict)
             {
@@ -54,7 +54,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             LoadItemRecipes(GameFile.CraftBot, itemNames, Prefix.CraftBot, OutputFile.CraftBot);
             LoadItemRecipes(GameFile.Dispenser, itemNames, Prefix.Dispenser, OutputFile.Dispenser);
             LoadItemRecipes(GameFile.DressBot, itemNames, Prefix.DressBot, OutputFile.DressBot);
-            LoadItemRecipes(GameFile.Refinery, itemNames, Prefix.Refinery, OutputFile.Refinery);
+            LoadRefinerRecipes(GameFile.Refinery, itemNames, Prefix.Refinery, OutputFile.Refinery);
             LoadItemRecipes(GameFile.Workbench, itemNames, Prefix.Workbench, OutputFile.Workbench);
         }
 
@@ -66,6 +66,22 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<RecipeLocalised> fileData = jsonContent.Select((recipe, recipeIndex) => recipe.Localise(prefix, recipeIndex, itemNames)).ToList();
 
             _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);
+        }
+
+        private void LoadRefinerRecipes(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
+        {
+            string filePath = Path.Combine("Survival", "CraftingRecipes", filename);
+            Dictionary<string, RefinerRecipe> jsonContent = _fileSysRepo.LoadJsonDictOfType<RefinerRecipe>(filePath);
+
+            List<RefinerRecipeLocalised> recipes = new List<RefinerRecipeLocalised>();
+            for (int keyIndex = 0; keyIndex < jsonContent.Keys.Count; keyIndex++)
+            {
+                string jsonContentKey = jsonContent.Keys.ToList()[keyIndex];
+                RefinerRecipe obj = jsonContent[jsonContentKey];
+                recipes.Add(obj.Localise(jsonContentKey, "ref", keyIndex, itemNames));
+            }
+
+            _outputFileSysRepo.WriteBackToJsonFile(recipes, outputFilename);
         }
     }
 }

@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 using Newtonsoft.Json;
 
@@ -39,13 +37,13 @@ namespace AssistantScrapMechanic.Integration
             return new Dictionary<string, string>();
         }
 
-        public Dictionary<string, InventoryDescription> LoadJsonInventoryDescriptionDict(string fileName)
+        public Dictionary<string, T> LoadJsonDictOfType<T>(string fileName)
         {
             string jsonFilePath = Path.Combine(_jsonDirectory, fileName);
             try
             {
                 string json = File.ReadAllText(jsonFilePath);
-                Dictionary<string, InventoryDescription> result = JsonConvert.DeserializeObject<Dictionary<string, InventoryDescription>>(json);
+                Dictionary<string, T> result = JsonConvert.DeserializeObject<Dictionary<string, T>>(json);
                 return result;
             }
             catch
@@ -53,7 +51,7 @@ namespace AssistantScrapMechanic.Integration
                 //unused
             }
 
-            return new Dictionary<string, InventoryDescription>();
+            return new Dictionary<string, T>();
         }
 
         public List<T> LoadListJsonFile<T>(string fileName)
@@ -119,23 +117,15 @@ namespace AssistantScrapMechanic.Integration
             File.WriteAllText(fileName, json);
         }
 
-        public string GetImagePath(string partial)
+        public string GetRelPath(string folder, string partial)
         {
-            return Path.Combine(_jsonDirectory, "images", partial);
-        }
-        public string GetImageFile(string imageName)
-        {
-            return Path.Combine(_jsonDirectory, "images", imageName);
+            return Path.Combine(folder, partial);
         }
 
-        public List<string> GetFolders()
+        public bool FileExists(string folder, string appId)
         {
-            return Directory.GetDirectories(_jsonDirectory).ToList();
-        }
-        public List<string> GetFiles(string guideDirName)
-        {
-            var dir = Path.Combine(_jsonDirectory, guideDirName);
-            return Directory.GetFiles(dir).ToList();
+            string path = Path.Combine(_jsonDirectory, folder, $"{appId}.png");
+            return File.Exists(path);
         }
 
     }
