@@ -13,28 +13,24 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
         {
             AppRecipe recipe = new AppRecipe
             {
-                AppId = localisedData.ItemId.GetAppId(lookup),
+                AppId = localisedData.AppId,
                 Title = localisedData.Title,
                 Description = localisedData.Description,
-                Inputs = localisedData.IngredientListLocalised.Select(il => il.ToAppFile(lookup)).ToList()
+                Output = localisedData.ItemId.GetAppIngredient(lookup),
+                Inputs = localisedData.IngredientListLocalised.Select(il => il.ItemId.GetAppIngredient(lookup)).ToList()
             };
             return recipe;
         }
-
-        private static AppIngredient ToAppFile(this IngredientList localisedData, Dictionary<string, List<dynamic>> lookup)
+        
+        private static AppIngredient GetAppIngredient(this string gameId, IReadOnlyDictionary<string, List<dynamic>> lookup)
         {
-            AppIngredient recipe = new AppIngredient
+            AppIngredient defaultObj = new AppIngredient
             {
-                AppId = localisedData.ItemId.GetAppId(lookup),
-                Quantity = localisedData.Quantity
+                AppId = string.Empty,
+                Quantity = 0
             };
-            return recipe;
-        }
-
-        private static string GetAppId(this string gameId, IReadOnlyDictionary<string, List<dynamic>> lookup)
-        {
-            if (gameId == null) return string.Empty;
-            if (!lookup.ContainsKey(gameId)) return string.Empty;
+            if (gameId == null) return defaultObj;
+            if (!lookup.ContainsKey(gameId)) return defaultObj;
 
             List<dynamic> matches = lookup[gameId];
             string appId = string.Empty;
@@ -43,10 +39,15 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             {
                 if (match is RecipeLocalised recipeLocalised) appId = recipeLocalised.AppId;
                 if (match is GameItemLocalised blockLocalised) appId = blockLocalised.AppId;
-                return appId;
+                if (appId.Contains("recipe")) continue;
+                return new AppIngredient
+                {
+                    AppId = appId,
+                    Quantity = 1
+                };
             }
 
-            return string.Empty;
+            return defaultObj;
         }
     }
 }

@@ -41,9 +41,21 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateBlockIntermediate(Dictionary<string, InventoryDescription> itemNames)
         {
+            Blocklist legacyBlocklist = _legacyShapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
             Blocklist blocklist = _shapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
 
-            List<GameItemLocalised> fileData = blocklist.BlockList.Select((block, blockIndex) => block.Localise(Prefix.Block, blockIndex, itemNames)).ToList();
+            Dictionary<string, Blocks> distinctItems = new Dictionary<string, Blocks>();
+            foreach (Blocks block in blocklist?.BlockList ?? new List<Blocks>())
+            {
+                if (!distinctItems.ContainsKey(block.Uuid)) distinctItems.Add(block.Uuid, block);
+            }
+            foreach (Blocks legacyBlock in legacyBlocklist?.BlockList ?? new List<Blocks>())
+            {
+                if (!distinctItems.ContainsKey(legacyBlock.Uuid)) distinctItems.Add(legacyBlock.Uuid, legacyBlock);
+            }
+
+            List<Blocks> all = distinctItems.Values.ToList();
+            List<GameItemLocalised> fileData = all.Select((block, blockIndex) => block.Localise(Prefix.Block, blockIndex, itemNames)).ToList();
 
             _outputFileSysRepo.WriteBackToJsonFile(fileData, OutputFile.Blocks);
         }

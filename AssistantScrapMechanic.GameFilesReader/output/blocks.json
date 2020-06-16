@@ -494,5 +494,181 @@
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 1
+  },
+  {
+    "ItemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
+    "AppId": "blk32",
+    "Name": "Concrete Block 1",
+    "Color": "8d8f89",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 4
+  },
+  {
+    "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71",
+    "AppId": "blk33",
+    "Name": "Wood Block 1",
+    "Color": "9b683a",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 6
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 3
+  },
+  {
+    "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
+    "AppId": "blk34",
+    "Name": "Metal Block 1",
+    "Color": "675f51",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 4
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 5
+  },
+  {
+    "ItemId": "09ca2713-28ee-4119-9622-e85490034758",
+    "AppId": "blk35",
+    "Name": "Barrier Block",
+    "Color": "ce9e0c",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 2
+  },
+  {
+    "ItemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7",
+    "AppId": "blk36",
+    "Name": "Tile Block",
+    "Color": "bfdfed",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 4,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 4
+  },
+  {
+    "ItemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34",
+    "AppId": "blk37",
+    "Name": "Brick Block",
+    "Color": "af967b",
+    "PhysicsMaterial": "Rock",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 4,
+      "Friction": 6,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 4
+  },
+  {
+    "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f",
+    "AppId": "blk38",
+    "Name": "Glass Block",
+    "Color": "e4f8ff",
+    "PhysicsMaterial": "Glass",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 1,
+      "Friction": 3,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 1
+  },
+  {
+    "ItemId": "749f69e0-56c9-488c-adf6-66c58531818f",
+    "AppId": "blk39",
+    "Name": "Glass Tile Block",
+    "Color": "c2f9ff",
+    "PhysicsMaterial": "Glass",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 1,
+      "Friction": 3,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 1
+  },
+  {
+    "ItemId": "073f92af-f37e-4aff-96b3-d66284d5081c",
+    "AppId": "blk40",
+    "Name": "Path Light Block",
+    "Color": "727272",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 5
+  },
+  {
+    "ItemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6",
+    "AppId": "blk41",
+    "Name": "Spaceship Block",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 7,
+      "Friction": 4,
+      "Buoyancy": 5
+    },
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 5
+  },
+  {
+    "ItemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
+    "AppId": "blk42",
+    "Name": "Cardboard Block",
+    "Color": "a48052",
+    "PhysicsMaterial": "Cardboard",
+    "Ratings": {
+      "Density": 1,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 2
+    },
+    "Flammable": true,
+    "Density": 250.0,
+    "QualityLevel": 1
   }
 ]
