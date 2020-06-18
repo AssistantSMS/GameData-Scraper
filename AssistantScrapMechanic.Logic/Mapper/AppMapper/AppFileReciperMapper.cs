@@ -16,13 +16,14 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 AppId = localisedData.AppId,
                 Title = localisedData.Title,
                 Description = localisedData.Description,
-                Output = localisedData.ItemId.GetAppIngredient(lookup),
-                Inputs = localisedData.IngredientListLocalised.Select(il => il.ItemId.GetAppIngredient(lookup)).ToList()
+                CraftingTime = localisedData.CraftTime,
+                Output = localisedData.ItemId.GetAppIngredient(localisedData.Quantity, lookup),
+                Inputs = localisedData.IngredientListLocalised.Select(il => il.ItemId.GetAppIngredient(il.Quantity, lookup)).ToList()
             };
             return recipe;
         }
         
-        private static AppIngredient GetAppIngredient(this string gameId, IReadOnlyDictionary<string, List<dynamic>> lookup)
+        private static AppIngredient GetAppIngredient(this string gameId, int quantity, IReadOnlyDictionary<string, List<dynamic>> lookup)
         {
             AppIngredient defaultObj = new AppIngredient
             {
@@ -43,7 +44,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 return new AppIngredient
                 {
                     AppId = appId,
-                    Quantity = 1
+                    Quantity = quantity
                 };
             }
 

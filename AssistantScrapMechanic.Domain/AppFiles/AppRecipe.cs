@@ -9,6 +9,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public string AppId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public int CraftingTime { get; set; }
         public AppIngredient Output { get; set; }
         public List<AppIngredient> Inputs { get; set; }
 
@@ -20,6 +21,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Icon = icon,
                 Output = output,
                 Inputs = Inputs,
+                CraftingTime = CraftingTime,
             };
             return baseObj;
         }
@@ -41,6 +43,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         [JsonProperty("Id")]
         public string AppId { get; set; }
         public string Icon { get; set; }
+        public int CraftingTime { get; set; }
         public AppIngredient Output { get; set; }
         public List<AppIngredient> Inputs { get; set; }
     }
