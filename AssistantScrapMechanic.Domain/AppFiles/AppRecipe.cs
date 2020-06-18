@@ -13,13 +13,13 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public AppIngredient Output { get; set; }
         public List<AppIngredient> Inputs { get; set; }
 
-        public AppRecipeBase ToBase(string icon, AppIngredient output)
+        public AppRecipeBase ToBase(string icon)
         {
             AppRecipeBase baseObj = new AppRecipeBase
             {
                 AppId = AppId,
                 Icon = icon,
-                Output = output,
+                Output = Output,
                 Inputs = Inputs,
                 CraftingTime = CraftingTime,
             };
