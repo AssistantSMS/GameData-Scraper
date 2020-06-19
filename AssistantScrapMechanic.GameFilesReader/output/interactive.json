@@ -54,11 +54,6 @@
       "Friction": 4,
       "Buoyancy": 6
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
@@ -163,11 +158,6 @@
       "Friction": 1,
       "Buoyancy": 4
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
@@ -206,11 +196,6 @@
       "Durability": 7,
       "Friction": 6,
       "Buoyancy": 1
-    },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
     },
     "Flammable": false,
     "Density": 1250.0,
@@ -273,11 +258,6 @@
       "Friction": 4,
       "Buoyancy": 2
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
@@ -317,11 +297,6 @@
       "Friction": 4,
       "Buoyancy": 0
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -333,11 +308,6 @@
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension is small, but has a firmer bounce.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -349,11 +319,6 @@
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -365,11 +330,6 @@
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -381,11 +341,6 @@
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -397,11 +352,6 @@
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -413,11 +363,6 @@
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
@@ -434,11 +379,6 @@
       "Durability": 3,
       "Friction": 3,
       "Buoyancy": 4
-    },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
     },
     "Flammable": false,
     "Density": 250.0,
@@ -521,11 +461,6 @@
       "Friction": 5,
       "Buoyancy": 2
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
@@ -542,11 +477,6 @@
       "Durability": 3,
       "Friction": 5,
       "Buoyancy": 2
-    },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
     },
     "Flammable": true,
     "Density": 250.0,
@@ -602,11 +532,6 @@
       "Durability": 2,
       "Friction": 5,
       "Buoyancy": 5
-    },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
     },
     "Flammable": true,
     "Density": 250.0,
@@ -757,11 +682,6 @@
       "Friction": 2,
       "Buoyancy": 8
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
@@ -795,11 +715,6 @@
       "Friction": 5,
       "Buoyancy": 7
     },
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
@@ -811,11 +726,6 @@
     "Description": "The potato shooting mountable spud gun is great for protecting your creations.\nConnect it to a trigger that is connected to a seat to shoot while seated.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
-    "Box": {
-      "X": 0,
-      "Y": 0,
-      "Z": 0
-    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0

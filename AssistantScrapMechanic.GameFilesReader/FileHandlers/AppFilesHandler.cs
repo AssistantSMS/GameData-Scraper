@@ -168,6 +168,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<GameItemLocalised> power = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power);
             List<GameItemLocalised> resource = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources);
             List<GameItemLocalised> robot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot);
+            List<GameItemLocalised> scrap = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Scrap);
+            List<GameItemLocalised> spaceship = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Spaceship);
             List<GameItemLocalised> survival = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival);
             List<GameItemLocalised> tool = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool);
             List<GameItemLocalised> vehicle = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle);
@@ -194,6 +196,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 .Concat(power)
                 .Concat(resource)
                 .Concat(robot)
+                .Concat(scrap)
+                .Concat(spaceship)
                 .Concat(survival)
                 .Concat(tool)
                 .Concat(vehicle)
