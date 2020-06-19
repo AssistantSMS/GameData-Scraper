@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using AssistantScrapMechanic.Domain.AppFiles;
+﻿using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 
 namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
@@ -18,6 +17,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Title = localisedData.Name,
                 Color = localisedData.Color,
                 Ratings = localisedData.Ratings,
+                Box = localisedData.Box,
             };
             return recipe;
         }

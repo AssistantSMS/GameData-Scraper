@@ -20,6 +20,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 PhysicsMaterial = gameItem.PhysicsMaterial,
                 QualityLevel = 0,
                 Ratings = gameItem.Ratings,
+                Box = gameItem.Box ?? new Box(),
             };
             return blockLocalised;
         }

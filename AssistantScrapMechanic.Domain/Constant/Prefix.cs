@@ -23,6 +23,8 @@
         public static string Power = "powertool";
         public static string Resource = "reso";
         public static string Robot = "robo";
+        public static string Scrap = "scrap";
+        public static string Spaceship = "spaceship";
         public static string Survival = "surv";
         public static string Tool = "tool";
         public static string Vehicle = "veh";

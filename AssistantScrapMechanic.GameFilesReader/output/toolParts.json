@@ -12,6 +12,11 @@
       "Friction": 0,
       "Buoyancy": 0
     },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -29,6 +34,11 @@
       "Friction": 0,
       "Buoyancy": 0
     },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -45,6 +55,11 @@
       "Durability": 0,
       "Friction": 0,
       "Buoyancy": 0
+    },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
     },
     "Flammable": false,
     "Density": 0.0,

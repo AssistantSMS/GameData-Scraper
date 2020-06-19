@@ -19,6 +19,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 PhysicsMaterial = block.PhysicsMaterial,
                 QualityLevel = block.QualityLevel,
                 Ratings = block.Ratings,
+                Box = new Box()
             };
             return blockLocalised;
         }

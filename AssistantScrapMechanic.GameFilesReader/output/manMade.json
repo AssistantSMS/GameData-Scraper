@@ -11,6 +11,11 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
@@ -26,6 +31,11 @@
       "Durability": 1,
       "Friction": 5,
       "Buoyancy": 4
+    },
+    "Box": {
+      "X": 8,
+      "Y": 4,
+      "Z": 1
     },
     "Flammable": true,
     "Density": 0.0,
@@ -43,6 +53,11 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 1,
+      "Z": 8
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
@@ -58,6 +73,11 @@
       "Durability": 1,
       "Friction": 5,
       "Buoyancy": 4
+    },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
     },
     "Flammable": true,
     "Density": 0.0,
@@ -75,6 +95,11 @@
       "Friction": 3,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 8,
+      "Y": 1,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -90,6 +115,11 @@
       "Durability": 2,
       "Friction": 5,
       "Buoyancy": 4
+    },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
     },
     "Flammable": true,
     "Density": 0.0,
@@ -107,6 +137,11 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
@@ -123,6 +158,11 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
@@ -138,6 +178,11 @@
       "Durability": 1,
       "Friction": 5,
       "Buoyancy": 4
+    },
+    "Box": {
+      "X": 3,
+      "Y": 2,
+      "Z": 1
     },
     "Flammable": true,
     "Density": 0.0,

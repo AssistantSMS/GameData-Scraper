@@ -20,6 +20,7 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         //public string Sticky { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
+        public Box Box { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int StackSize { get; set; }
@@ -32,4 +33,12 @@ namespace AssistantScrapMechanic.Domain.GameFiles
     //    public float Margin { get; set; }
     //    public string Axis { get; set; }
     //}
+
+    public class Box
+    {
+        public int X { get; set; }
+        public int Y { get; set; }
+        public int Z { get; set; }
+    }
+
 }

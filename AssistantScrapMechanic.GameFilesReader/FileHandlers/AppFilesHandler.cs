@@ -44,6 +44,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             WriteAppFile(AppFile.Power, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power));
             WriteAppFile(AppFile.Resources, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources));
             WriteAppFile(AppFile.Robot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot));
+            WriteAppFile(AppFile.Scrap, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Scrap));
+            WriteAppFile(AppFile.Spaceship, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Spaceship));
             WriteAppFile(AppFile.Survival, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival));
             WriteAppFile(AppFile.Tool, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool));
             WriteAppFile(AppFile.Vehicle, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle));

@@ -1,0 +1,90 @@
+[
+  {
+    "ItemId": "bd597ac9-6640-43ba-9bd8-ed584a794f13",
+    "AppId": "scrap1",
+    "Name": "Scrap Driver's Seat",
+    "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. This Drive's Seat is not upgradable.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "847daf20-02bf-4170-8699-9ab106acd29a",
+    "AppId": "scrap2",
+    "Name": "Scrap Seat",
+    "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. This Seat is not upgradable.",
+    "Color": "2f7847",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "59f6951a-a450-42bf-ad03-54567cb70245",
+    "AppId": "scrap3",
+    "Name": "Scrap Wheel",
+    "Description": "Not perfectly round",
+    "Color": "9f5223",
+    "PhysicsMaterial": "Wood",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 6,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 0,
+      "Y": 0,
+      "Z": 0
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c96ab903-f238-4bae-a614-28a758716d00",
+    "AppId": "scrap4",
+    "Name": "Scrap Gas Engine",
+    "Description": "An engine with uneven speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. This Engine is not upgradable.",
+    "Color": "2f7847",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 3,
+      "Friction": 5,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  }
+]

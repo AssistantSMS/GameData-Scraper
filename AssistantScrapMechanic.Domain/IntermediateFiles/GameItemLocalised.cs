@@ -11,6 +11,7 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public string Color { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
+        public Box Box { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }

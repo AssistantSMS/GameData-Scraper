@@ -12,6 +12,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public string Color { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
+        public Box Box { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
@@ -27,7 +28,8 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 PhysicsMaterial = PhysicsMaterial,
                 QualityLevel = QualityLevel,
                 Density = Density,
-                Ratings = Ratings
+                Ratings = Ratings,
+                Box = Box,
             };
             return baseObj;
         }
@@ -52,6 +54,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public string Color { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
+        public Box Box { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }

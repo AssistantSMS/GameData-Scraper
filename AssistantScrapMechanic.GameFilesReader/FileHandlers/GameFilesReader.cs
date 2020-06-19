@@ -85,6 +85,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Power, Prefix.Power, OutputFile.Power, itemNames);
             GenerateGameItemIntermediate(GameFile.Resources, Prefix.Resource, OutputFile.Resources, itemNames);
             GenerateGameItemIntermediate(GameFile.Robot, Prefix.Robot, OutputFile.Robot, itemNames);
+            GenerateGameItemIntermediate(GameFile.Scrap, Prefix.Scrap, OutputFile.Scrap, itemNames);
+            GenerateGameItemIntermediate(GameFile.Spaceship, Prefix.Spaceship, OutputFile.Spaceship, itemNames);
             GenerateGameItemIntermediate(GameFile.Survival, Prefix.Survival, OutputFile.Survival, itemNames);
             GenerateGameItemIntermediate(GameFile.Tool, Prefix.Tool, OutputFile.Tool, itemNames);
             GenerateGameItemIntermediate(GameFile.Vehicle, Prefix.Vehicle, OutputFile.Vehicle, itemNames);

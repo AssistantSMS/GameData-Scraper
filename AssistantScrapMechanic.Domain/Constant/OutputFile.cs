@@ -23,6 +23,8 @@
         public static string Power = "powerTools.json";
         public static string Resources = "resources.json";
         public static string Robot = "robotParts.json";
+        public static string Scrap = "scrap.json";
+        public static string Spaceship = "spaceship.json";
         public static string Survival = "survivalObject.json";
         public static string Tool = "toolParts.json";
         public static string Vehicle = "vehicle.json";
