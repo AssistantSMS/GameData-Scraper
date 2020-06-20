@@ -15,16 +15,17 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 string name = itemNames.GetTitle(customisedOption.Uuid);
                 if (string.IsNullOrEmpty(name)) name = customised.Name;
 
+                string groupName = customised.Name.Substring(0, 3);
                 optionsLocalised.Add(new CustomisationItemLocalised
                 {
-                    AppId = $"{prefix}{customised.Name}M{(cusOptIndex + 1)}",
+                    AppId = $"{prefix}{groupName}M{(cusOptIndex + 1)}",
                     ItemId = $"{customisedOption.Uuid}_male",
                     //ItemId = customisedOption.Uuid,
                     Name = name,
                 });
                 optionsLocalised.Add(new CustomisationItemLocalised
                 {
-                    AppId = $"{prefix}{customised.Name}F{(cusOptIndex + 1)}",
+                    AppId = $"{prefix}{groupName}F{(cusOptIndex + 1)}",
                     ItemId = $"{customisedOption.Uuid}_female",
                     Name = name,
                 });
