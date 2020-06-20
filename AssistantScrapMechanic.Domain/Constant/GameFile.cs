@@ -30,6 +30,8 @@
         public static string Vehicle = "vehicle.json";
         public static string Warehouse = "warehouse.json";
 
+        public static string Customization = "customization_options.json";
+
         public static string CookBotRecipes = "cookbot.json";
         public static string CraftBotRecipes = "craftbot.json";
         public static string DispenserRecipes = "dispenser.json";

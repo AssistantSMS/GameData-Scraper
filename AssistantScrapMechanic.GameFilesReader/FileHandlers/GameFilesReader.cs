@@ -11,31 +11,56 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 {
     public class GameFilesReader
     {
-        private readonly FileSystemRepository _fileSysRepo;
         private readonly FileSystemRepository _outputFileSysRepo;
         private readonly FileSystemRepository _shapeSetsFileSysRepo;
         private readonly FileSystemRepository _legacyShapeSetsFileSysRepo;
+        private readonly FileSystemRepository _survivalCraftingFileSysRepo;
+        private readonly FileSystemRepository _characterFileSysRepo;
+        private readonly FileSystemRepository _legacyLanguageFileSysRepo;
+        private readonly FileSystemRepository _survivalLanguageFileSysRepo;
 
-        public GameFilesReader(FileSystemRepository fileSysRepo, FileSystemRepository outputFileSysRepo, FileSystemRepository legacyShapeSetsFileSysRepo, FileSystemRepository shapeSetsFileSysRepo)
+        public GameFilesReader(FileSystemRepository outputFileSysRepo,
+            FileSystemRepository shapeSetsFileSysRepo, FileSystemRepository legacyShapeSetsFileSysRepo, 
+            FileSystemRepository survivalCraftingFileSysRepo, FileSystemRepository characterFileSysRepo, 
+            FileSystemRepository legacyLanguageFileSysRepo, FileSystemRepository survivalLanguageFileSysRepo)
         {
-            _fileSysRepo = fileSysRepo;
             _outputFileSysRepo = outputFileSysRepo;
             _legacyShapeSetsFileSysRepo = legacyShapeSetsFileSysRepo;
             _shapeSetsFileSysRepo = shapeSetsFileSysRepo;
+            _survivalCraftingFileSysRepo = survivalCraftingFileSysRepo;
+            _characterFileSysRepo = characterFileSysRepo;
+            _legacyLanguageFileSysRepo = legacyLanguageFileSysRepo;
+            _survivalLanguageFileSysRepo = survivalLanguageFileSysRepo;
         }
 
         private Dictionary<string, InventoryDescription> LoadItemNames()
         {
-            Dictionary<string, InventoryDescription> survivalDict = _fileSysRepo.LoadJsonDictOfType<InventoryDescription>(@"Survival\Gui\Language\English\inventoryDescriptions.json");
-            Dictionary<string, InventoryDescription> baseGameDict = _fileSysRepo.LoadJsonDictOfType<InventoryDescription>(@"Data\Gui\Language\English\InventoryItemDescriptions.json");
+            const string language = "English";
+            string survivalInvDescripFilePath = Path.Combine(language, "inventoryDescriptions.json");
+            string dataInvDescripFilePath = Path.Combine(language, "InventoryItemDescriptions.json");
+            string custDescripFilePath = Path.Combine(language, "CustomizationDescriptions.json");
 
-            foreach (KeyValuePair<string, InventoryDescription> inventoryDescription in baseGameDict)
+            Dictionary<string, InventoryDescription> survivalDict = _survivalLanguageFileSysRepo.LoadJsonDictOfType<InventoryDescription>(survivalInvDescripFilePath);
+            Dictionary<string, InventoryDescription> baseGameDict = _legacyLanguageFileSysRepo.LoadJsonDictOfType<InventoryDescription>(dataInvDescripFilePath);
+
+            foreach ((string invKey, InventoryDescription invValue) in baseGameDict)
             {
-                if (!survivalDict.ContainsKey(inventoryDescription.Key))
+                if (!survivalDict.ContainsKey(invKey))
                 {
-                    survivalDict.Add(inventoryDescription.Key, inventoryDescription.Value);
+                    survivalDict.Add(invKey, invValue);
                 }
             }
+
+            Dictionary<string, InventoryDescription> customizationDict = _legacyLanguageFileSysRepo.LoadJsonDictOfType<InventoryDescription>(custDescripFilePath);
+
+            foreach ((string invKey, InventoryDescription invValue) in customizationDict)
+            {
+                if (!survivalDict.ContainsKey(invKey))
+                {
+                    survivalDict.Add(invKey, invValue);
+                }
+            }
+
             return survivalDict;
         }
 
@@ -60,11 +85,22 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _outputFileSysRepo.WriteBackToJsonFile(fileData, OutputFile.Blocks);
         }
 
+        public void GenerateCustomizationIntermediate(Dictionary<string, InventoryDescription> itemNames)
+        {
+            Customization legacyCustomization = _characterFileSysRepo.LoadJsonFile<Customization>(GameFile.Customization);
+
+            List<CustomisationLocalised> fileData = legacyCustomization.Categories.Select((customizItem, customizIndex) => customizItem.Localise(Prefix.Customisation, customizIndex, itemNames)).ToList();
+
+            _outputFileSysRepo.WriteBackToJsonFile(fileData, OutputFile.Customization);
+        }
+
         public void GenerateIntermediate()
         {
             Dictionary<string, InventoryDescription> itemNames = LoadItemNames();
 
             GenerateBlockIntermediate(itemNames);
+            GenerateCustomizationIntermediate(itemNames);
+
             GenerateGameItemIntermediate(GameFile.Building, Prefix.Build, OutputFile.Building, itemNames);
             GenerateGameItemIntermediate(GameFile.Construction, Prefix.Construction, OutputFile.Construction, itemNames);
             GenerateGameItemIntermediate(GameFile.Consumable, Prefix.Consumable, OutputFile.Consumable, itemNames);
@@ -102,8 +138,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         private void GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
         {
-            string filePath = Path.Combine("Survival", "CraftingRecipes", filename);
-            List<Recipe> jsonContent = _fileSysRepo.LoadListJsonFile<Recipe>(filePath);
+            List<Recipe> jsonContent = _survivalCraftingFileSysRepo.LoadListJsonFile<Recipe>(filename);
 
             List<RecipeLocalised> fileData = jsonContent.Select((recipe, recipeIndex) => recipe.Localise(prefix, recipeIndex, itemNames)).ToList();
 
@@ -112,8 +147,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         private void GenerateRefinerIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
         {
-            string filePath = Path.Combine("Survival", "CraftingRecipes", filename);
-            Dictionary<string, RefinerRecipe> jsonContent = _fileSysRepo.LoadJsonDictOfType<RefinerRecipe>(filePath);
+            Dictionary<string, RefinerRecipe> jsonContent = _survivalCraftingFileSysRepo.LoadJsonDictOfType<RefinerRecipe>(filename);
 
             List<RefinerRecipeLocalised> recipes = new List<RefinerRecipeLocalised>();
             for (int keyIndex = 0; keyIndex < jsonContent.Keys.Count; keyIndex++)

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.Constant;
@@ -23,6 +24,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateAppFiles()
         {
+            WriteAppFile(AppFile.Customisation, _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization));
+
             WriteAppFile(AppFile.Blocks, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks));
             WriteAppFile(AppFile.Building, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building));
             WriteAppFile(AppFile.Construction, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction));
@@ -74,6 +77,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<AppGameItemBase> appBlockBaseItems = new List<AppGameItemBase>();
             foreach (GameItemLocalised blockLocalised in localisedData)
             {
+                if (GuidExclusion.All.Any(a => a.Equals(blockLocalised.ItemId))) continue;
+
                 AppGameItem full = AppFileBlockMapper.ToAppFile(blockLocalised);
                 appBlock.Add(full.ToLang());
                 string image = GetItemImage(full.AppId);
@@ -90,6 +95,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<AppRecipeBase> appRecipeBaseItems = new List<AppRecipeBase>();
             foreach (RecipeLocalised recipeLocalised in localisedData)
             {
+                if (GuidExclusion.All.Any(a => a.Equals(recipeLocalised.ItemId))) continue;
+
                 AppRecipe full = AppFileReciperMapper.ToAppFile(recipeLocalised, lookup);
                 appRecipe.Add(full.ToLang());
 
@@ -99,6 +106,30 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             _appFileSysRepo.WriteBackToJsonFile(appRecipeBaseItems, outputFileName);
             _appFileSysRepo.WriteBackToJsonFile(appRecipe, GetJsonLang("en", outputFileName));
+        }
+        
+        private void WriteAppFile(string outputFileName, IEnumerable<CustomisationLocalised> localisedData)
+        {
+            List<AppGameItemLang> appBlock = new List<AppGameItemLang>();
+            List<AppGameItemBase> appBlockBaseItems = new List<AppGameItemBase>();
+
+            foreach (CustomisationLocalised blockLocalised in localisedData)
+            {
+                foreach (CustomisationItemLocalised blockLoc in blockLocalised.Items)
+                {
+                    if (GuidExclusion.All.Any(a => a.Equals(blockLoc.ItemId.Replace("_male", string.Empty).Replace("_female", string.Empty)))) continue;
+
+                    AppGameItem full = AppFileBlockMapper.ToAppFile(blockLoc, blockLocalised.Category);
+                    if (!_appImagesRepo.FileExists("items", full.AppId)) continue;
+
+                    appBlock.Add(full.ToLang());
+                    string image = GetItemImage(full.AppId);
+                    appBlockBaseItems.Add(full.ToBase(image));
+                }
+            }
+
+            _appFileSysRepo.WriteBackToJsonFile(appBlockBaseItems, outputFileName);
+            _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang("en", outputFileName));
         }
 
         private static string GetJsonLang(string folder, string fileName)
@@ -113,7 +144,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             return $"items/{appId}.png";
         }
-        
+
         public Dictionary<string, List<dynamic>> GetKeyValueOfGameItems()
         {
             Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
@@ -144,6 +175,24 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 else
                 {
                     result.Add(recipe.ItemId, new List<dynamic> { recipe });
+                }
+            }
+
+            List<CustomisationLocalised> customisations = _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization);
+            foreach (CustomisationLocalised customisation in customisations)
+            {
+                foreach (CustomisationItemLocalised customisLoc in customisation.Items)
+                {
+                    if (result.ContainsKey(customisLoc.ItemId))
+                    {
+                        List<dynamic> current = result[customisLoc.ItemId];
+                        current.Add(customisLoc);
+                        result[customisLoc.ItemId] = current;
+                    }
+                    else
+                    {
+                        result.Add(customisLoc.ItemId, new List<dynamic> { customisLoc });
+                    }
                 }
             }
 

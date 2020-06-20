@@ -30,6 +30,8 @@
         public static string Vehicle = "veh";
         public static string Warehouse = "ware";
 
+        public static string Customisation = "cust";
+
         public static string CookBot = "recipeCook";
         public static string CraftBot = "recipeCraft";
         public static string Dispenser = "recipeDisp";

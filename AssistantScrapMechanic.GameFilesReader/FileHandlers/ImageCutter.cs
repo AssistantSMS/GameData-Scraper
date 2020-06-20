@@ -6,6 +6,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Xml;
+using AssistantScrapMechanic.Domain.Constant;
 using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 using AssistantScrapMechanic.Logic.Mapper.XmlMapper;
@@ -23,6 +24,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         private const string ImageCoordinatesMap = "IconMap.xml";
         private const string SurvivalImageMap = "IconMapSurvival.png";
         private const string SurvivalImageCoordinatesMap = "IconMapSurvival.xml";
+        private const string CustomizationImageMap = "CustomizationIconMap.png";
+        private const string CustomizationImageCoordinatesMap = "CustomizationIconMap.xml";
 
         public ImageCutter(string dataGuiDirectory, string survivalGuiDirectory, string outputDirectory)
         {
@@ -36,6 +39,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<string> imageListForPubSpec = new List<string>();
             imageListForPubSpec.AddRange(CutOutDataImages(keyValueOfGameItems));
             imageListForPubSpec.AddRange(CutOutSurvivalImages(keyValueOfGameItems));
+            imageListForPubSpec.AddRange(CutOutCustomisationImages(keyValueOfGameItems));
 
             string outputPath = Path.Combine(_outputDirectory, "pubspecImageList.txt");
             if (File.Exists(outputPath)) File.Delete(outputPath);
@@ -72,6 +76,20 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return CutOutImage(coords, Path.Combine(_survivalGuiDirectory, SurvivalImageMap), keyValueOfGameItems);
         }
 
+        private List<string> CutOutCustomisationImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(Path.Combine(_dataGuiDirectory, CustomizationImageCoordinatesMap));
+
+            List<IconMapCoordinates> coords = new List<IconMapCoordinates>();
+            foreach (XmlNode tableItem in doc.DocumentElement.FirstChild.ChildNodes)
+            {
+                coords.AddRange(tableItem.ChildNodes.MapImageCoordinates());
+            }
+
+            return CutOutImage(coords, Path.Combine(_dataGuiDirectory, CustomizationImageMap), keyValueOfGameItems);
+        }
+
         private List<string> CutOutImage(List<IconMapCoordinates> coords, string bitMapPath, Dictionary<string, List<dynamic>> keyValueOfGameItems)
         {
             List<string> imageListForPubSpec = new List<string>();
@@ -84,12 +102,28 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 List<dynamic> items = keyValueOfGameItems[imageCoordinates.ItemId];
                 foreach (dynamic item in items)
                 {
-                    bool isKnownType = item is RecipeLocalised || item is GameItemLocalised;
+                    bool isKnownType = item is RecipeLocalised || item is GameItemLocalised || item is CustomisationItemLocalised;
                     if (!isKnownType) continue;
 
                     string appId = string.Empty;
-                    if (item is RecipeLocalised recipeLocalised) appId = recipeLocalised.AppId;
-                    if (item is GameItemLocalised blockLocalised) appId = blockLocalised.AppId;
+                    string itemId = string.Empty;
+                    if (item is RecipeLocalised recipeLocalised)
+                    {
+                        appId = recipeLocalised.AppId;
+                        itemId = recipeLocalised.ItemId;
+                    }
+                    if (item is GameItemLocalised blockLocalised)
+                    {
+                        appId = blockLocalised.AppId;
+                        itemId = blockLocalised.ItemId;
+                    }
+                    if (item is CustomisationItemLocalised customisedLocalised)
+                    {
+                        appId = customisedLocalised.AppId;
+                        itemId = customisedLocalised.ItemId;
+                    }
+
+                    if (GuidExclusion.All.Any(a => a.Equals(itemId))) continue;
 
                     Bitmap newImage = new Bitmap(ImageSize, ImageSize);
                     newImage.MakeTransparent();

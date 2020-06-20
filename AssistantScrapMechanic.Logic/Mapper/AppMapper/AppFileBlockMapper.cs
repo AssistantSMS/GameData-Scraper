@@ -1,4 +1,6 @@
-﻿using AssistantScrapMechanic.Domain.AppFiles;
+﻿using System.Collections.Generic;
+using System.Linq;
+using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 
 namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
@@ -18,6 +20,24 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Color = localisedData.Color,
                 Ratings = localisedData.Ratings,
                 Box = localisedData.Box,
+            };
+            return recipe;
+        }
+        
+        public static AppGameItem ToAppFile(CustomisationItemLocalised localisedData, string category)
+        {
+            AppGameItem recipe = new AppGameItem
+            {
+                AppId = localisedData.AppId,
+                Flammable = false,
+                PhysicsMaterial = "",
+                QualityLevel = 0,
+                Density = 0,
+                Title = localisedData.Name,
+                Description = category,
+                Color = string.Empty,
+                Ratings = null,
+                Box = null,
             };
             return recipe;
         }
