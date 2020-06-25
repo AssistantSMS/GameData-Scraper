@@ -18,10 +18,10 @@ namespace AssistantScrapMechanic.Domain.Constant
             "3f07f523-79b6-4020-884e-fa816d5ffbf0",
             "64de6298-cbad-4393-84d2-e659a2abf4ef",
             "63484a78-7869-485f-b957-ba750391df19",
-            "a47e35d6-a1fe-4274-a080-9ea71134679a"
+            "a47e35d6-a1fe-4274-a080-9ea71134679a",
 
-            //"4fd6672e-27b6-42c6-8ba6-60837087a641",
-            //"68500ade-1a22-46ca-af6e-ec70caf67b09",
+            // Spaceship
+            "c563df47-9a8a-4338-9fec-06da1218c573",
             //"",
             //"",
             //"",

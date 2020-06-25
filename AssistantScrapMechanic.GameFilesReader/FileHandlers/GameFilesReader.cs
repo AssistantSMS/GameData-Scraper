@@ -65,58 +65,61 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return survivalDict;
         }
 
-        public Dictionary<string, List<dynamic>> GetKeyValueOfGameItems(bool includeOtherItems = false)
+        public Dictionary<string, List<dynamic>> GetKeyValueOfAllItems(bool includeOtherItems = false)
         {
             Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
 
-            List<RecipeLocalised> cook = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CookBotRecipes);
-            List<RecipeLocalised> craft = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CraftBotRecipes);
-            List<RecipeLocalised> disp = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DispenserRecipes);
-            List<RecipeLocalised> dress = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DressBotRecipes);
-            List<RecipeLocalised> hideout = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.HideOutRecipes);
-            List<RecipeLocalised> refiner = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.RefineryRecipes);
-            List<RecipeLocalised> workb = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.WorkbenchRecipes);
-
-            List<RecipeLocalised> allRecipes = cook
-                .Concat(craft)
-                .Concat(disp)
-                .Concat(dress)
-                .Concat(hideout)
-                .Concat(refiner)
-                .Concat(workb)
-                .ToList();
-
-            foreach (RecipeLocalised recipe in allRecipes)
+            Dictionary<string, List<RecipeLocalised>> recipes = GetKeyValueOfRecipItems();
+            foreach ((string key, List<RecipeLocalised> value) in recipes)
             {
-                if (result.ContainsKey(recipe.ItemId))
+                if (result.ContainsKey(key))
                 {
-                    List<dynamic> current = result[recipe.ItemId];
-                    current.Add(recipe);
-                    result[recipe.ItemId] = current;
+                    List<dynamic> current = result[key];
+                    current.AddRange(value);
+                    result[key] = current;
                 }
                 else
                 {
-                    result.Add(recipe.ItemId, new List<dynamic> { recipe });
+                    result.Add(key, value.Select(v => v as dynamic).ToList());
                 }
             }
 
-            List<CustomisationLocalised> customisations = _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization);
-            foreach (CustomisationLocalised customisation in customisations)
+            Dictionary<string, List<CustomisationItemLocalised>> cosmeticItems = GetKeyValueOfCosmeticItems();
+            foreach ((string key, List<CustomisationItemLocalised> value) in cosmeticItems)
             {
-                foreach (CustomisationItemLocalised customisLoc in customisation.Items)
+                if (result.ContainsKey(key))
                 {
-                    if (result.ContainsKey(customisLoc.ItemId))
-                    {
-                        List<dynamic> current = result[customisLoc.ItemId];
-                        current.Add(customisLoc);
-                        result[customisLoc.ItemId] = current;
-                    }
-                    else
-                    {
-                        result.Add(customisLoc.ItemId, new List<dynamic> { customisLoc });
-                    }
+                    List<dynamic> current = result[key];
+                    current.AddRange(value);
+                    result[key] = current;
+                }
+                else
+                {
+                    result.Add(key, value.Select(v => v as dynamic).ToList());
                 }
             }
+
+            Dictionary<string, List<dynamic>> gameItems = GetKeyValueOfGameItems(includeOtherItems);
+            foreach ((string key, List<dynamic> value) in gameItems)
+            {
+                if (result.ContainsKey(key))
+                {
+                    List<dynamic> current = result[key];
+                    current.AddRange(value);
+                    result[key] = current;
+                }
+                else
+                {
+                    result.Add(key, value);
+                }
+            }
+
+            return result;
+        }
+
+        public Dictionary<string, List<dynamic>> GetKeyValueOfGameItems(bool includeOtherItems = false)
+        {
+            Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
 
             List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
             List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
@@ -192,6 +195,69 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 else
                 {
                     result.Add(item.ItemId, new List<dynamic> { item });
+                }
+            }
+
+            return result;
+        }
+
+        public Dictionary<string, List<CustomisationItemLocalised>> GetKeyValueOfCosmeticItems()
+        {
+            Dictionary<string, List<CustomisationItemLocalised>> result = new Dictionary<string, List<CustomisationItemLocalised>>();
+
+            List<CustomisationLocalised> customisations = _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization);
+            foreach (CustomisationLocalised customisation in customisations)
+            {
+                foreach (CustomisationItemLocalised customisLoc in customisation.Items)
+                {
+                    if (result.ContainsKey(customisLoc.ItemId))
+                    {
+                        List<CustomisationItemLocalised> current = result[customisLoc.ItemId];
+                        current.Add(customisLoc);
+                        result[customisLoc.ItemId] = current;
+                    }
+                    else
+                    {
+                        result.Add(customisLoc.ItemId, new List<CustomisationItemLocalised> { customisLoc });
+                    }
+                }
+            }
+
+            return result;
+        }
+
+        public Dictionary<string, List<RecipeLocalised>> GetKeyValueOfRecipItems()
+        {
+            Dictionary<string, List<RecipeLocalised>> result = new Dictionary<string, List<RecipeLocalised>>();
+
+            List<RecipeLocalised> cook = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CookBotRecipes);
+            List<RecipeLocalised> craft = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CraftBotRecipes);
+            List<RecipeLocalised> disp = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DispenserRecipes);
+            List<RecipeLocalised> dress = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DressBotRecipes);
+            List<RecipeLocalised> hideout = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.HideOutRecipes);
+            List<RecipeLocalised> refiner = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.RefineryRecipes);
+            List<RecipeLocalised> workb = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.WorkbenchRecipes);
+
+            List<RecipeLocalised> allRecipes = cook
+                .Concat(craft)
+                .Concat(disp)
+                .Concat(dress)
+                .Concat(hideout)
+                .Concat(refiner)
+                .Concat(workb)
+                .ToList();
+
+            foreach (RecipeLocalised recipe in allRecipes)
+            {
+                if (result.ContainsKey(recipe.ItemId))
+                {
+                    List<RecipeLocalised> current = result[recipe.ItemId];
+                    current.Add(recipe);
+                    result[recipe.ItemId] = current;
+                }
+                else
+                {
+                    result.Add(recipe.ItemId, new List<RecipeLocalised> { recipe });
                 }
             }
 
@@ -336,7 +402,13 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             List<GameItem> all = distinctItems.Values.ToList();
-            List<GameItemLocalised> fileData = all.Select((gameItem, gameItemIndex) => gameItem.Localise(prefix, gameItemIndex, itemNames)).ToList();
+            List<GameItemLocalised> fileData = new List<GameItemLocalised>();
+            for (int gameItemIndex = 0; gameItemIndex < all.Count; gameItemIndex++)
+            {
+                GameItemLocalised locItem = all[gameItemIndex].Localise(prefix, gameItemIndex, itemNames);
+                if (locItem.Name.Contains("obj_")) continue;
+                fileData.Add(locItem);
+            }
 
             if (fileData.Count < 1)
             {

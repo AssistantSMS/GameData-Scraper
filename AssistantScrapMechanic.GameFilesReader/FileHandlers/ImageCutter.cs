@@ -105,6 +105,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     bool isKnownType = item is RecipeLocalised || item is GameItemLocalised || item is CustomisationItemLocalised;
                     if (!isKnownType) continue;
 
+                    //if (item.GetProperty("AppId") != null && item.GetProperty("AppId") != null) continue;
+
                     string appId = string.Empty;
                     string itemId = string.Empty;
                     if (item is RecipeLocalised recipeLocalised)

@@ -62,7 +62,7 @@ namespace AssistantScrapMechanic.GameFilesReader
                         appFilesHandler.GenerateAppFiles(lookup);
                         break;
                     case 3:
-                        Dictionary<string, List<dynamic>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfGameItems();
+                        Dictionary<string, List<dynamic>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfAllItems(includeOtherItems: true);
 
                         ImageCutter imageCutter = new ImageCutter(_dataGuiDirectory, _survivalGuiDirectory, _outputDirectory);
                         imageCutter.CutOutImages(keyValueOfGameItems);

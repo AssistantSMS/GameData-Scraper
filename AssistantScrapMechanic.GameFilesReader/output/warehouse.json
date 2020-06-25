@@ -311,22 +311,6 @@
     "QualityLevel": 0
   },
   {
-    "ItemId": "94acfb72-c650-4cb5-a8aa-08af3e691d2e",
-    "AppId": "ware17",
-    "Name": "obj_warehouse_container2",
-    "Color": "902513",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 0,
-      "Durability": 0,
-      "Friction": 0,
-      "Buoyancy": 0
-    },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
-  },
-  {
     "ItemId": "66affe90-4552-455e-a0b0-b203f9988790",
     "AppId": "ware18",
     "Name": "Metal Storage Ramp",
@@ -587,27 +571,6 @@
     "QualityLevel": 0
   },
   {
-    "ItemId": "6cb18801-8284-4f27-9f2e-b9955861b605",
-    "AppId": "ware33",
-    "Name": "obj_warehouse_banner2",
-    "Color": "8a0000",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 0,
-      "Durability": 0,
-      "Friction": 0,
-      "Buoyancy": 0
-    },
-    "Box": {
-      "X": 6,
-      "Y": 1,
-      "Z": 4
-    },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
-  },
-  {
     "ItemId": "abaef792-741e-4c6b-8e79-02461a37b035",
     "AppId": "ware34",
     "Name": "Frame Beam Light",
@@ -759,48 +722,6 @@
     },
     "Flammable": false,
     "Density": 0.0,
-    "QualityLevel": 0
-  },
-  {
-    "ItemId": "cc454365-7262-4953-a190-4bead4f4a260",
-    "AppId": "ware43",
-    "Name": "obj_warehouse_encryptorsign_destruction",
-    "Color": "4c6fe3",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 0,
-      "Durability": 0,
-      "Friction": 0,
-      "Buoyancy": 0
-    },
-    "Box": {
-      "X": 8,
-      "Y": 4,
-      "Z": 2
-    },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
-  },
-  {
-    "ItemId": "ba79e3c0-914f-46ff-874b-243df5589e3c",
-    "AppId": "ware44",
-    "Name": "obj_warehouse_encryptorsign_connection",
-    "Color": "c36512",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 0,
-      "Durability": 0,
-      "Friction": 0,
-      "Buoyancy": 0
-    },
-    "Box": {
-      "X": 8,
-      "Y": 4,
-      "Z": 2
-    },
-    "Flammable": false,
-    "Density": 500.0,
     "QualityLevel": 0
   },
   {
