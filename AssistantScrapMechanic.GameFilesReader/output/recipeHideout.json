@@ -1,6 +1,6 @@
 [
   {
-    "AppId": "recipeHideout.json1",
+    "AppId": "recipeHideout1",
     "Title": "Soil Bag",
     "Description": "Use them on the ground to place your seeds in",
     "OutputLocalised": {
@@ -24,7 +24,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json2",
+    "AppId": "recipeHideout2",
     "Title": "Fertilizer",
     "Description": "Makes plants grow faster",
     "OutputLocalised": {
@@ -48,7 +48,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json3",
+    "AppId": "recipeHideout3",
     "Title": "Banana Seed",
     "OutputLocalised": {
       "Quantity": 5,
@@ -71,7 +71,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json4",
+    "AppId": "recipeHideout4",
     "Title": "Orange Seed",
     "OutputLocalised": {
       "Quantity": 5,
@@ -94,7 +94,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json5",
+    "AppId": "recipeHideout5",
     "Title": "Blueberry Seed",
     "OutputLocalised": {
       "Quantity": 5,
@@ -117,7 +117,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json6",
+    "AppId": "recipeHideout6",
     "Title": "Cotton Seed",
     "OutputLocalised": {
       "Quantity": 5,
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json7",
+    "AppId": "recipeHideout7",
     "Title": "Saw Blade",
     "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.",
     "OutputLocalised": {
@@ -164,7 +164,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json8",
+    "AppId": "recipeHideout8",
     "Title": "Drill",
     "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.",
     "OutputLocalised": {
@@ -188,7 +188,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json9",
+    "AppId": "recipeHideout9",
     "Title": "Mountable Spud Gun",
     "Description": "Connect it to a Ammo container with a trigger to shoot",
     "OutputLocalised": {
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json10",
+    "AppId": "recipeHideout10",
     "Title": "Potato Ammo Container",
     "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo",
     "OutputLocalised": {
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json11",
+    "AppId": "recipeHideout11",
     "Title": "Spud Gun",
     "Description": "Spud Gun with single potato shot.",
     "OutputLocalised": {
@@ -292,7 +292,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json12",
+    "AppId": "recipeHideout12",
     "Title": "Spud Shotgun",
     "Description": "Shoots sizzling hot fries in a spread.",
     "OutputLocalised": {
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json13",
+    "AppId": "recipeHideout13",
     "Title": "Spudling Gun",
     "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo",
     "OutputLocalised": {
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json14",
+    "AppId": "recipeHideout14",
     "Title": "Garment Box (Common)",
     "Description": "Use it in a Dressbot to make new clothes",
     "OutputLocalised": {
@@ -388,7 +388,7 @@
     ]
   },
   {
-    "AppId": "recipeHideout.json15",
+    "AppId": "recipeHideout15",
     "Title": "Garment Box (Rare)",
     "Description": "Use it in a Dressbot to make new clothes",
     "OutputLocalised": {
