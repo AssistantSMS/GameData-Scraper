@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using AssistantScrapMechanic.Domain;
 using AssistantScrapMechanic.Domain.Constant;
 using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
@@ -62,6 +63,139 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             return survivalDict;
+        }
+
+        public Dictionary<string, List<dynamic>> GetKeyValueOfGameItems(bool includeOtherItems = false)
+        {
+            Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
+
+            List<RecipeLocalised> cook = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CookBotRecipes);
+            List<RecipeLocalised> craft = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CraftBotRecipes);
+            List<RecipeLocalised> disp = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DispenserRecipes);
+            List<RecipeLocalised> dress = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DressBotRecipes);
+            List<RecipeLocalised> hideout = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.HideOutRecipes);
+            List<RecipeLocalised> refiner = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.RefineryRecipes);
+            List<RecipeLocalised> workb = _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.WorkbenchRecipes);
+
+            List<RecipeLocalised> allRecipes = cook
+                .Concat(craft)
+                .Concat(disp)
+                .Concat(dress)
+                .Concat(hideout)
+                .Concat(refiner)
+                .Concat(workb)
+                .ToList();
+
+            foreach (RecipeLocalised recipe in allRecipes)
+            {
+                if (result.ContainsKey(recipe.ItemId))
+                {
+                    List<dynamic> current = result[recipe.ItemId];
+                    current.Add(recipe);
+                    result[recipe.ItemId] = current;
+                }
+                else
+                {
+                    result.Add(recipe.ItemId, new List<dynamic> { recipe });
+                }
+            }
+
+            List<CustomisationLocalised> customisations = _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization);
+            foreach (CustomisationLocalised customisation in customisations)
+            {
+                foreach (CustomisationItemLocalised customisLoc in customisation.Items)
+                {
+                    if (result.ContainsKey(customisLoc.ItemId))
+                    {
+                        List<dynamic> current = result[customisLoc.ItemId];
+                        current.Add(customisLoc);
+                        result[customisLoc.ItemId] = current;
+                    }
+                    else
+                    {
+                        result.Add(customisLoc.ItemId, new List<dynamic> { customisLoc });
+                    }
+                }
+            }
+
+            List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
+            List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
+            List<GameItemLocalised> construction = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction);
+            List<GameItemLocalised> consumable = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable);
+            List<GameItemLocalised> containers = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers);
+            List<GameItemLocalised> craftBot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot);
+            List<GameItemLocalised> decor = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor);
+            List<GameItemLocalised> fitting = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting);
+            List<GameItemLocalised> harvest = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest);
+            List<GameItemLocalised> industrial = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial);
+            List<GameItemLocalised> intera = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive);
+            List<GameItemLocalised> interu = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable);
+            List<GameItemLocalised> interc = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer);
+            List<GameItemLocalised> light = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light);
+            List<GameItemLocalised> manMade = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ManMade);
+            List<GameItemLocalised> outfit = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Outfit);
+            List<GameItemLocalised> other = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Other);
+            List<GameItemLocalised> packing = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.PackingCrate);
+            List<GameItemLocalised> plant = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Plant);
+            List<GameItemLocalised> power = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power);
+            List<GameItemLocalised> resource = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources);
+            List<GameItemLocalised> robot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot);
+            List<GameItemLocalised> scrap = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Scrap);
+            List<GameItemLocalised> spaceship = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Spaceship);
+            List<GameItemLocalised> survival = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival);
+            List<GameItemLocalised> tool = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool);
+            List<GameItemLocalised> vehicle = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle);
+            List<GameItemLocalised> warehouse = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Warehouse);
+
+            List<GameItemLocalised> allItems = blocks
+                .Concat(buildings)
+                .Concat(construction)
+                .Concat(consumable)
+                .Concat(containers)
+                .Concat(craftBot)
+                .Concat(decor)
+                .Concat(fitting)
+                .Concat(harvest)
+                .Concat(industrial)
+                .Concat(intera)
+                .Concat(interu)
+                .Concat(interc)
+                .Concat(light)
+                .Concat(manMade)
+                .Concat(outfit)
+                .Concat(packing)
+                .Concat(plant)
+                .Concat(power)
+                .Concat(resource)
+                .Concat(robot)
+                .Concat(scrap)
+                .Concat(spaceship)
+                .Concat(survival)
+                .Concat(tool)
+                .Concat(vehicle)
+                .Concat(warehouse)
+                .ToList();
+
+            if (includeOtherItems)
+            {
+                allItems = allItems.Concat(other).ToList();
+            }
+
+            foreach (GameItemLocalised item in allItems)
+            {
+                if (result.ContainsKey(item.ItemId))
+                {
+                    List<dynamic> current = result[item.ItemId];
+                    current.Add(item);
+                    result[item.ItemId] = current;
+                }
+                else
+                {
+                    result.Add(item.ItemId, new List<dynamic> { item });
+                }
+            }
+
+            return result;
         }
 
         public void GenerateBlockIntermediate(Dictionary<string, InventoryDescription> itemNames)
@@ -127,22 +261,48 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Tool, Prefix.Tool, OutputFile.Tool, itemNames);
             GenerateGameItemIntermediate(GameFile.Vehicle, Prefix.Vehicle, OutputFile.Vehicle, itemNames);
             GenerateGameItemIntermediate(GameFile.Warehouse, Prefix.Warehouse, OutputFile.Warehouse, itemNames);
-            
-            GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes);
-            GenerateRecipeIntermediate(GameFile.CraftBotRecipes, itemNames, Prefix.CraftBot, OutputFile.CraftBotRecipes);
-            GenerateRecipeIntermediate(GameFile.DispenserRecipes, itemNames, Prefix.Dispenser, OutputFile.DispenserRecipes);
-            GenerateRecipeIntermediate(GameFile.DressBotRecipes, itemNames, Prefix.DressBot, OutputFile.DressBotRecipes);
+
+            Dictionary<string, List<dynamic>> lookup = GetKeyValueOfGameItems();
+
+            List<NotFoundItem> notFound = new List<NotFoundItem>();
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes, lookup, notFound.Count));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.CraftBotRecipes, itemNames, Prefix.CraftBot, OutputFile.CraftBotRecipes, lookup, notFound.Count));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.DispenserRecipes, itemNames, Prefix.Dispenser, OutputFile.DispenserRecipes, lookup, notFound.Count));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.DressBotRecipes, itemNames, Prefix.DressBot, OutputFile.DressBotRecipes, lookup, notFound.Count));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.HideOutRecipes, itemNames, Prefix.HideOut, OutputFile.HideOutRecipes, lookup, notFound.Count));
             GenerateRefinerIntermediate(GameFile.RefineryRecipes, itemNames, Prefix.Refinery, OutputFile.RefineryRecipes);
-            GenerateRecipeIntermediate(GameFile.WorkbenchRecipes, itemNames, Prefix.Workbench, OutputFile.WorkbenchRecipes);
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.WorkbenchRecipes, itemNames, Prefix.Workbench, OutputFile.WorkbenchRecipes, lookup, notFound.Count));
+
+            GenerateUnknownItemIntermediate(notFound, OutputFile.Other, itemNames);
         }
 
-        private void GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
+        private List<NotFoundItem> GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename, Dictionary<string, List<dynamic>> lookup, int currentOtherIndex)
         {
             List<Recipe> jsonContent = _survivalCraftingFileSysRepo.LoadListJsonFile<Recipe>(filename);
 
-            List<RecipeLocalised> fileData = jsonContent.Select((recipe, recipeIndex) => recipe.Localise(prefix, recipeIndex, itemNames)).ToList();
+            int prefixCount = currentOtherIndex + 1;
+            List<NotFoundItem> notFound = new List<NotFoundItem>();
+
+            List<RecipeLocalised> fileData = new List<RecipeLocalised>();
+            for (int recipeIndex = 0; recipeIndex < jsonContent.Count; recipeIndex++)
+            {
+                Recipe recipe = jsonContent[recipeIndex];
+                RecipeLocalised localised = recipe.Localise(prefix, recipeIndex, itemNames);
+
+                if (!lookup.ContainsKey(localised.ItemId))
+                {
+                    notFound.Add(new NotFoundItem
+                    {
+                        AppId = $"{Prefix.Other}{prefixCount}",
+                        ItemId = recipe.ItemId,
+                    });
+                    prefixCount++;
+                }
+                fileData.Add(localised);
+            }
 
             _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);
+            return notFound;
         }
 
         private void GenerateRefinerIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename)
@@ -181,6 +341,21 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             if (fileData.Count < 1)
             {
                 var k = 1 + 1;
+            }
+
+            _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);
+        }
+
+        public void GenerateUnknownItemIntermediate(List<NotFoundItem> notfound, string outputFilename, Dictionary<string, InventoryDescription> itemNames)
+        {
+            List<GameItemLocalised> fileData = new List<GameItemLocalised>();
+            for (int notFoundIndex = 0; notFoundIndex < notfound.Count; notFoundIndex++)
+            {
+                GameItem gameItem = new GameItem
+                {
+                    Uuid = notfound[notFoundIndex].ItemId,
+                };
+                fileData.Add(gameItem.Localise(Prefix.Other, notFoundIndex, itemNames));
             }
 
             _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);

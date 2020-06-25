@@ -3,15 +3,16 @@
     "AppId": "recipeDress1",
     "Title": "Garment Box (Common)",
     "Description": "Use it in a Dressbot to make new clothes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 5,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Garment Box (Common)",
-        "Description": "Use it in a Dressbot to make new clothes",
         "Quantity": 1,
         "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae"
       }
@@ -34,15 +35,16 @@
     "AppId": "recipeDress2",
     "Title": "Garment Box (Rare)",
     "Description": "Use it in a Dressbot to make new clothes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 10,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Garment Box (Rare)",
-        "Description": "Use it in a Dressbot to make new clothes",
         "Quantity": 1,
         "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6"
       }
@@ -65,15 +67,16 @@
     "AppId": "recipeDress3",
     "Title": "Garment Box (Epic)",
     "Description": "Use it in a Dressbot to make new clothes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 20,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Garment Box (Epic)",
-        "Description": "Use it in a Dressbot to make new clothes",
         "Quantity": 1,
         "ItemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b"
       }

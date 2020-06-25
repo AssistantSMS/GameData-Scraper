@@ -46,22 +46,23 @@ namespace AssistantScrapMechanic.GameFilesReader
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out int numberInput)) return 0;
 
+                FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(outputFileSysRepo,
+                    shapeSetsFileSysRepo, legacyShapeSetsFileSysRepo,
+                    survivalCraftingFileSysRepo, characterFileSysRepo,
+                    legacyLanguageFileSysRepo, survivalLanguageFileSysRepo);
+
                 switch (numberInput)
                 {
                     case 1:
-                        FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(outputFileSysRepo, 
-                            shapeSetsFileSysRepo, legacyShapeSetsFileSysRepo,
-                            survivalCraftingFileSysRepo, characterFileSysRepo, 
-                            legacyLanguageFileSysRepo, survivalLanguageFileSysRepo);
                         gameFilesReader.GenerateIntermediate();
                         break;
                     case 2:
+                        Dictionary<string, List<dynamic>> lookup = gameFilesReader.GetKeyValueOfGameItems(includeOtherItems: true);
                         AppFilesHandler appFilesHandler = new AppFilesHandler(outputFileSysRepo, appFilesSysRepo, appImagesRepo);
-                        appFilesHandler.GenerateAppFiles();
+                        appFilesHandler.GenerateAppFiles(lookup);
                         break;
                     case 3:
-                        AppFilesHandler appFilesHandlerForImages = new AppFilesHandler(outputFileSysRepo, appFilesSysRepo, appImagesRepo);
-                        Dictionary<string, List<dynamic>> keyValueOfGameItems = appFilesHandlerForImages.GetKeyValueOfGameItems();
+                        Dictionary<string, List<dynamic>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfGameItems();
 
                         ImageCutter imageCutter = new ImageCutter(_dataGuiDirectory, _survivalGuiDirectory, _outputDirectory);
                         imageCutter.CutOutImages(keyValueOfGameItems);

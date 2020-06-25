@@ -3,14 +3,16 @@
     "AppId": "recipeCraft1",
     "Title": "Connect Tool",
     "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "8c7efc37-cd7c-4262-976e-39585f8527bf"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Metal Block",
         "Quantity": 10,
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -33,20 +35,20 @@
     "AppId": "recipeCraft2",
     "Title": "Paint Tool",
     "Description": "Paint any part or block to personalize your creations or even make beautiful art! Paint using the left mouse button and delete with the right. Press 'Q' to open the color selector. Simply hold down left mouse button and drag if you want to paint larger surfaces.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "c60b9627-fc2b-4319-97c5-05921cb976c6"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Glass Block",
         "Quantity": 5,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 3,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -73,20 +75,20 @@
     "AppId": "recipeCraft3",
     "Title": "Weld Tool",
     "Description": "Weld your creations together!\nSelect the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "fdb8b8be-96e7-4de0-85c7-d2f42e4f33ce"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 20,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 5,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -112,15 +114,18 @@
   {
     "AppId": "recipeCraft4",
     "Title": "Cardboard Block",
+    "OutputLocalised": {
+      "Quantity": 20,
+      "ItemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Wood Block",
         "Quantity": 5,
         "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811"
       }
     ],
     "ItemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
-    "Quantity": 10,
+    "Quantity": 20,
     "CraftTime": 2,
     "IngredientList": [
       {
@@ -132,10 +137,13 @@
   {
     "AppId": "recipeCraft5",
     "Title": "Wood Block 1",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Wood Block",
-        "Quantity": 20,
+        "Quantity": 15,
         "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811"
       }
     ],
@@ -144,7 +152,7 @@
     "CraftTime": 7,
     "IngredientList": [
       {
-        "Quantity": 20,
+        "Quantity": 15,
         "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811"
       }
     ]
@@ -152,14 +160,16 @@
   {
     "AppId": "recipeCraft6",
     "Title": "Wood Block 2",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "1897ee42-0291-43e4-9645-8c5a5d310398"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 15,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Metal Block 2",
         "Quantity": 1,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       }
@@ -181,14 +191,16 @@
   {
     "AppId": "recipeCraft7",
     "Title": "Wood Block 3",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 2",
         "Quantity": 15,
         "ItemId": "1897ee42-0291-43e4-9645-8c5a5d310398"
       },
       {
-        "Title": "Metal Block 3",
         "Quantity": 1,
         "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
       }
@@ -210,9 +222,12 @@
   {
     "AppId": "recipeCraft8",
     "Title": "Metal Block 1",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Metal Block",
         "Quantity": 15,
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       }
@@ -230,20 +245,20 @@
   {
     "AppId": "recipeCraft9",
     "Title": "Metal Block 2",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 15,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Ember",
         "Quantity": 1,
         "ItemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
       },
       {
-        "Title": "Water",
-        "Description": "Great for watering plants, unfortunately not good for drinking.",
         "Quantity": 2,
         "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28"
       }
@@ -269,20 +284,20 @@
   {
     "AppId": "recipeCraft10",
     "Title": "Metal Block 3",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 20,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Ember",
         "Quantity": 2,
         "ItemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
       },
       {
-        "Title": "Water",
-        "Description": "Great for watering plants, unfortunately not good for drinking.",
         "Quantity": 4,
         "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28"
       }
@@ -308,21 +323,21 @@
   {
     "AppId": "recipeCraft11",
     "Title": "Concrete Block 1",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Stone Block",
-        "Quantity": 10,
+        "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       },
       {
-        "Title": "Water",
-        "Description": "Great for watering plants, unfortunately not good for drinking.",
-        "Quantity": 4,
+        "Quantity": 5,
         "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28"
       },
       {
-        "Title": "Chemical",
-        "Quantity": 2,
+        "Quantity": 5,
         "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
       }
     ],
@@ -331,15 +346,15 @@
     "CraftTime": 7,
     "IngredientList": [
       {
-        "Quantity": 10,
+        "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       },
       {
-        "Quantity": 4,
+        "Quantity": 5,
         "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28"
       },
       {
-        "Quantity": 2,
+        "Quantity": 5,
         "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
       }
     ]
@@ -347,14 +362,16 @@
   {
     "AppId": "recipeCraft12",
     "Title": "Concrete Block 2",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "ff234e42-5da4-43cc-8893-940547c97882"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Concrete Block 1",
         "Quantity": 15,
         "ItemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4"
       },
       {
-        "Title": "Metal Block 2",
         "Quantity": 2,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       }
@@ -376,14 +393,16 @@
   {
     "AppId": "recipeCraft13",
     "Title": "Concrete Block 3",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "e281599c-2343-4c86-886e-b2c1444e8810"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Concrete Block 2",
         "Quantity": 15,
         "ItemId": "ff234e42-5da4-43cc-8893-940547c97882"
       },
       {
-        "Title": "Metal Block 3",
         "Quantity": 2,
         "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
       }
@@ -405,9 +424,12 @@
   {
     "AppId": "recipeCraft14",
     "Title": "Sand Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       }
@@ -425,14 +447,16 @@
   {
     "AppId": "recipeCraft15",
     "Title": "Glass Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Sand Block",
         "Quantity": 10,
         "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
       },
       {
-        "Title": "Ember",
         "Quantity": 1,
         "ItemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
       }
@@ -454,14 +478,16 @@
   {
     "AppId": "recipeCraft16",
     "Title": "Glass Tile Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "749f69e0-56c9-488c-adf6-66c58531818f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Sand Block",
         "Quantity": 10,
         "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
       },
       {
-        "Title": "Ember",
         "Quantity": 1,
         "ItemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
       }
@@ -483,19 +509,20 @@
   {
     "AppId": "recipeCraft17",
     "Title": "Armored Glass Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glass Block",
         "Quantity": 10,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Net Block",
         "Quantity": 2,
         "ItemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b"
       },
       {
-        "Title": "Ember",
         "Quantity": 1,
         "ItemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4"
       }
@@ -521,9 +548,12 @@
   {
     "AppId": "recipeCraft18",
     "Title": "Diamond Plate Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -541,14 +571,16 @@
   {
     "AppId": "recipeCraft19",
     "Title": "Path Light Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "073f92af-f37e-4aff-96b3-d66284d5081c"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -570,9 +602,12 @@
   {
     "AppId": "recipeCraft20",
     "Title": "Extruded Metal Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -590,9 +625,12 @@
   {
     "AppId": "recipeCraft21",
     "Title": "Net Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 2,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -610,9 +648,12 @@
   {
     "AppId": "recipeCraft22",
     "Title": "Punched Steel Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -630,9 +671,12 @@
   {
     "AppId": "recipeCraft23",
     "Title": "Solid Net Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 5,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       }
@@ -650,15 +694,16 @@
   {
     "AppId": "recipeCraft24",
     "Title": "Spaceship Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
@@ -680,9 +725,12 @@
   {
     "AppId": "recipeCraft25",
     "Title": "Brick Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 10,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       }
@@ -700,15 +748,16 @@
   {
     "AppId": "recipeCraft26",
     "Title": "Tile Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 10,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
@@ -730,14 +779,16 @@
   {
     "AppId": "recipeCraft27",
     "Title": "Restroom Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 10,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 1,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       }
@@ -759,15 +810,16 @@
   {
     "AppId": "recipeCraft28",
     "Title": "Barrier Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "09ca2713-28ee-4119-9622-e85490034758"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 10,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
@@ -789,15 +841,16 @@
   {
     "AppId": "recipeCraft29",
     "Title": "Carpet Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "febce8a6-6c05-4e5d-803b-dfa930286944"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 5,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
@@ -819,9 +872,12 @@
   {
     "AppId": "recipeCraft30",
     "Title": "Bubble Plastic Block",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Crude Oil",
         "Quantity": 5,
         "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
       }
@@ -840,9 +896,12 @@
     "AppId": "recipeCraft31",
     "Title": "Bearing",
     "Description": "Everything you place on the bearing will revolve. Bearings can also be connected to an engine or the driver's seat to be controlled in different ways.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Metal Block",
         "Quantity": 5,
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       }
@@ -861,15 +920,17 @@
     "AppId": "recipeCraft32",
     "Title": "Switch",
     "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "7cf717d7-d167-4f2d-a6e7-6b2c70aa3986"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Metal Block",
         "Quantity": 1,
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       },
       {
-        "Title": "Circuit Board",
-        "Quantity": 2,
+        "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
     ],
@@ -882,7 +943,7 @@
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       },
       {
-        "Quantity": 2,
+        "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
     ]
@@ -891,15 +952,17 @@
     "AppId": "recipeCraft33",
     "Title": "Button",
     "Description": "Activates stuff. The button activates as long as it remains pressed.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "1e8d93a4-506b-470d-9ada-9c0a321e2db5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Metal Block",
         "Quantity": 1,
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       },
       {
-        "Title": "Circuit Board",
-        "Quantity": 2,
+        "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
     ],
@@ -912,7 +975,7 @@
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       },
       {
-        "Quantity": 2,
+        "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
     ]
@@ -921,24 +984,24 @@
     "AppId": "recipeCraft34",
     "Title": "Sensor 1",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "1d4793af-cb66-4628-804a-9d7404712643"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Glass Block",
         "Quantity": 1,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 2,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -969,14 +1032,16 @@
     "AppId": "recipeCraft35",
     "Title": "Sport Suspension 1",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "67da25c9-3825-41f6-9724-4546a11cb2a5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 5,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Crude Oil",
         "Quantity": 2,
         "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
       }
@@ -999,14 +1064,16 @@
     "AppId": "recipeCraft36",
     "Title": "Off-Road Suspension 1",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "f3cfef9d-faef-4be8-9283-476eb99614d7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Crude Oil",
         "Quantity": 2,
         "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
       }
@@ -1029,25 +1096,24 @@
     "AppId": "recipeCraft37",
     "Title": "Piston 1",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "8c741785-5eae-4c48-9f99-d62bf522a83f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Crude Oil",
         "Quantity": 2,
         "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 1,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1078,25 +1144,24 @@
     "AppId": "recipeCraft38",
     "Title": "Gas Engine 1",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "1bfccc0a-828f-475c-882c-87d5a96054c9"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 20,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Crude Oil",
         "Quantity": 5,
         "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 3,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1127,26 +1192,24 @@
     "AppId": "recipeCraft39",
     "Title": "Electric Engine 1",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "5e5d231e-405e-4f45-9bd0-b3557dbb42eb"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 20,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Battery",
-        "Description": "Used to power electric parts",
         "Quantity": 5,
         "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 10,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 5,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1177,25 +1240,24 @@
     "AppId": "recipeCraft40",
     "Title": "Driver's Seat 1",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 10,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 3,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 1,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1226,19 +1288,20 @@
     "AppId": "recipeCraft41",
     "Title": "Seat 1",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 10,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -1265,25 +1328,24 @@
     "AppId": "recipeCraft42",
     "Title": "Driver's Saddle 1",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "7d601a5a-796d-4cae-be88-b47479d38d11"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 5,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 3,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 1,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1314,19 +1376,20 @@
     "AppId": "recipeCraft43",
     "Title": "Saddle 1",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "2d3016f7-febe-416e-93bc-41d80ca3910d"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Cotton",
         "Quantity": 5,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -1353,14 +1416,16 @@
     "AppId": "recipeCraft44",
     "Title": "Toilet",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the toilet. Don't forget to flush!",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "ca003562-fde7-463c-969e-f8334ae54387"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Wood Block 1",
         "Quantity": 5,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       }
@@ -1383,15 +1448,16 @@
     "AppId": "recipeCraft45",
     "Title": "Thruster 1",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "df8528ed-15ad-4a39-a33a-698880684001"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 3",
         "Quantity": 40,
         "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 10,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1414,25 +1480,24 @@
     "AppId": "recipeCraft46",
     "Title": "Controller 1",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "598d865c-324c-4129-9c57-21a6abd2cb2e"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 1,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       },
       {
-        "Title": "Glue",
         "Quantity": 3,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1463,19 +1528,20 @@
     "AppId": "recipeCraft47",
     "Title": "Logic Gate",
     "Description": "The Logic Gate is a powerful block that allows you to build basic logical functions. By pressing E on the block, the mechanic can choose between different logic gate types. The logic gate can be connected to other logic gates, triggers, timers and more. Great for making advanced creations.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "9f0f56e8-2c31-4d83-996c-d00a9b296c3f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 1,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1502,19 +1568,20 @@
     "AppId": "recipeCraft48",
     "Title": "Timer",
     "Description": "The Timer allows you delay the interaction between two interactive parts. For example, between a switch and a controller. It goes great with Logic Gates.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 2,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 1,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1541,25 +1608,24 @@
     "AppId": "recipeCraft49",
     "Title": "Radio",
     "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it\nor by connecting it to a trigger.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Battery",
-        "Description": "Used to power electric parts",
         "Quantity": 2,
         "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 4,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 1,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1590,19 +1656,20 @@
     "AppId": "recipeCraft50",
     "Title": "Horn",
     "Description": "Add it to your vehicle or use it as a door bell. Honk at your friends to avoid accidents. Set the pitch and connect it to a trigger to activate it.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "818f4e15-ff51-4fed-b874-723a25d62e1c"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 1,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1629,24 +1696,24 @@
     "AppId": "recipeCraft51",
     "Title": "Headlight",
     "Description": "Let there be visibility! Connect to a trigger to turn on and off. Adjustable beam range.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "ed27f5e2-cac5-4a32-a5d9-49f116acc6af"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Glass Block",
         "Quantity": 1,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 1,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1677,21 +1744,21 @@
     "AppId": "recipeCraft52",
     "Title": "Respawn Bed",
     "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 50,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Cotton",
         "Quantity": 20,
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
-        "Quantity": 5,
+        "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
     ],
@@ -1708,7 +1775,7 @@
         "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad"
       },
       {
-        "Quantity": 5,
+        "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
     ]
@@ -1717,24 +1784,24 @@
     "AppId": "recipeCraft53",
     "Title": "Fridge",
     "Description": "Keeps your food fresh",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "f08d772f-9851-400f-a014-d847900458a7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Chemical",
         "Quantity": 2,
         "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 1,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 2,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1765,14 +1832,16 @@
     "AppId": "recipeCraft54",
     "Title": "Chest",
     "Description": "A simple chest to store your items.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 40,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Glue",
         "Quantity": 2,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1795,25 +1864,24 @@
     "AppId": "recipeCraft55",
     "Title": "Large Chest",
     "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 60,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 3,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       },
       {
-        "Title": "Glue",
         "Quantity": 5,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -1844,25 +1912,24 @@
     "AppId": "recipeCraft56",
     "Title": "Vacuum Pump",
     "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "97f449b6-c948-448b-b8b3-4448e3f6b956"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 5,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 3,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -1893,19 +1960,20 @@
     "AppId": "recipeCraft57",
     "Title": "Vacuum Pipe",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 5,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Glass Block",
         "Quantity": 10,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -1932,19 +2000,20 @@
     "AppId": "recipeCraft58",
     "Title": "Vacuum Pipe Corner",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 5,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Glass Block",
         "Quantity": 10,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 2,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -1971,25 +2040,24 @@
     "AppId": "recipeCraft59",
     "Title": "Gas Container",
     "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 20,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
-        "Quantity": 15,
+        "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
-        "Title": "Glue",
         "Quantity": 2,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -2007,7 +2075,7 @@
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Quantity": 15,
+        "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
@@ -2020,25 +2088,24 @@
     "AppId": "recipeCraft60",
     "Title": "Battery Container",
     "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 20,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 10,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
-        "Quantity": 15,
+        "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
-        "Title": "Glue",
         "Quantity": 2,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -2056,7 +2123,7 @@
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Quantity": 15,
+        "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
@@ -2069,24 +2136,24 @@
     "AppId": "recipeCraft61",
     "Title": "Water Container",
     "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 10,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 5,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       },
       {
-        "Title": "Glue",
         "Quantity": 2,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -2115,22 +2182,69 @@
   },
   {
     "AppId": "recipeCraft62",
-    "Title": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently",
+    "Title": "Chemical Container",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "be29592a-ef58-4b1d-b18c-895023abd27f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Beeswax",
+        "Quantity": 20,
+        "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
+      }
+    ],
+    "ItemId": "be29592a-ef58-4b1d-b18c-895023abd27f",
+    "Quantity": 1,
+    "CraftTime": 57,
+    "IngredientList": [
+      {
+        "Quantity": 10,
+        "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+      },
+      {
+        "Quantity": 20,
+        "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeCraft63",
+    "Title": "Water Cannon",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 10,
+        "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
+      },
+      {
         "Quantity": 10,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       },
       {
-        "Title": "Component Kit",
-        "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
         "Quantity": 2,
         "ItemId": "5530e6a0-4748-4926-b134-50ca9ecb9dcf"
       }
@@ -2154,17 +2268,19 @@
     ]
   },
   {
-    "AppId": "recipeCraft63",
+    "AppId": "recipeCraft64",
     "Title": "Saw Blade",
     "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "3e10ef67-383a-4b60-aa5b-b1173134e437"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 20,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2184,17 +2300,19 @@
     ]
   },
   {
-    "AppId": "recipeCraft64",
+    "AppId": "recipeCraft65",
     "Title": "Drill",
     "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 2",
         "Quantity": 20,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 30,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2214,12 +2332,15 @@
     ]
   },
   {
-    "AppId": "recipeCraft65",
+    "AppId": "recipeCraft66",
     "Title": "Water Bucket",
     "Description": "Fill it with water to water your plants.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Metal Block",
         "Quantity": 5,
         "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
       }
@@ -2235,23 +2356,23 @@
     ]
   },
   {
-    "AppId": "recipeCraft66",
+    "AppId": "recipeCraft67",
     "Title": "Soil Bag",
     "Description": "Use them on the ground to place your seeds in",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Wood Block",
         "Quantity": 10,
         "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811"
       },
       {
-        "Title": "Sand Block",
         "Quantity": 10,
         "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b"
       },
       {
-        "Title": "Carrot",
-        "Description": "A nutritious Carrot.",
         "Quantity": 2,
         "ItemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da"
       }
@@ -2275,12 +2396,55 @@
     ]
   },
   {
-    "AppId": "recipeCraft67",
-    "Title": "Gasoline",
-    "Description": "Used to power gas engines and thrusters",
+    "AppId": "recipeCraft68",
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Crude Oil",
+        "Quantity": 10,
+        "ItemId": "38e41fb5-dd50-4294-829d-a517f0282fed"
+      },
+      {
+        "Quantity": 10,
+        "ItemId": "9c82a525-8a8b-4483-9595-505aaa042486"
+      },
+      {
+        "Quantity": 10,
+        "ItemId": "64051718-a3f1-422b-bda3-277efa0c4545"
+      }
+    ],
+    "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
+    "Quantity": 5,
+    "CraftTime": 7,
+    "IngredientList": [
+      {
+        "Quantity": 10,
+        "ItemId": "38e41fb5-dd50-4294-829d-a517f0282fed"
+      },
+      {
+        "Quantity": 10,
+        "ItemId": "9c82a525-8a8b-4483-9595-505aaa042486"
+      },
+      {
+        "Quantity": 10,
+        "ItemId": "64051718-a3f1-422b-bda3-277efa0c4545"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeCraft69",
+    "Title": "Gasoline",
+    "Description": "Used to power gas engines and thrusters",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
+    },
+    "IngredientListLocalised": [
+      {
         "Quantity": 5,
         "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0"
       }
@@ -2296,11 +2460,54 @@
     ]
   },
   {
-    "AppId": "recipeCraft68",
-    "Title": "Glue",
+    "AppId": "recipeCraft70",
+    "Title": "Battery",
+    "Description": "Used to power electric parts",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glue Clam",
+        "Quantity": 10,
+        "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "388adeab-67e5-4901-afe8-c56217754510"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+      }
+    ],
+    "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af",
+    "Quantity": 5,
+    "CraftTime": 7,
+    "IngredientList": [
+      {
+        "Quantity": 10,
+        "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "388adeab-67e5-4901-afe8-c56217754510"
+      },
+      {
+        "Quantity": 5,
+        "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeCraft71",
+    "Title": "Glue",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
+    },
+    "IngredientListLocalised": [
+      {
         "Quantity": 3,
         "ItemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f"
       }
@@ -2316,13 +2523,15 @@
     ]
   },
   {
-    "AppId": "recipeCraft69",
+    "AppId": "recipeCraft72",
     "Title": "Water",
     "Description": "Great for watering plants, unfortunately not good for drinking.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Water Bucket",
-        "Description": "Bucket with water.",
         "Quantity": 1,
         "ItemId": "103fc4e6-7e57-465e-a86d-983343415877"
       }
@@ -2338,12 +2547,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft70",
-    "Title": "Chemical",
+    "AppId": "recipeCraft73",
+    "Title": "Chemicals",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Chemical Bucket",
-        "Description": "Bucket with chemical waste.",
         "Quantity": 1,
         "ItemId": "2e792123-4a10-4cc6-b9ef-c5a518655cb4"
       }
@@ -2359,13 +2570,16 @@
     ]
   },
   {
-    "AppId": "recipeCraft71",
+    "AppId": "recipeCraft74",
     "Title": "Paint Ammo",
     "Description": "Load your Paint Tool and give your creations some color",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
-        "Quantity": 10,
+        "Quantity": 5,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       }
     ],
@@ -2374,23 +2588,25 @@
     "CraftTime": 12,
     "IngredientList": [
       {
-        "Quantity": 10,
+        "Quantity": 5,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       }
     ]
   },
   {
-    "AppId": "recipeCraft72",
+    "AppId": "recipeCraft75",
     "Title": "Glowstick",
     "Description": "Throw them at night or other dark places to see things better",
+    "OutputLocalised": {
+      "Quantity": 4,
+      "ItemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Chemical",
         "Quantity": 4,
         "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25"
       },
       {
-        "Title": "Glow",
         "Quantity": 4,
         "ItemId": "388adeab-67e5-4901-afe8-c56217754510"
       }
@@ -2410,24 +2626,23 @@
     ]
   },
   {
-    "AppId": "recipeCraft73",
+    "AppId": "recipeCraft76",
     "Title": "Small Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Gasoline",
-        "Description": "Used to power gas engines and thrusters",
         "Quantity": 10,
         "ItemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
       },
       {
-        "Title": "Glow",
         "Quantity": 6,
         "ItemId": "388adeab-67e5-4901-afe8-c56217754510"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 5,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
@@ -2451,24 +2666,23 @@
     ]
   },
   {
-    "AppId": "recipeCraft74",
+    "AppId": "recipeCraft77",
     "Title": "Large Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "24001201-40dd-4950-b99f-17d878a9e07b"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Gasoline",
-        "Description": "Used to power gas engines and thrusters",
         "Quantity": 20,
         "ItemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
       },
       {
-        "Title": "Glow",
         "Quantity": 8,
         "ItemId": "388adeab-67e5-4901-afe8-c56217754510"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 10,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }
@@ -2492,21 +2706,22 @@
     ]
   },
   {
-    "AppId": "recipeCraft75",
+    "AppId": "recipeCraft78",
     "Title": "Wheel",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 15,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 6,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       }
@@ -2530,21 +2745,22 @@
     ]
   },
   {
-    "AppId": "recipeCraft76",
+    "AppId": "recipeCraft79",
     "Title": "Big Wheel",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "db66f0b1-0c50-4b74-bdc7-771374204b1f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 40,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 8,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       }
@@ -2568,11 +2784,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft77",
+    "AppId": "recipeCraft80",
     "Title": "Small Pipe Short",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "0dba257b-b907-4919-baaf-2fefe19f4e24"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2588,11 +2807,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft78",
+    "AppId": "recipeCraft81",
     "Title": "Small Pipe Long",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "927d80d8-84ee-44f0-9d8b-cb7a688e0b6c"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2608,11 +2830,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft79",
+    "AppId": "recipeCraft82",
     "Title": "Small Pipe Bend",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "8024db09-9147-4fe3-a747-00bc30ab724b"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2628,11 +2853,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft80",
+    "AppId": "recipeCraft83",
     "Title": "Small Pipe Tee",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "e1273b8a-945b-4080-81eb-cbf79961cccb"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2648,11 +2876,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft81",
+    "AppId": "recipeCraft84",
     "Title": "Small Pipe Corner",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "203fdf06-b311-49fd-933d-a1c6b671a017"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2668,11 +2899,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft82",
+    "AppId": "recipeCraft85",
     "Title": "Small Pipe Four Way",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "387095d6-5aba-45e3-abd0-098710c268f8"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2688,11 +2922,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft83",
+    "AppId": "recipeCraft86",
     "Title": "Small Pipe Four Way Tee",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "5a106512-9284-40de-be68-2c186e903097"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2708,11 +2945,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft84",
+    "AppId": "recipeCraft87",
     "Title": "Small Pipe Five Way",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "c6ebae46-8e69-4ddd-a3c0-895d887027bd"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2728,11 +2968,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft85",
+    "AppId": "recipeCraft88",
     "Title": "Small Pipe Six Way",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "9c6d8dba-1783-4c42-8a02-6af1c5d63ec6"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2748,11 +2991,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft86",
+    "AppId": "recipeCraft89",
     "Title": "Pipe Short",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "bbc5cc77-443d-4aa7-a175-ebdeb09c2df3"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2768,11 +3014,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft87",
+    "AppId": "recipeCraft90",
     "Title": "Pipe Long",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "07232236-22eb-4912-8774-ab185f368bb9"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 3,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2788,11 +3037,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft88",
+    "AppId": "recipeCraft91",
     "Title": "Pipe Corner",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "4f1c0036-389b-432e-81de-8261cb9f9d57"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2808,11 +3060,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft89",
+    "AppId": "recipeCraft92",
     "Title": "Pipe Join",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "9f37d9e9-be8d-49c8-a7ac-e59c67786083"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2828,11 +3083,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft90",
+    "AppId": "recipeCraft93",
     "Title": "Valve",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "04782466-eca1-4ed9-8502-036ea269aed9"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2848,11 +3106,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft91",
+    "AppId": "recipeCraft94",
     "Title": "Short I-Beam",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "87878e83-8170-4796-9401-6baba45ccef2"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2868,11 +3129,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft92",
+    "AppId": "recipeCraft95",
     "Title": "Long I-Beam",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "4c7b8096-b8ca-4341-bfe9-d31d2d5443b8"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 3,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2888,11 +3152,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft93",
+    "AppId": "recipeCraft96",
     "Title": "I-Beam Corner",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "31768765-5a08-499a-a7e6-7e7613363f75"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2908,11 +3175,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft94",
+    "AppId": "recipeCraft97",
     "Title": "I-Beam End",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "b9775316-7272-4a66-a8a9-179108d76f18"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2928,11 +3198,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft95",
+    "AppId": "recipeCraft98",
     "Title": "I-Beam Holder",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "1ed1d5a8-466a-4b5e-867b-0d93cd9d2dcb"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2948,11 +3221,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft96",
+    "AppId": "recipeCraft99",
     "Title": "Toilet Paper",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "e2a0770b-9bb9-4b3b-b9f2-994b534b79f3"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Scrap Wood Block",
         "Quantity": 1,
         "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811"
       }
@@ -2968,11 +3244,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft97",
+    "AppId": "recipeCraft100",
     "Title": "Sink",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "3fa0afca-7715-459e-86fa-2a81cf3027b8"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -2988,16 +3267,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft98",
+    "AppId": "recipeCraft101",
     "Title": "Air Conditioner",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "1325d152-3dd1-41a1-9027-5823c5cb55c4"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Circuit Board",
         "Quantity": 3,
         "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3"
       }
@@ -3017,11 +3298,14 @@
     ]
   },
   {
-    "AppId": "recipeCraft99",
+    "AppId": "recipeCraft102",
     "Title": "Mug",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3037,27 +3321,26 @@
     ]
   },
   {
-    "AppId": "recipeCraft100",
+    "AppId": "recipeCraft103",
     "Title": "Mannequin Boot",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "c89f7bc8-5720-474d-989d-761916a411b2"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Woc Steak",
         "Quantity": 1,
         "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e"
       },
       {
-        "Title": "Wood Block 1",
         "Quantity": 2,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 1,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       }
@@ -3085,22 +3368,22 @@
     ]
   },
   {
-    "AppId": "recipeCraft101",
+    "AppId": "recipeCraft104",
     "Title": "Mannequin Hand",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "b1dd7967-da2a-4ff5-a90f-bbd7e9bae4d7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 2,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 3,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       }
@@ -3124,27 +3407,26 @@
     ]
   },
   {
-    "AppId": "recipeCraft102",
+    "AppId": "recipeCraft105",
     "Title": "Baby Duck Statuette",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "80bc2b9f-98a9-44e4-9cb8-d4ec7e95b40f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Wood Block 1",
         "Quantity": 1,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       },
       {
-        "Title": "Beeswax",
         "Quantity": 3,
         "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a"
       },
       {
-        "Title": "Glue",
         "Quantity": 1,
         "ItemId": "36335664-6e61-4d44-9876-54f9660a8565"
       }
@@ -3172,16 +3454,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft103",
+    "AppId": "recipeCraft106",
     "Title": "Potted Plant",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "df3734e2-f04b-443f-b568-fe5b076646c7"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       }
@@ -3201,16 +3485,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft104",
+    "AppId": "recipeCraft107",
     "Title": "Small Potted Plant",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       }
@@ -3230,21 +3516,22 @@
     ]
   },
   {
-    "AppId": "recipeCraft105",
+    "AppId": "recipeCraft108",
     "Title": "Potted Vine Plant",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       },
       {
-        "Title": "Wood Block 1",
         "Quantity": 2,
         "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71"
       }
@@ -3268,16 +3555,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft106",
+    "AppId": "recipeCraft109",
     "Title": "Big Pot",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "7826f497-426b-42cb-a857-0d784f3ab2f3"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 10,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       }
@@ -3297,16 +3586,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft107",
+    "AppId": "recipeCraft110",
     "Title": "Potted Seed Plant",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "c4609540-bc32-4c3f-83b8-3b6926878012"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Scrap Stone Block",
         "Quantity": 5,
         "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac"
       }
@@ -3326,16 +3617,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft108",
+    "AppId": "recipeCraft111",
     "Title": "Potted Blooming Cactus",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "d1421af8-6f80-4413-8099-2c6b217fb929"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3355,16 +3648,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft109",
+    "AppId": "recipeCraft112",
     "Title": "Potted Cactus",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3384,16 +3679,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft110",
+    "AppId": "recipeCraft113",
     "Title": "Potted Blue Flower",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Pigment Flower",
         "Quantity": 1,
         "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 1,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3413,16 +3710,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft111",
+    "AppId": "recipeCraft114",
     "Title": "Small Rectangular Window",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "57fad8e9-2aff-40c3-9d5c-8f81573b58b9"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glass Block",
         "Quantity": 5,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3442,16 +3741,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft112",
+    "AppId": "recipeCraft115",
     "Title": "Square Window",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "53349c8d-14e8-4055-bd79-a1ab56fe876e"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glass Block",
         "Quantity": 10,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3471,16 +3772,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft113",
+    "AppId": "recipeCraft116",
     "Title": "Large Rectangular Window",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "763fd838-7ed5-420e-8984-c2ae86da1e5c"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glass Block",
         "Quantity": 15,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3500,16 +3803,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft114",
+    "AppId": "recipeCraft117",
     "Title": "Large Windshield",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "7a0e9041-9dd5-4cb1-b804-69ee16c45efe"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glass Block",
         "Quantity": 20,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3529,16 +3834,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft115",
+    "AppId": "recipeCraft118",
     "Title": "Small Windshield",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "50007ac9-e97d-4b32-9fd6-de919c8a34a4"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Glass Block",
         "Quantity": 10,
         "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f"
       },
       {
-        "Title": "Metal Block 1",
         "Quantity": 5,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       }
@@ -3558,17 +3865,18 @@
     ]
   },
   {
-    "AppId": "recipeCraft116",
+    "AppId": "recipeCraft119",
     "Title": "Traffic Cone",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "1f334b62-8955-4406-8848-91e03228c330"
+    },
     "IngredientListLocalised": [
       {
-        "Title": "Metal Block 1",
         "Quantity": 10,
         "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e"
       },
       {
-        "Title": "Paint Ammo",
-        "Description": "Load your Paint Tool and give your creations some color",
         "Quantity": 1,
         "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
       }

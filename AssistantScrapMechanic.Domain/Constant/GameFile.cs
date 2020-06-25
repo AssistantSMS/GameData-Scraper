@@ -36,7 +36,7 @@
         public static string CraftBotRecipes = "craftbot.json";
         public static string DispenserRecipes = "dispenser.json";
         public static string DressBotRecipes = "dressbot.json";
-        //public static string HideOut = "hideout.json";
+        public static string HideOutRecipes = "hideout.json";
         //public static string ItemNames = "item_names.json";
         public static string RefineryRecipes = "refinery.json";
         //public static string Undecided = "undecided.json";

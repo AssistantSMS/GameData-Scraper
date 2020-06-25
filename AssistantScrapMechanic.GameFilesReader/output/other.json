@@ -1,0 +1,156 @@
+[
+  {
+    "ItemId": "8c7efc37-cd7c-4262-976e-39585f8527bf",
+    "AppId": "other1",
+    "Name": "Connect Tool",
+    "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c60b9627-fc2b-4319-97c5-05921cb976c6",
+    "AppId": "other2",
+    "Name": "Paint Tool",
+    "Description": "Paint any part or block to personalize your creations or even make beautiful art! Paint using the left mouse button and delete with the right. Press 'Q' to open the color selector. Simply hold down left mouse button and drag if you want to paint larger surfaces.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "fdb8b8be-96e7-4de0-85c7-d2f42e4f33ce",
+    "AppId": "other3",
+    "Name": "Weld Tool",
+    "Description": "Weld your creations together!\nSelect the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "97f449b6-c948-448b-b8b3-4448e3f6b956",
+    "AppId": "other4",
+    "Name": "Vacuum Pump",
+    "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
+    "AppId": "other5",
+    "Name": "Vacuum Pipe",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2",
+    "AppId": "other6",
+    "Name": "Vacuum Pipe Corner",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "df3734e2-f04b-443f-b568-fe5b076646c7",
+    "AppId": "other7",
+    "Name": "Potted Plant",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5",
+    "AppId": "other8",
+    "Name": "Small Potted Plant",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5",
+    "AppId": "other9",
+    "Name": "Potted Vine Plant",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "7826f497-426b-42cb-a857-0d784f3ab2f3",
+    "AppId": "other10",
+    "Name": "Big Pot",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c4609540-bc32-4c3f-83b8-3b6926878012",
+    "AppId": "other11",
+    "Name": "Potted Seed Plant",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "d1421af8-6f80-4413-8099-2c6b217fb929",
+    "AppId": "other12",
+    "Name": "Potted Blooming Cactus",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f",
+    "AppId": "other13",
+    "Name": "Potted Cactus",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f",
+    "AppId": "other14",
+    "Name": "Potted Blue Flower",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
+    "AppId": "other15",
+    "Name": "Spud Gun",
+    "Description": "Spud Gun with single potato shot.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f6250bf4-9726-406f-a29a-945c06e460e5",
+    "AppId": "other16",
+    "Name": "Spud Shotgun",
+    "Description": "Shoots sizzling hot fries in a spread.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
+    "AppId": "other17",
+    "Name": "Spudling Gun",
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "8c7efc37-cd7c-4262-976e-39585f8527bf",
+    "AppId": "other18",
+    "Name": "Connect Tool",
+    "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

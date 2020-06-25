@@ -1,0 +1,422 @@
+[
+  {
+    "AppId": "recipeHideout.json1",
+    "Title": "Soil Bag",
+    "Description": "Use them on the ground to place your seeds in",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 1,
+        "ItemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+      }
+    ],
+    "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad",
+    "Quantity": 5,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 1,
+        "ItemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json2",
+    "Title": "Fertilizer",
+    "Description": "Makes plants grow faster",
+    "OutputLocalised": {
+      "Quantity": 10,
+      "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 1,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ],
+    "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
+    "Quantity": 10,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 1,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json3",
+    "Title": "Banana Seed",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "22beade5-38ca-47b4-a2ee-32403f58a862"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 3,
+        "ItemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+      }
+    ],
+    "ItemId": "22beade5-38ca-47b4-a2ee-32403f58a862",
+    "Quantity": 5,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 3,
+        "ItemId": "9cd8288c-5a19-479f-af47-9eb55230ade2"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json4",
+    "Title": "Orange Seed",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 3,
+        "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+      }
+    ],
+    "ItemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4",
+    "Quantity": 5,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 3,
+        "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json5",
+    "Title": "Blueberry Seed",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 3,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ],
+    "ItemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2",
+    "Quantity": 5,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 3,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json6",
+    "Title": "Cotton Seed",
+    "OutputLocalised": {
+      "Quantity": 5,
+      "ItemId": "93c27ab2-4930-4654-ba1c-bcfe35e966f6"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 3,
+        "ItemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+      }
+    ],
+    "ItemId": "93c27ab2-4930-4654-ba1c-bcfe35e966f6",
+    "Quantity": 5,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 3,
+        "ItemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json7",
+    "Title": "Saw Blade",
+    "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "3e10ef67-383a-4b60-aa5b-b1173134e437"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 4,
+        "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+      }
+    ],
+    "ItemId": "3e10ef67-383a-4b60-aa5b-b1173134e437",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 4,
+        "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json8",
+    "Title": "Drill",
+    "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 4,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ],
+    "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 4,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json9",
+    "Title": "Mountable Spud Gun",
+    "Description": "Connect it to a Ammo container with a trigger to shoot",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "454ad69d-bac2-4b06-9386-6267bcbfece2"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 2,
+        "ItemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+      }
+    ],
+    "ItemId": "454ad69d-bac2-4b06-9386-6267bcbfece2",
+    "Quantity": 1,
+    "CraftTime": 32,
+    "IngredientList": [
+      {
+        "Quantity": 2,
+        "ItemId": "0bc74539-df8a-47c7-aad8-d55d809a01e4"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json10",
+    "Title": "Potato Ammo Container",
+    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 1,
+        "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ],
+    "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
+    "Quantity": 1,
+    "CraftTime": 32,
+    "IngredientList": [
+      {
+        "Quantity": 1,
+        "ItemId": "1dcd74ca-39ba-4b00-a36a-3381b25055f4"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "628fd350-577d-413f-82a8-7f08a83de3d8"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json11",
+    "Title": "Spud Gun",
+    "Description": "Spud Gun with single potato shot.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 2,
+        "ItemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ],
+    "ItemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 2,
+        "ItemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "e77d9577-589a-446b-96c1-f6d0d7495489"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json12",
+    "Title": "Spud Shotgun",
+    "Description": "Shoots sizzling hot fries in a spread.",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "f6250bf4-9726-406f-a29a-945c06e460e5"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 4,
+        "ItemId": "99477093-e819-4199-b62a-fda6143aae89"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ],
+    "ItemId": "f6250bf4-9726-406f-a29a-945c06e460e5",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 4,
+        "ItemId": "99477093-e819-4199-b62a-fda6143aae89"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json13",
+    "Title": "Spudling Gun",
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 5,
+        "ItemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ],
+    "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 5,
+        "ItemId": "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json14",
+    "Title": "Garment Box (Common)",
+    "Description": "Use it in a Dressbot to make new clothes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 1,
+        "ItemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ],
+    "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 1,
+        "ItemId": "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2"
+      },
+      {
+        "Quantity": 1,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ]
+  },
+  {
+    "AppId": "recipeHideout.json15",
+    "Title": "Garment Box (Rare)",
+    "Description": "Use it in a Dressbot to make new clothes",
+    "OutputLocalised": {
+      "Quantity": 1,
+      "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6"
+    },
+    "IngredientListLocalised": [
+      {
+        "Quantity": 2,
+        "ItemId": "99477093-e819-4199-b62a-fda6143aae89"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ],
+    "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6",
+    "Quantity": 1,
+    "CraftTime": 0,
+    "IngredientList": [
+      {
+        "Quantity": 2,
+        "ItemId": "99477093-e819-4199-b62a-fda6143aae89"
+      },
+      {
+        "Quantity": 2,
+        "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7"
+      }
+    ]
+  }
+]

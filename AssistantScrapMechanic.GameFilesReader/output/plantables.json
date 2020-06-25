@@ -310,5 +310,21 @@
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
+  },
+  {
+    "ItemId": "93c27ab2-4930-4654-ba1c-bcfe35e966f6",
+    "AppId": "plant19",
+    "Name": "Cotton Seed",
+    "Color": "ff72bb",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 3,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

@@ -7,6 +7,7 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public string AppId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
+        public IngredientListLocalised OutputLocalised { get; set; }
         public List<IngredientListLocalised> IngredientListLocalised { get; set; }
     }
 

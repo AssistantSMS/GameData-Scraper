@@ -31,12 +31,13 @@
         public static string Warehouse = "ware";
 
         public static string Customisation = "cust";
+        public static string Other = "other";
 
         public static string CookBot = "recipeCook";
         public static string CraftBot = "recipeCraft";
         public static string Dispenser = "recipeDisp";
         public static string DressBot = "recipeDress";
-        //public static string HideOut = "recipeHideout.json";
+        public static string HideOut = "recipeHideout.json";
         //public static string ItemNames = "recipeItem_names.json";
         public static string Refinery = "recipeRef";
         //public static string Undecided = "recipeUndecided.json";

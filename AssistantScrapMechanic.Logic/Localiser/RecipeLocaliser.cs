@@ -17,6 +17,13 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Title = itemNames.GetTitle(recipe.ItemId),
                 Description = itemNames.GetDescription(recipe.ItemId),
                 Quantity = recipe.Quantity,
+                OutputLocalised = (new IngredientListLocalised
+                {
+                    ItemId = recipe.ItemId,
+                    Quantity = recipe.Quantity,
+                    //Title = itemNames.GetTitle(recipe.ItemId),
+                    //Description = itemNames.GetDescription(recipe.ItemId),
+                }).Localise(itemNames),
                 IngredientListLocalised = recipe.IngredientList.Select(i => i.Localise(itemNames)).ToList()
             };
 
@@ -29,8 +36,8 @@ namespace AssistantScrapMechanic.Logic.Localiser
             {
                 ItemId = ingredientList.ItemId,
                 Quantity = ingredientList.Quantity,
-                Title = itemNames.GetTitle(ingredientList.ItemId),
-                Description = itemNames.GetDescription(ingredientList.ItemId),
+                //Title = itemNames.GetTitle(ingredientList.ItemId),
+                //Description = itemNames.GetDescription(ingredientList.ItemId),
             };
 
             return localised;
