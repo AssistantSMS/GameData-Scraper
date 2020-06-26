@@ -26,7 +26,7 @@
         public static string Scrap = "scrap";
         public static string Spaceship = "spaceship";
         public static string Survival = "surv";
-        public static string Tool = "tool";
+        public static string Tool = "tools";
         public static string Vehicle = "veh";
         public static string Warehouse = "ware";
 

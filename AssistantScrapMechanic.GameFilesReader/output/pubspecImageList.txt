@@ -1242,7 +1242,6 @@ assets/img/items/scrap4.png
 assets/img/items/spaceship1.png
 assets/img/items/spaceship10.png
 assets/img/items/spaceship11.png
-assets/img/items/spaceship12.png
 assets/img/items/spaceship13.png
 assets/img/items/spaceship14.png
 assets/img/items/spaceship15.png
@@ -1271,9 +1270,9 @@ assets/img/items/spaceship9.png
 assets/img/items/surv1.png
 assets/img/items/surv22.png
 assets/img/items/surv26.png
-assets/img/items/tool1.png
-assets/img/items/tool2.png
-assets/img/items/tool3.png
+assets/img/items/tools1.png
+assets/img/items/tools2.png
+assets/img/items/tools3.png
 assets/img/items/veh1.png
 assets/img/items/veh1.png
 assets/img/items/veh2.png
