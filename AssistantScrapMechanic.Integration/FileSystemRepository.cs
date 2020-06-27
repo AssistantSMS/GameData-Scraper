@@ -1,7 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using AssistantScrapMechanic.Domain.IntermediateFiles;
 using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.Integration
@@ -20,13 +18,13 @@ namespace AssistantScrapMechanic.Integration
             };
         }
 
-        public Dictionary<string, string> LoadJsonDict(string fileName)
+        public Dictionary<string, dynamic> LoadJsonDict(string fileName)
         {
             string jsonFilePath = Path.Combine(_jsonDirectory, fileName);
             try
             {
                 string json = File.ReadAllText(jsonFilePath);
-                Dictionary<string, string> result = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+                Dictionary<string, dynamic> result = JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(json);
                 return result;
             }
             catch
@@ -34,7 +32,7 @@ namespace AssistantScrapMechanic.Integration
                 //unused
             }
 
-            return new Dictionary<string, string>();
+            return new Dictionary<string, dynamic>();
         }
 
         public Dictionary<string, T> LoadJsonDictOfType<T>(string fileName)
@@ -94,6 +92,13 @@ namespace AssistantScrapMechanic.Integration
             if (File.Exists(jsonFilePath))
             {
                 File.Delete(jsonFilePath);
+            }
+
+            int directorySeparatorIndex = jsonFilePath.LastIndexOf(Path.DirectorySeparatorChar);
+            if (directorySeparatorIndex > 0)
+            {
+                string dir = jsonFilePath.Remove(directorySeparatorIndex, jsonFilePath.Length - directorySeparatorIndex);
+                if (!Directory.Exists(dir)) Directory.CreateDirectory(dir);
             }
 
             string json = JsonConvert.SerializeObject(jsonObj, Formatting.Indented, _jsonSettings);

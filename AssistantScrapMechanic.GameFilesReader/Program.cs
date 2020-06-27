@@ -1,76 +1,164 @@
 ﻿using System;
 using System.Collections.Generic;
+using AssistantScrapMechanic.Domain.Entity;
+using AssistantScrapMechanic.Domain.Enum;
+using AssistantScrapMechanic.Domain.IntermediateFiles;
 using AssistantScrapMechanic.GameFilesReader.FileHandlers;
 using AssistantScrapMechanic.Integration;
+using AssistantScrapMechanic.Logic;
 
 namespace AssistantScrapMechanic.GameFilesReader
 {
     class Program
     {
-        private static string _baseDirectory = @"E:\Steam\steamapps\common\Scrap Mechanic";
-        private static string _legacyShapeSetsDirectory = $@"{_baseDirectory}\Data\Objects\Database\ShapeSets";
-        private static string _survivalCraftingDirectory = $@"{_baseDirectory}\Survival\CraftingRecipes";
-        private static string _shapeSetsDirectory = $@"{_baseDirectory}\Survival\Objects\Database\ShapeSets";
-        private static string _characterDirectory = $@"{_baseDirectory}\Data\Character";
-        private static string _legacyLanguageDirectory = $@"{_baseDirectory}\Data\Gui\Language";
-        private static string _survivalLanguageDirectory = $@"{_baseDirectory}\Survival\Gui\Language";
+        private const string BaseDirectory = @"E:\Steam\steamapps\common\Scrap Mechanic";
+        private static readonly string LegacyShapeSetsDirectory = $@"{BaseDirectory}\Data\Objects\Database\ShapeSets";
+        private static readonly string SurvivalCraftingDirectory = $@"{BaseDirectory}\Survival\CraftingRecipes";
+        private static readonly string ShapeSetsDirectory = $@"{BaseDirectory}\Survival\Objects\Database\ShapeSets";
+        private static readonly string CharacterDirectory = $@"{BaseDirectory}\Data\Character";
+        private static readonly string LegacyLanguageDirectory = $@"{BaseDirectory}\Data\Gui\Language";
+        private static readonly string SurvivalLanguageDirectory = $@"{BaseDirectory}\Survival\Gui\Language";
 
-        private static string _dataGuiDirectory = $@"{_baseDirectory}\Data\Gui";
-        private static string _survivalGuiDirectory = $@"{_baseDirectory}\Survival\Gui";
+        private static readonly string DataGuiDirectory = $@"{BaseDirectory}\Data\Gui";
+        private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
 
-        private static string _outputDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader\output";
-        private static string _appFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets\json";
-        private static string _appImagesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets\img";
+        private const string GameFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
+        private static readonly string OutputDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader\output";
+        private static readonly string AppFilesDirectory = $@"{GameFilesDirectory}\json";
+        private static readonly string AppImagesDirectory = $@"{GameFilesDirectory}\img";
+        private static readonly string AppLangDirectory = $@"{GameFilesDirectory}\lang";
+        
+        private static readonly LanguageType[] AvailableLangs = (LanguageType[])Enum.GetValues(typeof(LanguageType));
 
         private static int Main(string[] args)
         {
-            FileSystemRepository shapeSetsFileSysRepo = new FileSystemRepository(_shapeSetsDirectory);
-            FileSystemRepository legacyShapeSetsFileSysRepo = new FileSystemRepository(_legacyShapeSetsDirectory);
-            FileSystemRepository survivalCraftingFileSysRepo = new FileSystemRepository(_survivalCraftingDirectory);
-            FileSystemRepository characterFileSysRepo = new FileSystemRepository(_characterDirectory);
-            FileSystemRepository legacyLanguageFileSysRepo = new FileSystemRepository(_legacyLanguageDirectory);
-            FileSystemRepository survivalLanguageFileSysRepo = new FileSystemRepository(_survivalLanguageDirectory);
+            FileSystemRepository shapeSetsFileSysRepo = new FileSystemRepository(ShapeSetsDirectory);
+            FileSystemRepository legacyShapeSetsFileSysRepo = new FileSystemRepository(LegacyShapeSetsDirectory);
+            FileSystemRepository survivalCraftingFileSysRepo = new FileSystemRepository(SurvivalCraftingDirectory);
+            FileSystemRepository characterFileSysRepo = new FileSystemRepository(CharacterDirectory);
+            FileSystemRepository legacyLanguageFileSysRepo = new FileSystemRepository(LegacyLanguageDirectory);
+            FileSystemRepository survivalLanguageFileSysRepo = new FileSystemRepository(SurvivalLanguageDirectory);
 
-            FileSystemRepository outputFileSysRepo = new FileSystemRepository(_outputDirectory);
-            FileSystemRepository appFilesSysRepo = new FileSystemRepository(_appFilesDirectory);
-            FileSystemRepository appImagesRepo = new FileSystemRepository(_appImagesDirectory);
+            FileSystemRepository outputFileSysRepo = new FileSystemRepository(OutputDirectory);
+            FileSystemRepository appFilesSysRepo = new FileSystemRepository(AppFilesDirectory);
+            FileSystemRepository appImagesRepo = new FileSystemRepository(AppImagesDirectory);
+
+            LanguageDetail language = new LanguageDetail(LanguageType.English, "English", "en");
+
+            Console.WriteLine("Hit Enter");
+            Console.ReadLine();
+            int langCount = 0;
+            Console.WriteLine("Please select an option");
+            foreach (LanguageType langType in AvailableLangs)
+            {
+                if (langType == LanguageType.NotSpecified) continue;
+                langCount++;
+                Console.WriteLine($"{langCount}. Localise Files to {langType}");
+            }
+            Console.WriteLine($"{AvailableLangs.Length}. Generate All Files for All Languages");
+
+            string langInput = Console.ReadLine();
+            if (!int.TryParse(langInput, out int langNumberInput)) return 0;
+            if (langNumberInput < 0 || langNumberInput > AvailableLangs.Length) return 0;
+
+            if (langNumberInput != 0 && langNumberInput < AvailableLangs.Length)
+            {
+                LanguageType selectedLangType = AvailableLangs[langNumberInput];
+                language = LanguageHelper.GetLanguageDetail(selectedLangType);
+            }
+
+            FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(outputFileSysRepo,
+                shapeSetsFileSysRepo, legacyShapeSetsFileSysRepo,
+                survivalCraftingFileSysRepo, characterFileSysRepo,
+                legacyLanguageFileSysRepo, survivalLanguageFileSysRepo);
+
+            if (langNumberInput != 0 && langNumberInput == AvailableLangs.Length)
+            {
+                List<string> completedFolders = new List<string>();
+                foreach (LanguageType langType in AvailableLangs)
+                {
+                    language = LanguageHelper.GetLanguageDetail(langType);
+                    if (completedFolders.Contains(language.LanguageAppFolder)) continue;
+
+                    GenerateAppFiles(gameFilesReader, outputFileSysRepo, appFilesSysRepo, appImagesRepo, language);
+                    completedFolders.Add(language.LanguageAppFolder);
+                }
+
+                return 0;
+            }
 
             while (true)
             {
                 Console.WriteLine("Please select an option:");
                 Console.WriteLine("0. Exit");
                 Console.WriteLine("1. Generate Intermediate Files");
-                Console.WriteLine("2. Create App Files");
+                Console.WriteLine($"2. Create App Files in {language.LanguageGameFolder}");
                 Console.WriteLine("3. Cut images from sprite map");
+                Console.WriteLine("4. Add item to Language Pack");
 
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out int numberInput)) return 0;
-
-                FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(outputFileSysRepo,
-                    shapeSetsFileSysRepo, legacyShapeSetsFileSysRepo,
-                    survivalCraftingFileSysRepo, characterFileSysRepo,
-                    legacyLanguageFileSysRepo, survivalLanguageFileSysRepo);
-
+                
                 switch (numberInput)
                 {
                     case 1:
                         gameFilesReader.GenerateIntermediate();
                         break;
                     case 2:
-                        Dictionary<string, List<dynamic>> lookup = gameFilesReader.GetKeyValueOfGameItems(includeOtherItems: true);
-                        AppFilesHandler appFilesHandler = new AppFilesHandler(outputFileSysRepo, appFilesSysRepo, appImagesRepo);
-                        appFilesHandler.GenerateAppFiles(lookup);
+                        GenerateAppFiles(gameFilesReader, outputFileSysRepo, appFilesSysRepo, appImagesRepo, language);
                         break;
                     case 3:
                         Dictionary<string, List<dynamic>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfAllItems(includeOtherItems: true);
 
-                        ImageCutter imageCutter = new ImageCutter(_dataGuiDirectory, _survivalGuiDirectory, _outputDirectory);
+                        ImageCutter imageCutter = new ImageCutter(DataGuiDirectory, SurvivalGuiDirectory, OutputDirectory);
                         imageCutter.CutOutImages(keyValueOfGameItems);
+                        break;
+                    case 4:
+                        AddItemToLanguagePacks();
                         break;
                     default:
                         return 0;
                 }
                 Console.WriteLine("- - - - - - - - - - - -");
+            }
+        }
+
+        private static void GenerateAppFiles(FileHandlers.GameFilesReader gameFilesReader, FileSystemRepository outputFileSysRepo, FileSystemRepository appFilesSysRepo, FileSystemRepository appImagesRepo, LanguageDetail language)
+        {
+            Dictionary<string, List<dynamic>> lookup = gameFilesReader.GetKeyValueOfGameItems(includeOtherItems: true);
+            AppFilesHandler appFilesHandler = new AppFilesHandler(outputFileSysRepo, appFilesSysRepo, appImagesRepo);
+
+            Dictionary<string, InventoryDescription> itemNames = gameFilesReader.LoadItemNames(language.LanguageGameFolder);
+            appFilesHandler.GenerateAppFiles(language, itemNames, lookup);
+        }
+
+        private static void AddItemToLanguagePacks()
+        {
+            Console.WriteLine("New Key");
+            string newKey = Console.ReadLine();
+            Console.WriteLine("New Value");
+            string newValue = Console.ReadLine();
+            if (string.IsNullOrEmpty(newKey)) return;
+
+            FileSystemRepository appLangRepo = new FileSystemRepository(AppLangDirectory);
+            List<string> completedFolders = new List<string>();
+            foreach (LanguageType langType in AvailableLangs)
+            {
+                LanguageDetail language = LanguageHelper.GetLanguageDetail(langType);
+                if (completedFolders.Contains(language.LanguageAppFolder)) continue;
+
+                string languageFile = $"language.{language.LanguageAppFolder}.json";
+                Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict(languageFile);
+                const string translatedByKey = "translatedBy";
+                langJson.TryGetValue(translatedByKey, out dynamic translatedBy);
+                langJson.Remove(translatedByKey);
+                if (langJson.ContainsKey(newKey)) continue;
+
+                langJson.Add(newKey, newValue);
+                langJson.Add(translatedByKey, translatedBy ?? string.Empty);
+                appLangRepo.WriteBackToJsonFile(langJson, languageFile);
+
+                completedFolders.Add(language.LanguageAppFolder);
             }
         }
     }

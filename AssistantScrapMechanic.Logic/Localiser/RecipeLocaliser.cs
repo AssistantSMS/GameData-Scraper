@@ -42,5 +42,13 @@ namespace AssistantScrapMechanic.Logic.Localiser
 
             return localised;
         }
+
+        public static RecipeLocalised ReLocalise(this RecipeLocalised recipeItem, Dictionary<string, InventoryDescription> itemNames)
+        {
+            recipeItem.Title = itemNames.GetTitle(recipeItem.ItemId);
+            recipeItem.Description = itemNames.GetDescription(recipeItem.ItemId);
+
+            return recipeItem;
+        }
     }
 }

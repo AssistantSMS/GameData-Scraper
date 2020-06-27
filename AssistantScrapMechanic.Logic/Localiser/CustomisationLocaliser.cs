@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 
@@ -37,6 +38,18 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Items = optionsLocalised,
             };
             return blockLocalised;
+        }
+
+        public static CustomisationLocalised ReLocalise(this CustomisationLocalised gameItem, Dictionary<string, InventoryDescription> itemNames)
+        {
+            gameItem.Items = gameItem.Items.Select(gi => ReLocaliseItem(gi, itemNames)).ToList();
+            return gameItem;
+        }
+
+        public static CustomisationItemLocalised ReLocaliseItem(this CustomisationItemLocalised gameItem, Dictionary<string, InventoryDescription> itemNames)
+        {
+            gameItem.Name = itemNames.GetTitle(gameItem.ItemId);
+            return gameItem;
         }
     }
 }

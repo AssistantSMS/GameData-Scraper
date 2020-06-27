@@ -1,10 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using AssistantScrapMechanic.Domain;
 using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.Constant;
+using AssistantScrapMechanic.Domain.Entity;
+using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 using AssistantScrapMechanic.Integration;
+using AssistantScrapMechanic.Logic.Localiser;
 using AssistantScrapMechanic.Logic.Mapper.AppMapper;
 
 namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
@@ -22,50 +24,50 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _appImagesRepo = appImagesRepo;
         }
 
-        public void GenerateAppFiles(Dictionary<string, List<dynamic>> lookup)
+        public void GenerateAppFiles(LanguageDetail language, Dictionary<string, InventoryDescription> itemNames, Dictionary<string, List<dynamic>> lookup)
         {
-            WriteAppFile(AppFile.Customisation, _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization));
+            WriteAppFile(AppFile.Customisation, _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization), language, itemNames);
 
-            WriteAppFile(AppFile.Blocks, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks));
-            WriteAppFile(AppFile.Building, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building));
-            WriteAppFile(AppFile.Construction, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction));
-            WriteAppFile(AppFile.Consumable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable));
-            WriteAppFile(AppFile.Containers, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers));
-            WriteAppFile(AppFile.Craftbot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot));
-            WriteAppFile(AppFile.Decor, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor));
-            WriteAppFile(AppFile.Fitting, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting));
-            WriteAppFile(AppFile.Harvest, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest));
-            WriteAppFile(AppFile.Industrial, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial));
-            WriteAppFile(AppFile.Interactive, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive));
-            WriteAppFile(AppFile.InteractiveUpgradable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable));
-            WriteAppFile(AppFile.InteractiveContainer, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer));
-            WriteAppFile(AppFile.Light, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light));
-            WriteAppFile(AppFile.ManMade, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ManMade));
-            WriteAppFile(AppFile.Outfit, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Outfit));
-            WriteAppFile(AppFile.PackingCrate, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.PackingCrate));
-            WriteAppFile(AppFile.Plant, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Plant));
-            WriteAppFile(AppFile.Power, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power));
-            WriteAppFile(AppFile.Resources, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources));
-            WriteAppFile(AppFile.Robot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot));
-            WriteAppFile(AppFile.Scrap, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Scrap));
-            WriteAppFile(AppFile.Spaceship, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Spaceship));
-            WriteAppFile(AppFile.Survival, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival));
-            WriteAppFile(AppFile.Tool, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool));
-            WriteAppFile(AppFile.Vehicle, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle));
-            WriteAppFile(AppFile.Warehouse, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Warehouse));
+            WriteAppFile(AppFile.Blocks, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks), language, itemNames);
+            WriteAppFile(AppFile.Building, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building), language, itemNames);
+            WriteAppFile(AppFile.Construction, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction), language, itemNames);
+            WriteAppFile(AppFile.Consumable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable), language, itemNames);
+            WriteAppFile(AppFile.Containers, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers), language, itemNames);
+            WriteAppFile(AppFile.Craftbot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot), language, itemNames);
+            WriteAppFile(AppFile.Decor, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor), language, itemNames);
+            WriteAppFile(AppFile.Fitting, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting), language, itemNames);
+            WriteAppFile(AppFile.Harvest, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest), language, itemNames);
+            WriteAppFile(AppFile.Industrial, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial), language, itemNames);
+            WriteAppFile(AppFile.Interactive, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive), language, itemNames);
+            WriteAppFile(AppFile.InteractiveUpgradable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable), language, itemNames);
+            WriteAppFile(AppFile.InteractiveContainer, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer), language, itemNames);
+            WriteAppFile(AppFile.Light, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light), language, itemNames);
+            WriteAppFile(AppFile.ManMade, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ManMade), language, itemNames);
+            WriteAppFile(AppFile.Outfit, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Outfit), language, itemNames);
+            WriteAppFile(AppFile.PackingCrate, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.PackingCrate), language, itemNames);
+            WriteAppFile(AppFile.Plant, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Plant), language, itemNames);
+            WriteAppFile(AppFile.Power, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Power), language, itemNames);
+            WriteAppFile(AppFile.Resources, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Resources), language, itemNames);
+            WriteAppFile(AppFile.Robot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Robot), language, itemNames);
+            WriteAppFile(AppFile.Scrap, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Scrap), language, itemNames);
+            WriteAppFile(AppFile.Spaceship, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Spaceship), language, itemNames);
+            WriteAppFile(AppFile.Survival, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Survival), language, itemNames);
+            WriteAppFile(AppFile.Tool, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Tool), language, itemNames);
+            WriteAppFile(AppFile.Vehicle, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle), language, itemNames);
+            WriteAppFile(AppFile.Warehouse, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Warehouse), language, itemNames);
 
-            WriteAppFile(AppFile.Other, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Other));
+            WriteAppFile(AppFile.Other, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Other), language, itemNames);
 
-            WriteAppFile(AppFile.CookBotRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CookBotRecipes), lookup);
-            WriteAppFile(AppFile.CraftBotRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CraftBotRecipes), lookup);
-            WriteAppFile(AppFile.DispenserRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DispenserRecipes), lookup);
-            WriteAppFile(AppFile.DressBotRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DressBotRecipes), lookup);
-            WriteAppFile(AppFile.HideOutRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.HideOutRecipes), lookup);
-            WriteAppFile(AppFile.RefineryRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.RefineryRecipes), lookup);
-            WriteAppFile(AppFile.WorkbenchRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.WorkbenchRecipes), lookup);
+            WriteAppFile(AppFile.CookBotRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CookBotRecipes), lookup, language, itemNames);
+            WriteAppFile(AppFile.CraftBotRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.CraftBotRecipes), lookup, language, itemNames);
+            WriteAppFile(AppFile.DispenserRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DispenserRecipes), lookup, language, itemNames);
+            WriteAppFile(AppFile.DressBotRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.DressBotRecipes), lookup, language, itemNames);
+            WriteAppFile(AppFile.HideOutRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.HideOutRecipes), lookup, language, itemNames);
+            WriteAppFile(AppFile.RefineryRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.RefineryRecipes), lookup, language, itemNames);
+            WriteAppFile(AppFile.WorkbenchRecipes, _outputFileSysRepo.LoadListJsonFile<RecipeLocalised>(OutputFile.WorkbenchRecipes), lookup, language, itemNames);
         }
         
-        private void WriteAppFile(string outputFileName, IEnumerable<GameItemLocalised> localisedData)
+        private void WriteAppFile(string outputFileName, IEnumerable<GameItemLocalised> localisedData, LanguageDetail language, Dictionary<string, InventoryDescription> itemNames)
         {
             List<AppGameItemLang> appBlock = new List<AppGameItemLang>();
             List<AppGameItemBase> appBlockBaseItems = new List<AppGameItemBase>();
@@ -73,17 +75,21 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             {
                 if (GuidExclusion.All.Any(a => a.Equals(blockLocalised.ItemId))) continue;
 
-                AppGameItem full = AppFileBlockMapper.ToAppFile(blockLocalised);
+                GameItemLocalised relocalised = (language.LanguageType == LanguageType.English)
+                    ? blockLocalised
+                    : blockLocalised.ReLocalise(itemNames);
+
+                AppGameItem full = AppFileBlockMapper.ToAppFile(relocalised);
                 appBlock.Add(full.ToLang());
                 string image = GetItemImage(full.AppId);
                 appBlockBaseItems.Add(full.ToBase(image));
             }
 
             _appFileSysRepo.WriteBackToJsonFile(appBlockBaseItems, outputFileName);
-            _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang("en", outputFileName));
+            _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang(language.LanguageAppFolder, outputFileName));
         }
 
-        private void WriteAppFile(string outputFileName, IEnumerable<RecipeLocalised> localisedData, Dictionary<string, List<dynamic>> lookup)
+        private void WriteAppFile(string outputFileName, IEnumerable<RecipeLocalised> localisedData, Dictionary<string, List<dynamic>> lookup, LanguageDetail language, Dictionary<string, InventoryDescription> itemNames)
         {
             List<AppRecipeLang> appRecipe = new List<AppRecipeLang>();
             List<AppRecipeBase> appRecipeBaseItems = new List<AppRecipeBase>();
@@ -91,7 +97,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             {
                 if (GuidExclusion.All.Any(a => a.Equals(recipeLocalised.ItemId))) continue;
 
-                AppRecipe full = AppFileReciperMapper.ToAppFile(recipeLocalised, lookup);
+                RecipeLocalised relocalised = (language.LanguageType == LanguageType.English)
+                    ? recipeLocalised
+                    : recipeLocalised.ReLocalise(itemNames);
+
+                AppRecipe full = AppFileReciperMapper.ToAppFile(relocalised, lookup);
                 appRecipe.Add(full.ToLang());
 
                 string image = GetItemImage(full.AppId);
@@ -99,10 +109,10 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             _appFileSysRepo.WriteBackToJsonFile(appRecipeBaseItems, outputFileName);
-            _appFileSysRepo.WriteBackToJsonFile(appRecipe, GetJsonLang("en", outputFileName));
+            _appFileSysRepo.WriteBackToJsonFile(appRecipe, GetJsonLang(language.LanguageAppFolder, outputFileName));
         }
         
-        private void WriteAppFile(string outputFileName, IEnumerable<CustomisationLocalised> localisedData)
+        private void WriteAppFile(string outputFileName, IEnumerable<CustomisationLocalised> localisedData, LanguageDetail language, Dictionary<string, InventoryDescription> itemNames)
         {
             List<AppGameItemLang> appBlock = new List<AppGameItemLang>();
             List<AppGameItemBase> appBlockBaseItems = new List<AppGameItemBase>();
@@ -113,7 +123,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 {
                     if (GuidExclusion.All.Any(a => a.Equals(blockLoc.ItemId.Replace("_male", string.Empty).Replace("_female", string.Empty)))) continue;
 
-                    AppGameItem full = AppFileBlockMapper.ToAppFile(blockLoc, blockLocalised.Category);
+                    CustomisationItemLocalised relocalised = (language.LanguageType == LanguageType.English)
+                        ? blockLoc
+                        : blockLoc.ReLocaliseItem(itemNames);
+
+                    AppGameItem full = AppFileBlockMapper.ToAppFile(relocalised, blockLocalised.Category);
                     if (!_appImagesRepo.FileExists("items", full.AppId)) continue;
 
                     appBlock.Add(full.ToLang());
@@ -123,7 +137,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             _appFileSysRepo.WriteBackToJsonFile(appBlockBaseItems, outputFileName);
-            _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang("en", outputFileName));
+            _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang(language.LanguageAppFolder, outputFileName));
         }
 
         //private void WriteAppFile(string outputFileName, IEnumerable<NotFoundItem> otherUnlocalised)

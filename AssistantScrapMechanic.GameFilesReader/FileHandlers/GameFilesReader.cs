@@ -34,9 +34,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _survivalLanguageFileSysRepo = survivalLanguageFileSysRepo;
         }
 
-        private Dictionary<string, InventoryDescription> LoadItemNames()
+        public Dictionary<string, InventoryDescription> LoadItemNames(string language)
         {
-            const string language = "English";
             string survivalInvDescripFilePath = Path.Combine(language, "inventoryDescriptions.json");
             string dataInvDescripFilePath = Path.Combine(language, "InventoryItemDescriptions.json");
             string custDescripFilePath = Path.Combine(language, "CustomizationDescriptions.json");
@@ -296,7 +295,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateIntermediate()
         {
-            Dictionary<string, InventoryDescription> itemNames = LoadItemNames();
+            Dictionary<string, InventoryDescription> itemNames = LoadItemNames("English");
 
             GenerateBlockIntermediate(itemNames);
             GenerateCustomizationIntermediate(itemNames);

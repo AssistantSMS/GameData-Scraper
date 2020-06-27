@@ -24,5 +24,22 @@ namespace AssistantScrapMechanic.Logic.Localiser
             };
             return blockLocalised;
         }
+
+        public static GameItemLocalised ReLocalise(this GameItemLocalised gameItem, Dictionary<string, InventoryDescription> itemNames)
+        {
+            string locName = itemNames.GetTitle(gameItem.ItemId);
+            if (!string.IsNullOrEmpty(locName))
+            {
+                gameItem.Name = locName;
+            }
+
+            string locDescription = itemNames.GetTitle(gameItem.ItemId);
+            if (!string.IsNullOrEmpty(locDescription))
+            {
+                gameItem.Description = locDescription;
+            }
+
+            return gameItem;
+        }
     }
 }
