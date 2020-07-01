@@ -33,7 +33,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 gameItem.Name = locName;
             }
 
-            string locDescription = itemNames.GetTitle(gameItem.ItemId);
+            string locDescription = itemNames.GetDescription(gameItem.ItemId);
             if (!string.IsNullOrEmpty(locDescription))
             {
                 gameItem.Description = locDescription;

@@ -48,7 +48,12 @@ namespace AssistantScrapMechanic.Logic.Localiser
 
         public static CustomisationItemLocalised ReLocaliseItem(this CustomisationItemLocalised gameItem, Dictionary<string, InventoryDescription> itemNames)
         {
-            gameItem.Name = itemNames.GetTitle(gameItem.ItemId);
+            string locName = itemNames.GetTitle(gameItem.ItemId);
+            if (!string.IsNullOrEmpty(locName))
+            {
+                gameItem.Name = locName;
+            }
+
             return gameItem;
         }
     }
