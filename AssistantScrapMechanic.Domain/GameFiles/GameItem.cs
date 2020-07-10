@@ -21,6 +21,7 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
         public Box Box { get; set; }
+        public Box Hull { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int StackSize { get; set; }

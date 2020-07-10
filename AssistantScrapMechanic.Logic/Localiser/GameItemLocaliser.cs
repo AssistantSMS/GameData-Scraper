@@ -22,6 +22,14 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Ratings = gameItem.Ratings,
                 Box = gameItem.Box,
             };
+
+            List<int> boxSizes = getSizesFromBox(blockLocalised.Box);
+            List<int> hullSizes = getSizesFromBox(gameItem.Hull);
+            if (hullSizes.Count > boxSizes.Count)
+            {
+                blockLocalised.Box = gameItem.Hull;
+            }
+
             return blockLocalised;
         }
 
@@ -40,6 +48,16 @@ namespace AssistantScrapMechanic.Logic.Localiser
             }
 
             return gameItem;
+        }
+
+        private static List<int> getSizesFromBox(Box box)
+        {
+            List<int> sizes = new List<int>();
+            if (box.X > 0) sizes.Add(box.X);
+            if (box.Y > 0) sizes.Add(box.Y);
+            if (box.Z > 0) sizes.Add(box.Z);
+
+            return sizes;
         }
     }
 }
