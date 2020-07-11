@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.Constant;
@@ -79,7 +80,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     ? blockLocalised
                     : blockLocalised.ReLocalise(itemNames);
 
-                AppGameItem full = AppFileBlockMapper.ToAppFile(relocalised);
+                GameItemFeatures defaultFeatures = new GameItemFeatures { Uuid = blockLocalised.ItemId, Features = null };
+                GameItemFeatures gameItemFeatures = FeaturesList.Features.FirstOrDefault(u => u.Uuid.Equals(blockLocalised.ItemId, StringComparison.InvariantCultureIgnoreCase)) ?? defaultFeatures;
+                Upgrade gameItemUpgrades = UpgradeList.Upgrades.FirstOrDefault(u => u.Uuid.Equals(blockLocalised.ItemId, StringComparison.InvariantCultureIgnoreCase));
+
+                AppGameItem full = AppFileBlockMapper.ToAppFile(relocalised, gameItemFeatures.Features, gameItemUpgrades);
                 appBlock.Add(full.ToLang());
                 string image = GetItemImage(full.AppId);
                 appBlockBaseItems.Add(full.ToBase(image));

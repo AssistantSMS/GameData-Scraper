@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using AssistantScrapMechanic.Domain.AppFiles;
+using AssistantScrapMechanic.Domain.Constant;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 
 namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
 {
     public static class AppFileBlockMapper
     {
-        public static AppGameItem ToAppFile(GameItemLocalised localisedData)
+        public static AppGameItem ToAppFile(GameItemLocalised localisedData, List<Feature> features, Upgrade upgrades)
         {
             AppGameItem recipe = new AppGameItem
             {
@@ -20,6 +20,8 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Color = localisedData.Color,
                 Ratings = localisedData.Ratings,
                 Box = localisedData.Box,
+                Features = features,
+                Upgrades = upgrades,
             };
             return recipe;
         }

@@ -1,4 +1,6 @@
-﻿using AssistantScrapMechanic.Domain.GameFiles;
+﻿using System.Collections.Generic;
+using AssistantScrapMechanic.Domain.Constant;
+using AssistantScrapMechanic.Domain.GameFiles;
 using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.Domain.AppFiles
@@ -17,6 +19,9 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
 
+        public Upgrade Upgrades { get; set; }
+        public List<Feature> Features { get; set; }
+
         public AppGameItemBase ToBase(string icon)
         {
             AppGameItemBase baseObj = new AppGameItemBase
@@ -30,6 +35,8 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Density = Density,
                 Ratings = Ratings,
                 Box = Box,
+                Upgrades = Upgrades,
+                Features = Features,
             };
             return baseObj;
         }
@@ -58,6 +65,8 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
+        public Upgrade Upgrades { get; set; }
+        public List<Feature> Features { get; set; }
     }
 
     public class AppGameItemLang
