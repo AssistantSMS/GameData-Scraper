@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "22beade5-38ca-47b4-a2ee-32403f58a862",
+    "GameName": "obj_seed_banana",
     "AppId": "plant1",
     "Name": "Banana Seed",
     "Color": "83a633",
@@ -11,12 +12,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4b6d2bee-d0f1-4e56-96f0-d2596388cad2",
+    "GameName": "obj_seed_blueberry",
     "AppId": "plant2",
     "Name": "Blueberry Seed",
     "Color": "5d41d9",
@@ -27,12 +34,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "bee966b0-b5e5-41da-b992-5d363ab85ae4",
+    "GameName": "obj_seed_orange",
     "AppId": "plant3",
     "Name": "Orange Seed",
     "Color": "fd5d38",
@@ -43,12 +56,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9edb6f7c-fb44-4348-a1c4-8afb41b92d8a",
+    "GameName": "obj_seed_pineapple",
     "AppId": "plant4",
     "Name": "Pineapple Seed",
     "Color": "23b777",
@@ -59,12 +78,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9c82a525-8a8b-4483-9595-505aaa042486",
+    "GameName": "obj_seed_carrot",
     "AppId": "plant5",
     "Name": "Carrot Seed",
     "Color": "3f7abc",
@@ -75,12 +100,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "64051718-a3f1-422b-bda3-277efa0c4545",
+    "GameName": "obj_seed_redbeet",
     "AppId": "plant6",
     "Name": "Redbeet Seed",
     "Color": "a42039",
@@ -91,12 +122,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "38e41fb5-dd50-4294-829d-a517f0282fed",
+    "GameName": "obj_seed_tomato",
     "AppId": "plant7",
     "Name": "Tomato Seed",
     "Color": "e39c04",
@@ -107,12 +144,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1c6756ca-3a60-4dcb-a5d1-353edf818308",
+    "GameName": "obj_seed_broccoli",
     "AppId": "plant8",
     "Name": "Broccoli Seed",
     "Color": "7c862c",
@@ -123,12 +166,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "eb1ef696-5c05-4662-9e47-fe1e0875ff84",
+    "GameName": "obj_seed_potato",
     "AppId": "plant9",
     "Name": "Potato Seed",
     "Color": "52662e",
@@ -139,12 +188,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "aa4c9c5e-7fc6-4c27-967f-c550e551c872",
+    "GameName": "obj_plantables_banana",
     "AppId": "plant10",
     "Name": "Banana",
     "Description": "A fresh Banana.",
@@ -156,12 +211,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 3
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6a43fff2-8c6d-4460-9f44-e5483b5267dd",
+    "GameName": "obj_plantables_blueberry",
     "AppId": "plant11",
     "Name": "Blueberry",
     "Description": "A sweet Blueberry.",
@@ -184,6 +245,7 @@
   },
   {
     "ItemId": "f5098301-1693-457b-8efc-83b3504105ac",
+    "GameName": "obj_plantables_orange",
     "AppId": "plant12",
     "Name": "Orange",
     "Description": "A juicy Orange.",
@@ -195,12 +257,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4ec64cda-1a5b-4465-88b4-5ea452c4a556",
+    "GameName": "obj_plantables_pineapple",
     "AppId": "plant13",
     "Name": "Pineapple",
     "Description": "A juicy Pineapple.",
@@ -212,12 +280,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "47ece75a-bfca-4e8a-b618-4f609fcea0da",
+    "GameName": "obj_plantables_carrot",
     "AppId": "plant14",
     "Name": "Carrot",
     "Description": "A nutritious Carrot.",
@@ -240,6 +314,7 @@
   },
   {
     "ItemId": "4ce00048-f735-4fab-b978-5f405e60f48f",
+    "GameName": "obj_plantables_redbeet",
     "AppId": "plant15",
     "Name": "Redbeet",
     "Description": "A nutritious Redbeet.",
@@ -251,12 +326,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6d92d8e7-25e9-4698-b83d-a64dc97978c8",
+    "GameName": "obj_plantables_tomato",
     "AppId": "plant16",
     "Name": "Tomato",
     "Description": "A juicy Tomato.",
@@ -268,12 +349,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "b5cdd503-fe1c-482b-86ab-6a5d2cc4fc8f",
+    "GameName": "obj_plantables_broccoli",
     "AppId": "plant17",
     "Name": "Broccoli",
     "Description": "A nutritious Broccoli.",
@@ -285,12 +372,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+    "GameName": "obj_plantables_potato",
     "AppId": "plant18",
     "Name": "Potato",
     "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns.",
@@ -313,6 +406,7 @@
   },
   {
     "ItemId": "93c27ab2-4930-4654-ba1c-bcfe35e966f6",
+    "GameName": "obj_seed_cotton",
     "AppId": "plant19",
     "Name": "Cotton Seed",
     "Color": "ff72bb",
@@ -322,6 +416,11 @@
       "Durability": 2,
       "Friction": 4,
       "Buoyancy": 3
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
     },
     "Flammable": true,
     "Density": 0.0,

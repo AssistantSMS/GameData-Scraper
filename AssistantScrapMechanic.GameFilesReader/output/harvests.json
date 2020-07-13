@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "02ee2a98-bd8d-4a09-bb69-38edaf66b8e1",
+    "GameName": "obj_harvest_stone",
     "AppId": "harv1",
     "Name": "Scrap Stone",
     "Color": "ee9e28",
@@ -11,12 +12,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "968de65c-75f3-471b-954e-6165a4b6d3d6",
+    "GameName": "obj_harvest_wood",
     "AppId": "harv2",
     "Name": "Scrap Wood",
     "Color": "7b7f10ff",
@@ -27,12 +34,18 @@
       "Friction": 5,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 1,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f99ebc34-4821-4b39-a625-b839c5802ed5",
+    "GameName": "obj_harvest_wood2",
     "AppId": "harv3",
     "Name": "Wood",
     "Color": "7b7f10ff",
@@ -43,12 +56,18 @@
       "Friction": 5,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 1,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "5cb39ea5-554d-4c40-9d9a-6b2dd59de953",
+    "GameName": "obj_harvest_metal",
     "AppId": "harv4",
     "Name": "Scrap Metal",
     "Color": "dfdfdf",
@@ -70,6 +89,7 @@
   },
   {
     "ItemId": "7468db55-b29d-4ce0-82b9-2414f493a376",
+    "GameName": "obj_harvest_metal2",
     "AppId": "harv5",
     "Name": "Metal",
     "Color": "ee9e28",
@@ -79,6 +99,11 @@
       "Durability": 3,
       "Friction": 5,
       "Buoyancy": 2
+    },
+    "Box": {
+      "X": 1,
+      "Y": 8,
+      "Z": 1
     },
     "Flammable": false,
     "Density": 0.0,

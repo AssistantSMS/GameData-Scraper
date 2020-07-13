@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "6f38a734-571f-4c3d-97b9-c0aa480973af",
+    "GameName": "obj_vehicle_concavewedge",
     "AppId": "veh1",
     "Name": "Concave Wedge",
     "Color": "518d3c",
@@ -11,12 +12,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a7fb4293-f623-4a0f-9465-8bc640f0038b",
+    "GameName": "obj_vehicle_license_plate",
     "AppId": "veh2",
     "Name": "License Plate",
     "Color": "808080",
@@ -27,12 +34,18 @@
       "Friction": 5,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "eabc9e68-6172-4719-ace5-5d64333233c0",
+    "GameName": "obj_vehicle_mediumpipe",
     "AppId": "veh3",
     "Name": "Metallic Tube Straight",
     "Color": "808080",
@@ -43,12 +56,17 @@
       "Friction": 5,
       "Buoyancy": 7
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "eb608c5d-c418-49db-a2c5-1c8186b3d314",
+    "GameName": "obj_vehicle_mediumpipebent",
     "AppId": "veh4",
     "Name": "Metallic Tube Bend",
     "Color": "808080",
@@ -59,12 +77,18 @@
       "Friction": 5,
       "Buoyancy": 7
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "64fdc73f-259a-49df-94ac-24db25a4dc42",
+    "GameName": "obj_vehicle_wheelhousecorner",
     "AppId": "veh5",
     "Name": "Rounded Frame Corner",
     "Color": "808080",
@@ -75,12 +99,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 150.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "69e362c3-32aa-4cd1-adc0-dcfc47b92c0d",
+    "GameName": "obj_vehicle_smallwheel",
     "AppId": "veh6",
     "Name": "Wheel",
     "Color": "df7f01",
@@ -91,12 +121,17 @@
       "Friction": 5,
       "Buoyancy": 6
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 1
+    },
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "db66f0b1-0c50-4b74-bdc7-771374204b1f",
+    "GameName": "obj_vehicle_bigwheel",
     "AppId": "veh7",
     "Name": "Big Wheel",
     "Color": "df7f01",
@@ -106,6 +141,10 @@
       "Durability": 5,
       "Friction": 5,
       "Buoyancy": 6
+    },
+    "Cylinder": {
+      "Diameter": 5,
+      "Depth": 2
     },
     "Flammable": false,
     "Density": 0.0,

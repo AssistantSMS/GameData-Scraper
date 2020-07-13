@@ -23,8 +23,8 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
 
         private const string GameFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
-        //private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
-        private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        //private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
         private static readonly string OutputDirectory = $@"{GameFilesReader}\output";
         private static readonly string InputDirectory = $@"{GameFilesReader}\input";
         private static readonly string AppFilesDirectory = $@"{GameFilesDirectory}\json";

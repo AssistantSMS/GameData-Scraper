@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "2aa8cb2c-2311-440c-8162-829ee394fbc2",
+    "GameName": "obj_manmade_scrapwall01",
     "AppId": "man1",
     "Name": "Shack Wall",
     "Color": "0a4444",
@@ -22,6 +23,7 @@
   },
   {
     "ItemId": "b94a113d-ddd4-45db-844c-1d97ca0e1d61",
+    "GameName": "obj_manmade_scrapwallsmall",
     "AppId": "man2",
     "Name": "Shack Half Wall",
     "Color": "0a4444",
@@ -43,6 +45,7 @@
   },
   {
     "ItemId": "c8ca8731-3af2-4554-9019-6b941affcb16",
+    "GameName": "obj_manmade_scraproof01",
     "AppId": "man3",
     "Name": "Shade Sails",
     "Color": "0e8031",
@@ -64,6 +67,7 @@
   },
   {
     "ItemId": "c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5",
+    "GameName": "obj_manmade_scraproof02",
     "AppId": "man4",
     "Name": "Awning",
     "Color": "0e8031",
@@ -74,12 +78,18 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 2,
+      "Z": 8
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0c07dba0-be79-40fd-9ed8-5a1c34e2d196",
+    "GameName": "obj_manmade_scraproof03",
     "AppId": "man5",
     "Name": "Shack Roof",
     "Color": "3a5964",
@@ -101,6 +111,7 @@
   },
   {
     "ItemId": "ebefa387-fe4a-4839-bdd9-b6b4da39368f",
+    "GameName": "obj_manmade_shacklight",
     "AppId": "man6",
     "Name": "Shack Light",
     "Color": "e17f51",
@@ -111,12 +122,18 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "27c00cfb-4e7f-45fc-a037-f9a941464ce6",
+    "GameName": "obj_manmade_freshsign",
     "AppId": "man7",
     "Name": "Fresh Neon Sign",
     "Color": "19f088",
@@ -127,12 +144,18 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 5,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "20bd2885-d184-44ae-b72b-f90b786f8664",
+    "GameName": "obj_manmade_holidayposter",
     "AppId": "man8",
     "Name": "Hard Work Sign",
     "Color": "eb6a90",
@@ -143,12 +166,18 @@
       "Friction": 5,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 5,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2289e96f-f9c6-440c-b7c9-ce9474da8264",
+    "GameName": "obj_manmade_salesign",
     "AppId": "man9",
     "Name": "Sale Sign",
     "Color": "e9e9e9",

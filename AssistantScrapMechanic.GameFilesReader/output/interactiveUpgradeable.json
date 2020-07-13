@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "67da25c9-3825-41f6-9724-4546a11cb2a5",
+    "GameName": "jnt_suspensionsport_01",
     "AppId": "interu1",
     "Name": "Sport Suspension 1",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
@@ -12,12 +13,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "aae686a2-0eb3-43b3-b998-def282de79e9",
+    "GameName": "jnt_suspensionsport_02",
     "AppId": "interu2",
     "Name": "Sport Suspension 2",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
@@ -29,12 +35,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d0aa2676-5266-432a-bf7e-3887e6ddedd5",
+    "GameName": "jnt_suspensionsport_03",
     "AppId": "interu3",
     "Name": "Sport Suspension 3",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
@@ -46,12 +57,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d9adddcc-972d-4726-a376-67f950b99a44",
+    "GameName": "jnt_suspensionsport_04",
     "AppId": "interu4",
     "Name": "Sport Suspension 4",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
@@ -63,12 +79,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "52855106-a95c-4427-9970-3f227109b66d",
+    "GameName": "jnt_suspensionsport_05",
     "AppId": "interu5",
     "Name": "Sport Suspension 5",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension is small, but has a firmer bounce.",
@@ -80,12 +101,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f3cfef9d-faef-4be8-9283-476eb99614d7",
+    "GameName": "jnt_suspensionoffroad_01",
     "AppId": "interu6",
     "Name": "Off-Road Suspension 1",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
@@ -97,12 +123,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "00284190-1484-4286-a198-b2ddef768c2e",
+    "GameName": "jnt_suspensionoffroad_02",
     "AppId": "interu7",
     "Name": "Off-Road Suspension 2",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
@@ -114,12 +145,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a9658eaf-0dd8-46a6-8cac-be6978f19b79",
+    "GameName": "jnt_suspensionoffroad_03",
     "AppId": "interu8",
     "Name": "Off-Road Suspension 3",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
@@ -131,12 +167,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4c3f6a7c-45c6-4ed8-bf13-c247c3db6b81",
+    "GameName": "jnt_suspensionoffroad_04",
     "AppId": "interu9",
     "Name": "Off-Road Suspension 4",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
@@ -148,12 +189,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "73f838db-783e-4a41-bc0f-9008967780f3",
+    "GameName": "jnt_suspensionoffroad_05",
     "AppId": "interu10",
     "Name": "Off-Road Suspension 5",
     "Description": "Adds shock absorption and provides stability. Great for vehicles to prevent them from easily flipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
@@ -165,12 +211,17 @@
       "Friction": 5,
       "Buoyancy": 0
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "77c2687c-2e13-4df8-996a-96fb26d75ee0",
+    "GameName": "obj_interactive_driverseat_01",
     "AppId": "interu11",
     "Name": "Driver's Seat 1",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -182,12 +233,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 6
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "efbf45f8-62ec-4541-9eb1-d529966f6a29",
+    "GameName": "obj_interactive_driverseat_02",
     "AppId": "interu12",
     "Name": "Driver's Seat 2",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -199,12 +256,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 6
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c3ef3008-9367-4ab7-813a-24195d63e5a3",
+    "GameName": "obj_interactive_driverseat_03",
     "AppId": "interu13",
     "Name": "Driver's Seat 3",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -216,12 +279,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 6
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d30dcd12-ec39-43b9-a115-44c08e1b9091",
+    "GameName": "obj_interactive_driverseat_04",
     "AppId": "interu14",
     "Name": "Driver's Seat 4",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -233,12 +302,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ffa3a47e-fc0d-4977-802f-bd15683bbe5c",
+    "GameName": "obj_interactive_driverseat_05",
     "AppId": "interu15",
     "Name": "Driver's Seat 5",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat. Lvl 5 Driver's Seat unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -250,12 +325,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "7d601a5a-796d-4cae-be88-b47479d38d11",
+    "GameName": "obj_interactive_driversaddle_01",
     "AppId": "interu16",
     "Name": "Driver's Saddle 1",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -267,12 +348,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 5
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4",
+    "GameName": "obj_interactive_driversaddle_02",
     "AppId": "interu17",
     "Name": "Driver's Saddle 2",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -284,12 +371,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 5
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6953b17e-0a38-4107-8c56-5ee97e68bee3",
+    "GameName": "obj_interactive_driversaddle_03",
     "AppId": "interu18",
     "Name": "Driver's Saddle 3",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -301,12 +394,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 5
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "41960868-6245-47b5-97c4-f446e199812f",
+    "GameName": "obj_interactive_driversaddle_04",
     "AppId": "interu19",
     "Name": "Driver's Saddle 4",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -318,12 +417,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 5
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9dd1ccea-1e44-430d-b706-3ff45416583e",
+    "GameName": "obj_interactive_driversaddle_05",
     "AppId": "interu20",
     "Name": "Driver's Saddle 5",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle. Lvl 5 Driver's Saddle unlocks steering settings by pressing (E) on connected bearings with the Connect Tool.",
@@ -335,12 +440,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 5
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3b972f2f-30c7-4a5e-a100-5e257e62295d",
+    "GameName": "obj_interactive_seat_01",
     "AppId": "interu21",
     "Name": "Seat 1",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
@@ -352,12 +463,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2b9c6e87-1b75-4a57-8979-74d9f95668ba",
+    "GameName": "obj_interactive_seat_02",
     "AppId": "interu22",
     "Name": "Seat 2",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
@@ -369,12 +486,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ebe2782e-a4f5-4d91-83cc-db110179393b",
+    "GameName": "obj_interactive_seat_03",
     "AppId": "interu23",
     "Name": "Seat 3",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
@@ -386,12 +509,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "46465697-ed36-4720-ba8a-08c568b4e36c",
+    "GameName": "obj_interactive_seat_04",
     "AppId": "interu24",
     "Name": "Seat 4",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
@@ -403,12 +532,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "703ca746-d802-4e76-b443-4881e83afb73",
+    "GameName": "obj_interactive_seat_05",
     "AppId": "interu25",
     "Name": "Seat 5",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
@@ -420,12 +555,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2d3016f7-febe-416e-93bc-41d80ca3910d",
+    "GameName": "obj_interactive_saddle_01",
     "AppId": "interu26",
     "Name": "Saddle 1",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
@@ -437,12 +578,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c39b3537-d9b2-45f8-b2ea-0e9002c896d9",
+    "GameName": "obj_interactive_saddle_02",
     "AppId": "interu27",
     "Name": "Saddle 2",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
@@ -454,12 +601,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "797e07a3-6d56-4b74-949b-9492c7946e0d",
+    "GameName": "obj_interactive_saddle_03",
     "AppId": "interu28",
     "Name": "Saddle 3",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
@@ -471,12 +624,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "7516f5b8-9a15-4606-92bb-ea9a96a16594",
+    "GameName": "obj_interactive_saddle_04",
     "AppId": "interu29",
     "Name": "Saddle 4",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
@@ -488,12 +647,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "42f70341-207d-4e9d-b8ed-37962603a926",
+    "GameName": "obj_interactive_saddle_05",
     "AppId": "interu30",
     "Name": "Saddle 5",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
@@ -505,12 +670,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1bfccc0a-828f-475c-882c-87d5a96054c9",
+    "GameName": "obj_interactive_gasengine_01",
     "AppId": "interu31",
     "Name": "Gas Engine 1",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
@@ -533,6 +704,7 @@
   },
   {
     "ItemId": "33d01ddd-f32b-4a9a-87d6-efb6710b389c",
+    "GameName": "obj_interactive_gasengine_02",
     "AppId": "interu32",
     "Name": "Gas Engine 2",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
@@ -555,6 +727,7 @@
   },
   {
     "ItemId": "470b9a92-ed94-4ef2-b1ea-b45f47ef0982",
+    "GameName": "obj_interactive_gasengine_03",
     "AppId": "interu33",
     "Name": "Gas Engine 3",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
@@ -577,6 +750,7 @@
   },
   {
     "ItemId": "bfcaac1a-5a7f-4fba-9980-1159617a7212",
+    "GameName": "obj_interactive_gasengine_04",
     "AppId": "interu34",
     "Name": "Gas Engine 4",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
@@ -599,6 +773,7 @@
   },
   {
     "ItemId": "3091926a-9340-46d9-83d6-4fd7c68ad950",
+    "GameName": "obj_interactive_gasengine_05",
     "AppId": "interu35",
     "Name": "Gas Engine 5",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or trigger. Upgrade for more connection points and less gas consumption.",
@@ -621,6 +796,7 @@
   },
   {
     "ItemId": "5e5d231e-405e-4f45-9bd0-b3557dbb42eb",
+    "GameName": "obj_interactive_electricengine_01",
     "AppId": "interu36",
     "Name": "Electric Engine 1",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -643,6 +819,7 @@
   },
   {
     "ItemId": "0c9cc5bb-af2f-4023-b8d8-cd7d52a60efe",
+    "GameName": "obj_interactive_electricengine_02",
     "AppId": "interu37",
     "Name": "Electric Engine 2",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -665,6 +842,7 @@
   },
   {
     "ItemId": "56cea967-a685-494d-85ef-3aa121a0c193",
+    "GameName": "obj_interactive_electricengine_03",
     "AppId": "interu38",
     "Name": "Electric Engine 3",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -687,6 +865,7 @@
   },
   {
     "ItemId": "5e57e0f7-e87c-4269-b274-146fe40e1b44",
+    "GameName": "obj_interactive_electricengine_04",
     "AppId": "interu39",
     "Name": "Electric Engine 4",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -709,6 +888,7 @@
   },
   {
     "ItemId": "22f3e797-82f5-4819-a085-c3cc28ec9025",
+    "GameName": "obj_interactive_electricengine_05",
     "AppId": "interu40",
     "Name": "Electric Engine 5",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A weak engine with an adjustable speed. Can be connected to a driver's seat or triggers. Upgrade for more connection points and less battery consumption.",
@@ -731,6 +911,7 @@
   },
   {
     "ItemId": "df8528ed-15ad-4a39-a33a-698880684001",
+    "GameName": "obj_interactive_thruster_01",
     "AppId": "interu41",
     "Name": "Thruster 1",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
@@ -753,6 +934,7 @@
   },
   {
     "ItemId": "9fc793b2-250b-40ab-bcb3-97cf97c7b481",
+    "GameName": "obj_interactive_thruster_02",
     "AppId": "interu42",
     "Name": "Thruster 2",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
@@ -775,6 +957,7 @@
   },
   {
     "ItemId": "4c1cc8de-7af1-4f8e-a5c4-c583460af9e5",
+    "GameName": "obj_interactive_thruster_03",
     "AppId": "interu43",
     "Name": "Thruster 3",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
@@ -797,6 +980,7 @@
   },
   {
     "ItemId": "e6db321c-6f98-47f6-9f7f-4e6794a62cb8",
+    "GameName": "obj_interactive_thruster_04",
     "AppId": "interu44",
     "Name": "Thruster 4",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
@@ -819,6 +1003,7 @@
   },
   {
     "ItemId": "a736ffdf-22c1-40f2-8e40-988cab7c0559",
+    "GameName": "obj_interactive_thruster_05",
     "AppId": "interu45",
     "Name": "Thruster 5",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate. Upgrade for less gas consumption.",
@@ -841,6 +1026,7 @@
   },
   {
     "ItemId": "598d865c-324c-4129-9c57-21a6abd2cb2e",
+    "GameName": "obj_interactive_controller_01",
     "AppId": "interu46",
     "Name": "Controller 1",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
@@ -863,6 +1049,7 @@
   },
   {
     "ItemId": "1872d83a-d1a1-4cb7-ad46-9e4468d2548c",
+    "GameName": "obj_interactive_controller_02",
     "AppId": "interu47",
     "Name": "Controller 2",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
@@ -885,6 +1072,7 @@
   },
   {
     "ItemId": "6bb84152-c4d7-4644-bc37-a3becd79298d",
+    "GameName": "obj_interactive_controller_03",
     "AppId": "interu48",
     "Name": "Controller 3",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
@@ -907,6 +1095,7 @@
   },
   {
     "ItemId": "2354cd24-3dd3-4db5-84ab-df64c32d2c72",
+    "GameName": "obj_interactive_controller_04",
     "AppId": "interu49",
     "Name": "Controller 4",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
@@ -929,6 +1118,7 @@
   },
   {
     "ItemId": "a092359d-5cea-484d-a274-470d9a567632",
+    "GameName": "obj_interactive_controller_05",
     "AppId": "interu50",
     "Name": "Controller 5",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
@@ -951,6 +1141,7 @@
   },
   {
     "ItemId": "1d4793af-cb66-4628-804a-9d7404712643",
+    "GameName": "obj_interactive_sensor_01",
     "AppId": "interu51",
     "Name": "Sensor 1",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
@@ -973,6 +1164,7 @@
   },
   {
     "ItemId": "cf46678b-c947-4267-ba85-f66930f5faa4",
+    "GameName": "obj_interactive_sensor_02",
     "AppId": "interu52",
     "Name": "Sensor 2",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
@@ -995,6 +1187,7 @@
   },
   {
     "ItemId": "90fc3603-3544-4254-97ef-ea6723510961",
+    "GameName": "obj_interactive_sensor_03",
     "AppId": "interu53",
     "Name": "Sensor 3",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
@@ -1017,6 +1210,7 @@
   },
   {
     "ItemId": "de018bc6-1db5-492c-bfec-045e63f9d64b",
+    "GameName": "obj_interactive_sensor_04",
     "AppId": "interu54",
     "Name": "Sensor 4",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
@@ -1039,6 +1233,7 @@
   },
   {
     "ItemId": "20dcd41c-0a11-4668-9b00-97f278ce21af",
+    "GameName": "obj_interactive_sensor_05",
     "AppId": "interu55",
     "Name": "Sensor 5",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
@@ -1061,6 +1256,7 @@
   },
   {
     "ItemId": "8c741785-5eae-4c48-9f99-d62bf522a83f",
+    "GameName": "jnt_interactive_piston_01",
     "AppId": "interu56",
     "Name": "Piston 1",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
@@ -1083,6 +1279,7 @@
   },
   {
     "ItemId": "31f14f52-f4d8-4b9f-9d6e-7412497c9284",
+    "GameName": "jnt_interactive_piston_02",
     "AppId": "interu57",
     "Name": "Piston 2",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
@@ -1105,6 +1302,7 @@
   },
   {
     "ItemId": "46396518-8c29-4da9-81bb-a020f4baf5b2",
+    "GameName": "jnt_interactive_piston_03",
     "AppId": "interu58",
     "Name": "Piston 3",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
@@ -1127,6 +1325,7 @@
   },
   {
     "ItemId": "7324219e-2b19-4098-baa3-9876984ead08",
+    "GameName": "jnt_interactive_piston_04",
     "AppId": "interu59",
     "Name": "Piston 4",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
@@ -1149,6 +1348,7 @@
   },
   {
     "ItemId": "2f004fdf-bfb0-46f3-a7ac-7711100bee0c",
+    "GameName": "jnt_interactive_piston_05",
     "AppId": "interu60",
     "Name": "Piston 5",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",

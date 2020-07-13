@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae",
+    "GameName": "obj_outfitpackage_common",
     "AppId": "out1",
     "Name": "Garment Box (Common)",
     "Description": "Use it in a Dressbot to make new clothes",
@@ -23,6 +24,7 @@
   },
   {
     "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6",
+    "GameName": "obj_outfitpackage_rare",
     "AppId": "out2",
     "Name": "Garment Box (Rare)",
     "Description": "Use it in a Dressbot to make new clothes",
@@ -45,6 +47,7 @@
   },
   {
     "ItemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b",
+    "GameName": "obj_outfitpackage_epic",
     "AppId": "out3",
     "Name": "Garment Box (Epic)",
     "Description": "Use it in a Dressbot to make new clothes",

@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "1fc74a28-addb-451a-878d-c3c605d63811",
+    "GameName": "blk_scrapwood",
     "AppId": "blk1",
     "Name": "Scrap Wood Block",
     "Color": "cd9d71",
@@ -17,6 +18,7 @@
   },
   {
     "ItemId": "1897ee42-0291-43e4-9645-8c5a5d310398",
+    "GameName": "blk_wood2",
     "AppId": "blk2",
     "Name": "Wood Block 2",
     "Color": "dc9153",
@@ -33,6 +35,7 @@
   },
   {
     "ItemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb",
+    "GameName": "blk_wood3",
     "AppId": "blk3",
     "Name": "Wood Block 3",
     "Color": "f2ad74",
@@ -49,6 +52,7 @@
   },
   {
     "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39",
+    "GameName": "blk_scrapmetal",
     "AppId": "blk4",
     "Name": "Scrap Metal Block",
     "Color": "df6226",
@@ -65,6 +69,7 @@
   },
   {
     "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f",
+    "GameName": "blk_metal2",
     "AppId": "blk5",
     "Name": "Metal Block 2",
     "Color": "869499",
@@ -81,6 +86,7 @@
   },
   {
     "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46",
+    "GameName": "blk_metal3",
     "AppId": "blk6",
     "Name": "Metal Block 3",
     "Color": "88a5ac",
@@ -97,6 +103,7 @@
   },
   {
     "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac",
+    "GameName": "blk_scrapstone",
     "AppId": "blk7",
     "Name": "Scrap Stone Block",
     "Color": "848484",
@@ -113,6 +120,7 @@
   },
   {
     "ItemId": "ff234e42-5da4-43cc-8893-940547c97882",
+    "GameName": "blk_concrete2",
     "AppId": "blk8",
     "Name": "Concrete Block 2",
     "Color": "8d8f89",
@@ -129,6 +137,7 @@
   },
   {
     "ItemId": "e281599c-2343-4c86-886e-b2c1444e8810",
+    "GameName": "blk_concrete3",
     "AppId": "blk9",
     "Name": "Concrete Block 3",
     "Color": "c9d7dc",
@@ -145,6 +154,7 @@
   },
   {
     "ItemId": "f5ceb7e3-5576-41d2-82d2-29860cf6e20e",
+    "GameName": "blk_crackedconcrete",
     "AppId": "blk10",
     "Name": "Cracked Concrete Block",
     "Color": "8d8f89",
@@ -161,6 +171,7 @@
   },
   {
     "ItemId": "cd0eff89-b693-40ee-bd4c-3500b23df44e",
+    "GameName": "blk_concretetiles",
     "AppId": "blk11",
     "Name": "Concrete Slab Block",
     "Color": "af967b",
@@ -177,6 +188,7 @@
   },
   {
     "ItemId": "220b201e-aa40-4995-96c8-e6007af160de",
+    "GameName": "blk_metalbricks",
     "AppId": "blk12",
     "Name": "Rusted Metal Block",
     "Color": "738192",
@@ -193,6 +205,7 @@
   },
   {
     "ItemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e",
+    "GameName": "blk_beam",
     "AppId": "blk13",
     "Name": "Extruded Metal Block",
     "Color": "858795",
@@ -209,6 +222,7 @@
   },
   {
     "ItemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e",
+    "GameName": "blk_bubblewrap",
     "AppId": "blk14",
     "Name": "Bubble Plastic Block",
     "Color": "9acfd2",
@@ -225,6 +239,7 @@
   },
   {
     "ItemId": "628b2d61-5ceb-43e9-8334-a4135566df7a",
+    "GameName": "blk_plastic",
     "AppId": "blk15",
     "Name": "Plastic Block",
     "Color": "0b9ade",
@@ -241,6 +256,7 @@
   },
   {
     "ItemId": "9be6047c-3d44-44db-b4b9-9bcf8a9aab20",
+    "GameName": "blk_insulation",
     "AppId": "blk16",
     "Name": "Insulation Block",
     "Color": "fff063",
@@ -257,6 +273,7 @@
   },
   {
     "ItemId": "b145d9ae-4966-4af6-9497-8fca33f9aee3",
+    "GameName": "blk_drywall",
     "AppId": "blk17",
     "Name": "Plaster Block",
     "Color": "979797",
@@ -273,6 +290,7 @@
   },
   {
     "ItemId": "febce8a6-6c05-4e5d-803b-dfa930286944",
+    "GameName": "blk_carpet",
     "AppId": "blk18",
     "Name": "Carpet Block",
     "Color": "368085",
@@ -289,6 +307,7 @@
   },
   {
     "ItemId": "e981c337-1c8a-449c-8602-1dd990cbba3a",
+    "GameName": "blk_plasticwall",
     "AppId": "blk19",
     "Name": "Painted Wall Block",
     "Color": "eeeeee",
@@ -305,6 +324,7 @@
   },
   {
     "ItemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b",
+    "GameName": "blk_metalnet",
     "AppId": "blk20",
     "Name": "Net Block",
     "Color": "435359",
@@ -321,6 +341,7 @@
   },
   {
     "ItemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a",
+    "GameName": "blk_crossnet",
     "AppId": "blk21",
     "Name": "Solid Net Block",
     "Color": "888888",
@@ -337,6 +358,7 @@
   },
   {
     "ItemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a",
+    "GameName": "blk_tryponet",
     "AppId": "blk22",
     "Name": "Punched Steel Block",
     "Color": "888888",
@@ -353,6 +375,7 @@
   },
   {
     "ItemId": "a479066d-4b03-46b5-8437-e99fec3f43ee",
+    "GameName": "blk_stripednet",
     "AppId": "blk23",
     "Name": "Striped Net Block",
     "Color": "888888",
@@ -369,6 +392,7 @@
   },
   {
     "ItemId": "b4fa180c-2111-4339-b6fd-aed900b57093",
+    "GameName": "blk_squarenet",
     "AppId": "blk24",
     "Name": "Square Mesh Block",
     "Color": "c36512",
@@ -385,6 +409,7 @@
   },
   {
     "ItemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6",
+    "GameName": "blk_restroom",
     "AppId": "blk25",
     "Name": "Restroom Block",
     "Color": "607b79",
@@ -401,6 +426,7 @@
   },
   {
     "ItemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4",
+    "GameName": "blk_treadplate",
     "AppId": "blk26",
     "Name": "Diamond Plate Block",
     "Color": "43494d",
@@ -417,6 +443,7 @@
   },
   {
     "ItemId": "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c",
+    "GameName": "blk_warehousefloor",
     "AppId": "blk27",
     "Name": "Aluminum Block",
     "Color": "727272",
@@ -433,6 +460,7 @@
   },
   {
     "ItemId": "d740a27d-cc0f-4866-9e07-6a5c516ad719",
+    "GameName": "blk_wornmetal",
     "AppId": "blk28",
     "Name": "Worn Metal Block",
     "Color": "66837c",
@@ -449,6 +477,7 @@
   },
   {
     "ItemId": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50",
+    "GameName": "blk_spaceshipfloor",
     "AppId": "blk29",
     "Name": "Spaceship Floor Block",
     "Color": "dadada",
@@ -465,6 +494,7 @@
   },
   {
     "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
+    "GameName": "blk_sand",
     "AppId": "blk30",
     "Name": "Sand Block",
     "Color": "c69146",
@@ -481,6 +511,7 @@
   },
   {
     "ItemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
+    "GameName": "blk_armoredglass",
     "AppId": "blk31",
     "Name": "Armored Glass Block",
     "Color": "3abfb1",
@@ -497,6 +528,7 @@
   },
   {
     "ItemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
+    "GameName": "blk_concrete1",
     "AppId": "blk32",
     "Name": "Concrete Block 1",
     "Color": "8d8f89",
@@ -513,6 +545,7 @@
   },
   {
     "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71",
+    "GameName": "blk_wood1",
     "AppId": "blk33",
     "Name": "Wood Block 1",
     "Color": "9b683a",
@@ -529,6 +562,7 @@
   },
   {
     "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
+    "GameName": "blk_metal1",
     "AppId": "blk34",
     "Name": "Metal Block 1",
     "Color": "675f51",
@@ -545,6 +579,7 @@
   },
   {
     "ItemId": "09ca2713-28ee-4119-9622-e85490034758",
+    "GameName": "blk_caution",
     "AppId": "blk35",
     "Name": "Barrier Block",
     "Color": "ce9e0c",
@@ -561,6 +596,7 @@
   },
   {
     "ItemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7",
+    "GameName": "blk_tiles",
     "AppId": "blk36",
     "Name": "Tile Block",
     "Color": "bfdfed",
@@ -577,6 +613,7 @@
   },
   {
     "ItemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34",
+    "GameName": "blk_bricks",
     "AppId": "blk37",
     "Name": "Brick Block",
     "Color": "af967b",
@@ -593,6 +630,7 @@
   },
   {
     "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f",
+    "GameName": "blk_glass",
     "AppId": "blk38",
     "Name": "Glass Block",
     "Color": "e4f8ff",
@@ -609,6 +647,7 @@
   },
   {
     "ItemId": "749f69e0-56c9-488c-adf6-66c58531818f",
+    "GameName": "blk_glasstile",
     "AppId": "blk39",
     "Name": "Glass Tile Block",
     "Color": "c2f9ff",
@@ -625,6 +664,7 @@
   },
   {
     "ItemId": "073f92af-f37e-4aff-96b3-d66284d5081c",
+    "GameName": "blk_lights",
     "AppId": "blk40",
     "Name": "Path Light Block",
     "Color": "727272",
@@ -641,6 +681,7 @@
   },
   {
     "ItemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6",
+    "GameName": "blk_spaceshipmetal",
     "AppId": "blk41",
     "Name": "Spaceship Block",
     "Color": "820a0a",
@@ -657,6 +698,7 @@
   },
   {
     "ItemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
+    "GameName": "blk_cardboard",
     "AppId": "blk42",
     "Name": "Cardboard Block",
     "Color": "a48052",

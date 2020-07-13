@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "9b4ea447-9cd9-4cd1-84d5-8c414890e523",
+    "GameName": "obj_building_barracksupport",
     "AppId": "build1",
     "Name": "Stand Support A",
     "Color": "ee9e28",
@@ -11,12 +12,17 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e22c8acb-151f-4837-ba32-7c61896b4eec",
+    "GameName": "obj_building_barracksupportlong",
     "AppId": "build2",
     "Name": "Stand Support Long",
     "Color": "ee9e28",
@@ -27,12 +33,17 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 5
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "109e1514-4f3b-4bd9-8d95-2d81fdb8fb25",
+    "GameName": "obj_building_barracksupportturn",
     "AppId": "build3",
     "Name": "Stand Support Corner",
     "Color": "ee9e28",
@@ -54,6 +65,7 @@
   },
   {
     "ItemId": "1dc643c9-6f8e-478a-8ebb-4adf3cb9960f",
+    "GameName": "obj_building_barracksupportholder",
     "AppId": "build4",
     "Name": "Stand Support",
     "Color": "ee9e28",
@@ -75,6 +87,7 @@
   },
   {
     "ItemId": "b1c6bac0-4055-4193-8490-7704d0ea7113",
+    "GameName": "obj_building_barracksupportbase",
     "AppId": "build5",
     "Name": "Stand Support Base",
     "Color": "ee9e28",
@@ -85,12 +98,17 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0dff60c2-f7ae-4c13-b9c4-962ec1039be8",
+    "GameName": "obj_building_mopbucket",
     "AppId": "build6",
     "Name": "Mop Set",
     "Color": "ebb100",
@@ -101,12 +119,18 @@
       "Friction": 4,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 2,
+      "Y": 7,
+      "Z": 3
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4c17571c-89b5-40f3-b13f-e9399591d0b4",
+    "GameName": "obj_building_stalldoor",
     "AppId": "build7",
     "Name": "Bathroom Stall Door",
     "Color": "3e9ffe",
@@ -117,12 +141,18 @@
       "Friction": 6,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 7,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ce66734b-2122-460e-94dc-ccc73d799e32",
+    "GameName": "obj_building_slippery",
     "AppId": "build8",
     "Name": "Slippery Surface Sign",
     "Color": "ebb100",
@@ -133,12 +163,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f092e8b5-4b10-48be-8ad1-2ac5625f49b8",
+    "GameName": "obj_building_plunger",
     "AppId": "build9",
     "Name": "Plunger",
     "Color": "9a3535",
@@ -149,12 +185,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 1,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0ebf382a-e2e4-4c46-a48e-87808308c1e3",
+    "GameName": "obj_building_sink",
     "AppId": "build10",
     "Name": "Warehouse sink",
     "Color": "3e9ffe",
@@ -165,12 +207,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 3,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0c077288-d15d-45d6-8439-3dabe7144034",
+    "GameName": "obj_office_waterdispenser",
     "AppId": "build11",
     "Name": "Water Dispenser",
     "Color": "408fc7",
@@ -192,6 +240,7 @@
   },
   {
     "ItemId": "239c9c71-e5c7-4ccb-ad40-7bdbb32f3cc9",
+    "GameName": "obj_office_mugholder",
     "AppId": "build12",
     "Name": "Cup Holder",
     "Color": "b43320",
@@ -202,12 +251,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e7eae129-9e3f-45d2-997c-637865c60a5e",
+    "GameName": "obj_office_waterdispensertank",
     "AppId": "build13",
     "Name": "Water Tank",
     "Color": "408fc7",
@@ -229,6 +284,7 @@
   },
   {
     "ItemId": "b627c533-f0e7-4fa7-83e6-5c3d517568e0",
+    "GameName": "obj_office_cubicle",
     "AppId": "build14",
     "Name": "Cubicle Wall",
     "Color": "8c9c3f",
@@ -239,12 +295,18 @@
       "Friction": 3,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 8,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3526de39-dcf4-484b-84ec-3336538be192",
+    "GameName": "obj_office_cubiclefastener",
     "AppId": "build15",
     "Name": "Corner Brace",
     "Color": "79859c",
@@ -255,12 +317,18 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "47d33078-a9b0-4e30-9610-ad0556be5fa2",
+    "GameName": "obj_office_desk",
     "AppId": "build16",
     "Name": "Office Table B",
     "Color": "8c9c3f",
@@ -271,12 +339,18 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 8,
+      "Y": 1,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1991e0c6-4dd8-4e44-9da8-7fdf4d938fdc",
+    "GameName": "obj_office_deskextension",
     "AppId": "build17",
     "Name": "Office Table A",
     "Color": "8c9c3f",
@@ -287,12 +361,18 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 8,
+      "Y": 1,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3de61f00-5782-40ca-923d-7efabe334572",
+    "GameName": "obj_office_deskleg",
     "AppId": "build18",
     "Name": "Office Table Leg",
     "Color": "8c9c3f",
@@ -303,12 +383,18 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4c93de5a-72ab-40d0-a081-c41e3aa87e86",
+    "GameName": "obj_office_officechair",
     "AppId": "build19",
     "Name": "Office Chair Top",
     "Color": "8c9c3f",
@@ -330,6 +416,7 @@
   },
   {
     "ItemId": "1f343b76-3622-4e4b-9de4-238d43d60734",
+    "GameName": "obj_office_officechairbottom",
     "AppId": "build20",
     "Name": "Office Chair Base",
     "Color": "8c9c3f",

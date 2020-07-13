@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "1b927252-ee6d-420e-8bb4-ae42fcb43ba8",
+    "GameName": "obj_construction_brick",
     "AppId": "constr1",
     "Name": "Hollow Concrete",
     "Color": "82847e",
@@ -22,6 +23,7 @@
   },
   {
     "ItemId": "c3a520b3-8d0e-435c-8070-e0ef58d028be",
+    "GameName": "obj_construction_rebarsmall",
     "AppId": "constr2",
     "Name": "Broken Concrete Small",
     "Color": "8d8f89",
@@ -43,6 +45,7 @@
   },
   {
     "ItemId": "ac59ef69-95a7-4907-a8ba-e5c83ef83112",
+    "GameName": "obj_construction_rebarmedium",
     "AppId": "constr3",
     "Name": "Broken Concrete Medium",
     "Color": "8d8f89",
@@ -64,6 +67,7 @@
   },
   {
     "ItemId": "0f638bd7-0c0d-4ba3-9ba2-af0b523ddff4",
+    "GameName": "obj_construction_rebarbig",
     "AppId": "constr4",
     "Name": "Broken Concrete Large",
     "Color": "8d8f89",
@@ -85,6 +89,7 @@
   },
   {
     "ItemId": "c2078bfe-fa3d-4c2b-8d97-6b5308ff624b",
+    "GameName": "obj_construction_signcone",
     "AppId": "constr5",
     "Name": "Barrier Stand",
     "Color": "f15814",
@@ -95,12 +100,18 @@
       "Friction": 4,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 2,
+      "Y": 5,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6232b62a-f3e0-4609-a159-ab08abf8125f",
+    "GameName": "obj_construction_bucket",
     "AppId": "constr6",
     "Name": "Cement Mix",
     "Color": "50612d",
@@ -111,12 +122,17 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 5,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "b0329961-7ac0-4a83-aabc-6701e516de7b",
+    "GameName": "obj_construction_mould",
     "AppId": "constr7",
     "Name": "Concrete Block Mould",
     "Color": "50612d",
@@ -127,12 +143,18 @@
       "Friction": 2,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 6,
+      "Y": 2,
+      "Z": 6
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0e695319-afd0-405b-85c8-289df8614c52",
+    "GameName": "obj_construction_carpetroll",
     "AppId": "constr8",
     "Name": "Carpet Roll",
     "Color": "368085",
@@ -142,12 +164,17 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 8
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9f909330-869e-468b-822a-204876118c0a",
+    "GameName": "obj_construction_carpetrollstand",
     "AppId": "constr9",
     "Name": "Carpet Spool Holder",
     "Color": "ebb100",
@@ -157,12 +184,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "82625879-3a0a-4ab8-9895-575d38ec4420",
+    "GameName": "obj_construction_wall02",
     "AppId": "constr10",
     "Name": "Scaffold Plastic Wall",
     "Color": "1999eb",
@@ -184,6 +217,7 @@
   },
   {
     "ItemId": "93e32c6b-b9de-4fed-ad9d-49f0850ee634",
+    "GameName": "obj_construction_wallpillar",
     "AppId": "constr11",
     "Name": "Scaffold Ledger",
     "Color": "ebb100",
@@ -205,6 +239,7 @@
   },
   {
     "ItemId": "094ceb5a-995b-431f-87f4-aac091494ae4",
+    "GameName": "obj_construction_wallfondation",
     "AppId": "constr12",
     "Name": "Scaffold Frame",
     "Color": "ebb100",
@@ -226,6 +261,7 @@
   },
   {
     "ItemId": "87a3bc6b-5eb3-43a3-871a-0cb42a415d64",
+    "GameName": "obj_construction_wallplank",
     "AppId": "constr13",
     "Name": "Scaffold Plank",
     "Color": "3a3a40",
@@ -247,6 +283,7 @@
   },
   {
     "ItemId": "ec757a7d-a27b-4688-ae85-46167659bf00",
+    "GameName": "obj_construction_ramp01",
     "AppId": "constr14",
     "Name": "Construction Pallet",
     "Color": "ebb100",
@@ -268,6 +305,7 @@
   },
   {
     "ItemId": "26119eb4-0e0e-4730-85ad-8a8c44f3d18c",
+    "GameName": "obj_construction_ramp02",
     "AppId": "constr15",
     "Name": "Scaffold Pallet Ramp",
     "Color": "ebb100",
@@ -278,12 +316,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "68db6d52-00fb-441a-ab34-a79341acde32",
+    "GameName": "obj_construction_soundisolationsmall",
     "AppId": "constr16",
     "Name": "Sound Isolation Small ",
     "Color": "c36512",
@@ -294,12 +338,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 1,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4369132a-40d8-47e7-ac45-e390c0ea6597",
+    "GameName": "obj_construction_soundisolation",
     "AppId": "constr17",
     "Name": "Sound Isolation Large",
     "Color": "c36512",
@@ -310,12 +360,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 6,
+      "Y": 1,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "da6e54df-a223-4a0e-b42f-ddeddd33f5b3",
+    "GameName": "obj_construction_light",
     "AppId": "constr18",
     "Name": "Work Light",
     "Color": "ebb100",
@@ -337,6 +393,7 @@
   },
   {
     "ItemId": "dac97219-d076-41db-8bbb-2509facf0eb4",
+    "GameName": "obj_construction_paintcan",
     "AppId": "constr19",
     "Name": "Paint Bucket",
     "Color": "ebb100",
@@ -347,12 +404,17 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "de7a75db-207d-48fe-a385-fc4c61b40cf6",
+    "GameName": "obj_construction_stairs",
     "AppId": "constr20",
     "Name": "Scaffolding Step",
     "Color": "ebb100",
@@ -362,6 +424,11 @@
       "Durability": 5,
       "Friction": 6,
       "Buoyancy": 1
+    },
+    "Box": {
+      "X": 8,
+      "Y": 1,
+      "Z": 1
     },
     "Flammable": false,
     "Density": 0.0,

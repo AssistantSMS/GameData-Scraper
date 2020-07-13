@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92",
+    "GameName": "obj_container_gas",
     "AppId": "interc1",
     "Name": "Gas Container",
     "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected",
@@ -23,6 +24,7 @@
   },
   {
     "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
+    "GameName": "obj_container_water",
     "AppId": "interc2",
     "Name": "Water Container",
     "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water",
@@ -45,6 +47,7 @@
   },
   {
     "ItemId": "76331bbf-abbd-4b8d-bb54-f721a5b6193b",
+    "GameName": "obj_container_fertilizer",
     "AppId": "interc3",
     "Name": "Fertilizer Container",
     "Description": "Place furtilizer and connect it to a Vacuum Pump with a trigger to shoot furtilizer on to plants",
@@ -67,6 +70,7 @@
   },
   {
     "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146",
+    "GameName": "obj_container_battery",
     "AppId": "interc4",
     "Name": "Battery Container",
     "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected",
@@ -89,6 +93,7 @@
   },
   {
     "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
+    "GameName": "obj_container_ammo",
     "AppId": "interc5",
     "Name": "Potato Ammo Container",
     "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo",
@@ -111,6 +116,7 @@
   },
   {
     "ItemId": "38ec258d-c644-4f08-8635-3f7434c884dd",
+    "GameName": "obj_container_seed",
     "AppId": "interc6",
     "Name": "Seed Container",
     "Description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil",
@@ -133,6 +139,7 @@
   },
   {
     "ItemId": "be29592a-ef58-4b1d-b18c-895023abd27f",
+    "GameName": "obj_container_chemical",
     "AppId": "interc7",
     "Name": "Chemical Container",
     "Color": "495975",

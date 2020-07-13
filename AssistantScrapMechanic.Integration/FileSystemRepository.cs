@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
 
@@ -78,7 +79,7 @@ namespace AssistantScrapMechanic.Integration
                 T result = JsonConvert.DeserializeObject<T>(json);
                 return result;
             }
-            catch
+            catch(Exception unused)
             {
                 //unused
             }

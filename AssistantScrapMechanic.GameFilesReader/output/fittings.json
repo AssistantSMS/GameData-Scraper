@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "6661da68-74af-4425-ad63-d5b4631ee266",
+    "GameName": "obj_fittings_pipebigshort",
     "AppId": "fitt1",
     "Name": "Large Pipe Mount",
     "Color": "b42119",
@@ -22,6 +23,7 @@
   },
   {
     "ItemId": "5888a6dd-59ab-4cd6-86b2-6e68f64674b5",
+    "GameName": "obj_fittings_pipebigholder",
     "AppId": "fitt2",
     "Name": "Holder Support Leg Base",
     "Color": "b42119",
@@ -43,6 +45,7 @@
   },
   {
     "ItemId": "70a497d6-6bc2-4ee6-a381-0976d68ac980",
+    "GameName": "obj_fittings_pipebigholderbar",
     "AppId": "fitt3",
     "Name": "Holder Support Leg",
     "Color": "b42119",
@@ -64,6 +67,7 @@
   },
   {
     "ItemId": "b2c933a8-2dfb-479f-a3d9-b87797d5e0c6",
+    "GameName": "obj_fittings_pipebigholderbarbend",
     "AppId": "fitt4",
     "Name": "Holder Support Bend",
     "Color": "b42119",
@@ -85,6 +89,7 @@
   },
   {
     "ItemId": "3292878f-4d1e-49e3-a80f-16b710dad42e",
+    "GameName": "obj_fittings_pipebigwallconnector",
     "AppId": "fitt5",
     "Name": "Large Pipe Extension",
     "Color": "b42119",
@@ -106,6 +111,7 @@
   },
   {
     "ItemId": "49938942-fbb6-444d-bba6-1fb339ee5cf3",
+    "GameName": "obj_fittings_pipebiglid",
     "AppId": "fitt6",
     "Name": "Large Pipe Cap",
     "Color": "b42119",
@@ -116,12 +122,17 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "412dee88-996e-49c2-8b51-5644f659f9b2",
+    "GameName": "obj_fittings_pipebigtank",
     "AppId": "fitt7",
     "Name": "Large Pipe Compressor",
     "Color": "b42119",
@@ -132,12 +143,18 @@
       "Friction": 7,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 5,
+      "Y": 5,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "40c5b3fd-1ac4-47f4-ae61-503e14baf20f",
+    "GameName": "obj_fittings_powerstation",
     "AppId": "fitt8",
     "Name": "Power Station",
     "Color": "0d7308",
@@ -159,6 +176,7 @@
   },
   {
     "ItemId": "63cf0973-b81e-4fe1-ae44-654937e1b0e4",
+    "GameName": "obj_fittings_7x8",
     "AppId": "fitt9",
     "Name": "Giant Pipe",
     "Color": "d07500",
@@ -169,12 +187,17 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Cylinder": {
+      "Diameter": 7,
+      "Depth": 8
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "06fd0e52-f791-43a6-9fbd-5a8a6260f3f2",
+    "GameName": "obj_fittings_7x8_glass",
     "AppId": "fitt10",
     "Name": "Giant Pipe Glass Straight",
     "Color": "d07500",
@@ -185,12 +208,17 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Cylinder": {
+      "Diameter": 7,
+      "Depth": 8
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "41784077-0636-470f-a6df-b868f152af29",
+    "GameName": "obj_fittings_7x8_bend",
     "AppId": "fitt11",
     "Name": "Giant Pipe Corner",
     "Color": "d07500",
@@ -201,12 +229,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 7,
+      "Y": 7,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "16ed53cc-a45b-4f64-92d4-2db93bf33e1c",
+    "GameName": "obj_fittings_7x8_bend_glass",
     "AppId": "fitt12",
     "Name": "Giant Pipe Glass Corner",
     "Color": "d07500",
@@ -217,12 +251,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 7,
+      "Y": 7,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8310f5b9-3394-4723-ac23-f59a21d6e3f3",
+    "GameName": "obj_fittings_7x8_T",
     "AppId": "fitt13",
     "Name": "Giant Pipe Tee",
     "Color": "d07500",
@@ -233,12 +273,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 7,
+      "Y": 7,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9777f897-4cce-4c22-99ce-793aaca9f7c0",
+    "GameName": "obj_fittings_7x1",
     "AppId": "fitt14",
     "Name": "Giant Pipe Bracer",
     "Color": "555e68",
@@ -249,12 +295,17 @@
       "Friction": 6,
       "Buoyancy": 2
     },
+    "Cylinder": {
+      "Diameter": 7,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "66c3a5cd-ce37-4b37-916d-ac39a67ad2f5",
+    "GameName": "obj_fittings_7x8_mount",
     "AppId": "fitt15",
     "Name": "Giant Pipe Holder",
     "Color": "c20000",
@@ -265,12 +316,18 @@
       "Friction": 6,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 7,
+      "Y": 2,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "764e94d1-61c0-4fef-9719-5548889e4817",
+    "GameName": "obj_fittings_ventbig01",
     "AppId": "fitt16",
     "Name": "Warehouse Ventilation Short",
     "Color": "a2a2a2",
@@ -292,6 +349,7 @@
   },
   {
     "ItemId": "468650b4-5ff7-4be1-9e75-05ed86fd83e0",
+    "GameName": "obj_fittings_ventbig02",
     "AppId": "fitt17",
     "Name": "Warehouse Ventilation Long",
     "Color": "a2a2a2",
@@ -313,6 +371,7 @@
   },
   {
     "ItemId": "9e9280f7-c9bc-4b86-b788-43f9b48903dd",
+    "GameName": "obj_fittings_ventbig03",
     "AppId": "fitt18",
     "Name": "Warehouse Ventilation Corner",
     "Color": "a2a2a2",
@@ -323,12 +382,18 @@
       "Friction": 3,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e846e3e7-b608-49c9-bbfd-e0bb859e6d3c",
+    "GameName": "obj_fittings_ventbig04",
     "AppId": "fitt19",
     "Name": "Warehouse Ventilation Tee",
     "Color": "a2a2a2",
@@ -350,6 +415,7 @@
   },
   {
     "ItemId": "20821431-de44-4d54-8877-60833316104e",
+    "GameName": "obj_fittings_ventbig05",
     "AppId": "fitt20",
     "Name": "Warehouse Ventilation Mount",
     "Color": "a2a2a2",
@@ -371,6 +437,7 @@
   },
   {
     "ItemId": "e0f8dc49-c418-403b-a7a1-44bea7ecd3d0",
+    "GameName": "obj_fittings_venthub",
     "AppId": "fitt21",
     "Name": "Warehouse Ventilation Drum",
     "Color": "a2a2a2",
@@ -392,6 +459,7 @@
   },
   {
     "ItemId": "872ae33f-cf02-4959-91d0-ead1dacfd34b",
+    "GameName": "obj_fittings_generatorpipe",
     "AppId": "fitt22",
     "Name": "Generator Pipe Short",
     "Color": "df7f01",
@@ -402,12 +470,17 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "838c8d9a-8fc0-4b15-898b-b82bbf8bf2e0",
+    "GameName": "obj_fittings_generatorpipelong",
     "AppId": "fitt23",
     "Name": "Generator Pipe Long",
     "Color": "df7f01",
@@ -418,12 +491,17 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "85623170-074a-4663-8944-97d131aff495",
+    "GameName": "obj_fittings_generatorpipebend",
     "AppId": "fitt24",
     "Name": "Generator Pipe Corner",
     "Color": "df7f01",
@@ -434,12 +512,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1b47f36c-7c6e-451c-87b2-34fdf33d6989",
+    "GameName": "obj_fittings_generatorpipesplit",
     "AppId": "fitt25",
     "Name": "Generator Pipe Tee",
     "Color": "df7f01",
@@ -450,12 +534,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c85957a1-c393-4352-ba79-5004bb4f07a2",
+    "GameName": "obj_fittings_generatorpipemulti",
     "AppId": "fitt26",
     "Name": "Generator Pipe Four Way",
     "Color": "df7f01",
@@ -477,6 +567,7 @@
   },
   {
     "ItemId": "9d7e182f-c5d6-45e9-af21-1c24977b30c9",
+    "GameName": "obj_fittings_ductshort",
     "AppId": "fitt27",
     "Name": "Duct Short",
     "Color": "a4b3b7",
@@ -498,6 +589,7 @@
   },
   {
     "ItemId": "01d2298b-6cdb-4f4f-bd73-37c76cd60ca3",
+    "GameName": "obj_fittings_ductlong",
     "AppId": "fitt28",
     "Name": "Duct Long",
     "Color": "a4b3b7",
@@ -519,6 +611,7 @@
   },
   {
     "ItemId": "d97a85c5-7c0f-4bfb-9ef4-ce6ecdab9539",
+    "GameName": "obj_fittings_ductbend",
     "AppId": "fitt29",
     "Name": "Duct Corner",
     "Color": "a4b3b7",
@@ -529,12 +622,18 @@
       "Friction": 4,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6f0c29d3-f8c1-4314-b13d-db637ed89061",
+    "GameName": "obj_fittings_ductintersect",
     "AppId": "fitt30",
     "Name": "Duct Join",
     "Color": "a4b3b7",
@@ -556,6 +655,7 @@
   },
   {
     "ItemId": "b050533f-200b-4253-9532-c2cfa273f982",
+    "GameName": "obj_fittings_ductelevate",
     "AppId": "fitt31",
     "Name": "Duct Holder",
     "Color": "a4b3b7",
@@ -577,6 +677,7 @@
   },
   {
     "ItemId": "fbc0fbfb-803c-42dd-aace-1ae10e55a785",
+    "GameName": "obj_fittings_ductpipe",
     "AppId": "fitt32",
     "Name": "Duct End",
     "Color": "a4b3b7",
@@ -587,12 +688,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1325d152-3dd1-41a1-9027-5823c5cb55c4",
+    "GameName": "obj_fittings_ac",
     "AppId": "fitt33",
     "Name": "Air Conditioner",
     "Color": "3e9ffe",
@@ -614,6 +721,7 @@
   },
   {
     "ItemId": "bbc5cc77-443d-4aa7-a175-ebdeb09c2df3",
+    "GameName": "obj_fittings_pipe",
     "AppId": "fitt34",
     "Name": "Pipe Short",
     "Color": "1c8687",
@@ -624,12 +732,17 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "07232236-22eb-4912-8774-ab185f368bb9",
+    "GameName": "obj_fittings_pipelong",
     "AppId": "fitt35",
     "Name": "Pipe Long",
     "Color": "1c8687",
@@ -640,12 +753,17 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4f1c0036-389b-432e-81de-8261cb9f9d57",
+    "GameName": "obj_fittings_pipebend",
     "AppId": "fitt36",
     "Name": "Pipe Corner",
     "Color": "565656",
@@ -656,12 +774,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9f37d9e9-be8d-49c8-a7ac-e59c67786083",
+    "GameName": "obj_fittings_pipesplit",
     "AppId": "fitt37",
     "Name": "Pipe Join",
     "Color": "1c8687",
@@ -672,12 +796,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "04782466-eca1-4ed9-8502-036ea269aed9",
+    "GameName": "obj_fittings_pipevalve",
     "AppId": "fitt38",
     "Name": "Valve",
     "Color": "a41717",
@@ -688,12 +818,17 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "862f6857-3050-4a84-8191-6a7cbb50bd1a",
+    "GameName": "obj_fittings_pipebig",
     "AppId": "fitt39",
     "Name": "Large Pipe Short",
     "Color": "b42119",
@@ -704,12 +839,17 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "53e8478f-517f-4ea0-be9c-f4a357400cc1",
+    "GameName": "obj_fittings_pipebiglong",
     "AppId": "fitt40",
     "Name": "Large Pipe Long",
     "Color": "b42119",
@@ -720,12 +860,17 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 6
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "17153a0e-8461-442f-b172-3a899c1ae99f",
+    "GameName": "obj_fittings_pipebigbend",
     "AppId": "fitt41",
     "Name": "Large Pipe Corner",
     "Color": "b42119",
@@ -736,12 +881,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "08918d4d-29e6-427d-ad8c-1eafcc4af1f9",
+    "GameName": "obj_fittings_pipebigsplit",
     "AppId": "fitt42",
     "Name": "Large Pipe Join",
     "Color": "b42119",
@@ -752,12 +903,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6be64f78-927b-4f61-b645-20adfbd9bfce",
+    "GameName": "obj_fittings_wireshort",
     "AppId": "fitt43",
     "Name": "Wires Short",
     "Color": "2b3f70",
@@ -768,12 +925,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0535b90e-f0a8-491c-8c70-1fc81b939fb4",
+    "GameName": "obj_fittings_wire",
     "AppId": "fitt44",
     "Name": "Wires Long",
     "Color": "2b3f70",
@@ -784,12 +947,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 5,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "33102836-a94d-4ab3-9864-3d54d32c230d",
+    "GameName": "obj_fittings_wirebend",
     "AppId": "fitt45",
     "Name": "Wires Bend",
     "Color": "2b3f70",
@@ -800,12 +969,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f0713386-8c95-493d-b013-e8e53e32d1ed",
+    "GameName": "obj_fittings_wireconvexbend",
     "AppId": "fitt46",
     "Name": "Wires Convex Bend",
     "Color": "2b3f70",
@@ -816,12 +991,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a8164438-65fa-4840-8bc2-766fad543841",
+    "GameName": "obj_fittings_wireconcavebend",
     "AppId": "fitt47",
     "Name": "Wires Concave Bend",
     "Color": "2b3f70",
@@ -832,12 +1013,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "697e3b80-d3f7-4f4a-aba2-23611a45f967",
+    "GameName": "obj_fittings_fusebox",
     "AppId": "fitt48",
     "Name": "Fuse Box",
     "Color": "79859c",
@@ -859,6 +1046,7 @@
   },
   {
     "ItemId": "647296c4-41ef-4173-8a54-d2a1ae1e89c3",
+    "GameName": "obj_fittings_cordstraight",
     "AppId": "fitt49",
     "Name": "Tubes Short",
     "Color": "a97700",
@@ -880,6 +1068,7 @@
   },
   {
     "ItemId": "2ba72fca-443a-49e4-8eb2-073c4226866e",
+    "GameName": "obj_fittings_cordstraightlong",
     "AppId": "fitt50",
     "Name": "Tubes Long",
     "Color": "a97700",
@@ -901,6 +1090,7 @@
   },
   {
     "ItemId": "903b0823-4ce1-48e6-9702-aeaa7598c347",
+    "GameName": "obj_fittings_cordbend",
     "AppId": "fitt51",
     "Name": "Tubes Corner",
     "Color": "a97700",
@@ -911,12 +1101,18 @@
       "Friction": 3,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "885ab381-007d-4a60-99e3-c58dec54c880",
+    "GameName": "obj_fittings_cordjunction",
     "AppId": "fitt52",
     "Name": "Tubes Join",
     "Color": "a97700",
@@ -938,6 +1134,7 @@
   },
   {
     "ItemId": "0dba257b-b907-4919-baaf-2fefe19f4e24",
+    "GameName": "small_2way_pipe",
     "AppId": "fitt53",
     "Name": "Small Pipe Short",
     "Color": "7a7a7a",
@@ -948,12 +1145,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "927d80d8-84ee-44f0-9d8b-cb7a688e0b6c",
+    "GameName": "small_long_pipe",
     "AppId": "fitt54",
     "Name": "Small Pipe Long",
     "Color": "7a7a7a",
@@ -964,12 +1167,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8024db09-9147-4fe3-a747-00bc30ab724b",
+    "GameName": "small_2wayb_pipe",
     "AppId": "fitt55",
     "Name": "Small Pipe Bend",
     "Color": "7a7a7a",
@@ -980,12 +1189,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e1273b8a-945b-4080-81eb-cbf79961cccb",
+    "GameName": "small_3way_pipe",
     "AppId": "fitt56",
     "Name": "Small Pipe Tee",
     "Color": "7a7a7a",
@@ -996,12 +1211,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "203fdf06-b311-49fd-933d-a1c6b671a017",
+    "GameName": "small_3wayb_pipe",
     "AppId": "fitt57",
     "Name": "Small Pipe Corner",
     "Color": "7a7a7a",
@@ -1012,12 +1233,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "387095d6-5aba-45e3-abd0-098710c268f8",
+    "GameName": "small_4way_pipe",
     "AppId": "fitt58",
     "Name": "Small Pipe Four Way",
     "Color": "7a7a7a",
@@ -1028,12 +1255,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "5a106512-9284-40de-be68-2c186e903097",
+    "GameName": "small_4wayb_pipe",
     "AppId": "fitt59",
     "Name": "Small Pipe Four Way Tee",
     "Color": "7a7a7a",
@@ -1044,12 +1277,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c6ebae46-8e69-4ddd-a3c0-895d887027bd",
+    "GameName": "small_5way_pipe",
     "AppId": "fitt60",
     "Name": "Small Pipe Five Way",
     "Color": "7a7a7a",
@@ -1060,12 +1299,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9c6d8dba-1783-4c42-8a02-6af1c5d63ec6",
+    "GameName": "small_6way_pipe",
     "AppId": "fitt61",
     "Name": "Small Pipe Six Way",
     "Color": "7a7a7a",
@@ -1075,6 +1320,11 @@
       "Durability": 4,
       "Friction": 3,
       "Buoyancy": 3
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
     },
     "Flammable": false,
     "Density": 250.0,

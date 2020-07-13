@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "6130d484-775e-481a-889a-43d2e8d29058",
+    "GameName": "obj_warehouse_beambig",
     "AppId": "ware1",
     "Name": "Industrial Beam Short",
     "Color": "c36512",
@@ -22,6 +23,7 @@
   },
   {
     "ItemId": "a914fcb5-2509-428e-b8ad-80bf28af9f65",
+    "GameName": "obj_warehouse_beambiglong",
     "AppId": "ware2",
     "Name": "Industrial Beam Long",
     "Color": "c36512",
@@ -43,6 +45,7 @@
   },
   {
     "ItemId": "3ac141b5-3fbe-4588-9679-c458ac07642a",
+    "GameName": "obj_warehouse_beambigturn",
     "AppId": "ware3",
     "Name": "Industrial Beam Corner",
     "Color": "c36512",
@@ -64,6 +67,7 @@
   },
   {
     "ItemId": "419fb889-e440-420c-b553-4cdf95e71a61",
+    "GameName": "obj_warehouse_beambigbend",
     "AppId": "ware4",
     "Name": "Industrial Beam Corner Bend",
     "Color": "c36512",
@@ -85,6 +89,7 @@
   },
   {
     "ItemId": "04680945-5bb7-4a8a-9246-24c6c2b977d1",
+    "GameName": "obj_warehouse_beambigsplit",
     "AppId": "ware5",
     "Name": "Industrial Beam Four Way",
     "Color": "c36512",
@@ -106,6 +111,7 @@
   },
   {
     "ItemId": "e2844132-31b4-4a2c-af5f-0abd173af1ef",
+    "GameName": "obj_warehouse_beambigintersect",
     "AppId": "ware6",
     "Name": "Industrial Beam Crossing",
     "Color": "c36512",
@@ -127,6 +133,7 @@
   },
   {
     "ItemId": "f5b5acb3-afd5-4755-a7fe-2151f0559d43",
+    "GameName": "obj_warehouse_beambigend",
     "AppId": "ware7",
     "Name": "Industrial Beam End",
     "Color": "c36512",
@@ -148,6 +155,7 @@
   },
   {
     "ItemId": "82694546-92b2-47c3-894d-7fc215e2de4a",
+    "GameName": "obj_warehouse_beamframe",
     "AppId": "ware8",
     "Name": "Frame Beam Short",
     "Color": "c36512",
@@ -169,6 +177,7 @@
   },
   {
     "ItemId": "bdb55551-39a4-437c-aeff-f54368b19b5e",
+    "GameName": "obj_warehouse_beamframelong",
     "AppId": "ware9",
     "Name": "Frame Beam Long",
     "Color": "c36512",
@@ -190,6 +199,7 @@
   },
   {
     "ItemId": "d42cae51-343e-4847-83a4-e55c1b04aa80",
+    "GameName": "obj_warehouse_beamframeend",
     "AppId": "ware10",
     "Name": "Frame Beam End",
     "Color": "c36512",
@@ -211,6 +221,7 @@
   },
   {
     "ItemId": "176f4537-b245-4ba2-a318-da12e15bf789",
+    "GameName": "obj_warehouse_beamframeturn",
     "AppId": "ware11",
     "Name": "Frame Beam Corner",
     "Color": "c36512",
@@ -232,6 +243,7 @@
   },
   {
     "ItemId": "7f0d8b7c-861f-4597-94b4-a87978b3f750",
+    "GameName": "obj_warehouse_bigramp",
     "AppId": "ware12",
     "Name": "Warehouse Ramp Big",
     "Color": "c36512",
@@ -242,12 +254,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 4,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3b552b6f-2f32-4c1f-b9c4-ff9ff7dd0ac3",
+    "GameName": "obj_warehouse_bigrampsmall",
     "AppId": "ware13",
     "Name": "Warehouse Ramp Small",
     "Color": "c36512",
@@ -258,12 +276,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 1,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "60075229-2e4e-4aeb-9e64-da41b6ac9611",
+    "GameName": "obj_warehouse_bigrampthin",
     "AppId": "ware14",
     "Name": "Warehouse Ramp Narrow",
     "Color": "c36512",
@@ -274,12 +298,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 4,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "04733746-4090-4d63-aff1-47dafae506fd",
+    "GameName": "obj_warehouse_bigrampthinsmall",
     "AppId": "ware15",
     "Name": "Warehouse Ramp Narrow Small",
     "Color": "c36512",
@@ -290,12 +320,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "43c0ca80-0980-433a-88a3-929727a62a6d",
+    "GameName": "obj_warehouse_container1",
     "AppId": "ware16",
     "Name": "Metal Storage Support",
     "Color": "999999",
@@ -306,12 +342,18 @@
       "Friction": 2,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 100.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "66affe90-4552-455e-a0b0-b203f9988790",
+    "GameName": "obj_warehouse_container3",
     "AppId": "ware18",
     "Name": "Metal Storage Ramp",
     "Color": "5f5f5f",
@@ -322,12 +364,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 200.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "b3425d6d-ea3d-45de-9078-10af2e178389",
+    "GameName": "obj_warehouse_container3B",
     "AppId": "ware19",
     "Name": "Large Metal Storage Lamp",
     "Color": "5f5f5f",
@@ -349,6 +397,7 @@
   },
   {
     "ItemId": "ba7775ef-d03b-46bd-aa09-09015297a415",
+    "GameName": "obj_warehouse_container3C",
     "AppId": "ware20",
     "Name": "Metal Storage Beam",
     "Color": "5f5f5f",
@@ -370,6 +419,7 @@
   },
   {
     "ItemId": "b7e60b8e-2075-4ae4-b906-53af3845e198",
+    "GameName": "obj_warehouse_container4",
     "AppId": "ware21",
     "Name": "Metal Storage Corner B",
     "Color": "5f5f5f",
@@ -380,12 +430,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 200.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2bbaf389-4ef7-4dca-b7ee-397cc30f3862",
+    "GameName": "obj_warehouse_container5",
     "AppId": "ware22",
     "Name": "Metal Storage Corner A",
     "Color": "77777c",
@@ -396,12 +452,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 150.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "fba945c7-a50f-4515-af38-57d768706078",
+    "GameName": "obj_warehouse_container6",
     "AppId": "ware23",
     "Name": "Metal Storage Handle",
     "Color": "77777c",
@@ -412,12 +474,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 100.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "513530b0-61bd-4b82-83e7-191d090d25d8",
+    "GameName": "obj_warehouse_container7",
     "AppId": "ware24",
     "Name": "Metal Storage Floor",
     "Color": "902513",
@@ -428,12 +496,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 8,
+      "Y": 1,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 200.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "6ad9b8c7-4006-43cd-aa95-3d63c0e5c9fb",
+    "GameName": "obj_warehouse_fan",
     "AppId": "ware25",
     "Name": "Fan Base",
     "Color": "79859c",
@@ -444,12 +518,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 7,
+      "Y": 7,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 300.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "414854a9-77bc-48aa-a9d5-0c7cd213e4df",
+    "GameName": "obj_warehouse_fancube",
     "AppId": "ware26",
     "Name": "Fan Blade Cap",
     "Color": "79859c",
@@ -460,12 +540,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 150.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c2ce40b1-fc95-48bd-bd05-9c3e394a157a",
+    "GameName": "obj_warehouse_fanblade",
     "AppId": "ware27",
     "Name": "Fan Blade",
     "Color": "c36512",
@@ -476,12 +562,18 @@
       "Friction": 4,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 1,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 50.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "4db857f1-07dc-4ea2-9391-fd24903945d1",
+    "GameName": "obj_warehouse_packingtable",
     "AppId": "ware28",
     "Name": "Packing Table",
     "Color": "c36512",
@@ -503,6 +595,7 @@
   },
   {
     "ItemId": "a2cf56fe-9961-481b-9a12-093f64867d9c",
+    "GameName": "obj_warehouse_packingtablesupport",
     "AppId": "ware29",
     "Name": "Packing Table Holder",
     "Color": "c36512",
@@ -513,12 +606,18 @@
       "Friction": 6,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 5,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 450.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "cf4daf85-36a2-479f-96dc-b6201bc12d36",
+    "GameName": "obj_warehouse_packingtablesign",
     "AppId": "ware30",
     "Name": "Pack Instruction Sign",
     "Color": "c36512",
@@ -540,6 +639,7 @@
   },
   {
     "ItemId": "72074131-529b-49c1-9ff3-73706f61eb06",
+    "GameName": "obj_warehouse_packingtableroll",
     "AppId": "ware31",
     "Name": "Wrapping Roll",
     "Color": "6de5ff",
@@ -550,12 +650,17 @@
       "Friction": 5,
       "Buoyancy": 7
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 4
+    },
     "Flammable": true,
     "Density": 450.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "efd779ef-ce99-4507-bafb-9e2c7ff8a46c",
+    "GameName": "obj_warehouse_banner1",
     "AppId": "ware32",
     "Name": "Banner",
     "Color": "8a0000",
@@ -566,12 +671,18 @@
       "Friction": 6,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 6,
+      "Y": 7,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "abaef792-741e-4c6b-8e79-02461a37b035",
+    "GameName": "obj_warehouse_doorframelight",
     "AppId": "ware34",
     "Name": "Frame Beam Light",
     "Color": "c36512",
@@ -593,6 +704,7 @@
   },
   {
     "ItemId": "448d7d18-2a36-4749-8d73-3da913ae6aeb",
+    "GameName": "obj_warehouse_overheadcranearm",
     "AppId": "ware35",
     "Name": "Crane Leg",
     "Color": "c36512",
@@ -603,12 +715,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 8,
+      "Y": 5,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8f5f8a39-734d-4bc3-8a9e-74026bcb3704",
+    "GameName": "obj_warehouse_overheadcranearmplate",
     "AppId": "ware36",
     "Name": "Crane Panel",
     "Color": "c36512",
@@ -619,12 +737,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 6,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "cbc6fc23-dcc9-4d6f-a7aa-9a3ae37ca41f",
+    "GameName": "obj_warehouse_overheadcranerope",
     "AppId": "ware37",
     "Name": "Crane Cable Roll",
     "Color": "c36512",
@@ -635,12 +759,17 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 5,
+      "Depth": 7
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "54ea2236-001c-4560-8e6d-3942a885bb3b",
+    "GameName": "obj_warehouse_overheadcranearmplatform",
     "AppId": "ware38",
     "Name": "Crane Top",
     "Color": "c36512",
@@ -651,12 +780,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ec334737-1467-4a29-a3b7-e04f662bca1b",
+    "GameName": "obj_warehouse_overheadcranetrolley",
     "AppId": "ware39",
     "Name": "Crane Body",
     "Color": "c36512",
@@ -667,12 +802,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "96392e20-12e9-4a19-8dc5-7a8e33238ae2",
+    "GameName": "obj_warehouse_cranehook",
     "AppId": "ware40",
     "Name": "Crane Hook",
     "Color": "4a4a4a",
@@ -683,12 +824,18 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "b7cf1762-4010-4915-813d-dfbefb100ef5",
+    "GameName": "obj_warehouse_cranehook_base",
     "AppId": "ware41",
     "Name": "Crane Hook Block",
     "Color": "c36512",
@@ -699,12 +846,18 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 3,
+      "Y": 5,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2893e707-36b3-4ff1-bb3c-ef1b5524ae13",
+    "GameName": "obj_warehouse_craneplatform",
     "AppId": "ware42",
     "Name": "Crane Loading Floor",
     "Color": "c36512",
@@ -726,6 +879,7 @@
   },
   {
     "ItemId": "be744e84-f67e-4c06-a809-c247adc1babb",
+    "GameName": "obj_warehouse_masterswitch",
     "AppId": "ware45",
     "Name": "Master Switch",
     "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more.",

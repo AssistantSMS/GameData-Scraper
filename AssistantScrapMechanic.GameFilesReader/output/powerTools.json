@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "3e10ef67-383a-4b60-aa5b-b1173134e437",
+    "GameName": "obj_powertools_sawblade",
     "AppId": "powertool1",
     "Name": "Saw Blade",
     "Description": "Cut down trees faster with the Saw Blade. Put it on a bearing that is connected to a engine and drive it in to a tree.",
@@ -12,12 +13,17 @@
       "Friction": 2,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 5,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
+    "GameName": "obj_powertools_drill",
     "AppId": "powertool2",
     "Name": "Drill",
     "Description": "Use the Drill to mine square rocks for stone and metal. Put it on a bearing that is connected to a engine and drive it in to a square rock.",
@@ -28,6 +34,11 @@
       "Durability": 7,
       "Friction": 2,
       "Buoyancy": 1
+    },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 3
     },
     "Flammable": false,
     "Density": 1250.0,

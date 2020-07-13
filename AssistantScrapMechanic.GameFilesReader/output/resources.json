@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "267e0c93-62e3-45ad-9470-a14035cb9ca4",
+    "GameName": "obj_resource_ember",
     "AppId": "reso1",
     "Name": "Ember",
     "Color": "808080",
@@ -11,12 +12,17 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 4
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a",
+    "GameName": "obj_resource_beewax",
     "AppId": "reso2",
     "Name": "Beeswax",
     "Color": "df7f01",
@@ -38,6 +44,7 @@
   },
   {
     "ItemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f",
+    "GameName": "obj_resources_slimyclam",
     "AppId": "reso3",
     "Name": "Glue Clam",
     "Color": "aaa8ef",
@@ -48,12 +55,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad",
+    "GameName": "obj_resource_cotton",
     "AppId": "reso4",
     "Name": "Cotton",
     "Color": "3e9ffe",
@@ -75,6 +88,7 @@
   },
   {
     "ItemId": "fe8bfeba-850b-4827-9785-10e2468c9c23",
+    "GameName": "obj_resource_corn",
     "AppId": "reso5",
     "Name": "Corn",
     "Description": "Wocs love to eat corn.",
@@ -86,12 +100,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3",
+    "GameName": "obj_resource_circuitboard",
     "AppId": "reso6",
     "Name": "Circuit Board",
     "Color": "4bffb5",
@@ -102,12 +122,18 @@
       "Friction": 6,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e",
+    "GameName": "obj_resource_steak",
     "AppId": "reso7",
     "Name": "Woc Steak",
     "Color": "4bffb5",
@@ -118,12 +144,18 @@
       "Friction": 6,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 4,
+      "Y": 3,
+      "Z": 4
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "388adeab-67e5-4901-afe8-c56217754510",
+    "GameName": "obj_resource_glowpoop",
     "AppId": "reso8",
     "Name": "Glow",
     "Color": "4bffb5",
@@ -134,12 +166,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced",
+    "GameName": "obj_resource_flower",
     "AppId": "reso9",
     "Name": "Pigment Flower",
     "Color": "4bffb5",
@@ -150,12 +188,17 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "36335664-6e61-4d44-9876-54f9660a8565",
+    "GameName": "obj_consumable_glue",
     "AppId": "reso10",
     "Name": "Glue",
     "Color": "3da851",
@@ -177,6 +220,7 @@
   },
   {
     "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0",
+    "GameName": "obj_resource_crudeoil",
     "AppId": "reso11",
     "Name": "Crude Oil",
     "Color": "495975",

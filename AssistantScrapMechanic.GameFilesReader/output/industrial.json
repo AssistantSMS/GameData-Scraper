@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "7feba511-4910-429d-a0e3-f1727259ae5c",
+    "GameName": "obj_industrial_rooftankslice",
     "AppId": "indus1",
     "Name": "Generator Coil Segment",
     "Color": "909090",
@@ -11,12 +12,18 @@
       "Friction": 6,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 6,
+      "Y": 3,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "23572f75-03c0-4c33-b643-70250d0e4ae0",
+    "GameName": "obj_industrial_rooftankslicetop",
     "AppId": "indus2",
     "Name": "Generator Coil Corner",
     "Color": "909090",
@@ -27,12 +34,18 @@
       "Friction": 6,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 6,
+      "Y": 6,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "7237080a-676b-4be1-bb7f-2fb1a9f6f274",
+    "GameName": "obj_industrial_windowframe",
     "AppId": "indus3",
     "Name": "Ventilation Frame",
     "Color": "c36512",
@@ -54,6 +67,7 @@
   },
   {
     "ItemId": "6f699ce5-4955-4725-9829-2b6e1dd6eee9",
+    "GameName": "obj_industrial_generatorfoothinge",
     "AppId": "indus4",
     "Name": "Steel Support Bracket",
     "Color": "73adb7",
@@ -64,12 +78,18 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 4,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "916cbfc2-776f-49d4-838a-eb946136be3e",
+    "GameName": "obj_industrial_encryptstandbase",
     "AppId": "indus5",
     "Name": "Encryptor Base",
     "Color": "c36512",
@@ -80,12 +100,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 7,
+      "Y": 2,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 400.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ddaa82ea-22c5-4a2c-8367-c2ee12d5ea5b",
+    "GameName": "obj_industrial_encryptstandfoundation",
     "AppId": "indus6",
     "Name": "Encryptor Base Plate",
     "Color": "79859c",
@@ -107,6 +133,7 @@
   },
   {
     "ItemId": "3cbf5f08-14da-4db5-8360-de5078e7c4c1",
+    "GameName": "obj_industrial_encryptstandframe",
     "AppId": "indus7",
     "Name": "Encryptor Frame Top",
     "Color": "ebb600",
@@ -117,12 +144,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 200.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f1831414-735f-4323-834a-85d5953fc160",
+    "GameName": "obj_industrial_encryptstandhinge",
     "AppId": "indus8",
     "Name": "Small Steel Bracket",
     "Color": "79859c",
@@ -133,12 +166,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3b47a99f-85c4-4490-8dc5-3560b7c4c863",
+    "GameName": "obj_industrial_encryptstandpillar",
     "AppId": "indus9",
     "Name": "Encryptor Frame Beam",
     "Color": "a2a2a2",
@@ -149,12 +188,18 @@
       "Friction": 6,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0ee4fc0a-9f69-4d67-b5c2-09ea5a22712f",
+    "GameName": "obj_industrial_encryptstandpipe",
     "AppId": "indus10",
     "Name": "Encryptor Holder",
     "Color": "a2a2a2",
@@ -165,12 +210,17 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "fff76292-79aa-4f0d-814f-72e51159d6d7",
+    "GameName": "obj_industrial_encryptstandside",
     "AppId": "indus11",
     "Name": "Base Extension",
     "Color": "79859c",
@@ -181,12 +231,18 @@
       "Friction": 4,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8ca9a4f2-c8c8-439d-9945-e2e95dafbc21",
+    "GameName": "obj_industrial_powergenerator5",
     "AppId": "indus12",
     "Name": "Generator B",
     "Color": "c36512",
@@ -208,6 +264,7 @@
   },
   {
     "ItemId": "7997f4a5-6f5f-492e-95cb-65a5e2a0f2f2",
+    "GameName": "obj_industrial_powergenerator4",
     "AppId": "indus13",
     "Name": "Generator C",
     "Color": "c36512",
@@ -229,6 +286,7 @@
   },
   {
     "ItemId": "af389b10-a31b-46f7-bbe9-0bfad8181e97",
+    "GameName": "obj_industrial_powergenerator2",
     "AppId": "indus14",
     "Name": "Generator D",
     "Color": "c36512",
@@ -250,6 +308,7 @@
   },
   {
     "ItemId": "5cd67a6e-52cc-4eb0-9f44-275d366516c5",
+    "GameName": "obj_industrial_powergenerator1",
     "AppId": "indus15",
     "Name": "Generator A",
     "Color": "c36512",
@@ -271,6 +330,7 @@
   },
   {
     "ItemId": "38934d9d-69a8-4a1f-8137-892ede148cb4",
+    "GameName": "obj_industrial_powergeneratorside",
     "AppId": "indus16",
     "Name": "Power Generator Side",
     "Color": "c36512",
@@ -292,6 +352,7 @@
   },
   {
     "ItemId": "684002ad-3218-4dd0-a6dd-53e6dfdec562",
+    "GameName": "obj_industrial_powergeneratortank",
     "AppId": "indus17",
     "Name": "Generator Tank",
     "Color": "529374",
@@ -313,6 +374,7 @@
   },
   {
     "ItemId": "c349afdf-aded-47bc-9a5c-606372bc535b",
+    "GameName": "obj_industrial_powergenerator7",
     "AppId": "indus18",
     "Name": "Generator E",
     "Color": "c36512",
@@ -323,12 +385,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 4,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 100.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "346a4ea9-d360-4133-b62f-4c188000c60b",
+    "GameName": "obj_industrial_powerswitch",
     "AppId": "indus19",
     "Name": "Trigger Frame",
     "Color": "df7f01",
@@ -339,12 +407,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 100.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ad9f6357-b0b4-4dab-b84e-fb20df54d1ac",
+    "GameName": "obj_industrial_powerholders",
     "AppId": "indus20",
     "Name": "Generator Pipe Holder",
     "Color": "c36512",
@@ -355,12 +429,18 @@
       "Friction": 5,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 1,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 100.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "87878e83-8170-4796-9401-6baba45ccef2",
+    "GameName": "obj_industrial_beam",
     "AppId": "indus21",
     "Name": "Short I-Beam",
     "Color": "f3871c",
@@ -382,6 +462,7 @@
   },
   {
     "ItemId": "4c7b8096-b8ca-4341-bfe9-d31d2d5443b8",
+    "GameName": "obj_industrial_beamlong",
     "AppId": "indus22",
     "Name": "Long I-Beam",
     "Color": "f3871c",
@@ -403,6 +484,7 @@
   },
   {
     "ItemId": "31768765-5a08-499a-a7e6-7e7613363f75",
+    "GameName": "obj_industrial_beambend",
     "AppId": "indus23",
     "Name": "I-Beam Corner",
     "Color": "f3871c",
@@ -413,12 +495,18 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1ed1d5a8-466a-4b5e-867b-0d93cd9d2dcb",
+    "GameName": "obj_industrial_beamelevation",
     "AppId": "indus24",
     "Name": "I-Beam Holder",
     "Color": "f3871c",
@@ -440,6 +528,7 @@
   },
   {
     "ItemId": "b9775316-7272-4a66-a8a9-179108d76f18",
+    "GameName": "obj_industrial_beamend",
     "AppId": "indus25",
     "Name": "I-Beam End",
     "Color": "f3871c",
@@ -461,6 +550,7 @@
   },
   {
     "ItemId": "c8c07259-bc23-45a1-8a4c-585962274f19",
+    "GameName": "obj_industrial_beamshelf",
     "AppId": "indus26",
     "Name": "Shelf",
     "Color": "408fc7",
@@ -482,6 +572,7 @@
   },
   {
     "ItemId": "d5da6d42-69e2-49ca-8def-3339bf9f0d35",
+    "GameName": "obj_industrial_platform",
     "AppId": "indus27",
     "Name": "Staircase Landing",
     "Color": "c36512",
@@ -503,6 +594,7 @@
   },
   {
     "ItemId": "85379fe5-da83-4aa2-b9c2-d67476ad6079",
+    "GameName": "obj_industrial_platformfencelong",
     "AppId": "indus28",
     "Name": "Staircase Long Railing",
     "Color": "c36512",
@@ -524,6 +616,7 @@
   },
   {
     "ItemId": "8336bf8b-cde0-46a0-b995-5000cba4f27f",
+    "GameName": "obj_industrial_platformfenceshort",
     "AppId": "indus29",
     "Name": "Staircase Short Railing",
     "Color": "c36512",
@@ -545,6 +638,7 @@
   },
   {
     "ItemId": "1ef1f0e8-389c-4eb9-b4a8-784499353f14",
+    "GameName": "obj_industrial_platformfencepole",
     "AppId": "indus30",
     "Name": "Staircase Baluster",
     "Color": "c36512",
@@ -566,6 +660,7 @@
   },
   {
     "ItemId": "295451dd-f5b2-421d-9113-b3f704d799d4",
+    "GameName": "obj_industrial_platformfenceconnector",
     "AppId": "indus31",
     "Name": "Staircase Railing Join",
     "Color": "c36512",
@@ -587,6 +682,7 @@
   },
   {
     "ItemId": "f5786e5d-8366-4ebf-be00-f3a4b036a77b",
+    "GameName": "obj_industrial_stairplatform",
     "AppId": "indus32",
     "Name": "Staircase Step",
     "Color": "c36512",
@@ -608,6 +704,7 @@
   },
   {
     "ItemId": "b50a014c-0785-4b1b-b63e-51cfdb7e49ad",
+    "GameName": "obj_industrial_stairfence",
     "AppId": "indus33",
     "Name": "Staircase Banister",
     "Color": "c36512",
@@ -618,12 +715,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e02620a5-371b-4d63-be35-fd8a0552eba9",
+    "GameName": "obj_industrial_stairwedge",
     "AppId": "indus34",
     "Name": "Staircase Wedge",
     "Color": "c36512",
@@ -634,12 +737,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "635eee58-9a36-437f-9e30-78dab0cbcc59",
+    "GameName": "obj_industrial_platformstairsramp",
     "AppId": "indus35",
     "Name": "Staircase Ramp",
     "Color": "c36512",
@@ -650,12 +759,18 @@
       "Friction": 5,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 6,
+      "Y": 5,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "0a597f6d-eb45-4f93-91e5-130e19e0f1f5",
+    "GameName": "obj_industrial_metalgrid",
     "AppId": "indus36",
     "Name": "Ventilation Grid",
     "Color": "79859c",
@@ -677,6 +792,7 @@
   },
   {
     "ItemId": "2228cef0-f22a-4901-93c5-48e4df52caf6",
+    "GameName": "obj_industrial_railing",
     "AppId": "indus37",
     "Name": "Net Fence",
     "Color": "ffd504",
@@ -698,6 +814,7 @@
   },
   {
     "ItemId": "c40683f3-d9ce-4067-af24-3514c1867a1a",
+    "GameName": "obj_industrial_metalsupport",
     "AppId": "indus38",
     "Name": "Metal Support",
     "Color": "79859c",
@@ -719,6 +836,7 @@
   },
   {
     "ItemId": "15a8f24b-016a-4db6-adcc-967ee1b6c7b1",
+    "GameName": "obj_industrial_supportxframe",
     "AppId": "indus39",
     "Name": "Large Support Structure",
     "Color": "79859c",
@@ -740,6 +858,7 @@
   },
   {
     "ItemId": "33d5f0c1-f80c-478a-b69d-9edafe376474",
+    "GameName": "obj_industrial_supportvframe",
     "AppId": "indus40",
     "Name": "Support Structure",
     "Color": "79859c",
@@ -761,6 +880,7 @@
   },
   {
     "ItemId": "29ededf7-6436-41bf-84f4-8fb5361d29ea",
+    "GameName": "obj_industrial_support_quater_frame",
     "AppId": "indus41",
     "Name": "Small Support Structure",
     "Color": "79859c",
@@ -782,6 +902,7 @@
   },
   {
     "ItemId": "56545d5c-556d-4cd5-9125-6e34acf37c3d",
+    "GameName": "obj_industrial_supportbeam",
     "AppId": "indus42",
     "Name": "U-Beam",
     "Color": "79859c",
@@ -803,6 +924,7 @@
   },
   {
     "ItemId": "6b78fb4b-2af9-4a01-a7c5-7e333d245adb",
+    "GameName": "obj_industrial_supportpillar",
     "AppId": "indus43",
     "Name": "Metal Column",
     "Color": "79859c",
@@ -824,6 +946,7 @@
   },
   {
     "ItemId": "aa5325da-03f9-46cc-9655-983ee7ac2ab2",
+    "GameName": "obj_industrial_supportxbeam",
     "AppId": "indus44",
     "Name": "Support Pillar",
     "Color": "597c8d",
@@ -845,6 +968,7 @@
   },
   {
     "ItemId": "45e5c193-8896-4687-a4b0-cf4b2da047d1",
+    "GameName": "obj_industrial_supportbeambase",
     "AppId": "indus45",
     "Name": "Support Pillar Stand",
     "Color": "597c8d",
@@ -866,6 +990,7 @@
   },
   {
     "ItemId": "dbd509b5-b7cc-43cf-9a89-b3befecfe991",
+    "GameName": "obj_industrial_rack",
     "AppId": "indus46",
     "Name": "Shelf Pillar",
     "Color": "408fc7",
@@ -887,6 +1012,7 @@
   },
   {
     "ItemId": "8d7be7bf-37c9-44d6-8adf-fc87b141cadf",
+    "GameName": "obj_industrial_rackcube",
     "AppId": "indus47",
     "Name": "Shelf Support",
     "Color": "408fc7",
@@ -908,6 +1034,7 @@
   },
   {
     "ItemId": "f80026c5-2019-4f87-8abd-345bd23aa156",
+    "GameName": "obj_industrial_racklong",
     "AppId": "indus48",
     "Name": "Tall Shelf Support",
     "Color": "408fc7",
@@ -929,6 +1056,7 @@
   },
   {
     "ItemId": "f37b101c-508b-4630-9f9d-47ef1c834183",
+    "GameName": "obj_industrial_cylindersmall",
     "AppId": "indus49",
     "Name": "Small Tank",
     "Color": "cc7f3b",
@@ -939,12 +1067,17 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 4
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d71d8897-5af6-4adc-b626-50e45f931157",
+    "GameName": "obj_industrial_cylindermedium",
     "AppId": "indus50",
     "Name": "Medium Tank",
     "Color": "73adb7",
@@ -955,12 +1088,17 @@
       "Friction": 4,
       "Buoyancy": 5
     },
+    "Cylinder": {
+      "Diameter": 5,
+      "Depth": 4
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "68c2baa5-1274-4bfd-8b12-6e522123f4de",
+    "GameName": "obj_industrial_cylinderlarge",
     "AppId": "indus51",
     "Name": "Large Tank",
     "Color": "73adb7",
@@ -971,12 +1109,17 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Cylinder": {
+      "Diameter": 7,
+      "Depth": 5
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8c4b9721-3de4-4ae3-a7d1-6f66a16d1368",
+    "GameName": "obj_industrial_window",
     "AppId": "indus52",
     "Name": "Metal Window",
     "Color": "79859c",
@@ -998,6 +1141,7 @@
   },
   {
     "ItemId": "007d6afc-59ef-4fb4-9bb7-52ab9bcfec22",
+    "GameName": "obj_industrial_pallet",
     "AppId": "indus53",
     "Name": "Steel Pallet",
     "Color": "902513",
@@ -1019,6 +1163,7 @@
   },
   {
     "ItemId": "6a720005-ba27-4cfc-8fb3-b1af8b9c8bd3",
+    "GameName": "obj_industrial_rail",
     "AppId": "indus54",
     "Name": "Table Support",
     "Color": "909090",
@@ -1029,12 +1174,17 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f9e8707a-62f8-4051-84e9-c2e17b686d9e",
+    "GameName": "obj_industrial_antennatower",
     "AppId": "indus55",
     "Name": "Tower Pole",
     "Color": "930000",
@@ -1056,6 +1206,7 @@
   },
   {
     "ItemId": "e3e58881-69e6-4593-8211-017bcd72c907",
+    "GameName": "obj_industrial_antennatowertop",
     "AppId": "indus56",
     "Name": "Tower Pole Top",
     "Color": "930000",
@@ -1066,12 +1217,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 3,
+      "Y": 8,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1daf2b8a-fd2f-4266-9942-c04feede4f7b",
+    "GameName": "obj_industrial_satellite01",
     "AppId": "indus57",
     "Name": "Satellite Dish",
     "Color": "930000",
@@ -1082,12 +1239,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 7,
+      "Y": 7,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "ce350b5c-cebb-42b0-b8ba-1bf084a0090c",
+    "GameName": "obj_industrial_satellite03",
     "AppId": "indus58",
     "Name": "Satellite Reflector Dish",
     "Color": "930000",
@@ -1098,12 +1261,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 5,
+      "Y": 5,
+      "Z": 3
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e585bcd6-5828-4a37-8ec7-dffb561f0956",
+    "GameName": "obj_industrial_antenna01",
     "AppId": "indus59",
     "Name": "Antenna",
     "Color": "930000",
@@ -1125,6 +1294,7 @@
   },
   {
     "ItemId": "c938e84c-ff59-4e7e-a87c-5211ac903927",
+    "GameName": "obj_industrial_antenna02",
     "AppId": "indus60",
     "Name": "Reflector Antenna",
     "Color": "930000",
@@ -1146,6 +1316,7 @@
   },
   {
     "ItemId": "57fad8e9-2aff-40c3-9d5c-8f81573b58b9",
+    "GameName": "obj_industrial_windowglass01",
     "AppId": "indus61",
     "Name": "Small Rectangular Window",
     "Color": "65caff",
@@ -1156,12 +1327,18 @@
       "Friction": 2,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 5,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "53349c8d-14e8-4055-bd79-a1ab56fe876e",
+    "GameName": "obj_industrial_windowglass02",
     "AppId": "indus62",
     "Name": "Square Window",
     "Color": "65caff",
@@ -1172,12 +1349,18 @@
       "Friction": 2,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 5,
+      "Y": 4,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "763fd838-7ed5-420e-8984-c2ae86da1e5c",
+    "GameName": "obj_industrial_windowglass03",
     "AppId": "indus63",
     "Name": "Large Rectangular Window",
     "Color": "65caff",
@@ -1188,12 +1371,18 @@
       "Friction": 2,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 8,
+      "Y": 4,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "7a0e9041-9dd5-4cb1-b804-69ee16c45efe",
+    "GameName": "obj_industrial_windshieldlarge",
     "AppId": "indus64",
     "Name": "Large Windshield",
     "Color": "65caff",
@@ -1204,12 +1393,18 @@
       "Friction": 2,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 6,
+      "Y": 3,
+      "Z": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "50007ac9-e97d-4b32-9fd6-de919c8a34a4",
+    "GameName": "obj_industrial_windshield",
     "AppId": "indus65",
     "Name": "Small Windshield",
     "Color": "65caff",
@@ -1219,6 +1414,11 @@
       "Durability": 3,
       "Friction": 2,
       "Buoyancy": 3
+    },
+    "Box": {
+      "X": 4,
+      "Y": 2,
+      "Z": 5
     },
     "Flammable": false,
     "Density": 250.0,

@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "47062936-5d28-43ec-81b5-8fdb619e97e4",
+    "GameName": "obj_spaceship_ceilinglight",
     "AppId": "spaceship1",
     "Name": "Ship Light",
     "Color": "df9a16",
@@ -22,6 +23,7 @@
   },
   {
     "ItemId": "b3761216-dfc4-4679-960b-00f5ae5f8258",
+    "GameName": "obj_spaceship_interiorhandle",
     "AppId": "spaceship2",
     "Name": "Handle",
     "Color": "a1a1a1",
@@ -32,12 +34,18 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1df6f1af-fd39-443a-9fd7-dd389e0ba5c8",
+    "GameName": "obj_spaceship_interiorcables",
     "AppId": "spaceship3",
     "Name": "Ship Floor Tile",
     "Color": "a1a1a1",
@@ -59,6 +67,7 @@
   },
   {
     "ItemId": "1aac8942-38ac-4a83-bc16-6d33436c0934",
+    "GameName": "obj_spaceship_interiorwedgelong",
     "AppId": "spaceship4",
     "Name": "Ship Ventilation",
     "Color": "930000",
@@ -69,12 +78,18 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 3,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "10079046-6400-42fd-bcd6-f66af6cfd8b8",
+    "GameName": "obj_spaceship_interiorboxmedium",
     "AppId": "spaceship5",
     "Name": "Ship Compartment",
     "Color": "930000",
@@ -96,6 +111,7 @@
   },
   {
     "ItemId": "98ef8fca-d4a3-4b9a-8699-0630b003b9fa",
+    "GameName": "obj_spaceship_interiorboxlarge",
     "AppId": "spaceship6",
     "Name": "Ship Dual fan",
     "Color": "930000",
@@ -117,6 +133,7 @@
   },
   {
     "ItemId": "2c90e412-9476-40d9-a440-228c888186bd",
+    "GameName": "obj_spaceship_interiorlight",
     "AppId": "spaceship7",
     "Name": "Warehouse Brick Lamp",
     "Color": "ffc27a",
@@ -127,12 +144,18 @@
       "Friction": 6,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "31c38d38-73f5-47ef-93c8-e10d4f579e1c",
+    "GameName": "obj_spaceship_interiornet",
     "AppId": "spaceship8",
     "Name": "Net frame",
     "Color": "ce9e0c",
@@ -154,6 +177,7 @@
   },
   {
     "ItemId": "4f5092dd-e2e5-4d42-8ec9-c0337cf23e21",
+    "GameName": "obj_spaceship_interiornetlarge",
     "AppId": "spaceship9",
     "Name": "Net frame hatch",
     "Color": "ce9e0c",
@@ -175,6 +199,7 @@
   },
   {
     "ItemId": "5f5926f5-1449-49b0-8997-2d5a0df37b21",
+    "GameName": "obj_spaceship_interiorshelf",
     "AppId": "spaceship10",
     "Name": "Ship Shelf",
     "Color": "930000",
@@ -185,12 +210,18 @@
       "Friction": 3,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "5b628f22-ec0d-448f-a6be-3453950120a4",
+    "GameName": "obj_spaceship_interiorcalendar",
     "AppId": "spaceship11",
     "Name": "Calendar",
     "Color": "df7f01",
@@ -201,12 +232,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c563df47-9a8a-4338-9fec-06da1218c573",
+    "GameName": "obj_spaceship_shipbed",
     "AppId": "spaceship12",
     "Name": "Bed",
     "Color": "3e9ffe",
@@ -228,6 +265,7 @@
   },
   {
     "ItemId": "d4e6c84c-a493-44b1-81aa-4f4741ea3ed8",
+    "GameName": "obj_spaceship_microwave",
     "AppId": "spaceship13",
     "Name": "Broken Microwave",
     "Color": "3e9ffe",
@@ -249,6 +287,7 @@
   },
   {
     "ItemId": "c4aa3807-0806-4202-a36d-b5fa254d3046",
+    "GameName": "obj_spaceship_cranewheel",
     "AppId": "spaceship14",
     "Name": "Crane Wheel",
     "Color": "8a0000",
@@ -259,12 +298,17 @@
       "Friction": 5,
       "Buoyancy": 1
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 1
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a7d719f5-e839-4a95-923c-981b4dc21125",
+    "GameName": "obj_spaceship_wall08",
     "AppId": "spaceship15",
     "Name": "Ship Wall Panel Large",
     "Color": "3e9ffe",
@@ -286,6 +330,7 @@
   },
   {
     "ItemId": "5ba206c2-d10b-4815-b95b-04be4959ec31",
+    "GameName": "obj_spaceship_wall11",
     "AppId": "spaceship30",
     "Name": "Ship Wall Panel Small",
     "Color": "3e9ffe",
@@ -307,6 +352,7 @@
   },
   {
     "ItemId": "7fa4ecf6-d8fe-49eb-a950-db1fb4590c4d",
+    "GameName": "obj_spaceship_wall09",
     "AppId": "spaceship31",
     "Name": "Ship Wall Panel Medium",
     "Color": "3e9ffe",
@@ -328,6 +374,7 @@
   },
   {
     "ItemId": "9bdb677f-8033-451f-8bc7-7ae71351c35c",
+    "GameName": "obj_spaceship_wall10",
     "AppId": "spaceship32",
     "Name": "Ship Wall Panel Large",
     "Color": "3e9ffe",
@@ -349,6 +396,7 @@
   },
   {
     "ItemId": "68d8eeb6-14e4-469b-9ee6-f80ebe1c4be6",
+    "GameName": "obj_spaceship_ceilingbeam03",
     "AppId": "spaceship33",
     "Name": "Ship Wiring Short",
     "Color": "3e9ffe",
@@ -370,6 +418,7 @@
   },
   {
     "ItemId": "e8cadcb0-9cdf-49d8-bac2-00193e8ac3cc",
+    "GameName": "obj_spaceship_ceilingbeam01",
     "AppId": "spaceship34",
     "Name": "Ship Wiring Long",
     "Color": "3e9ffe",
@@ -391,6 +440,7 @@
   },
   {
     "ItemId": "def1fe25-a33d-405b-ac04-2c1707c2101b",
+    "GameName": "obj_spaceship_ceilingbeam02",
     "AppId": "spaceship35",
     "Name": "Ship Wiring End",
     "Color": "3e9ffe",
@@ -412,6 +462,7 @@
   },
   {
     "ItemId": "4e084e1c-08e9-43de-bc6f-6fd73a9620aa",
+    "GameName": "obj_spaceship_frame01",
     "AppId": "spaceship36",
     "Name": "Ship Floor Mold",
     "Color": "820a0a",
@@ -433,6 +484,7 @@
   },
   {
     "ItemId": "196586b5-897f-40f3-926c-b5dfa4f772eb",
+    "GameName": "obj_spaceship_blinds",
     "AppId": "spaceship42",
     "Name": "Ship Blinds",
     "Color": "3e9ffe",
@@ -454,6 +506,7 @@
   },
   {
     "ItemId": "66c1ccc6-1a68-40f3-9e10-ee362c3c13bc",
+    "GameName": "obj_spaceship_ceilingvent01",
     "AppId": "spaceship43",
     "Name": "Ship Ceiling Ventilation",
     "Color": "3e9ffe",
@@ -475,6 +528,7 @@
   },
   {
     "ItemId": "275e4258-ff57-45ae-8e2f-b82204c56d16",
+    "GameName": "obj_spaceship_ceilingvent02",
     "AppId": "spaceship44",
     "Name": "Ship Ventilation Panel",
     "Color": "3e9ffe",
@@ -496,6 +550,7 @@
   },
   {
     "ItemId": "1a82f776-5989-4471-b09d-0c3f65012fb3",
+    "GameName": "obj_spaceship_exitsign",
     "AppId": "spaceship47",
     "Name": "Exit Sign",
     "Color": "14d81e",
@@ -506,12 +561,18 @@
       "Friction": 4,
       "Buoyancy": 5
     },
+    "Box": {
+      "X": 3,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "aec1ff30-9347-4166-9cb7-f414e1563d9d",
+    "GameName": "obj_spaceship_shipdoor",
     "AppId": "spaceship48",
     "Name": "Maintenance Ship Door",
     "Color": "820a0a",
@@ -521,6 +582,11 @@
       "Durability": 5,
       "Friction": 6,
       "Buoyancy": 1
+    },
+    "Box": {
+      "X": 5,
+      "Y": 7,
+      "Z": 1
     },
     "Flammable": false,
     "Density": 1250.0,

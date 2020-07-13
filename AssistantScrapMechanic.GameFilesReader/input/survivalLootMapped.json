@@ -38,7 +38,8 @@
             },
             {
                 "gameName": "obj_consumable_sunshake",
-                "chance": 15
+                "chance": 15,
+                "quantity": "1"
             },
             {
                 "gameName": "obj_consumable_gas",
@@ -87,7 +88,8 @@
             },
             {
                 "gameName": "obj_resource_circuitboard",
-                "chance": 50
+                "chance": 50,
+                "quantity": "1"
             },
             {
                 "gameName": "obj_seed_carrot",
@@ -351,7 +353,6 @@
             "min": 1,
             "max": 1
         },
-        {
         {
             "name": "randomStackAmountAvg2",
             "min": 1,

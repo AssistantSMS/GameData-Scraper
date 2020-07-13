@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "e49b210a-0d46-4f06-bcd8-08862379d156",
+    "GameName": "obj_survivalobject_keycard",
     "AppId": "surv1",
     "Name": "Warehouse Key",
     "Description": "Used to activate a Warehouse elevator",
@@ -23,6 +24,7 @@
   },
   {
     "ItemId": "c654a023-ca53-4109-9f18-d297c18e9a02",
+    "GameName": "obj_survivalobject_powercore",
     "AppId": "surv22",
     "Name": "Master Battery",
     "Description": "Used to power on large spaceships or stations",
@@ -34,12 +36,17 @@
       "Friction": 2,
       "Buoyancy": 7
     },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 4
+    },
     "Flammable": false,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7",
+    "GameName": "obj_survivalobject_farmerball",
     "AppId": "surv26",
     "Name": "Caged Farmer",
     "Color": "9f2600",

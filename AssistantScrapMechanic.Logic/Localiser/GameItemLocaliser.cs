@@ -25,8 +25,8 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Cylinder = gameItem.Cylinder,
             };
 
-            List<int> boxSizes = getSizesFromBox(blockLocalised.Box);
-            List<int> hullSizes = getSizesFromBox(gameItem.Hull);
+            List<int> boxSizes = GetSizesFromBox(blockLocalised.Box);
+            List<int> hullSizes = GetSizesFromBox(gameItem.Hull);
             if (hullSizes.Count > boxSizes.Count)
             {
                 blockLocalised.Box = gameItem.Hull;
@@ -52,9 +52,10 @@ namespace AssistantScrapMechanic.Logic.Localiser
             return gameItem;
         }
 
-        private static List<int> getSizesFromBox(Box box)
+        private static List<int> GetSizesFromBox(Box box)
         {
             List<int> sizes = new List<int>();
+            if (box == null) return sizes;
             if (box.X > 0) sizes.Add(box.X);
             if (box.Y > 0) sizes.Add(box.Y);
             if (box.Z > 0) sizes.Add(box.Z);

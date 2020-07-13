@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "c76b89a3-7731-4ae1-99d4-788a29319360",
+    "GameName": "obj_containers_haycrate",
     "AppId": "cont1",
     "Name": "Hay Crate",
     "Color": "902513",
@@ -11,12 +12,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 7,
+      "Y": 6,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3bd4430f-75bc-452c-9e80-1bd639898689",
+    "GameName": "obj_containers_stonecrate",
     "AppId": "cont2",
     "Name": "Stone Crate",
     "Color": "902513",
@@ -27,12 +34,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 7,
+      "Y": 6,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "f8b984da-4b24-4e36-b440-86ead126b6dc",
+    "GameName": "obj_containers_treecrate",
     "AppId": "cont3",
     "Name": "Tree Crate",
     "Color": "902513",
@@ -43,12 +56,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 7,
+      "Y": 6,
+      "Z": 7
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "8a4a55b0-0228-4839-933b-0716cedb3f96",
+    "GameName": "obj_containers_cardboardstack_small",
     "AppId": "cont4",
     "Name": "Unfolded Banana Box",
     "Color": "83a633",
@@ -70,6 +89,7 @@
   },
   {
     "ItemId": "f8da6b41-03d7-4bc1-ba94-011a351b1569",
+    "GameName": "obj_containers_cardboardstack_medium",
     "AppId": "cont5",
     "Name": "Unfolded Onion Box",
     "Color": "bc8543",
@@ -91,6 +111,7 @@
   },
   {
     "ItemId": "71665314-db59-4c43-bfe2-2746baa8ffe9",
+    "GameName": "obj_containers_cardboardstack_large",
     "AppId": "cont6",
     "Name": "Unfolded Grow Box",
     "Color": "73adb7",
@@ -112,6 +133,7 @@
   },
   {
     "ItemId": "d296c1ad-e893-4866-ba73-1cbbb38ebd37",
+    "GameName": "obj_containers_humidifier",
     "AppId": "cont7",
     "Name": "Main Humidifier",
     "Color": "981e11",
@@ -122,12 +144,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 5,
+      "Y": 5,
+      "Z": 8
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "10590ecd-7d2f-4ff9-a6de-e749870ae8b8",
+    "GameName": "obj_containers_stack",
     "AppId": "cont8",
     "Name": "Warehouse Crate",
     "Color": "3e9ffe",
@@ -149,6 +177,7 @@
   },
   {
     "ItemId": "7e2b1dcb-4853-43ed-a7c5-0eb1a24b49d0",
+    "GameName": "obj_containers_barrel_blueberry",
     "AppId": "cont9",
     "Name": "Blueberry Juice Cylinder",
     "Color": "655dd5",
@@ -159,12 +188,17 @@
       "Friction": 3,
       "Buoyancy": 6
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 4
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a0654dd8-f36a-4c41-bafd-18d9e5f0df2e",
+    "GameName": "obj_containers_barrel_tomato",
     "AppId": "cont10",
     "Name": "Tomato Juice Cylinder",
     "Color": "d33520",
@@ -186,6 +220,7 @@
   },
   {
     "ItemId": "c3990931-b471-4e89-beb5-0baaef47f0af",
+    "GameName": "obj_containers_woodbox",
     "AppId": "cont11",
     "Name": "Wooden Crate",
     "Color": "cb8d43",
@@ -207,6 +242,7 @@
   },
   {
     "ItemId": "80550b05-f9eb-433c-9773-2af3beb1479d",
+    "GameName": "obj_containers_vegboxgreen",
     "AppId": "cont12",
     "Name": "Vegetable Box",
     "Color": "7d9f2b",
@@ -228,6 +264,7 @@
   },
   {
     "ItemId": "f0438bd7-6307-4991-943f-d78b04877d96",
+    "GameName": "obj_containers_vegboxcucumber",
     "AppId": "cont13",
     "Name": "Cucumber Box",
     "Color": "be4d22",
@@ -249,6 +286,7 @@
   },
   {
     "ItemId": "f6687d52-efc1-4f00-b573-bee4363ee14f",
+    "GameName": "obj_containers_vegboxcarrot",
     "AppId": "cont14",
     "Name": "Carrot Box",
     "Color": "62cedc",
@@ -270,6 +308,7 @@
   },
   {
     "ItemId": "18a38c8e-18ec-46c5-be00-cee7724401e2",
+    "GameName": "obj_containers_vegboxbanana",
     "AppId": "cont15",
     "Name": "Banana Box",
     "Color": "83a633",
@@ -291,6 +330,7 @@
   },
   {
     "ItemId": "8b684022-254b-41af-a58c-ec4b14791000",
+    "GameName": "obj_containers_vegboxblue",
     "AppId": "cont16",
     "Name": "Fruit Box",
     "Color": "84dfd2",
@@ -312,6 +352,7 @@
   },
   {
     "ItemId": "de467c9b-a0ab-4e20-95ae-0e5fe8140989",
+    "GameName": "obj_containers_vegboxonion",
     "AppId": "cont17",
     "Name": "Onion Box",
     "Color": "bc8543",
@@ -333,6 +374,7 @@
   },
   {
     "ItemId": "7ece2c9b-bc74-45b7-b5f1-4c6f41a03a7a",
+    "GameName": "obj_containers_vegboxbeetroot",
     "AppId": "cont18",
     "Name": "Beetroot Box",
     "Color": "c57246",
@@ -354,6 +396,7 @@
   },
   {
     "ItemId": "8bcc5a38-b566-45fe-b47e-45118ee70d2d",
+    "GameName": "obj_containers_vegboxorange",
     "AppId": "cont19",
     "Name": "Orange Box",
     "Color": "f59d39",
@@ -375,6 +418,7 @@
   },
   {
     "ItemId": "faae6e1a-f431-49fd-b8b8-16f12139ee88",
+    "GameName": "obj_containers_plantcontainerclosed",
     "AppId": "cont20",
     "Name": "Plant Container",
     "Color": "73adb7",
@@ -396,6 +440,7 @@
   },
   {
     "ItemId": "102565a0-c864-463e-b517-72e82242eec2",
+    "GameName": "obj_containers_plantcontaineropen",
     "AppId": "cont21",
     "Name": "Open Plant Container",
     "Color": "73adb7",

@@ -1,6 +1,7 @@
 [
   {
     "ItemId": "f5670a5a-7782-4683-bed0-a6eda785a5e2",
+    "GameName": "obj_decor_poster01",
     "AppId": "deco1",
     "Name": "Produce Billboard",
     "Color": "4f4f4f",
@@ -22,6 +23,7 @@
   },
   {
     "ItemId": "080ef1dd-07a7-4d31-86b8-ac907e1468bf",
+    "GameName": "obj_decor_poster02",
     "AppId": "deco2",
     "Name": "Berry Billboard",
     "Color": "4f4f4f",
@@ -43,6 +45,7 @@
   },
   {
     "ItemId": "4d54298c-93a0-4b6d-8719-7380430a27bb",
+    "GameName": "obj_decor_poster03",
     "AppId": "deco3",
     "Name": "Sickle-Down Billboard",
     "Color": "4f4f4f",
@@ -64,6 +67,7 @@
   },
   {
     "ItemId": "4724913e-4f9b-4334-8408-4b0850a1c7de",
+    "GameName": "obj_decor_sign_warehouse",
     "AppId": "deco4",
     "Name": "Warehouse Sign",
     "Color": "d07500",
@@ -74,12 +78,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2bacc33e-60fb-40c3-b751-ef76f79392c7",
+    "GameName": "obj_decor_sign_elevator",
     "AppId": "deco5",
     "Name": "Elevator Sign",
     "Color": "d07500",
@@ -90,12 +100,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 8,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e71b55c7-8547-4bef-bb77-e976c8abde0b",
+    "GameName": "obj_decor_sign_storage",
     "AppId": "deco6",
     "Name": "Storage Sign",
     "Color": "d07500",
@@ -106,12 +122,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 6,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "acc00050-d40e-42e9-9c2e-22ec2109dc3e",
+    "GameName": "obj_decor_sign_packaging",
     "AppId": "deco7",
     "Name": "Packing Sign",
     "Color": "d07500",
@@ -122,12 +144,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 6,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "7728c105-1fd9-4aaa-95ec-1da45b425d89",
+    "GameName": "obj_decor_sign_office",
     "AppId": "deco8",
     "Name": "Growroom Sign",
     "Color": "d07500",
@@ -138,12 +166,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 6,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "884080be-c723-4e6e-828b-6019af8beed6",
+    "GameName": "obj_decor_sign_utility",
     "AppId": "deco9",
     "Name": "Utility Sign",
     "Color": "d07500",
@@ -154,12 +188,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 6,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "221badef-0313-419c-9a7c-7469d26b0d5b",
+    "GameName": "obj_decor_wcsignmale",
     "AppId": "deco10",
     "Name": "Man Sign",
     "Color": "3495e8",
@@ -170,12 +210,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e08d860d-650e-4b81-8cfa-411ea8e6e9c0",
+    "GameName": "obj_decor_wcsignfemale",
     "AppId": "deco11",
     "Name": "Woman Sign",
     "Color": "3495e8",
@@ -186,12 +232,18 @@
       "Friction": 4,
       "Buoyancy": 4
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d053adac-e217-49de-b184-ad4bfbe1e52d",
+    "GameName": "obj_decor_lidbarrel",
     "AppId": "deco12",
     "Name": "Recycling Bin",
     "Color": "c8c628",
@@ -202,12 +254,17 @@
       "Friction": 2,
       "Buoyancy": 6
     },
+    "Cylinder": {
+      "Diameter": 3,
+      "Depth": 6
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "da86d1c6-e29b-4741-8b65-eed067222dc7",
+    "GameName": "obj_decor_stackedpaper",
     "AppId": "deco13",
     "Name": "Paper Stack",
     "Color": "d2c6af",
@@ -218,12 +275,18 @@
       "Friction": 3,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "659488be-3d33-4244-b762-e7d77dcdcbbe",
+    "GameName": "obj_decor_mirror",
     "AppId": "deco14",
     "Name": "Old Restroom Mirror",
     "Color": "3495e8",
@@ -234,12 +297,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c7772f74-f120-4008-8121-977e52a1d7c0",
+    "GameName": "obj_road_signcurve",
     "AppId": "deco15",
     "Name": "Traffic Sign",
     "Color": "323232",
@@ -261,6 +330,7 @@
   },
   {
     "ItemId": "ea64acf0-c0a8-44c4-a946-f358d232e965",
+    "GameName": "obj_road_signpost",
     "AppId": "deco16",
     "Name": "Metallic Tube",
     "Color": "323232",
@@ -282,6 +352,7 @@
   },
   {
     "ItemId": "7bc20d55-6b49-450c-830c-16282ce7fb2d",
+    "GameName": "obj_road_signfoundation",
     "AppId": "deco17",
     "Name": "Road Sign Base",
     "Color": "323232",
@@ -303,6 +374,7 @@
   },
   {
     "ItemId": "31ada55e-7c79-4aee-86b6-809c0e5468df",
+    "GameName": "obj_decor_cashregister",
     "AppId": "deco18",
     "Name": "Cash Register",
     "Color": "005952",
@@ -324,6 +396,7 @@
   },
   {
     "ItemId": "d4ae8963-40e9-4680-934d-5626a3bfc363",
+    "GameName": "obj_decor_openclosedsign",
     "AppId": "deco19",
     "Name": "Open Sign",
     "Color": "005952",
@@ -345,6 +418,7 @@
   },
   {
     "ItemId": "7540ef9a-5c84-4dd2-b111-176d8de66e47",
+    "GameName": "obj_decor_rottenfruit",
     "AppId": "deco20",
     "Name": "Old Fruit Stand",
     "Color": "5f7514",
@@ -355,12 +429,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d361b477-69b2-4a3a-b119-ec99a3938f5b",
+    "GameName": "obj_decor_basketstack",
     "AppId": "deco21",
     "Name": "Stacked Crates",
     "Color": "5f7514",
@@ -382,6 +462,7 @@
   },
   {
     "ItemId": "5ad298e4-f5ad-479c-9ec6-6c4f9d3fb8ae",
+    "GameName": "obj_decor_sunshakemachine",
     "AppId": "deco22",
     "Name": "Sunshake Vending Machine",
     "Color": "fc949d",
@@ -392,12 +473,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 5,
+      "Y": 8,
+      "Z": 5
+    },
     "Flammable": true,
     "Density": 1250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "db2ce519-490e-4432-b329-c973ecc8f5d9",
+    "GameName": "obj_decor_sunshakeudder",
     "AppId": "deco23",
     "Name": "Udder Decoration",
     "Color": "fc949d",
@@ -408,12 +495,18 @@
       "Friction": 4,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 5,
+      "Y": 3,
+      "Z": 5
+    },
     "Flammable": false,
     "Density": 500.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "23ac6823-51a4-4581-b8ca-061c76f093f6",
+    "GameName": "obj_decor_haybale",
     "AppId": "deco24",
     "Name": "Haystack",
     "Color": "0a956d",
@@ -435,6 +528,7 @@
   },
   {
     "ItemId": "74a3f240-65b2-4f52-9555-9b52173fca0a",
+    "GameName": "obj_decor_haybaleround",
     "AppId": "deco25",
     "Name": "Hay Bale",
     "Color": "0a956d",
@@ -445,12 +539,17 @@
       "Friction": 5,
       "Buoyancy": 5
     },
+    "Cylinder": {
+      "Diameter": 7,
+      "Depth": 5
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "e2a0770b-9bb9-4b3b-b9f2-994b534b79f3",
+    "GameName": "obj_decor_toiletroll",
     "AppId": "deco26",
     "Name": "Toilet Paper",
     "Color": "e44949",
@@ -460,12 +559,17 @@
       "Friction": 3,
       "Buoyancy": 2
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3fa0afca-7715-459e-86fa-2a81cf3027b8",
+    "GameName": "obj_decor_sink",
     "AppId": "deco27",
     "Name": "Sink",
     "Color": "3e9ffe",
@@ -476,12 +580,18 @@
       "Friction": 4,
       "Buoyancy": 3
     },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63",
+    "GameName": "obj_decor_mug",
     "AppId": "deco28",
     "Name": "Mug",
     "Color": "3e9ffe",
@@ -492,12 +602,17 @@
       "Friction": 3,
       "Buoyancy": 3
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c89f7bc8-5720-474d-989d-761916a411b2",
+    "GameName": "obj_decor_boot",
     "AppId": "deco29",
     "Name": "Mannequin Boot",
     "Color": "8d4104",
@@ -508,12 +623,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "b1dd7967-da2a-4ff5-a90f-bbd7e9bae4d7",
+    "GameName": "obj_decor_mannequinhand",
     "AppId": "deco30",
     "Name": "Mannequin Hand",
     "Color": "e48c71",
@@ -524,12 +645,18 @@
       "Friction": 7,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "80bc2b9f-98a9-44e4-9cb8-d4ec7e95b40f",
+    "GameName": "obj_decor_babyduck",
     "AppId": "deco31",
     "Name": "Baby Duck Statuette",
     "Color": "ffd504",
@@ -540,12 +667,17 @@
       "Friction": 5,
       "Buoyancy": 8
     },
+    "Cylinder": {
+      "Diameter": 1,
+      "Depth": 1
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c5e56da5-bc3f-4519-91c2-b307d36e15aa",
+    "GameName": "obj_decor_screw01",
     "AppId": "deco32",
     "Name": "Screw",
     "Color": "59615c",
@@ -556,12 +688,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "edd445cc-c298-4ce3-9a58-745c1bee1bc7",
+    "GameName": "obj_decor_screw02",
     "AppId": "deco33",
     "Name": "Nut",
     "Color": "59615c",
@@ -572,12 +710,18 @@
       "Friction": 6,
       "Buoyancy": 1
     },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "2ccaa006-008e-4069-8de1-15668050f92e",
+    "GameName": "obj_decor_sign01",
     "AppId": "deco34",
     "Name": "Skull Sign",
     "Color": "ffd504",
@@ -588,12 +732,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "70bf77d0-c9dd-4232-9e05-fbf7f49bd62c",
+    "GameName": "obj_decor_sign02",
     "AppId": "deco35",
     "Name": "Construction Zone Sign",
     "Color": "ffc605",
@@ -604,12 +754,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 5,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "99b7fd1d-7126-4928-bfc2-f82befcbd905",
+    "GameName": "obj_decor_sign03",
     "AppId": "deco36",
     "Name": "Caution Sign",
     "Color": "ffd504",
@@ -620,12 +776,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "a5198434-2639-4cb0-8e01-865bc4d9b791",
+    "GameName": "obj_decor_sign04",
     "AppId": "deco37",
     "Name": "Danger Sign",
     "Color": "ed541b",
@@ -636,12 +798,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 5,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "068a89ca-504e-4782-9ede-48f710aeea73",
+    "GameName": "obj_decor_sign05",
     "AppId": "deco38",
     "Name": "Stop Sign",
     "Color": "c60000",
@@ -652,12 +820,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "14e8f5d0-7d6a-41ab-96a1-fc34588de868",
+    "GameName": "obj_decor_sign06",
     "AppId": "deco39",
     "Name": "Beware Farmbots Sign",
     "Color": "c60000",
@@ -668,12 +842,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 2,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "d509a432-85f9-419f-8b02-8d58b1082f97",
+    "GameName": "obj_decor_sign07",
     "AppId": "deco40",
     "Name": "Welcome Sign",
     "Color": "ffc605",
@@ -684,12 +864,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 5,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "b4498227-6650-4e52-b5a6-6db7a7b34d14",
+    "GameName": "obj_decor_sign08",
     "AppId": "deco41",
     "Name": "Do Not Enter Sign",
     "Color": "c60000",
@@ -700,12 +886,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "c79a1857-a5c7-4616-b507-f1b151c31fe8",
+    "GameName": "obj_decor_sign09",
     "AppId": "deco42",
     "Name": "Falling Objects Sign",
     "Color": "ffc605",
@@ -716,12 +908,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 5,
+      "Y": 4,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "3878d965-de4a-4e7b-a15a-73cc032158b6",
+    "GameName": "obj_decor_arrowsign",
     "AppId": "deco43",
     "Name": "Arrow Sign",
     "Color": "f26c23",
@@ -732,12 +930,18 @@
       "Friction": 4,
       "Buoyancy": 2
     },
+    "Box": {
+      "X": 3,
+      "Y": 3,
+      "Z": 1
+    },
     "Flammable": false,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "1f334b62-8955-4406-8848-91e03228c330",
+    "GameName": "obj_decor_cone",
     "AppId": "deco44",
     "Name": "Traffic Cone",
     "Color": "f15814",
@@ -748,12 +952,18 @@
       "Friction": 3,
       "Buoyancy": 6
     },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
     "Flammable": true,
     "Density": 250.0,
     "QualityLevel": 0
   },
   {
     "ItemId": "9eead4cf-4743-486e-99be-a553c4c10740",
+    "GameName": "obj_decor_bed",
     "AppId": "deco45",
     "Name": "Mattress",
     "Color": "b58d59",
@@ -775,6 +985,7 @@
   },
   {
     "ItemId": "ff2207c1-e40b-416f-8bdd-66a9efd6d1a9",
+    "GameName": "obj_decor_pillow",
     "AppId": "deco46",
     "Name": "Pillow",
     "Color": "5aa0d2",
@@ -784,6 +995,11 @@
       "Durability": 1,
       "Friction": 4,
       "Buoyancy": 2
+    },
+    "Box": {
+      "X": 3,
+      "Y": 1,
+      "Z": 2
     },
     "Flammable": true,
     "Density": 250.0,

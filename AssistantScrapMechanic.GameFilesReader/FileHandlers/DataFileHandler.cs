@@ -50,7 +50,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 bool found = false;
                 foreach (GameItemLocalised gameItemLoc in localisedGameItems)
                 {
-                    if (!gameName.Equals(gameItemLoc.Name)) continue;
+                    if (!gameName.Equals(gameItemLoc.GameName)) continue;
                     if (gameNameToAppIdLookup.ContainsKey(gameName)) continue;
 
                     gameNameToAppIdLookup.Add(gameName, gameItemLoc.AppId);
@@ -70,7 +70,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             Dictionary<string, AppLoot> appLoopDict = new Dictionary<string, AppLoot>();
             AddToAppLoopDictionary(appLoopDict, lootData.LootCrate.SelectOne, AppLootContainerType.CommonChest, gameNameToAppIdLookup, quantitiesLookup);
+            AddToAppLoopDictionary(appLoopDict, lootData.LootTable.RandomLoot, AppLootContainerType.CommonChest, gameNameToAppIdLookup, quantitiesLookup);
+            // TODO derive random loot from LootContainer
+
             AddToAppLoopDictionary(appLoopDict, lootData.LootCrateEpic.SelectOne, AppLootContainerType.RareChest, gameNameToAppIdLookup, quantitiesLookup);
+            AddToAppLoopDictionary(appLoopDict, lootData.LootTable.RandomEpicLoot, AppLootContainerType.RareChest, gameNameToAppIdLookup, quantitiesLookup);
         }
 
         private Dictionary<string, AppLoot> AddToAppLoopDictionary(Dictionary<string, AppLoot> appLoopDict, List<LootChance> selectOne, AppLootContainerType containerType, Dictionary<string, string> gameNameToAppIdLookup, Dictionary<string, LootQuantitiesLookup> quantitiesLookup)
@@ -93,6 +97,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 if (appLoopDict.ContainsKey(appId))
                 {
                     AppLoot current = appLoopDict[appId];
+                    //if (current.Chances.Any(c => c.Type == containerType)) continue;
                     current.Chances.Add(newChance);
                     appLoopDict[appId] = current;
                 }
