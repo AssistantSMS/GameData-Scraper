@@ -25,7 +25,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _appImagesRepo = appImagesRepo;
         }
 
-        public void GenerateAppFiles(LanguageDetail language, Dictionary<string, InventoryDescription> itemNames, Dictionary<string, List<dynamic>> lookup)
+        public void GenerateAppFiles(LanguageDetail language, Dictionary<string, InventoryDescription> itemNames, Dictionary<string, List<ILocalised>> lookup)
         {
             WriteAppFile(AppFile.Customisation, _outputFileSysRepo.LoadListJsonFile<CustomisationLocalised>(OutputFile.Customization), language, itemNames);
 
@@ -94,7 +94,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang(language.LanguageAppFolder, outputFileName));
         }
 
-        private void WriteAppFile(string outputFileName, IEnumerable<RecipeLocalised> localisedData, Dictionary<string, List<dynamic>> lookup, LanguageDetail language, Dictionary<string, InventoryDescription> itemNames)
+        private void WriteAppFile(string outputFileName, IEnumerable<RecipeLocalised> localisedData, Dictionary<string, List<ILocalised>> lookup, LanguageDetail language, Dictionary<string, InventoryDescription> itemNames)
         {
             List<AppRecipeLang> appRecipe = new List<AppRecipeLang>();
             List<AppRecipeBase> appRecipeBaseItems = new List<AppRecipeBase>();

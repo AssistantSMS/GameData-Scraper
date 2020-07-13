@@ -23,9 +23,13 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
 
         private const string GameFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
-        private static readonly string OutputDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader\output";
+        //private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        private static readonly string OutputDirectory = $@"{GameFilesReader}\output";
+        private static readonly string InputDirectory = $@"{GameFilesReader}\input";
         private static readonly string AppFilesDirectory = $@"{GameFilesDirectory}\json";
         private static readonly string AppImagesDirectory = $@"{GameFilesDirectory}\img";
+        private static readonly string AppDataDirectory = $@"{GameFilesDirectory}\data";
         private static readonly string AppLangDirectory = $@"{GameFilesDirectory}\lang";
         
         private static readonly LanguageType[] AvailableLangs = (LanguageType[])Enum.GetValues(typeof(LanguageType));
@@ -40,8 +44,10 @@ namespace AssistantScrapMechanic.GameFilesReader
             FileSystemRepository survivalLanguageFileSysRepo = new FileSystemRepository(SurvivalLanguageDirectory);
 
             FileSystemRepository outputFileSysRepo = new FileSystemRepository(OutputDirectory);
+            FileSystemRepository inputFileSysRepo = new FileSystemRepository(InputDirectory);
             FileSystemRepository appFilesSysRepo = new FileSystemRepository(AppFilesDirectory);
             FileSystemRepository appImagesRepo = new FileSystemRepository(AppImagesDirectory);
+            FileSystemRepository appDataSysRepo = new FileSystemRepository(AppDataDirectory);
 
             LanguageDetail language = new LanguageDetail(LanguageType.English, "English", "en");
 
@@ -94,7 +100,8 @@ namespace AssistantScrapMechanic.GameFilesReader
                 Console.WriteLine("1. Generate Intermediate Files");
                 Console.WriteLine($"2. Create App Files in {language.LanguageGameFolder}");
                 Console.WriteLine("3. Cut images from sprite map");
-                Console.WriteLine("4. Add item to Language Pack");
+                Console.WriteLine("4. Generate App Data files");
+                Console.WriteLine("5. Add item to Language Pack");
 
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out int numberInput)) return 0;
@@ -108,12 +115,17 @@ namespace AssistantScrapMechanic.GameFilesReader
                         GenerateAppFiles(gameFilesReader, outputFileSysRepo, appFilesSysRepo, appImagesRepo, language);
                         break;
                     case 3:
-                        Dictionary<string, List<dynamic>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfAllItems(includeOtherItems: true);
+                        Dictionary<string, List<ILocalised>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfAllItems(includeOtherItems: true);
 
                         ImageCutter imageCutter = new ImageCutter(DataGuiDirectory, SurvivalGuiDirectory, OutputDirectory);
                         imageCutter.CutOutImages(keyValueOfGameItems);
                         break;
                     case 4:
+                        List<GameItemLocalised> gameItemsList = gameFilesReader.GetAllLocalisedGameItems(includeOtherItems: true);
+                        DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo);
+                        dataFileHandler.GenerateDataFiles(gameItemsList);
+                        break;
+                    case 5:
                         AddItemToLanguagePacks();
                         break;
                     default:
@@ -125,7 +137,7 @@ namespace AssistantScrapMechanic.GameFilesReader
 
         private static void GenerateAppFiles(FileHandlers.GameFilesReader gameFilesReader, FileSystemRepository outputFileSysRepo, FileSystemRepository appFilesSysRepo, FileSystemRepository appImagesRepo, LanguageDetail language)
         {
-            Dictionary<string, List<dynamic>> lookup = gameFilesReader.GetKeyValueOfGameItems(includeOtherItems: true);
+            Dictionary<string, List<ILocalised>> lookup = gameFilesReader.GetKeyValueOfGameItems(includeOtherItems: true);
             AppFilesHandler appFilesHandler = new AppFilesHandler(outputFileSysRepo, appFilesSysRepo, appImagesRepo);
 
             Dictionary<string, InventoryDescription> itemNames = gameFilesReader.LoadItemNames(language.LanguageGameFolder);

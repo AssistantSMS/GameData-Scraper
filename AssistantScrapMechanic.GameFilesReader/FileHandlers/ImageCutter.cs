@@ -34,7 +34,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _outputDirectory = outputDirectory;
         }
 
-        public void CutOutImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        public void CutOutImages(Dictionary<string, List<ILocalised>> keyValueOfGameItems)
         {
             List<string> imageListForPubSpec = new List<string>();
             imageListForPubSpec.AddRange(CutOutDataImages(keyValueOfGameItems));
@@ -48,7 +48,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             File.WriteAllLines(outputPath, imageListForPubSpec);
         }
 
-        private List<string> CutOutDataImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutDataImages(Dictionary<string, List<ILocalised>> keyValueOfGameItems)
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Path.Combine(_dataGuiDirectory, ImageCoordinatesMap));
@@ -62,7 +62,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return CutOutImage(coords, Path.Combine(_dataGuiDirectory, ImageMap), keyValueOfGameItems);
         }
 
-        private List<string> CutOutSurvivalImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutSurvivalImages(Dictionary<string, List<ILocalised>> keyValueOfGameItems)
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Path.Combine(_survivalGuiDirectory, SurvivalImageCoordinatesMap));
@@ -76,7 +76,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return CutOutImage(coords, Path.Combine(_survivalGuiDirectory, SurvivalImageMap), keyValueOfGameItems);
         }
 
-        private List<string> CutOutCustomisationImages(Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutCustomisationImages(Dictionary<string, List<ILocalised>> keyValueOfGameItems)
         {
             XmlDocument doc = new XmlDocument();
             doc.Load(Path.Combine(_dataGuiDirectory, CustomizationImageCoordinatesMap));
@@ -90,7 +90,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return CutOutImage(coords, Path.Combine(_dataGuiDirectory, CustomizationImageMap), keyValueOfGameItems);
         }
 
-        private List<string> CutOutImage(List<IconMapCoordinates> coords, string bitMapPath, Dictionary<string, List<dynamic>> keyValueOfGameItems)
+        private List<string> CutOutImage(List<IconMapCoordinates> coords, string bitMapPath, Dictionary<string, List<ILocalised>> keyValueOfGameItems)
         {
             List<string> imageListForPubSpec = new List<string>();
             using Bitmap imageMap = new Bitmap(Image.FromFile(bitMapPath));
@@ -99,7 +99,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             {
                 if (!keyValueOfGameItems.ContainsKey(imageCoordinates.ItemId)) continue;
 
-                List<dynamic> items = keyValueOfGameItems[imageCoordinates.ItemId];
+                List<ILocalised> items = keyValueOfGameItems[imageCoordinates.ItemId];
                 foreach (dynamic item in items)
                 {
                     bool isKnownType = item is RecipeLocalised || item is GameItemLocalised || item is CustomisationItemLocalised;

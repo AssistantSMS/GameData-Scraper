@@ -15,6 +15,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
         public Box Box { get; set; }
+        public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
@@ -35,6 +36,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Density = Density,
                 Ratings = Ratings,
                 Box = Box,
+                Cylinder = Cylinder,
                 Upgrades = Upgrades,
                 Features = Features,
             };
@@ -62,6 +64,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
         public Box Box { get; set; }
+        public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }

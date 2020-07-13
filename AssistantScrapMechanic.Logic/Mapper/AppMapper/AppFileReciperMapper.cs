@@ -8,7 +8,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
 {
     public static class AppFileReciperMapper
     {
-        public static AppRecipe ToAppFile(RecipeLocalised localisedData, Dictionary<string, List<dynamic>> lookup)
+        public static AppRecipe ToAppFile(RecipeLocalised localisedData, Dictionary<string, List<ILocalised>> lookup)
         {
             AppRecipe recipe = new AppRecipe
             {
@@ -22,7 +22,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             return recipe;
         }
         
-        private static AppIngredient GetAppIngredient(this string gameId, int quantity, IReadOnlyDictionary<string, List<dynamic>> lookup)
+        private static AppIngredient GetAppIngredient(this string gameId, int quantity, IReadOnlyDictionary<string, List<ILocalised>> lookup)
         {
             AppIngredient defaultObj = new AppIngredient
             {
@@ -32,7 +32,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             if (gameId == null) return defaultObj;
             if (!lookup.ContainsKey(gameId)) return defaultObj;
 
-            List<dynamic> matches = lookup[gameId];
+            List<ILocalised> matches = lookup[gameId];
             string appId = string.Empty;
 
             foreach (dynamic match in matches)

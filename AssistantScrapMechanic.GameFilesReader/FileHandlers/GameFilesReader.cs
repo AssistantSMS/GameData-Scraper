@@ -64,22 +64,22 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return survivalDict;
         }
 
-        public Dictionary<string, List<dynamic>> GetKeyValueOfAllItems(bool includeOtherItems = false)
+        public Dictionary<string, List<ILocalised>> GetKeyValueOfAllItems(bool includeOtherItems = false)
         {
-            Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
+            Dictionary<string, List<ILocalised>> result = new Dictionary<string, List<ILocalised>>();
 
             Dictionary<string, List<RecipeLocalised>> recipes = GetKeyValueOfRecipItems();
             foreach ((string key, List<RecipeLocalised> value) in recipes)
             {
                 if (result.ContainsKey(key))
                 {
-                    List<dynamic> current = result[key];
+                    List<ILocalised> current = result[key];
                     current.AddRange(value);
                     result[key] = current;
                 }
                 else
                 {
-                    result.Add(key, value.Select(v => v as dynamic).ToList());
+                    result.Add(key, value.Select(v => v as ILocalised).ToList());
                 }
             }
 
@@ -88,22 +88,22 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             {
                 if (result.ContainsKey(key))
                 {
-                    List<dynamic> current = result[key];
+                    List<ILocalised> current = result[key];
                     current.AddRange(value);
                     result[key] = current;
                 }
                 else
                 {
-                    result.Add(key, value.Select(v => v as dynamic).ToList());
+                    result.Add(key, value.Select(v => v as ILocalised).ToList());
                 }
             }
 
-            Dictionary<string, List<dynamic>> gameItems = GetKeyValueOfGameItems(includeOtherItems);
-            foreach ((string key, List<dynamic> value) in gameItems)
+            Dictionary<string, List<ILocalised>> gameItems = GetKeyValueOfGameItems(includeOtherItems);
+            foreach ((string key, List<ILocalised> value) in gameItems)
             {
                 if (result.ContainsKey(key))
                 {
-                    List<dynamic> current = result[key];
+                    List<ILocalised> current = result[key];
                     current.AddRange(value);
                     result[key] = current;
                 }
@@ -116,10 +116,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             return result;
         }
 
-        public Dictionary<string, List<dynamic>> GetKeyValueOfGameItems(bool includeOtherItems = false)
+        public List<GameItemLocalised> GetAllLocalisedGameItems(bool includeOtherItems = false)
         {
-            Dictionary<string, List<dynamic>> result = new Dictionary<string, List<dynamic>>();
-
             List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
             List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
             List<GameItemLocalised> construction = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction);
@@ -183,17 +181,26 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 allItems = allItems.Concat(other).ToList();
             }
 
+            return allItems;
+        }
+
+        public Dictionary<string, List<ILocalised>> GetKeyValueOfGameItems(bool includeOtherItems = false)
+        {
+            Dictionary<string, List<ILocalised>> result = new Dictionary<string, List<ILocalised>>();
+
+            List<GameItemLocalised> allItems = GetAllLocalisedGameItems(includeOtherItems);
+
             foreach (GameItemLocalised item in allItems)
             {
                 if (result.ContainsKey(item.ItemId))
                 {
-                    List<dynamic> current = result[item.ItemId];
+                    List<ILocalised> current = result[item.ItemId];
                     current.Add(item);
                     result[item.ItemId] = current;
                 }
                 else
                 {
-                    result.Add(item.ItemId, new List<dynamic> { item });
+                    result.Add(item.ItemId, new List<ILocalised> { item });
                 }
             }
 
@@ -327,7 +334,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Vehicle, Prefix.Vehicle, OutputFile.Vehicle, itemNames);
             GenerateGameItemIntermediate(GameFile.Warehouse, Prefix.Warehouse, OutputFile.Warehouse, itemNames);
 
-            Dictionary<string, List<dynamic>> lookup = GetKeyValueOfGameItems();
+            Dictionary<string, List<ILocalised>> lookup = GetKeyValueOfGameItems();
 
             List<NotFoundItem> notFound = new List<NotFoundItem>();
             notFound.AddRange(GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes, lookup, notFound.Count));
@@ -341,7 +348,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateUnknownItemIntermediate(notFound, OutputFile.Other, itemNames);
         }
 
-        private List<NotFoundItem> GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename, Dictionary<string, List<dynamic>> lookup, int currentOtherIndex)
+        private List<NotFoundItem> GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename, Dictionary<string, List<ILocalised>> lookup, int currentOtherIndex)
         {
             List<Recipe> jsonContent = _survivalCraftingFileSysRepo.LoadListJsonFile<Recipe>(filename);
 

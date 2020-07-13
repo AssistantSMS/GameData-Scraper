@@ -2,7 +2,7 @@
 
 namespace AssistantScrapMechanic.Domain.IntermediateFiles
 {
-    public class RecipeLocalised : Recipe
+    public class RecipeLocalised : Recipe, ILocalised
     {
         public string AppId { get; set; }
         public string Title { get; set; }

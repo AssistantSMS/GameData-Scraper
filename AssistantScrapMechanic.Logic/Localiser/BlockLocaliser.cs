@@ -11,6 +11,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
             GameItemLocalised blockLocalised = new GameItemLocalised
             {
                 AppId = $"{prefix}{(index + 1)}",
+                GameName = block.Name,
                 ItemId = block.Uuid,
                 Color = block.Color,
                 Density = block.Density,
@@ -20,6 +21,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 QualityLevel = block.QualityLevel,
                 Ratings = block.Ratings,
                 Box = null,
+                Cylinder = null,
             };
             return blockLocalised;
         }

@@ -22,18 +22,19 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         public Ratings Ratings { get; set; }
         public Box Box { get; set; }
         public Box Hull { get; set; }
+        public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int StackSize { get; set; }
     }
 
-    //public class Cylinder
-    //{
-    //    public int Diameter { get; set; }
-    //    public int Depth { get; set; }
-    //    public float Margin { get; set; }
-    //    public string Axis { get; set; }
-    //}
+    public class Cylinder
+    {
+        public int Diameter { get; set; }
+        public int Depth { get; set; }
+        //public float Margin { get; set; }
+        //public string Axis { get; set; }
+    }
 
     public class Box
     {

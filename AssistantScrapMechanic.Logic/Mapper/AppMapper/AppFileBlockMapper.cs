@@ -20,6 +20,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Color = localisedData.Color,
                 Ratings = localisedData.Ratings,
                 Box = localisedData.Box,
+                Cylinder = localisedData.Cylinder,
                 Features = features,
                 Upgrades = upgrades,
             };

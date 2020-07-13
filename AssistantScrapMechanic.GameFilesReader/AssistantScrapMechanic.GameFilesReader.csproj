@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="FileHandlers\DataFileHandler.cs~RFa5bce85a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AssistantScrapMechanic.Domain\AssistantScrapMechanic.Domain.csproj" />
     <ProjectReference Include="..\AssistantScrapMechanic.Integration\AssistantScrapMechanic.Integration.csproj" />
     <ProjectReference Include="..\AssistantScrapMechanic.Logic\AssistantScrapMechanic.Logic.csproj" />

@@ -12,6 +12,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
             {
                 AppId = $"{prefix}{(index + 1)}",
                 ItemId = gameItem.Uuid,
+                GameName = gameItem.Name,
                 Color = gameItem.Color,
                 Density = gameItem.Density,
                 Flammable = gameItem.Flammable,
@@ -21,6 +22,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 QualityLevel = 0,
                 Ratings = gameItem.Ratings,
                 Box = gameItem.Box,
+                Cylinder = gameItem.Cylinder,
             };
 
             List<int> boxSizes = getSizesFromBox(blockLocalised.Box);

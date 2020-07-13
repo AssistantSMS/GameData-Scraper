@@ -8,7 +8,7 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public List<CustomisationItemLocalised> Items { get; set; }
     }
 
-    public class CustomisationItemLocalised
+    public class CustomisationItemLocalised: ILocalised
     {
         public string ItemId { get; set; }
         public string AppId { get; set; }
