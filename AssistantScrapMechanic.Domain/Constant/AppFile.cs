@@ -32,6 +32,7 @@
 
         public static string Customisation = "customisation.json";
         public static string Other = "other.json";
+        public static string Loot = "loot.json";
 
         public static string CookBotRecipes = "recipeCookbot.json";
         public static string CraftBotRecipes = "recipeCraftbot.json";

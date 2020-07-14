@@ -68,16 +68,42 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 quantitiesLookup.Add(quantityLookup.Name, quantityLookup);
             }
 
-            Dictionary<string, AppLoot> appLoopDict = new Dictionary<string, AppLoot>();
-            AddToAppLoopDictionary(appLoopDict, lootData.LootCrate.SelectOne, AppLootContainerType.CommonChest, gameNameToAppIdLookup, quantitiesLookup);
-            AddToAppLoopDictionary(appLoopDict, lootData.LootTable.RandomLoot, AppLootContainerType.CommonChest, gameNameToAppIdLookup, quantitiesLookup);
+            Dictionary<string, AppLoot> appLootDict = new Dictionary<string, AppLoot>();
+            AddToAppLootDictionary(appLootDict, lootData.LootCrate.SelectOne, AppLootContainerType.CommonChest, gameNameToAppIdLookup, quantitiesLookup);
+            AddToAppLootDictionary(appLootDict, lootData.LootTable.RandomLoot, AppLootContainerType.CommonChest, gameNameToAppIdLookup, quantitiesLookup);
             // TODO derive random loot from LootContainer
 
-            AddToAppLoopDictionary(appLoopDict, lootData.LootCrateEpic.SelectOne, AppLootContainerType.RareChest, gameNameToAppIdLookup, quantitiesLookup);
-            AddToAppLoopDictionary(appLoopDict, lootData.LootTable.RandomEpicLoot, AppLootContainerType.RareChest, gameNameToAppIdLookup, quantitiesLookup);
+            AddToAppLootDictionary(appLootDict, lootData.LootCrateEpic.SelectOne, AppLootContainerType.RareChest, gameNameToAppIdLookup, quantitiesLookup);
+            AddToAppLootDictionary(appLootDict, lootData.LootTable.RandomEpicLoot, AppLootContainerType.RareChest, gameNameToAppIdLookup, quantitiesLookup);
+
+            List<AppLoot> appLoots = new List<AppLoot>();
+            foreach (string dictKey in appLootDict.Keys)
+            {
+                AppLoot appLoot = appLootDict[dictKey];
+                Dictionary<string, AppLootChance> uniqueChances = new Dictionary<string, AppLootChance>();
+                foreach (AppLootChance chance in appLoot.Chances)
+                {
+                    string key = $"{chance.Chance}{chance.Max}{chance.Min}{chance.Type}";
+                    if (uniqueChances.ContainsKey(key)) continue;
+
+                    uniqueChances.Add(key, chance);
+                }
+                List<AppLootChance> newAppChances = new List<AppLootChance>();
+                foreach (string uniqueChanceKey in uniqueChances.Keys)
+                {
+                    newAppChances.Add(uniqueChances[uniqueChanceKey]);
+                }
+                appLoots.Add(new AppLoot
+                {
+                    AppId = appLoot.AppId,
+                    Chances = newAppChances,
+                });
+            }
+
+            _appDataSysRepo.WriteBackToJsonFile(appLoots, AppFile.Loot);
         }
 
-        private Dictionary<string, AppLoot> AddToAppLoopDictionary(Dictionary<string, AppLoot> appLoopDict, List<LootChance> selectOne, AppLootContainerType containerType, Dictionary<string, string> gameNameToAppIdLookup, Dictionary<string, LootQuantitiesLookup> quantitiesLookup)
+        private static void AddToAppLootDictionary(Dictionary<string, AppLoot> appLoopDict, List<LootChance> selectOne, AppLootContainerType containerType, Dictionary<string, string> gameNameToAppIdLookup, Dictionary<string, LootQuantitiesLookup> quantitiesLookup)
         {
             int normalTotalChance = LootCalculator.TotalChanceValue(selectOne);
             foreach (LootChance normalSelectOneLootChance in selectOne)
@@ -111,8 +137,6 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     });
                 }
             }
-
-            return appLoopDict;
         }
     }
 }
