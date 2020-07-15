@@ -20,7 +20,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
 
-        public Upgrade Upgrades { get; set; }
+        public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
 
         public AppGameItemBase ToBase(string icon)
@@ -37,7 +37,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Ratings = Ratings,
                 Box = Box,
                 Cylinder = Cylinder,
-                Upgrades = Upgrades,
+                Upgrade = Upgrade,
                 Features = Features,
             };
             return baseObj;
@@ -68,7 +68,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
-        public Upgrade Upgrades { get; set; }
+        public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
     }
 

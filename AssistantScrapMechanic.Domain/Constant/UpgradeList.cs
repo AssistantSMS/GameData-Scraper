@@ -197,12 +197,211 @@ namespace AssistantScrapMechanic.Domain.Constant
             },
         };
 
+        public static List<Upgrade> SportSuspensionUpgrades = new List<Upgrade>
+        {
+            new Upgrade
+            {
+                Uuid = "67da25c9-3825-41f6-9724-4546a11cb2a5",
+                LocaleKey = "level2",
+                TargetUuid = "aae686a2-0eb3-43b3-b998-def282de79e9",
+                Cost = 1,
+            },
+            new Upgrade
+            {
+                Uuid = "aae686a2-0eb3-43b3-b998-def282de79e9",
+                LocaleKey = "level3",
+                TargetUuid = "d0aa2676-5266-432a-bf7e-3887e6ddedd5",
+                Cost = 2,
+            },
+            new Upgrade
+            {
+                Uuid = "d0aa2676-5266-432a-bf7e-3887e6ddedd5",
+                LocaleKey = "level4",
+                TargetUuid = "d9adddcc-972d-4726-a376-67f950b99a44",
+                Cost = 4,
+            },
+            new Upgrade
+            {
+                Uuid = "d9adddcc-972d-4726-a376-67f950b99a44",
+                LocaleKey = "level5",
+                TargetUuid = "52855106-a95c-4427-9970-3f227109b66d",
+                Cost = 5,
+            }
+        };
+
+        public static List<Upgrade> OffroadSuspensionUpgrades = new List<Upgrade>
+        {
+            new Upgrade
+            {
+                Uuid = "f3cfef9d-faef-4be8-9283-476eb99614d7",
+                LocaleKey = "level2",
+                TargetUuid = "00284190-1484-4286-a198-b2ddef768c2e",
+                Cost = 1,
+            },
+            new Upgrade
+            {
+                Uuid = "00284190-1484-4286-a198-b2ddef768c2e",
+                LocaleKey = "level3",
+                TargetUuid = "a9658eaf-0dd8-46a6-8cac-be6978f19b79",
+                Cost = 2,
+            },
+            new Upgrade
+            {
+                Uuid = "a9658eaf-0dd8-46a6-8cac-be6978f19b79",
+                LocaleKey = "level4",
+                TargetUuid = "4c3f6a7c-45c6-4ed8-bf13-c247c3db6b81",
+                Cost = 4,
+            },
+            new Upgrade
+            {
+                Uuid = "4c3f6a7c-45c6-4ed8-bf13-c247c3db6b81",
+                LocaleKey = "level5",
+                TargetUuid = "73f838db-783e-4a41-bc0f-9008967780f3",
+                Cost = 5,
+            }
+        };
+
+        public static List<Upgrade> ThrusterUpgrades = new List<Upgrade>
+        {
+            new Upgrade
+            {
+                Uuid = "df8528ed-15ad-4a39-a33a-698880684001",
+                LocaleKey = "level2",
+                TargetUuid = "9fc793b2-250b-40ab-bcb3-97cf97c7b481",
+                Cost = 10,
+            },
+            new Upgrade
+            {
+                Uuid = "9fc793b2-250b-40ab-bcb3-97cf97c7b481",
+                LocaleKey = "level3",
+                TargetUuid = "4c1cc8de-7af1-4f8e-a5c4-c583460af9e5",
+                Cost = 10,
+            },
+            new Upgrade
+            {
+                Uuid = "4c1cc8de-7af1-4f8e-a5c4-c583460af9e5",
+                LocaleKey = "level4",
+                TargetUuid = "e6db321c-6f98-47f6-9f7f-4e6794a62cb8",
+                Cost = 10,
+            },
+            new Upgrade
+            {
+                Uuid = "e6db321c-6f98-47f6-9f7f-4e6794a62cb8",
+                LocaleKey = "level5",
+                TargetUuid = "a736ffdf-22c1-40f2-8e40-988cab7c0559",
+                Cost = 10,
+            }
+        };
+
+        public static List<Upgrade> ControllerUpgrades = new List<Upgrade>
+        {
+            new Upgrade
+            {
+                Uuid = "598d865c-324c-4129-9c57-21a6abd2cb2e",
+                LocaleKey = "level2",
+                TargetUuid = "1872d83a-d1a1-4cb7-ad46-9e4468d2548c",
+                Cost = 2,
+            },
+            new Upgrade
+            {
+                Uuid = "1872d83a-d1a1-4cb7-ad46-9e4468d2548c",
+                LocaleKey = "level3",
+                TargetUuid = "6bb84152-c4d7-4644-bc37-a3becd79298d",
+                Cost = 3,
+            },
+            new Upgrade
+            {
+                Uuid = "6bb84152-c4d7-4644-bc37-a3becd79298d",
+                LocaleKey = "level4",
+                TargetUuid = "2354cd24-3dd3-4db5-84ab-df64c32d2c72",
+                Cost = 5,
+            },
+            new Upgrade
+            {
+                Uuid = "2354cd24-3dd3-4db5-84ab-df64c32d2c72",
+                LocaleKey = "level5",
+                TargetUuid = "a092359d-5cea-484d-a274-470d9a567632",
+                Cost = 10,
+            },
+        };
+
+        public static List<Upgrade> SensorUpgrades = new List<Upgrade>
+        {
+            new Upgrade
+            {
+                Uuid = "1d4793af-cb66-4628-804a-9d7404712643",
+                LocaleKey = "level2",
+                TargetUuid = "cf46678b-c947-4267-ba85-f66930f5faa4",
+                Cost = 1,
+            },
+            new Upgrade
+            {
+                Uuid = "cf46678b-c947-4267-ba85-f66930f5faa4",
+                LocaleKey = "level3",
+                TargetUuid = "90fc3603-3544-4254-97ef-ea6723510961",
+                Cost = 1,
+            },
+            new Upgrade
+            {
+                Uuid = "90fc3603-3544-4254-97ef-ea6723510961",
+                LocaleKey = "level4",
+                TargetUuid = "de018bc6-1db5-492c-bfec-045e63f9d64b",
+                Cost = 1,
+            },
+            new Upgrade
+            {
+                Uuid = "de018bc6-1db5-492c-bfec-045e63f9d64b",
+                LocaleKey = "level5",
+                TargetUuid = "20dcd41c-0a11-4668-9b00-97f278ce21af",
+                Cost = 3,
+            }
+        };
+
+        public static List<Upgrade> PistonUpgrades = new List<Upgrade>
+        {
+            new Upgrade
+            {
+                Uuid = "8c741785-5eae-4c48-9f99-d62bf522a83f",
+                LocaleKey = "level2",
+                TargetUuid = "31f14f52-f4d8-4b9f-9d6e-7412497c9284",
+                Cost = 2,
+            },
+            new Upgrade
+            {
+                Uuid = "31f14f52-f4d8-4b9f-9d6e-7412497c9284",
+                LocaleKey = "level3",
+                TargetUuid = "46396518-8c29-4da9-81bb-a020f4baf5b2",
+                Cost = 2,
+            },
+            new Upgrade
+            {
+                Uuid = "46396518-8c29-4da9-81bb-a020f4baf5b2",
+                LocaleKey = "level4",
+                TargetUuid = "7324219e-2b19-4098-baa3-9876984ead08",
+                Cost = 2,
+            },
+            new Upgrade
+            {
+                Uuid = "7324219e-2b19-4098-baa3-9876984ead08",
+                LocaleKey = "level5",
+                TargetUuid = "2f004fdf-bfb0-46f3-a7ac-7711100bee0c",
+                Cost = 2,
+            }
+        };
+
+
         public static List<Upgrade> Upgrades = DriverSeatUpgrades
             .Concat(SeatUpgrades)
             .Concat(DriverSaddleUpgrades)
             .Concat(SaddleUpgrades)
             .Concat(ElectricEngineUpgrades)
             .Concat(GasEngineUpgrades)
+            .Concat(SportSuspensionUpgrades)
+            .Concat(OffroadSuspensionUpgrades)
+            .Concat(ThrusterUpgrades)
+            .Concat(ControllerUpgrades)
+            .Concat(SensorUpgrades)
+            .Concat(PistonUpgrades)
             .ToList();
     }
 

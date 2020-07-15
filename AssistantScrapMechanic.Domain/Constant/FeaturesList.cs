@@ -632,14 +632,528 @@ namespace AssistantScrapMechanic.Domain.Constant
             }
         };
 
-        public static List<GameItemFeatures> Features =
-            ScrapSeatFeatures
+        public static List<GameItemFeatures> SportSuspensionFeatures = new List<GameItemFeatures>
+        {
+            new GameItemFeatures
+            {
+                Uuid = "67da25c9-3825-41f6-9724-4546a11cb2a5",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "4"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "aae686a2-0eb3-43b3-b998-def282de79e9",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "6"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "d0aa2676-5266-432a-bf7e-3887e6ddedd5",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "9"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "d9adddcc-972d-4726-a376-67f950b99a44",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "13"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "52855106-a95c-4427-9970-3f227109b66d",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "19"
+                    },
+                }
+            }
+        };
+
+        public static List<GameItemFeatures> OffroadSuspensionFeatures = new List<GameItemFeatures>
+        {
+            new GameItemFeatures
+            {
+                Uuid = "f3cfef9d-faef-4be8-9283-476eb99614d7",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "4"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "00284190-1484-4286-a198-b2ddef768c2e",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "6"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "a9658eaf-0dd8-46a6-8cac-be6978f19b79",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "9"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "4c3f6a7c-45c6-4ed8-bf13-c247c3db6b81",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "13"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "73f838db-783e-4a41-bc0f-9008967780f3",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "stiffness",
+                        Value = "19"
+                    },
+                }
+            }
+        };
+
+        public static List<GameItemFeatures> ThrusterFeatures = new List<GameItemFeatures>
+        {
+            new GameItemFeatures
+            {
+                Uuid = "df8528ed-15ad-4a39-a33a-698880684001",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "efficiency",
+                        Value = "1"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "thrust",
+                        Value = "3"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "9fc793b2-250b-40ab-bcb3-97cf97c7b481",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "efficiency",
+                        Value = "2"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "thrust",
+                        Value = "4"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "4c1cc8de-7af1-4f8e-a5c4-c583460af9e5",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "efficiency",
+                        Value = "3"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "thrust",
+                        Value = "5"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "e6db321c-6f98-47f6-9f7f-4e6794a62cb8",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "efficiency",
+                        Value = "4"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "thrust",
+                        Value = "6"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "a736ffdf-22c1-40f2-8e40-988cab7c0559",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "efficiency",
+                        Value = "5"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "thrust",
+                        Value = "7"
+                    },
+                }
+            },
+        };
+
+        public static List<GameItemFeatures> ControllerFeatures = new List<GameItemFeatures>
+        {
+            new GameItemFeatures
+            {
+                Uuid = "598d865c-324c-4129-9c57-21a6abd2cb2e",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "maxConnections",
+                        Value = "1"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "1"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "1872d83a-d1a1-4cb7-ad46-9e4468d2548c",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "maxConnections",
+                        Value = "2"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "2"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "6bb84152-c4d7-4644-bc37-a3becd79298d",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "maxConnections",
+                        Value = "4"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "4"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "2354cd24-3dd3-4db5-84ab-df64c32d2c72",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "maxConnections",
+                        Value = "8"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "6"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "a092359d-5cea-484d-a274-470d9a567632",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "maxConnections",
+                        Value = "10"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "8"
+                    },
+                }
+            },
+        };
+
+        public static List<GameItemFeatures> SensorFeatures = new List<GameItemFeatures>
+        {
+            new GameItemFeatures
+            {
+                Uuid = "1d4793af-cb66-4628-804a-9d7404712643",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "4"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "hasColourDetection",
+                        Value = "false"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "cf46678b-c947-4267-ba85-f66930f5faa4",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "8"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "hasColourDetection",
+                        Value = "false"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "90fc3603-3544-4254-97ef-ea6723510961",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "12"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "hasColourDetection",
+                        Value = "false"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "de018bc6-1db5-492c-bfec-045e63f9d64b",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "16"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "hasColourDetection",
+                        Value = "false"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "20dcd41c-0a11-4668-9b00-97f278ce21af",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "20"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "hasColourDetection",
+                        Value = "false"
+                    },
+                }
+            },
+        };
+
+        public static List<GameItemFeatures> PistonFeatures = new List<GameItemFeatures>
+        {
+            new GameItemFeatures
+            {
+                Uuid = "8c741785-5eae-4c48-9f99-d62bf522a83f",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "7"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "2"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "force",
+                        Value = "1"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "31f14f52-f4d8-4b9f-9d6e-7412497c9284",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "9"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "4"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "force",
+                        Value = "2"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "46396518-8c29-4da9-81bb-a020f4baf5b2",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "11"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "6"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "force",
+                        Value = "3"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "7324219e-2b19-4098-baa3-9876984ead08",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "13"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "8"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "force",
+                        Value = "4"
+                    },
+                }
+            },
+            new GameItemFeatures
+            {
+                Uuid = "2f004fdf-bfb0-46f3-a7ac-7711100bee0c",
+                Features = new List<Feature>
+                {
+                    new Feature
+                    {
+                        LocaleKey = "range",
+                        Value = "15"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "velocity",
+                        Value = "10"
+                    },
+                    new Feature
+                    {
+                        LocaleKey = "force",
+                        Value = "5"
+                    },
+                }
+            },
+        };
+
+        public static List<GameItemFeatures> Features = ScrapSeatFeatures
             .Concat(DriverSeatFeatures)
             .Concat(SeatFeatures)
             .Concat(DriverSaddleFeatures)
             .Concat(SaddleFeatures)
             .Concat(ElectricEngineFeatures)
             .Concat(GasEngineFeatures)
+            .Concat(SportSuspensionFeatures)
+            .Concat(OffroadSuspensionFeatures)
+            .Concat(ThrusterFeatures)
+            .Concat(ControllerFeatures)
+            .Concat(SensorFeatures)
+            .Concat(PistonFeatures)
             .ToList();
     }
 
