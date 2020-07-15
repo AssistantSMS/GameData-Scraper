@@ -22,15 +22,16 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static readonly string DataGuiDirectory = $@"{BaseDirectory}\Data\Gui";
         private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
 
-        private const string GameFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
-        private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
-        //private const string GameFilesReader = @"C:\Development\Projects\ScrapMechanic\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
-        private static readonly string OutputDirectory = $@"{GameFilesReader}\output";
-        private static readonly string InputDirectory = $@"{GameFilesReader}\input";
-        private static readonly string AppFilesDirectory = $@"{GameFilesDirectory}\json";
-        private static readonly string AppImagesDirectory = $@"{GameFilesDirectory}\img";
-        private static readonly string AppDataDirectory = $@"{GameFilesDirectory}\data";
-        private static readonly string AppLangDirectory = $@"{GameFilesDirectory}\lang";
+        //private const string AppFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
+        private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.App\assets";
+        //private const string ConsoleAppDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        private const string ConsoleAppDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        private static readonly string OutputDirectory = $@"{ConsoleAppDirectory}\output";
+        private static readonly string InputDirectory = $@"{ConsoleAppDirectory}\input";
+        private static readonly string AppJsonFilesDirectory = $@"{AppFilesDirectory}\json";
+        private static readonly string AppImagesDirectory = $@"{AppFilesDirectory}\img";
+        private static readonly string AppDataDirectory = $@"{AppFilesDirectory}\data";
+        private static readonly string AppLangDirectory = $@"{AppFilesDirectory}\lang";
         
         private static readonly LanguageType[] AvailableLangs = (LanguageType[])Enum.GetValues(typeof(LanguageType));
 
@@ -45,7 +46,7 @@ namespace AssistantScrapMechanic.GameFilesReader
 
             FileSystemRepository outputFileSysRepo = new FileSystemRepository(OutputDirectory);
             FileSystemRepository inputFileSysRepo = new FileSystemRepository(InputDirectory);
-            FileSystemRepository appFilesSysRepo = new FileSystemRepository(AppFilesDirectory);
+            FileSystemRepository appFilesSysRepo = new FileSystemRepository(AppJsonFilesDirectory);
             FileSystemRepository appImagesRepo = new FileSystemRepository(AppImagesDirectory);
             FileSystemRepository appDataSysRepo = new FileSystemRepository(AppDataDirectory);
 
@@ -161,13 +162,9 @@ namespace AssistantScrapMechanic.GameFilesReader
 
                 string languageFile = $"language.{language.LanguageAppFolder}.json";
                 Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict(languageFile);
-                const string translatedByKey = "translatedBy";
-                langJson.TryGetValue(translatedByKey, out dynamic translatedBy);
-                langJson.Remove(translatedByKey);
                 if (langJson.ContainsKey(newKey)) continue;
 
                 langJson.Add(newKey, newValue);
-                langJson.Add(translatedByKey, translatedBy ?? string.Empty);
                 appLangRepo.WriteBackToJsonFile(langJson, languageFile);
 
                 completedFolders.Add(language.LanguageAppFolder);
