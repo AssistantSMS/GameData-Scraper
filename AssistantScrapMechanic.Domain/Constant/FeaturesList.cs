@@ -490,7 +490,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     },
                     new Feature
                     {
-                        LocaleKey = "pointsPerBattery",
+                        LocaleKey = "pointsPerFuel",
                         Value = "3000"
                     }
                 }
@@ -517,7 +517,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     },
                     new Feature
                     {
-                        LocaleKey = "pointsPerBattery",
+                        LocaleKey = "pointsPerFuel",
                         Value = "4000"
                     }
                 }
@@ -544,7 +544,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     },
                     new Feature
                     {
-                        LocaleKey = "pointsPerBattery",
+                        LocaleKey = "pointsPerFuel",
                         Value = "6000"
                     }
                 }
@@ -571,7 +571,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     },
                     new Feature
                     {
-                        LocaleKey = "pointsPerBattery",
+                        LocaleKey = "pointsPerFuel",
                         Value = "9000"
                     }
                 }
@@ -598,7 +598,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     },
                     new Feature
                     {
-                        LocaleKey = "pointsPerBattery",
+                        LocaleKey = "pointsPerFuel",
                         Value = "12000"
                     }
                 }
@@ -625,7 +625,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     },
                     new Feature
                     {
-                        LocaleKey = "pointsPerBattery",
+                        LocaleKey = "pointsPerFuel",
                         Value = "20000"
                     }
                 }
