@@ -22,10 +22,10 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static readonly string DataGuiDirectory = $@"{BaseDirectory}\Data\Gui";
         private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
 
-        //private const string AppFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
-        private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.App\assets";
-        //private const string ConsoleAppDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
-        private const string ConsoleAppDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        private const string AppFilesDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.App\assets";
+        //private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.App\assets";
+        private const string ConsoleAppDirectory = @"C:\Development\Projects\ScrapMechanic\AssistantScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
+        //private const string ConsoleAppDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
         private static readonly string OutputDirectory = $@"{ConsoleAppDirectory}\output";
         private static readonly string InputDirectory = $@"{ConsoleAppDirectory}\input";
         private static readonly string AppJsonFilesDirectory = $@"{AppFilesDirectory}\json";

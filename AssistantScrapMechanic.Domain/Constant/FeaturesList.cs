@@ -1021,7 +1021,7 @@ namespace AssistantScrapMechanic.Domain.Constant
                     new Feature
                     {
                         LocaleKey = "hasColourDetection",
-                        Value = "false"
+                        Value = "true"
                     },
                 }
             },

@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace AssistantScrapMechanic.Domain.Constant
 {
@@ -407,9 +409,15 @@ namespace AssistantScrapMechanic.Domain.Constant
 
     public class Upgrade
     {
+        [JsonIgnore]
         public string Uuid { get; set; }
+
         public string LocaleKey { get; set; }
+
+        [JsonIgnore]
         public string TargetUuid { get; set; }
+        public string TargetId { get; set; }
+
         public int Cost { get; set; }
     }
 }
