@@ -47,7 +47,7 @@
     "ItemId": "c8ca8731-3af2-4554-9019-6b941affcb16",
     "GameName": "obj_manmade_scraproof01",
     "AppId": "man3",
-    "Name": "Shade Sails",
+    "Name": "Shack Shade Sails",
     "Color": "0e8031",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -69,7 +69,7 @@
     "ItemId": "c4ec4d33-83f7-4e7e-bb0a-8df52f96aef5",
     "GameName": "obj_manmade_scraproof02",
     "AppId": "man4",
-    "Name": "Awning",
+    "Name": "Shack Awning",
     "Color": "0e8031",
     "PhysicsMaterial": "Metal",
     "Ratings": {

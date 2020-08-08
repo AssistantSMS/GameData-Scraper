@@ -41,6 +41,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Color = string.Empty,
                 Ratings = null,
                 Box = null,
+                CustomisationSource = localisedData.Tier,
             };
             return recipe;
         }

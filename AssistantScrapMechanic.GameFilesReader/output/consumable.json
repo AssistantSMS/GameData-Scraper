@@ -4,7 +4,7 @@
     "GameName": "obj_consumable_gas",
     "AppId": "consu1",
     "Name": "Gasoline",
-    "Description": "Used to power gas engines and thrusters",
+    "Description": "Used to power gas engines and thrusters.",
     "Color": "981e11",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -27,7 +27,7 @@
     "GameName": "obj_consumable_battery",
     "AppId": "consu2",
     "Name": "Battery",
-    "Description": "Used to power electric parts",
+    "Description": "Used to power electric parts.",
     "Color": "f1a400",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -73,7 +73,7 @@
     "GameName": "obj_consumable_fertilizer",
     "AppId": "consu4",
     "Name": "Fertilizer",
-    "Description": "Makes plants grow faster",
+    "Description": "Makes plants grow faster.",
     "Color": "a5ca11",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -118,7 +118,7 @@
     "GameName": "obj_consumable_component",
     "AppId": "consu6",
     "Name": "Component Kit",
-    "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station",
+    "Description": "Use to upgrade interactive parts and unlock bots in the Mechanic Station.",
     "Color": "df7f01",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -141,7 +141,7 @@
     "GameName": "obj_consumable_inkammo",
     "AppId": "consu7",
     "Name": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color",
+    "Description": "Load your Paint Tool and give your creations some color.",
     "Color": "1c8687",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -163,7 +163,7 @@
     "GameName": "obj_consumable_glowstick",
     "AppId": "consu8",
     "Name": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better",
+    "Description": "Throw them at night or other dark places to see things better.",
     "Color": "ccffcc",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -185,7 +185,7 @@
     "GameName": "obj_consumable_sunshake",
     "AppId": "consu9",
     "Name": "Sunshake",
-    "Description": "Mechanics love a cold sunshake when thirsty",
+    "Description": "Mechanics love a cold sunshake when thirsty.",
     "Color": "fe878c",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -207,7 +207,7 @@
     "GameName": "obj_consumable_pizzaburger",
     "AppId": "consu10",
     "Name": "Pizza Burger",
-    "Description": "A mechanics favorite food. Fills up the hunger meter to the max",
+    "Description": "A mechanics favorite food. Fills up all your meters to the max.",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -230,7 +230,7 @@
     "GameName": "obj_consumable_carrotburger",
     "AppId": "consu11",
     "Name": "Veggie Burger",
-    "Description": "A vegetarian alternative. Fills up the hunger meter to the max",
+    "Description": "A vegetarian alternative. Fills up all your meters to the max.",
     "Color": "ccffcc",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -253,7 +253,7 @@
     "GameName": "obj_consumable_longsandwich",
     "AppId": "consu12",
     "Name": "Revival Baguette",
-    "Description": "Feed your fallen friends to get them back on their feet and back in action",
+    "Description": "Feed your fallen friends to get them back on their feet and back in action.",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Fruit",
     "Ratings": {
@@ -297,7 +297,7 @@
     "GameName": "obj_consumable_soilbag",
     "AppId": "consu14",
     "Name": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in",
+    "Description": "Use them on the ground to place your seeds in.",
     "Color": "3a9c51",
     "PhysicsMaterial": "Sand",
     "Ratings": {

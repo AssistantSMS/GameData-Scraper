@@ -483,6 +483,116 @@
     "QualityLevel": 0
   },
   {
+    "ItemId": "aa3e38ef-21aa-4430-ab56-93c367f4f458",
+    "GameName": "obj_spaceship_frame02",
+    "AppId": "spaceship37",
+    "Name": "Large Ship Floor Mold",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "29c5c1eb-a3bd-45ae-b823-aeb28d70593a",
+    "GameName": "obj_spaceship_frame05",
+    "AppId": "spaceship38",
+    "Name": "Ship Opening Floor Mold",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 5,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "22c526fc-b212-4e4e-af00-1cc69d9129e1",
+    "GameName": "obj_spaceship_frame03",
+    "AppId": "spaceship39",
+    "Name": "Small Ship Corner Floor Mold",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a79a2bc9-1015-4c25-ab4b-0d4cb715db47",
+    "GameName": "obj_spaceship_frame04",
+    "AppId": "spaceship40",
+    "Name": "Large Ship Corner Floor Mold",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c5bdb30e-9675-4f8a-8fb9-07e5b98039d4",
+    "GameName": "obj_spaceship_frame06",
+    "AppId": "spaceship41",
+    "Name": "Diagonal Ship Floor Mold",
+    "Color": "820a0a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 3,
+      "Y": 1,
+      "Z": 3
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
     "ItemId": "196586b5-897f-40f3-926c-b5dfa4f772eb",
     "GameName": "obj_spaceship_blinds",
     "AppId": "spaceship42",
@@ -543,6 +653,28 @@
       "X": 4,
       "Y": 1,
       "Z": 6
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "1f5d8b77-183c-4f8b-83d7-a3940d090926",
+    "GameName": "obj_spaceship_infoboard",
+    "AppId": "spaceship46",
+    "Name": "Master Battery Info Board",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 7,
+      "Y": 10,
+      "Z": 1
     },
     "Flammable": false,
     "Density": 200.0,

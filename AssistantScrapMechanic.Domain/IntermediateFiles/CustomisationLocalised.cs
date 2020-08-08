@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using AssistantScrapMechanic.Domain.Enum;
 
 namespace AssistantScrapMechanic.Domain.IntermediateFiles
 {
@@ -13,5 +14,6 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public string ItemId { get; set; }
         public string AppId { get; set; }
         public string Name { get; set; }
+        public CustomisationSourceType Tier { get; set; }
     }
 }

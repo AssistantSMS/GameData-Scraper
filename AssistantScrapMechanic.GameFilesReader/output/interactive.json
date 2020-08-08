@@ -4,7 +4,7 @@
     "GameName": "obj_interactive_fridge",
     "AppId": "intera1",
     "Name": "Fridge",
-    "Description": "Keeps your food fresh",
+    "Description": "Keeps your food fresh.",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -94,7 +94,7 @@
     "GameName": "obj_container_chest",
     "AppId": "intera5",
     "Name": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -117,7 +117,7 @@
     "GameName": "obj_interactive_encryptor_destruction",
     "AppId": "intera6",
     "Name": "Protector: Anti-Destruction",
-    "Description": "Helps protecting your creation from damage. Connect it to a Battery container",
+    "Description": "Helps protecting your creation from damage. Connect it to a Battery container.",
     "Color": "c36512",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -140,7 +140,7 @@
     "GameName": "obj_interactive_encryptor_connection",
     "AppId": "intera7",
     "Name": "Encryptor: Anti-Connection",
-    "Description": "Hides the connections on your creations from other mechanics. Connect it to a Battery container",
+    "Description": "Hides the connections on your creations from other mechanics. Connect it to a Battery container.",
     "Color": "2f97df",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -254,7 +254,7 @@
     "GameName": "obj_interactive_watergun",
     "AppId": "intera12",
     "Name": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently.",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -277,7 +277,7 @@
     "GameName": "obj_interactive_mountablespudgun",
     "AppId": "intera13",
     "Name": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot",
+    "Description": "Connect it to a Ammo container with a trigger to shoot.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -300,7 +300,7 @@
     "GameName": "obj_interactive_comfybed",
     "AppId": "intera14",
     "Name": "Respawn Bed",
-    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out",
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out.",
     "Color": "3e9ffe",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -342,11 +342,18 @@
   },
   {
     "ItemId": "aa8d89eb-919b-42f4-8b58-af6f0d5856bc",
+    "GameName": "jnt_suspensionsport_creative",
     "AppId": "intera16",
     "Name": "Sport Suspension",
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension is small, but has a firmer bounce.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Cylinder": {
       "Diameter": 1,
       "Depth": 2
@@ -357,11 +364,18 @@
   },
   {
     "ItemId": "a481138b-fae9-47c9-9bc2-91b6d2e2bf52",
+    "GameName": "jnt_suspensionoffroad_creative",
     "AppId": "intera17",
     "Name": "Off-Road Suspension",
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Cylinder": {
       "Diameter": 1,
       "Depth": 3
@@ -372,11 +386,18 @@
   },
   {
     "ItemId": "cf3fdcfc-a7e5-4497-b000-ffda67dd8db7",
+    "GameName": "obj_interactive_driverseat_creative",
     "AppId": "intera18",
     "Name": "Driver's Seat",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 4,
       "Y": 4,
@@ -388,11 +409,18 @@
   },
   {
     "ItemId": "42786777-c148-4e13-9bab-e460564e79c3",
+    "GameName": "obj_interactive_seat_creative",
     "AppId": "intera19",
     "Name": "Seat",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 4,
       "Y": 4,
@@ -404,11 +432,18 @@
   },
   {
     "ItemId": "38ee0516-abc5-4e46-9195-c763610d7ec4",
+    "GameName": "obj_interactive_driversaddle_creative",
     "AppId": "intera20",
     "Name": "Driver's Saddle",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 3,
       "Y": 4,
@@ -420,11 +455,18 @@
   },
   {
     "ItemId": "20f59114-5964-451f-bb47-820da3ebbc3b",
+    "GameName": "obj_interactive_saddle_creative",
     "AppId": "intera21",
     "Name": "Saddle",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 3,
       "Y": 4,
@@ -459,11 +501,18 @@
   },
   {
     "ItemId": "d5e36413-b3c1-4636-8447-3410c352ec7b",
+    "GameName": "obj_interactive_gasengine_creative",
     "AppId": "intera23",
     "Name": "Gas Engine",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or triggers.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 2,
@@ -475,11 +524,18 @@
   },
   {
     "ItemId": "6546c293-a5aa-4442-80d5-a2819f077746",
+    "GameName": "obj_interactive_electricengine_creative",
     "AppId": "intera24",
     "Name": "Electric Engine",
-    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A slow engine with a lot of strength. Can be connected to a driverâ€™s seat or triggers.",
+    "Description": "Powers bearings. An engine with fixed power and adjustable speed. A slow engine with a lot of strength. Can be connected to a driver's seat or triggers.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 2,
@@ -491,11 +547,18 @@
   },
   {
     "ItemId": "5e96037a-a338-490a-a76f-6b4d820f8e46",
+    "GameName": "obj_interactive_thruster_creative",
     "AppId": "intera25",
     "Name": "Thruster",
-    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driverâ€™s seat in order to activate.",
+    "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 2,
@@ -507,11 +570,18 @@
   },
   {
     "ItemId": "12862001-666c-4bdd-8326-a1f43610d28b",
+    "GameName": "obj_interactive_controller_creative",
     "AppId": "intera26",
     "Name": "Controller",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 2,
       "Y": 1,
@@ -569,11 +639,18 @@
   },
   {
     "ItemId": "add3acc6-a6fd-44e8-a384-a7a16ce13c81",
+    "GameName": "obj_interactive_sensor_creative",
     "AppId": "intera29",
     "Name": "Sensor",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 1,
       "Y": 1,
@@ -588,7 +665,7 @@
     "GameName": "obj_interactive_radio",
     "AppId": "intera30",
     "Name": "Radio",
-    "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it\nor by connecting it to a trigger.",
+    "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it or by connecting it to a trigger.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -792,11 +869,18 @@
   },
   {
     "ItemId": "260b4597-f1ac-409c-8e6b-90c998c5fe94",
+    "GameName": "jnt_interactive_piston_creative",
     "AppId": "intera39",
     "Name": "Piston",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 1,
       "Y": 1,
@@ -831,11 +915,18 @@
   },
   {
     "ItemId": "0229f59d-1ba3-446a-8f9c-df8b0f816e51",
+    "GameName": "obj_interactive_mountablespudgun_creative",
     "AppId": "intera41",
-    "Name": "Mountable Spudgun",
-    "Description": "The potato shooting mountable spud gun is great for protecting your creations.\nConnect it to a trigger that is connected to a seat to shoot while seated.",
+    "Name": "Mountable Spud Gun",
+    "Description": "The potato shooting mountable spud gun is great for protecting your creations. Connect it to a trigger that is connected to a seat to shoot while seated.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 0,
+      "Buoyancy": 0
+    },
     "Box": {
       "X": 1,
       "Y": 1,
@@ -850,7 +941,7 @@
     "GameName": "obj_interactive_propanetank_small",
     "AppId": "intera42",
     "Name": "Small Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius.",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius.",
     "Color": "cb0a00",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
@@ -873,7 +964,7 @@
     "GameName": "obj_interactive_propanetank_large",
     "AppId": "intera43",
     "Name": "Large Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius.",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius.",
     "Color": "cb0a00",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {

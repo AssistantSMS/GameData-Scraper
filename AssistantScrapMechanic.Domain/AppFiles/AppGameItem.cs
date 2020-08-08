@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using AssistantScrapMechanic.Domain.Constant;
+using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.GameFiles;
+using AssistantScrapMechanic.Domain.IntermediateFiles;
 using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.Domain.AppFiles
@@ -22,6 +25,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
 
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
+        public CustomisationSourceType CustomisationSource { get; set; }
 
         public AppGameItemBase ToBase(string icon)
         {
@@ -39,6 +43,9 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Cylinder = Cylinder,
                 Upgrade = Upgrade,
                 Features = Features,
+                CustomisationSource = CustomisationSource == CustomisationSourceType.Unknown 
+                    ? (CustomisationSourceType?)null
+                    : CustomisationSource,
             };
             return baseObj;
         }
@@ -70,6 +77,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public int QualityLevel { get; set; }
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
+        public CustomisationSourceType? CustomisationSource { get; set; }
     }
 
     public class AppGameItemLang

@@ -5,112 +5,134 @@
       {
         "ItemId": "acc63e3d-29cf-4f4b-a515-d126d03746fa_male",
         "AppId": "custFacM1",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "acc63e3d-29cf-4f4b-a515-d126d03746fa_female",
         "AppId": "custFacF1",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "0fb22fe3-4fea-459a-a2b5-a226e9f7dcfb_male",
         "AppId": "custFacM2",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "0fb22fe3-4fea-459a-a2b5-a226e9f7dcfb_female",
         "AppId": "custFacF2",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "c958bad6-6a20-4526-829f-397e62f421f5_male",
         "AppId": "custFacM3",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "c958bad6-6a20-4526-829f-397e62f421f5_female",
         "AppId": "custFacF3",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "cc273e37-4ba8-498e-ac5e-3497403c7fe2_male",
         "AppId": "custFacM4",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "cc273e37-4ba8-498e-ac5e-3497403c7fe2_female",
         "AppId": "custFacF4",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "121bd328-4d24-4398-b35e-4d5e87842df3_male",
         "AppId": "custFacM5",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "121bd328-4d24-4398-b35e-4d5e87842df3_female",
         "AppId": "custFacF5",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "0c6a7c26-3dc6-442d-ab3b-b74cbf402786_male",
         "AppId": "custFacM6",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "0c6a7c26-3dc6-442d-ab3b-b74cbf402786_female",
         "AppId": "custFacF6",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "cd531ca0-f650-41b1-b739-a735096e798f_male",
         "AppId": "custFacM7",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "cd531ca0-f650-41b1-b739-a735096e798f_female",
         "AppId": "custFacF7",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "f2aa9bab-e2be-45d8-918d-ae6955aba7d4_male",
         "AppId": "custFacM8",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "f2aa9bab-e2be-45d8-918d-ae6955aba7d4_female",
         "AppId": "custFacF8",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "205a9e7d-f55a-412f-ad21-2889e1ee4111_male",
         "AppId": "custFacM9",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "205a9e7d-f55a-412f-ad21-2889e1ee4111_female",
         "AppId": "custFacF9",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "989cec9b-e03e-4e17-9812-bfc381028c40_male",
         "AppId": "custFacM10",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "989cec9b-e03e-4e17-9812-bfc381028c40_female",
         "AppId": "custFacF10",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "ae6ed023-cf3b-4926-8d8d-722dc302815b_male",
         "AppId": "custFacM11",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       },
       {
         "ItemId": "ae6ed023-cf3b-4926-8d8d-722dc302815b_female",
         "AppId": "custFacF11",
-        "Name": "Face"
+        "Name": "Face",
+        "Tier": 0
       }
     ]
   },
@@ -120,322 +142,386 @@
       {
         "ItemId": "4fd6672e-27b6-42c6-8ba6-60837087a641_male",
         "AppId": "custTorM1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "4fd6672e-27b6-42c6-8ba6-60837087a641_female",
         "AppId": "custTorF1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "e50b3ceb-aa46-4f3e-8343-f28b6cbe34d0_male",
         "AppId": "custTorM2",
-        "Name": "Mechanic Jacket"
+        "Name": "Mechanic Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "e50b3ceb-aa46-4f3e-8343-f28b6cbe34d0_female",
         "AppId": "custTorF2",
-        "Name": "Mechanic Jacket"
+        "Name": "Mechanic Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "47ee844c-0028-404d-9293-1b4f3df8a4ea_male",
         "AppId": "custTorM3",
-        "Name": "Crash Mechanic Jacket"
+        "Name": "Crash Mechanic Jacket",
+        "Tier": 0
       },
       {
         "ItemId": "47ee844c-0028-404d-9293-1b4f3df8a4ea_female",
         "AppId": "custTorF3",
-        "Name": "Crash Mechanic Jacket"
+        "Name": "Crash Mechanic Jacket",
+        "Tier": 0
       },
       {
         "ItemId": "9778b063-26ff-456f-820b-2a47e85e5a68_male",
         "AppId": "custTorM4",
-        "Name": "Applicator Jacket"
+        "Name": "Applicator Jacket",
+        "Tier": 0
       },
       {
         "ItemId": "9778b063-26ff-456f-820b-2a47e85e5a68_female",
         "AppId": "custTorF4",
-        "Name": "Applicator Jacket"
+        "Name": "Applicator Jacket",
+        "Tier": 0
       },
       {
         "ItemId": "8fd35b59-b4d5-4378-adf7-44f02d9abd33_male",
         "AppId": "custTorM5",
-        "Name": "Automotive Jacket"
+        "Name": "Automotive Jacket",
+        "Tier": 2
       },
       {
         "ItemId": "8fd35b59-b4d5-4378-adf7-44f02d9abd33_female",
         "AppId": "custTorF5",
-        "Name": "Automotive Jacket"
+        "Name": "Automotive Jacket",
+        "Tier": 2
       },
       {
         "ItemId": "aa987d10-92d7-49ae-b09d-f6853e31d1da_male",
         "AppId": "custTorM6",
-        "Name": "Delivery Jacket"
+        "Name": "Delivery Jacket",
+        "Tier": 3
       },
       {
         "ItemId": "aa987d10-92d7-49ae-b09d-f6853e31d1da_female",
         "AppId": "custTorF6",
-        "Name": "Delivery Jacket"
+        "Name": "Delivery Jacket",
+        "Tier": 3
       },
       {
         "ItemId": "a4ff886c-bfff-4b80-a916-70f5909afe02_male",
         "AppId": "custTorM7",
-        "Name": "Demolition Jacket"
+        "Name": "Demolition Jacket",
+        "Tier": 2
       },
       {
         "ItemId": "a4ff886c-bfff-4b80-a916-70f5909afe02_female",
         "AppId": "custTorF7",
-        "Name": "Demolition Jacket"
+        "Name": "Demolition Jacket",
+        "Tier": 2
       },
       {
         "ItemId": "a03db277-9c10-4f75-a5ea-f2f9b24dde9e_male",
         "AppId": "custTorM8",
-        "Name": "Lumberjack_ Jacket"
+        "Name": "Lumberjack_ Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "a03db277-9c10-4f75-a5ea-f2f9b24dde9e_female",
         "AppId": "custTorF8",
-        "Name": "Lumberjack_ Jacket"
+        "Name": "Lumberjack_ Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "f2c0c91f-4547-416e-b037-f56a8f04368c_male",
         "AppId": "custTorM9",
-        "Name": "Farmer Jacket"
+        "Name": "Farmer Jacket",
+        "Tier": 0
       },
       {
         "ItemId": "f2c0c91f-4547-416e-b037-f56a8f04368c_female",
         "AppId": "custTorF9",
-        "Name": "Farmer Jacket"
+        "Name": "Farmer Jacket",
+        "Tier": 0
       },
       {
         "ItemId": "f5896dde-b3c9-4699-bf70-c9dfbded8c32_male",
         "AppId": "custTorM10",
-        "Name": "Engineer Jacket"
+        "Name": "Engineer Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "f5896dde-b3c9-4699-bf70-c9dfbded8c32_female",
         "AppId": "custTorF10",
-        "Name": "Engineer Jacket"
+        "Name": "Engineer Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "0de3a02c-8aaa-4fb1-8ff6-a7519cc9c839_male",
         "AppId": "custTorM11",
-        "Name": "Painter Jacket"
+        "Name": "Painter Jacket",
+        "Tier": 2
       },
       {
         "ItemId": "0de3a02c-8aaa-4fb1-8ff6-a7519cc9c839_female",
         "AppId": "custTorF11",
-        "Name": "Painter Jacket"
+        "Name": "Painter Jacket",
+        "Tier": 2
       },
       {
         "ItemId": "325ab02a-f316-410f-8e80-ceec4d3b987a_male",
         "AppId": "custTorM12",
-        "Name": "Golf Jacket"
+        "Name": "Golf Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "325ab02a-f316-410f-8e80-ceec4d3b987a_female",
         "AppId": "custTorF12",
-        "Name": "Golf Jacket"
+        "Name": "Golf Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "2dc14c75-c359-40e6-b11f-93cdc36c611a_male",
         "AppId": "custTorM13",
-        "Name": "Farmhand Jacket"
+        "Name": "Farmhand Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "2dc14c75-c359-40e6-b11f-93cdc36c611a_female",
         "AppId": "custTorF13",
-        "Name": "Farmhand Jacket"
+        "Name": "Farmhand Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "915a8a36-3bbc-427e-ae00-4954208053b9_male",
         "AppId": "custTorM14",
-        "Name": "Technician Jacket"
+        "Name": "Technician Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "915a8a36-3bbc-427e-ae00-4954208053b9_female",
         "AppId": "custTorF14",
-        "Name": "Technician Jacket"
+        "Name": "Technician Jacket",
+        "Tier": 1
       },
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_male",
         "AppId": "custTorM15",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 2
       },
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_female",
         "AppId": "custTorF15",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 2
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_male",
         "AppId": "custTorM16",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_female",
         "AppId": "custTorF16",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_male",
         "AppId": "custTorM17",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_female",
         "AppId": "custTorF17",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_male",
         "AppId": "custTorM18",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_female",
         "AppId": "custTorF18",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_male",
         "AppId": "custTorM19",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_female",
         "AppId": "custTorF19",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_male",
         "AppId": "custTorM20",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_female",
         "AppId": "custTorF20",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_male",
         "AppId": "custTorM21",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_female",
         "AppId": "custTorF21",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_male",
         "AppId": "custTorM22",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_female",
         "AppId": "custTorF22",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_male",
         "AppId": "custTorM23",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_female",
         "AppId": "custTorF23",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_male",
         "AppId": "custTorM24",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_female",
         "AppId": "custTorF24",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_male",
         "AppId": "custTorM25",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_female",
         "AppId": "custTorF25",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_male",
         "AppId": "custTorM26",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_female",
         "AppId": "custTorF26",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_male",
         "AppId": "custTorM27",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_female",
         "AppId": "custTorF27",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_male",
         "AppId": "custTorM28",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_female",
         "AppId": "custTorF28",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_male",
         "AppId": "custTorM29",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_female",
         "AppId": "custTorF29",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_male",
         "AppId": "custTorM30",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_female",
         "AppId": "custTorF30",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_male",
         "AppId": "custTorM31",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_female",
         "AppId": "custTorF31",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_male",
         "AppId": "custTorM32",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_female",
         "AppId": "custTorF32",
-        "Name": "Torso"
+        "Name": "Torso",
+        "Tier": 1
       }
     ]
   },
@@ -445,142 +531,170 @@
       {
         "ItemId": "68500ade-1a22-46ca-af6e-ec70caf67b09_male",
         "AppId": "custGloM1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "68500ade-1a22-46ca-af6e-ec70caf67b09_female",
         "AppId": "custGloF1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "30fd5d33-44f2-46c3-9cbd-b7d86c3ff198_male",
         "AppId": "custGloM2",
-        "Name": "Mechanic Gloves"
+        "Name": "Mechanic Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "30fd5d33-44f2-46c3-9cbd-b7d86c3ff198_female",
         "AppId": "custGloF2",
-        "Name": "Mechanic Gloves"
+        "Name": "Mechanic Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "9dbfa9f8-8b6c-4ad8-8961-439c12f4912a_male",
         "AppId": "custGloM3",
-        "Name": "Crash Mechanic Gloves"
+        "Name": "Crash Mechanic Gloves",
+        "Tier": 0
       },
       {
         "ItemId": "9dbfa9f8-8b6c-4ad8-8961-439c12f4912a_female",
         "AppId": "custGloF3",
-        "Name": "Crash Mechanic Gloves"
+        "Name": "Crash Mechanic Gloves",
+        "Tier": 0
       },
       {
         "ItemId": "ecdf2659-3a13-4296-98d9-2bd469daea8e_male",
         "AppId": "custGloM4",
-        "Name": "Applicator Gloves"
+        "Name": "Applicator Gloves",
+        "Tier": 0
       },
       {
         "ItemId": "ecdf2659-3a13-4296-98d9-2bd469daea8e_female",
         "AppId": "custGloF4",
-        "Name": "Applicator Gloves"
+        "Name": "Applicator Gloves",
+        "Tier": 0
       },
       {
         "ItemId": "bc253f7e-bd45-4dde-b663-30d9353cfa73_male",
         "AppId": "custGloM5",
-        "Name": "Automotive Gloves"
+        "Name": "Automotive Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "bc253f7e-bd45-4dde-b663-30d9353cfa73_female",
         "AppId": "custGloF5",
-        "Name": "Automotive Gloves"
+        "Name": "Automotive Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "454a36e7-faa2-4177-ae88-ceb2e110f201_male",
         "AppId": "custGloM6",
-        "Name": "Delivery Shoes"
+        "Name": "Delivery Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "454a36e7-faa2-4177-ae88-ceb2e110f201_female",
         "AppId": "custGloF6",
-        "Name": "Delivery Shoes"
+        "Name": "Delivery Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "cc0ec2c3-6974-4eb0-8fa7-d59b74756e11_male",
         "AppId": "custGloM7",
-        "Name": "Demolition Gloves"
+        "Name": "Demolition Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "cc0ec2c3-6974-4eb0-8fa7-d59b74756e11_female",
         "AppId": "custGloF7",
-        "Name": "Demolition Gloves"
+        "Name": "Demolition Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "6bf46d8f-a8e9-4fb9-81d1-ea067318894a_male",
         "AppId": "custGloM8",
-        "Name": "Lumberjack_ Gloves"
+        "Name": "Lumberjack_ Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "6bf46d8f-a8e9-4fb9-81d1-ea067318894a_female",
         "AppId": "custGloF8",
-        "Name": "Lumberjack_ Gloves"
+        "Name": "Lumberjack_ Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "7b0295df-7178-4ccb-a44d-f34d6b792c57_male",
         "AppId": "custGloM9",
-        "Name": "Farmer Gloves"
+        "Name": "Farmer Gloves",
+        "Tier": 0
       },
       {
         "ItemId": "7b0295df-7178-4ccb-a44d-f34d6b792c57_female",
         "AppId": "custGloF9",
-        "Name": "Farmer Gloves"
+        "Name": "Farmer Gloves",
+        "Tier": 0
       },
       {
         "ItemId": "ce970a0e-4e3c-4473-9717-5e501b4aed76_male",
         "AppId": "custGloM10",
-        "Name": "Engineer Gloves"
+        "Name": "Engineer Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "ce970a0e-4e3c-4473-9717-5e501b4aed76_female",
         "AppId": "custGloF10",
-        "Name": "Engineer Gloves"
+        "Name": "Engineer Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "e3572845-2e0b-40ec-a2c1-3f69aadb99ac_male",
         "AppId": "custGloM11",
-        "Name": "Painter Gloves"
+        "Name": "Painter Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "e3572845-2e0b-40ec-a2c1-3f69aadb99ac_female",
         "AppId": "custGloF11",
-        "Name": "Painter Gloves"
+        "Name": "Painter Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "87f5ccf1-0813-4a52-93ef-d6fd37cb2dec_male",
         "AppId": "custGloM12",
-        "Name": "Golf Gloves"
+        "Name": "Golf Gloves",
+        "Tier": 2
       },
       {
         "ItemId": "87f5ccf1-0813-4a52-93ef-d6fd37cb2dec_female",
         "AppId": "custGloF12",
-        "Name": "Golf Gloves"
+        "Name": "Golf Gloves",
+        "Tier": 2
       },
       {
         "ItemId": "6c65f00b-4663-444a-8f56-12a6fdfef350_male",
         "AppId": "custGloM13",
-        "Name": "Farmhand Gloves"
+        "Name": "Farmhand Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "6c65f00b-4663-444a-8f56-12a6fdfef350_female",
         "AppId": "custGloF13",
-        "Name": "Farmhand Gloves"
+        "Name": "Farmhand Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "5a05ccb7-dd1c-49c5-949c-45f63882fbb6_male",
         "AppId": "custGloM14",
-        "Name": "Gloves"
+        "Name": "Gloves",
+        "Tier": 1
       },
       {
         "ItemId": "5a05ccb7-dd1c-49c5-949c-45f63882fbb6_female",
         "AppId": "custGloF14",
-        "Name": "Gloves"
+        "Name": "Gloves",
+        "Tier": 1
       }
     ]
   },
@@ -590,142 +704,170 @@
       {
         "ItemId": "3f07f523-79b6-4020-884e-fa816d5ffbf0_male",
         "AppId": "custShoM1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "3f07f523-79b6-4020-884e-fa816d5ffbf0_female",
         "AppId": "custShoF1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "ddac9cbf-422c-4523-97dd-3503d54d4628_male",
         "AppId": "custShoM2",
-        "Name": "Mechanic Shoes"
+        "Name": "Mechanic Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "ddac9cbf-422c-4523-97dd-3503d54d4628_female",
         "AppId": "custShoF2",
-        "Name": "Mechanic Shoes"
+        "Name": "Mechanic Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "6dd931e7-29c4-4b33-a14b-b4916c64f05d_male",
         "AppId": "custShoM3",
-        "Name": "Crash Mechanic Shoes"
+        "Name": "Crash Mechanic Shoes",
+        "Tier": 0
       },
       {
         "ItemId": "6dd931e7-29c4-4b33-a14b-b4916c64f05d_female",
         "AppId": "custShoF3",
-        "Name": "Crash Mechanic Shoes"
+        "Name": "Crash Mechanic Shoes",
+        "Tier": 0
       },
       {
         "ItemId": "583ba7e5-edbe-48e2-9ae5-fa939e7d1769_male",
         "AppId": "custShoM4",
-        "Name": "Applicator Shoes"
+        "Name": "Applicator Shoes",
+        "Tier": 0
       },
       {
         "ItemId": "583ba7e5-edbe-48e2-9ae5-fa939e7d1769_female",
         "AppId": "custShoF4",
-        "Name": "Applicator Shoes"
+        "Name": "Applicator Shoes",
+        "Tier": 0
       },
       {
         "ItemId": "01b0634c-4294-4aa6-adf5-4e653ad6a782_male",
         "AppId": "custShoM5",
-        "Name": "Automotive Shoes"
+        "Name": "Automotive Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "01b0634c-4294-4aa6-adf5-4e653ad6a782_female",
         "AppId": "custShoF5",
-        "Name": "Automotive Shoes"
+        "Name": "Automotive Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "e192f135-21a2-4277-97ae-66693988797e_male",
         "AppId": "custShoM6",
-        "Name": "Shoes"
+        "Name": "Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "e192f135-21a2-4277-97ae-66693988797e_female",
         "AppId": "custShoF6",
-        "Name": "Shoes"
+        "Name": "Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "8ade4f22-4524-4399-8ab2-7e6d3a1a7fbd_male",
         "AppId": "custShoM7",
-        "Name": "Demolition Shoes"
+        "Name": "Demolition Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "8ade4f22-4524-4399-8ab2-7e6d3a1a7fbd_female",
         "AppId": "custShoF7",
-        "Name": "Demolition Shoes"
+        "Name": "Demolition Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "aa940318-ccff-4b77-916e-4d9c8eb330cc_male",
         "AppId": "custShoM8",
-        "Name": "Lumberjack Shoes"
+        "Name": "Lumberjack Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "aa940318-ccff-4b77-916e-4d9c8eb330cc_female",
         "AppId": "custShoF8",
-        "Name": "Lumberjack Shoes"
+        "Name": "Lumberjack Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "78062d2a-1600-4144-80b6-435560cc0df6_male",
         "AppId": "custShoM9",
-        "Name": "Farmer Shoes"
+        "Name": "Farmer Shoes",
+        "Tier": 0
       },
       {
         "ItemId": "78062d2a-1600-4144-80b6-435560cc0df6_female",
         "AppId": "custShoF9",
-        "Name": "Farmer Shoes"
+        "Name": "Farmer Shoes",
+        "Tier": 0
       },
       {
         "ItemId": "91136fa2-0484-48ce-9109-d5680b138393_male",
         "AppId": "custShoM10",
-        "Name": "Engineer Shoes"
+        "Name": "Engineer Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "91136fa2-0484-48ce-9109-d5680b138393_female",
         "AppId": "custShoF10",
-        "Name": "Engineer Shoes"
+        "Name": "Engineer Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "ef4d8dab-9bec-4d57-ad75-7102bdabd385_male",
         "AppId": "custShoM11",
-        "Name": "Painter Shoes"
+        "Name": "Painter Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "ef4d8dab-9bec-4d57-ad75-7102bdabd385_female",
         "AppId": "custShoF11",
-        "Name": "Painter Shoes"
+        "Name": "Painter Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "6f864131-3d63-459a-a452-4033257400f0_male",
         "AppId": "custShoM12",
-        "Name": "Golf Pants"
+        "Name": "Golf Pants",
+        "Tier": 1
       },
       {
         "ItemId": "6f864131-3d63-459a-a452-4033257400f0_female",
         "AppId": "custShoF12",
-        "Name": "Golf Pants"
+        "Name": "Golf Pants",
+        "Tier": 1
       },
       {
         "ItemId": "ed4defaf-a4d0-40e0-ad2b-915d67b0224b_male",
         "AppId": "custShoM13",
-        "Name": "Farmhand Shoes"
+        "Name": "Farmhand Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "ed4defaf-a4d0-40e0-ad2b-915d67b0224b_female",
         "AppId": "custShoF13",
-        "Name": "Farmhand Shoes"
+        "Name": "Farmhand Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "8de62bd5-c7b3-4b2c-8d30-f986dff5ef70_male",
         "AppId": "custShoM14",
-        "Name": "Shoes"
+        "Name": "Shoes",
+        "Tier": 1
       },
       {
         "ItemId": "8de62bd5-c7b3-4b2c-8d30-f986dff5ef70_female",
         "AppId": "custShoF14",
-        "Name": "Shoes"
+        "Name": "Shoes",
+        "Tier": 1
       }
     ]
   },
@@ -735,142 +877,170 @@
       {
         "ItemId": "64de6298-cbad-4393-84d2-e659a2abf4ef_male",
         "AppId": "custLegM1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "64de6298-cbad-4393-84d2-e659a2abf4ef_female",
         "AppId": "custLegF1",
-        "Name": "None"
+        "Name": "None",
+        "Tier": 0
       },
       {
         "ItemId": "3351aec3-5664-4c68-b94e-8990f9d67685_male",
         "AppId": "custLegM2",
-        "Name": "Mechanic Pants"
+        "Name": "Mechanic Pants",
+        "Tier": 1
       },
       {
         "ItemId": "3351aec3-5664-4c68-b94e-8990f9d67685_female",
         "AppId": "custLegF2",
-        "Name": "Mechanic Pants"
+        "Name": "Mechanic Pants",
+        "Tier": 1
       },
       {
         "ItemId": "4eec76c1-5b84-4940-8814-afd113d2d63f_male",
         "AppId": "custLegM3",
-        "Name": "Crash Mechanic Pants"
+        "Name": "Crash Mechanic Pants",
+        "Tier": 0
       },
       {
         "ItemId": "4eec76c1-5b84-4940-8814-afd113d2d63f_female",
         "AppId": "custLegF3",
-        "Name": "Crash Mechanic Pants"
+        "Name": "Crash Mechanic Pants",
+        "Tier": 0
       },
       {
         "ItemId": "9293d50d-4a60-4e5d-9712-33d04a5fbea2_male",
         "AppId": "custLegM4",
-        "Name": "Applicator Pants"
+        "Name": "Applicator Pants",
+        "Tier": 0
       },
       {
         "ItemId": "9293d50d-4a60-4e5d-9712-33d04a5fbea2_female",
         "AppId": "custLegF4",
-        "Name": "Applicator Pants"
+        "Name": "Applicator Pants",
+        "Tier": 0
       },
       {
         "ItemId": "cf9470ae-5fed-442f-9da2-573f1358c73c_male",
         "AppId": "custLegM5",
-        "Name": "Automotive Pants"
+        "Name": "Automotive Pants",
+        "Tier": 3
       },
       {
         "ItemId": "cf9470ae-5fed-442f-9da2-573f1358c73c_female",
         "AppId": "custLegF5",
-        "Name": "Automotive Pants"
+        "Name": "Automotive Pants",
+        "Tier": 3
       },
       {
         "ItemId": "4aa28989-df88-462a-bead-1f7d976a1028_male",
         "AppId": "custLegM6",
-        "Name": "Delivery Pants"
+        "Name": "Delivery Pants",
+        "Tier": 2
       },
       {
         "ItemId": "4aa28989-df88-462a-bead-1f7d976a1028_female",
         "AppId": "custLegF6",
-        "Name": "Delivery Pants"
+        "Name": "Delivery Pants",
+        "Tier": 2
       },
       {
         "ItemId": "8151e8a4-bf6a-4a88-ae2c-b2f986ce7f90_male",
         "AppId": "custLegM7",
-        "Name": "Demolition Pants"
+        "Name": "Demolition Pants",
+        "Tier": 1
       },
       {
         "ItemId": "8151e8a4-bf6a-4a88-ae2c-b2f986ce7f90_female",
         "AppId": "custLegF7",
-        "Name": "Demolition Pants"
+        "Name": "Demolition Pants",
+        "Tier": 1
       },
       {
         "ItemId": "6c31a4ba-5571-4258-a4c2-81c243f9bbd5_male",
         "AppId": "custLegM8",
-        "Name": "Lumberjack Pants"
+        "Name": "Lumberjack Pants",
+        "Tier": 1
       },
       {
         "ItemId": "6c31a4ba-5571-4258-a4c2-81c243f9bbd5_female",
         "AppId": "custLegF8",
-        "Name": "Lumberjack Pants"
+        "Name": "Lumberjack Pants",
+        "Tier": 1
       },
       {
         "ItemId": "4ed054a2-e354-4624-acd6-686b33d414a7_male",
         "AppId": "custLegM9",
-        "Name": "Farmer Pants"
+        "Name": "Farmer Pants",
+        "Tier": 0
       },
       {
         "ItemId": "4ed054a2-e354-4624-acd6-686b33d414a7_female",
         "AppId": "custLegF9",
-        "Name": "Farmer Pants"
+        "Name": "Farmer Pants",
+        "Tier": 0
       },
       {
         "ItemId": "7d7b8545-c765-4b65-8770-714d1f19551f_male",
         "AppId": "custLegM10",
-        "Name": "Engineer Pants"
+        "Name": "Engineer Pants",
+        "Tier": 2
       },
       {
         "ItemId": "7d7b8545-c765-4b65-8770-714d1f19551f_female",
         "AppId": "custLegF10",
-        "Name": "Engineer Pants"
+        "Name": "Engineer Pants",
+        "Tier": 2
       },
       {
         "ItemId": "173bc4fd-405a-4d55-8158-b0768de0ced3_male",
         "AppId": "custLegM11",
-        "Name": "Painter Pants"
+        "Name": "Painter Pants",
+        "Tier": 1
       },
       {
         "ItemId": "173bc4fd-405a-4d55-8158-b0768de0ced3_female",
         "AppId": "custLegF11",
-        "Name": "Painter Pants"
+        "Name": "Painter Pants",
+        "Tier": 1
       },
       {
         "ItemId": "6ed381c7-df16-4407-8fec-056b5534757f_male",
         "AppId": "custLegM12",
-        "Name": "Duck Pants"
+        "Name": "Duck Pants",
+        "Tier": 2
       },
       {
         "ItemId": "6ed381c7-df16-4407-8fec-056b5534757f_female",
         "AppId": "custLegF12",
-        "Name": "Duck Pants"
+        "Name": "Duck Pants",
+        "Tier": 2
       },
       {
         "ItemId": "b8220512-ea42-43c4-87a4-65bce36db395_male",
         "AppId": "custLegM13",
-        "Name": "Farmhand Pants"
+        "Name": "Farmhand Pants",
+        "Tier": 1
       },
       {
         "ItemId": "b8220512-ea42-43c4-87a4-65bce36db395_female",
         "AppId": "custLegF13",
-        "Name": "Farmhand Pants"
+        "Name": "Farmhand Pants",
+        "Tier": 1
       },
       {
         "ItemId": "18fdfb7c-42ae-463c-8ee5-d2ce271c3ec8_male",
         "AppId": "custLegM14",
-        "Name": "Technician Pants"
+        "Name": "Technician Pants",
+        "Tier": 2
       },
       {
         "ItemId": "18fdfb7c-42ae-463c-8ee5-d2ce271c3ec8_female",
         "AppId": "custLegF14",
-        "Name": "Technician Pants"
+        "Name": "Technician Pants",
+        "Tier": 2
       }
     ]
   },
@@ -880,142 +1050,170 @@
       {
         "ItemId": "3e0e3926-7d8f-41b1-a149-b3c64706fd44_male",
         "AppId": "custFacM1",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "3e0e3926-7d8f-41b1-a149-b3c64706fd44_female",
         "AppId": "custFacF1",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "3a12115c-d9ee-460e-93c4-4eb5ed96ac86_male",
         "AppId": "custFacM2",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "3a12115c-d9ee-460e-93c4-4eb5ed96ac86_female",
         "AppId": "custFacF2",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "689bad89-e783-408f-a043-faf8e43fb119_male",
         "AppId": "custFacM3",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "689bad89-e783-408f-a043-faf8e43fb119_female",
         "AppId": "custFacF3",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "1d58f488-4944-4ce2-8efa-0759df4a3206_male",
         "AppId": "custFacM4",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "1d58f488-4944-4ce2-8efa-0759df4a3206_female",
         "AppId": "custFacF4",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "923ea632-61c5-4926-997c-b5a1e7f0f68f_male",
         "AppId": "custFacM5",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "923ea632-61c5-4926-997c-b5a1e7f0f68f_female",
         "AppId": "custFacF5",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "3b5f22bb-4b2d-4e52-a4b9-64d83ab03220_male",
         "AppId": "custFacM6",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "3b5f22bb-4b2d-4e52-a4b9-64d83ab03220_female",
         "AppId": "custFacF6",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "424890fc-934b-4434-a16a-e5e9a042e592_male",
         "AppId": "custFacM7",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "424890fc-934b-4434-a16a-e5e9a042e592_female",
         "AppId": "custFacF7",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "fbb96932-a443-4bd1-a163-400814677a3d_male",
         "AppId": "custFacM8",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "fbb96932-a443-4bd1-a163-400814677a3d_female",
         "AppId": "custFacF8",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "a2600104-1c18-47cf-886e-d52c116b4ebb_male",
         "AppId": "custFacM9",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "a2600104-1c18-47cf-886e-d52c116b4ebb_female",
         "AppId": "custFacF9",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "02e18f86-0de5-4a8f-9ea8-017ba9da35c4_male",
         "AppId": "custFacM10",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "02e18f86-0de5-4a8f-9ea8-017ba9da35c4_female",
         "AppId": "custFacF10",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "6e574c6b-f061-4ebf-99a3-6eebf2096fb1_male",
         "AppId": "custFacM11",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "6e574c6b-f061-4ebf-99a3-6eebf2096fb1_female",
         "AppId": "custFacF11",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "75d70a67-5193-48e7-a811-902d1faac0e3_male",
         "AppId": "custFacM12",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "75d70a67-5193-48e7-a811-902d1faac0e3_female",
         "AppId": "custFacF12",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "fb2a87e2-5316-40e0-b16f-f3d0760ea063_male",
         "AppId": "custFacM13",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "fb2a87e2-5316-40e0-b16f-f3d0760ea063_female",
         "AppId": "custFacF13",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "661cf3bd-f0a7-4609-a5fe-a90412726338_male",
         "AppId": "custFacM14",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       },
       {
         "ItemId": "661cf3bd-f0a7-4609-a5fe-a90412726338_female",
         "AppId": "custFacF14",
-        "Name": "FacialHair"
+        "Name": "FacialHair",
+        "Tier": 0
       }
     ]
   },
@@ -1025,142 +1223,170 @@
       {
         "ItemId": "a47e35d6-a1fe-4274-a080-9ea71134679a_male",
         "AppId": "custHaiM1",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "a47e35d6-a1fe-4274-a080-9ea71134679a_female",
         "AppId": "custHaiF1",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "6e95d31c-36b9-4bb6-ad8f-bad5edce9632_male",
         "AppId": "custHaiM2",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "6e95d31c-36b9-4bb6-ad8f-bad5edce9632_female",
         "AppId": "custHaiF2",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "c429607b-4386-4058-982f-0dab6f210439_male",
         "AppId": "custHaiM3",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "c429607b-4386-4058-982f-0dab6f210439_female",
         "AppId": "custHaiF3",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "da891f94-15f0-40db-b34d-ed2a07d2e3b3_male",
         "AppId": "custHaiM4",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "da891f94-15f0-40db-b34d-ed2a07d2e3b3_female",
         "AppId": "custHaiF4",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "cdfa114a-bb70-43df-851e-e4ec93eae9d2_male",
         "AppId": "custHaiM5",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "cdfa114a-bb70-43df-851e-e4ec93eae9d2_female",
         "AppId": "custHaiF5",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "b40fa7ab-19d7-4c2b-88ca-f7bea496f7df_male",
         "AppId": "custHaiM6",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "b40fa7ab-19d7-4c2b-88ca-f7bea496f7df_female",
         "AppId": "custHaiF6",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "87b7d156-8b83-4612-9cb1-93b768de8dc1_male",
         "AppId": "custHaiM7",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "87b7d156-8b83-4612-9cb1-93b768de8dc1_female",
         "AppId": "custHaiF7",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "8b0b067e-858d-40ee-90f9-ddc527909312_male",
         "AppId": "custHaiM8",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "8b0b067e-858d-40ee-90f9-ddc527909312_female",
         "AppId": "custHaiF8",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "296ffd04-d3ff-449b-a079-386675a6faa3_male",
         "AppId": "custHaiM9",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "296ffd04-d3ff-449b-a079-386675a6faa3_female",
         "AppId": "custHaiF9",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "1eee6fc1-e031-49af-b91f-c38d99e6851e_male",
         "AppId": "custHaiM10",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "1eee6fc1-e031-49af-b91f-c38d99e6851e_female",
         "AppId": "custHaiF10",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "3b7a0ce5-0a99-4df4-80e7-b1967f51dd7b_male",
         "AppId": "custHaiM11",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "3b7a0ce5-0a99-4df4-80e7-b1967f51dd7b_female",
         "AppId": "custHaiF11",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "557ce0a0-1974-43b3-b29e-848a2b2d3f0b_male",
         "AppId": "custHaiM12",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "557ce0a0-1974-43b3-b29e-848a2b2d3f0b_female",
         "AppId": "custHaiF12",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "d632bba9-ae79-440f-a59d-763d24ee42cd_male",
         "AppId": "custHaiM13",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "d632bba9-ae79-440f-a59d-763d24ee42cd_female",
         "AppId": "custHaiF13",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "f778a483-9231-41de-a0e2-0115509c1a02_male",
         "AppId": "custHaiM14",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       },
       {
         "ItemId": "f778a483-9231-41de-a0e2-0115509c1a02_female",
         "AppId": "custHaiF14",
-        "Name": "Hair"
+        "Name": "Hair",
+        "Tier": 0
       }
     ]
   },
@@ -1170,112 +1396,134 @@
       {
         "ItemId": "be0e65e5-a2e6-41ef-94d3-f8d4ac2f304e_male",
         "AppId": "custHatM1",
-        "Name": "Applicator Hat"
+        "Name": "Applicator Hat",
+        "Tier": 0
       },
       {
         "ItemId": "be0e65e5-a2e6-41ef-94d3-f8d4ac2f304e_female",
         "AppId": "custHatF1",
-        "Name": "Applicator Hat"
+        "Name": "Applicator Hat",
+        "Tier": 0
       },
       {
         "ItemId": "46861beb-3adb-4ddb-92f7-0ef24716caa0_male",
         "AppId": "custHatM2",
-        "Name": "Automotive Hat"
+        "Name": "Automotive Hat",
+        "Tier": 2
       },
       {
         "ItemId": "46861beb-3adb-4ddb-92f7-0ef24716caa0_female",
         "AppId": "custHatF2",
-        "Name": "Automotive Hat"
+        "Name": "Automotive Hat",
+        "Tier": 2
       },
       {
         "ItemId": "5537aa76-7118-4a19-80fa-67ae4ad0a30e_male",
         "AppId": "custHatM3",
-        "Name": "Delivery Hat"
+        "Name": "Delivery Hat",
+        "Tier": 2
       },
       {
         "ItemId": "5537aa76-7118-4a19-80fa-67ae4ad0a30e_female",
         "AppId": "custHatF3",
-        "Name": "Delivery Hat"
+        "Name": "Delivery Hat",
+        "Tier": 2
       },
       {
         "ItemId": "397b1280-672d-48d0-831d-ffe2ac5c3a58_male",
         "AppId": "custHatM4",
-        "Name": "Demolition Hat"
+        "Name": "Demolition Hat",
+        "Tier": 3
       },
       {
         "ItemId": "397b1280-672d-48d0-831d-ffe2ac5c3a58_female",
         "AppId": "custHatF4",
-        "Name": "Demolition Hat"
+        "Name": "Demolition Hat",
+        "Tier": 3
       },
       {
         "ItemId": "b1e6c5ce-3882-4242-83ad-6f5af940d9f1_male",
         "AppId": "custHatM5",
-        "Name": "Lumberjack Hat"
+        "Name": "Lumberjack Hat",
+        "Tier": 2
       },
       {
         "ItemId": "b1e6c5ce-3882-4242-83ad-6f5af940d9f1_female",
         "AppId": "custHatF5",
-        "Name": "Lumberjack Hat"
+        "Name": "Lumberjack Hat",
+        "Tier": 2
       },
       {
         "ItemId": "9baebeb4-95dc-4ee6-a1fd-c44cc67ced04_male",
         "AppId": "custHatM6",
-        "Name": "Farmer Hat"
+        "Name": "Farmer Hat",
+        "Tier": 0
       },
       {
         "ItemId": "9baebeb4-95dc-4ee6-a1fd-c44cc67ced04_female",
         "AppId": "custHatF6",
-        "Name": "Farmer Hat"
+        "Name": "Farmer Hat",
+        "Tier": 0
       },
       {
         "ItemId": "8f0a036c-cda5-4b3b-aceb-0b4365ba60c9_male",
         "AppId": "custHatM7",
-        "Name": "Engineer Hat"
+        "Name": "Engineer Hat",
+        "Tier": 2
       },
       {
         "ItemId": "8f0a036c-cda5-4b3b-aceb-0b4365ba60c9_female",
         "AppId": "custHatF7",
-        "Name": "Engineer Hat"
+        "Name": "Engineer Hat",
+        "Tier": 2
       },
       {
         "ItemId": "03efc1c8-fa65-49d0-a9a3-65195418c560_male",
         "AppId": "custHatM8",
-        "Name": "Painter Hat"
+        "Name": "Painter Hat",
+        "Tier": 3
       },
       {
         "ItemId": "03efc1c8-fa65-49d0-a9a3-65195418c560_female",
         "AppId": "custHatF8",
-        "Name": "Painter Hat"
+        "Name": "Painter Hat",
+        "Tier": 3
       },
       {
         "ItemId": "e60f8e5a-5661-412d-b613-05ab1163b7e2_male",
         "AppId": "custHatM9",
-        "Name": "Golf Hat"
+        "Name": "Golf Hat",
+        "Tier": 1
       },
       {
         "ItemId": "e60f8e5a-5661-412d-b613-05ab1163b7e2_female",
         "AppId": "custHatF9",
-        "Name": "Golf Hat"
+        "Name": "Golf Hat",
+        "Tier": 1
       },
       {
         "ItemId": "66dac4fd-e8c1-460a-96e1-9ebc637dd1e3_male",
         "AppId": "custHatM10",
-        "Name": "Farmhand Hat"
+        "Name": "Farmhand Hat",
+        "Tier": 2
       },
       {
         "ItemId": "66dac4fd-e8c1-460a-96e1-9ebc637dd1e3_female",
         "AppId": "custHatF10",
-        "Name": "Farmhand Hat"
+        "Name": "Farmhand Hat",
+        "Tier": 2
       },
       {
         "ItemId": "803b41c1-a6f9-475c-953d-dd78c5ae99c4_male",
         "AppId": "custHatM11",
-        "Name": "Technician Hat"
+        "Name": "Technician Hat",
+        "Tier": 2
       },
       {
         "ItemId": "803b41c1-a6f9-475c-953d-dd78c5ae99c4_female",
         "AppId": "custHatF11",
-        "Name": "Technician Hat"
+        "Name": "Technician Hat",
+        "Tier": 2
       }
     ]
   },
@@ -1285,112 +1533,134 @@
       {
         "ItemId": "3ad8fb46-cd26-4770-b928-790060b219d8_male",
         "AppId": "custBacM1",
-        "Name": "Mechanic Backpack"
+        "Name": "Mechanic Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "3ad8fb46-cd26-4770-b928-790060b219d8_female",
         "AppId": "custBacF1",
-        "Name": "Mechanic Backpack"
+        "Name": "Mechanic Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "d4007071-37e9-4003-82f5-708c6262c7a2_male",
         "AppId": "custBacM2",
-        "Name": "Crash Mechanic Backpack"
+        "Name": "Crash Mechanic Backpack",
+        "Tier": 0
       },
       {
         "ItemId": "d4007071-37e9-4003-82f5-708c6262c7a2_female",
         "AppId": "custBacF2",
-        "Name": "Crash Mechanic Backpack"
+        "Name": "Crash Mechanic Backpack",
+        "Tier": 0
       },
       {
         "ItemId": "05553c50-bb4a-42bf-ae5e-ebd1b2412656_male",
         "AppId": "custBacM3",
-        "Name": "Applicator Backpack"
+        "Name": "Applicator Backpack",
+        "Tier": 0
       },
       {
         "ItemId": "05553c50-bb4a-42bf-ae5e-ebd1b2412656_female",
         "AppId": "custBacF3",
-        "Name": "Applicator Backpack"
+        "Name": "Applicator Backpack",
+        "Tier": 0
       },
       {
         "ItemId": "d94f4713-dc51-4171-9e52-6b2a7de911c3_male",
         "AppId": "custBacM4",
-        "Name": "Automotive Backpack"
+        "Name": "Automotive Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "d94f4713-dc51-4171-9e52-6b2a7de911c3_female",
         "AppId": "custBacF4",
-        "Name": "Automotive Backpack"
+        "Name": "Automotive Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "e9f59ab5-d89f-4a5b-9153-8a21f244f362_male",
         "AppId": "custBacM5",
-        "Name": "Delivery Backpack"
+        "Name": "Delivery Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "e9f59ab5-d89f-4a5b-9153-8a21f244f362_female",
         "AppId": "custBacF5",
-        "Name": "Delivery Backpack"
+        "Name": "Delivery Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "d411a346-c766-473d-9c95-34a2d281c209_male",
         "AppId": "custBacM6",
-        "Name": "Demolition Backpack"
+        "Name": "Demolition Backpack",
+        "Tier": 2
       },
       {
         "ItemId": "d411a346-c766-473d-9c95-34a2d281c209_female",
         "AppId": "custBacF6",
-        "Name": "Demolition Backpack"
+        "Name": "Demolition Backpack",
+        "Tier": 2
       },
       {
         "ItemId": "8fa65b25-7ac9-4bb7-b9f9-6e2b7d43f916_male",
         "AppId": "custBacM7",
-        "Name": "Lumberjack Backpack"
+        "Name": "Lumberjack Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "8fa65b25-7ac9-4bb7-b9f9-6e2b7d43f916_female",
         "AppId": "custBacF7",
-        "Name": "Lumberjack Backpack"
+        "Name": "Lumberjack Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "c4409a02-2a78-472e-bf3c-17f8e8e0445b_male",
         "AppId": "custBacM8",
-        "Name": "Engineer Backpack"
+        "Name": "Engineer Backpack",
+        "Tier": 3
       },
       {
         "ItemId": "c4409a02-2a78-472e-bf3c-17f8e8e0445b_female",
         "AppId": "custBacF8",
-        "Name": "Engineer Backpack"
+        "Name": "Engineer Backpack",
+        "Tier": 3
       },
       {
         "ItemId": "4a0ca19d-50d5-416b-8137-0e827864354f_male",
         "AppId": "custBacM9",
-        "Name": "Painter Backpack"
+        "Name": "Painter Backpack",
+        "Tier": 2
       },
       {
         "ItemId": "4a0ca19d-50d5-416b-8137-0e827864354f_female",
         "AppId": "custBacF9",
-        "Name": "Painter Backpack"
+        "Name": "Painter Backpack",
+        "Tier": 2
       },
       {
         "ItemId": "c5044352-27a6-4bdc-a174-37018baa2332_male",
         "AppId": "custBacM10",
-        "Name": "Golf Backpack"
+        "Name": "Golf Backpack",
+        "Tier": 3
       },
       {
         "ItemId": "c5044352-27a6-4bdc-a174-37018baa2332_female",
         "AppId": "custBacF10",
-        "Name": "Golf Backpack"
+        "Name": "Golf Backpack",
+        "Tier": 3
       },
       {
         "ItemId": "e5ba292b-1772-463f-8010-b97c48bc9298_male",
         "AppId": "custBacM11",
-        "Name": "Technician Backpack"
+        "Name": "Technician Backpack",
+        "Tier": 1
       },
       {
         "ItemId": "e5ba292b-1772-463f-8010-b97c48bc9298_female",
         "AppId": "custBacF11",
-        "Name": "Technician Backpack"
+        "Name": "Technician Backpack",
+        "Tier": 1
       }
     ]
   }

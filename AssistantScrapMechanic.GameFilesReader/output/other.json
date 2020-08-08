@@ -21,7 +21,7 @@
     "ItemId": "fdb8b8be-96e7-4de0-85c7-d2f42e4f33ce",
     "AppId": "other3",
     "Name": "Weld Tool",
-    "Description": "Weld your creations together!\nSelect the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
+    "Description": "Weld your creations together! Select the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -39,7 +39,7 @@
     "ItemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
     "AppId": "other5",
     "Name": "Vacuum Pipe",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -48,7 +48,7 @@
     "ItemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2",
     "AppId": "other6",
     "Name": "Vacuum Pipe Corner",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0
@@ -139,7 +139,7 @@
     "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
     "AppId": "other17",
     "Name": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo",
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo.",
     "Flammable": false,
     "Density": 0.0,
     "QualityLevel": 0

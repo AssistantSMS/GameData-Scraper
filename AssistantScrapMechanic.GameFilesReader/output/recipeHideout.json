@@ -2,7 +2,7 @@
   {
     "AppId": "recipeHideout1",
     "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in",
+    "Description": "Use them on the ground to place your seeds in.",
     "OutputLocalised": {
       "Quantity": 5,
       "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad"
@@ -26,7 +26,7 @@
   {
     "AppId": "recipeHideout2",
     "Title": "Fertilizer",
-    "Description": "Makes plants grow faster",
+    "Description": "Makes plants grow faster.",
     "OutputLocalised": {
       "Quantity": 10,
       "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67"
@@ -190,7 +190,7 @@
   {
     "AppId": "recipeHideout9",
     "Title": "Mountable Spud Gun",
-    "Description": "Connect it to a Ammo container with a trigger to shoot",
+    "Description": "Connect it to a Ammo container with a trigger to shoot.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "454ad69d-bac2-4b06-9386-6267bcbfece2"
@@ -222,7 +222,7 @@
   {
     "AppId": "recipeHideout10",
     "Title": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo",
+    "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464"
@@ -326,7 +326,7 @@
   {
     "AppId": "recipeHideout13",
     "Title": "Spudling Gun",
-    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo",
+    "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b"
@@ -358,7 +358,7 @@
   {
     "AppId": "recipeHideout14",
     "Title": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes",
+    "Description": "Use it in a Dressbot to make new clothes.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "63695efd-0862-49f2-ace6-4d1758147fae"
@@ -390,7 +390,7 @@
   {
     "AppId": "recipeHideout15",
     "Title": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes",
+    "Description": "Use it in a Dressbot to make new clothes.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6"

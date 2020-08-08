@@ -74,7 +74,7 @@
   {
     "AppId": "recipeCraft3",
     "Title": "Weld Tool",
-    "Description": "Weld your creations together!\nSelect the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
+    "Description": "Weld your creations together! Select the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "fdb8b8be-96e7-4de0-85c7-d2f42e4f33ce"
@@ -1607,7 +1607,7 @@
   {
     "AppId": "recipeCraft49",
     "Title": "Radio",
-    "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it\nor by connecting it to a trigger.",
+    "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it or by connecting it to a trigger.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0"
@@ -1743,7 +1743,7 @@
   {
     "AppId": "recipeCraft52",
     "Title": "Respawn Bed",
-    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out",
+    "Description": "Take a lovely nap in this comfy bed to respawn in it after your mechanic has been knocked out.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7"
@@ -1783,7 +1783,7 @@
   {
     "AppId": "recipeCraft53",
     "Title": "Fridge",
-    "Description": "Keeps your food fresh",
+    "Description": "Keeps your food fresh.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "f08d772f-9851-400f-a014-d847900458a7"
@@ -1863,7 +1863,7 @@
   {
     "AppId": "recipeCraft55",
     "Title": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a"
@@ -1959,7 +1959,7 @@
   {
     "AppId": "recipeCraft57",
     "Title": "Vacuum Pipe",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c"
@@ -1999,7 +1999,7 @@
   {
     "AppId": "recipeCraft58",
     "Title": "Vacuum Pipe Corner",
-    "Description": "Use it with the Vacuum Pump to make items travel through pipes",
+    "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2"
@@ -2039,7 +2039,7 @@
   {
     "AppId": "recipeCraft59",
     "Title": "Gas Container",
-    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92"
@@ -2087,7 +2087,7 @@
   {
     "AppId": "recipeCraft60",
     "Title": "Battery Container",
-    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146"
@@ -2135,7 +2135,7 @@
   {
     "AppId": "recipeCraft61",
     "Title": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water",
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb"
@@ -2230,7 +2230,7 @@
   {
     "AppId": "recipeCraft63",
     "Title": "Water Cannon",
-    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently",
+    "Description": "Connect it to a Water container with a trigger to water your plants more efficiently.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54"
@@ -2358,7 +2358,7 @@
   {
     "AppId": "recipeCraft67",
     "Title": "Soil Bag",
-    "Description": "Use them on the ground to place your seeds in",
+    "Description": "Use them on the ground to place your seeds in.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad"
@@ -2398,7 +2398,7 @@
   {
     "AppId": "recipeCraft68",
     "Title": "Fertilizer",
-    "Description": "Makes plants grow faster",
+    "Description": "Makes plants grow faster.",
     "OutputLocalised": {
       "Quantity": 5,
       "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67"
@@ -2438,7 +2438,7 @@
   {
     "AppId": "recipeCraft69",
     "Title": "Gasoline",
-    "Description": "Used to power gas engines and thrusters",
+    "Description": "Used to power gas engines and thrusters.",
     "OutputLocalised": {
       "Quantity": 5,
       "ItemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305"
@@ -2462,7 +2462,7 @@
   {
     "AppId": "recipeCraft70",
     "Title": "Battery",
-    "Description": "Used to power electric parts",
+    "Description": "Used to power electric parts.",
     "OutputLocalised": {
       "Quantity": 5,
       "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af"
@@ -2572,7 +2572,7 @@
   {
     "AppId": "recipeCraft74",
     "Title": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color",
+    "Description": "Load your Paint Tool and give your creations some color.",
     "OutputLocalised": {
       "Quantity": 5,
       "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7"
@@ -2596,7 +2596,7 @@
   {
     "AppId": "recipeCraft75",
     "Title": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better",
+    "Description": "Throw them at night or other dark places to see things better.",
     "OutputLocalised": {
       "Quantity": 4,
       "ItemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9"
@@ -2628,7 +2628,7 @@
   {
     "AppId": "recipeCraft76",
     "Title": "Small Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a small explosion radius.",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33"
@@ -2668,7 +2668,7 @@
   {
     "AppId": "recipeCraft77",
     "Title": "Large Explosive Canister",
-    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns\nThis canister has a large explosion radius.",
+    "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "24001201-40dd-4950-b99f-17d878a9e07b"

@@ -4,7 +4,7 @@
     "GameName": "obj_outfitpackage_common",
     "AppId": "out1",
     "Name": "Garment Box (Common)",
-    "Description": "Use it in a Dressbot to make new clothes",
+    "Description": "Use it in a Dressbot to make new clothes.",
     "Color": "19e753",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -27,7 +27,7 @@
     "GameName": "obj_outfitpackage_rare",
     "AppId": "out2",
     "Name": "Garment Box (Rare)",
-    "Description": "Use it in a Dressbot to make new clothes",
+    "Description": "Use it in a Dressbot to make new clothes.",
     "Color": "a20fff",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -50,7 +50,7 @@
     "GameName": "obj_outfitpackage_epic",
     "AppId": "out3",
     "Name": "Garment Box (Epic)",
-    "Description": "Use it in a Dressbot to make new clothes",
+    "Description": "Use it in a Dressbot to make new clothes.",
     "Color": "f9b303",
     "PhysicsMaterial": "Plastic",
     "Ratings": {

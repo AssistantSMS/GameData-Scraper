@@ -4,7 +4,7 @@
     "GameName": "obj_survivalobject_keycard",
     "AppId": "surv1",
     "Name": "Warehouse Key",
-    "Description": "Used to activate a Warehouse elevator",
+    "Description": "Used to activate a Warehouse elevator.",
     "Color": "cbcbcb",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -23,11 +23,187 @@
     "QualityLevel": 0
   },
   {
+    "ItemId": "ff09d816-843a-43e9-aab6-dc35e73787fd",
+    "GameName": "obj_survivalobject_cardreader",
+    "AppId": "surv2",
+    "Name": "Key Reader",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 5,
+      "Y": 6,
+      "Z": 5
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "a553bf2f-3a66-404a-b4c6-ce9e7b73f9d4",
+    "GameName": "obj_survivalobject_elevatorbutton",
+    "AppId": "surv10",
+    "Name": "Elevator Button",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "61bdf048-c09f-4cf5-8b47-35ba28c0580c",
+    "GameName": "obj_survivalobject_elevatorcallbutton",
+    "AppId": "surv11",
+    "Name": "Call Button",
+    "Color": "c36512",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 450.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "f47612db-e035-4d62-81e2-64fc3453ccc3",
+    "GameName": "obj_survivalobject_bananabox",
+    "AppId": "surv13",
+    "Name": "Emergency Banana Box",
+    "Color": "c48c13",
+    "PhysicsMaterial": "Glass",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 3,
+      "Y": 4,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c4a0a65b-3b24-4beb-bd7a-d687f4210169",
+    "GameName": "obj_survivalobject_elevatorlamp",
+    "AppId": "surv14",
+    "Name": "Elevator Lamp",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 6,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "2ff2b13f-5a50-443c-bbda-1f40f6aa917f",
+    "GameName": "obj_survivalobject_workbench",
+    "AppId": "surv19",
+    "Name": "Mini Craftbot",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 5,
+      "Y": 11,
+      "Z": 3
+    },
+    "Flammable": false,
+    "Density": 200.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "e59afe5b-2c5f-4934-95d7-8c187b22fd6d",
+    "GameName": "obj_survivalobject_capsuledoor",
+    "AppId": "surv20",
+    "Name": "Capsule Door",
+    "Color": "3ca3f0",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 8,
+      "Y": 10,
+      "Z": 1
+    },
+    "Flammable": false,
+    "Density": 250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "c0159b96-edf3-46cd-9fbe-96ee1126304b",
+    "GameName": "obj_survivalobject_powercoresocket",
+    "AppId": "surv21",
+    "Name": "Master Battery Socket",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 6,
+      "Y": 12,
+      "Z": 2
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
     "ItemId": "c654a023-ca53-4109-9f18-d297c18e9a02",
     "GameName": "obj_survivalobject_powercore",
     "AppId": "surv22",
     "Name": "Master Battery",
-    "Description": "Used to power on large spaceships or stations",
+    "Description": "Used to power on large spaceships or stations.",
     "Color": "4a4a4a",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -39,6 +215,28 @@
     "Cylinder": {
       "Diameter": 2,
       "Depth": 4
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "ec0bb005-f3c1-425a-94c4-6feca8567068",
+    "GameName": "obj_survivalobject_terminal",
+    "AppId": "surv25",
+    "Name": "Ship Terminal",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 4,
+      "Y": 6,
+      "Z": 3
     },
     "Flammable": false,
     "Density": 1250.0,
@@ -59,6 +257,71 @@
     },
     "Flammable": false,
     "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "712a5ebd-0793-49ba-b1ef-681a8fdceba6",
+    "GameName": "obj_hideout_button",
+    "AppId": "surv28",
+    "Name": "Hideout Button",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 4,
+      "Y": 6,
+      "Z": 4
+    },
+    "Flammable": false,
+    "Density": 1250.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "de7eea5b-9262-476b-a5bb-238d0e91f81f",
+    "GameName": "obj_survivalobject_kobag",
+    "AppId": "surv30",
+    "Name": "K.O. Bag",
+    "Color": "cbcbcb",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Cylinder": {
+      "Diameter": 2,
+      "Depth": 4
+    },
+    "Flammable": false,
+    "Density": 500.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "79cc711e-7094-4029-8419-bbbf8f08c6f2",
+    "GameName": "obj_survivalobject_ruinchest",
+    "AppId": "surv31",
+    "Name": "Ruin Chest",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 5
+    },
+    "Box": {
+      "X": 12,
+      "Y": 9,
+      "Z": 10
+    },
+    "Flammable": false,
+    "Density": 250.0,
     "QualityLevel": 0
   }
 ]

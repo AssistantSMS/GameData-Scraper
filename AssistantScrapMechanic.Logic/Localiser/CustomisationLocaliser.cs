@@ -1,5 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 
@@ -16,19 +18,28 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 string name = itemNames.GetTitle(customisedOption.Uuid);
                 if (string.IsNullOrEmpty(name)) name = customised.Name;
 
+                CustomisationSourceType tier = CustomisationSourceType.Unknown;
+                if (!string.IsNullOrEmpty(customisedOption.Tier))
+                {
+                    if (customisedOption.Tier.Equals("common", StringComparison.InvariantCultureIgnoreCase)) tier = CustomisationSourceType.Common;
+                    if (customisedOption.Tier.Equals("rare", StringComparison.InvariantCultureIgnoreCase)) tier = CustomisationSourceType.Rare;
+                    if (customisedOption.Tier.Equals("epic", StringComparison.InvariantCultureIgnoreCase)) tier = CustomisationSourceType.Epic;
+                }
+
                 string groupName = customised.Name.Substring(0, 3);
                 optionsLocalised.Add(new CustomisationItemLocalised
                 {
                     AppId = $"{prefix}{groupName}M{(cusOptIndex + 1)}",
                     ItemId = $"{customisedOption.Uuid}_male",
-                    //ItemId = customisedOption.Uuid,
                     Name = name,
+                    Tier = tier,
                 });
                 optionsLocalised.Add(new CustomisationItemLocalised
                 {
                     AppId = $"{prefix}{groupName}F{(cusOptIndex + 1)}",
                     ItemId = $"{customisedOption.Uuid}_female",
                     Name = name,
+                    Tier = tier,
                 });
             }
 

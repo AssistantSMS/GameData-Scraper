@@ -4,7 +4,7 @@
     "GameName": "obj_container_gas",
     "AppId": "interc1",
     "Name": "Gas Container",
-    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected.",
     "Color": "c52319",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -27,7 +27,7 @@
     "GameName": "obj_container_water",
     "AppId": "interc2",
     "Name": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water",
+    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
     "Color": "008ae1",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -50,7 +50,7 @@
     "GameName": "obj_container_fertilizer",
     "AppId": "interc3",
     "Name": "Fertilizer Container",
-    "Description": "Place furtilizer and connect it to a Vacuum Pump with a trigger to shoot furtilizer on to plants",
+    "Description": "Place fertilizer and connect it to a Vacuum Pump with a trigger to shoot fertilizer on to plants.",
     "Color": "357a1b",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -73,7 +73,7 @@
     "GameName": "obj_container_battery",
     "AppId": "interc4",
     "Name": "Battery Container",
-    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected.",
     "Color": "f1a400",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -96,7 +96,7 @@
     "GameName": "obj_container_ammo",
     "AppId": "interc5",
     "Name": "Potato Ammo Container",
-    "Description": "Connect it to a Moutable Spud Gun with a trigger to shoot potato ammo",
+    "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo.",
     "Color": "505c30",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -119,7 +119,7 @@
     "GameName": "obj_container_seed",
     "AppId": "interc6",
     "Name": "Seed Container",
-    "Description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil",
+    "Description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil.",
     "Color": "4c9938",
     "PhysicsMaterial": "Wood",
     "Ratings": {

@@ -114,7 +114,7 @@
   {
     "AppId": "recipeWorkbench4",
     "Title": "Scrap Wheel",
-    "Description": "Not perfectly round",
+    "Description": "Not perfectly round.",
     "OutputLocalised": {
       "Quantity": 1,
       "ItemId": "59f6951a-a450-42bf-ad03-54567cb70245"
