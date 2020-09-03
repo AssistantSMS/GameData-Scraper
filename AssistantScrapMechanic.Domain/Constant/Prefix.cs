@@ -10,6 +10,7 @@
         public static string Craftbot = "craftb";
         public static string Decor = "deco";
         public static string Fitting = "fitt";
+        public static string Fuel = "fuel";
         public static string Harvest = "harv";
         public static string Industrial = "indus";
         public static string Interactive = "intera";

@@ -10,6 +10,7 @@
         public static string Craftbot = "craftbot.json";
         public static string Decor = "decor.json";
         public static string Fitting = "fittings.json";
+        public static string Fuel = "fuel.json";
         public static string Harvest = "harvests.json";
         public static string Industrial = "industrial.json";
         public static string Interactive = "interactive.json";

@@ -1,0 +1,48 @@
+[
+  {
+    "ItemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
+    "GameName": "obj_consumable_gas",
+    "AppId": "fuel1",
+    "Name": "Gasoline",
+    "Description": "Used to power gas engines and thrusters.",
+    "Color": "981e11",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af",
+    "GameName": "obj_consumable_battery",
+    "AppId": "fuel2",
+    "Name": "Battery",
+    "Description": "Used to power electric parts.",
+    "Color": "f1a400",
+    "PhysicsMaterial": "Plastic",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true,
+    "Density": 0.0,
+    "QualityLevel": 0
+  }
+]

@@ -37,6 +37,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             WriteAppFile(AppFile.Craftbot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot), lookup, language, itemNames);
             WriteAppFile(AppFile.Decor, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor), lookup, language, itemNames);
             WriteAppFile(AppFile.Fitting, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting), lookup, language, itemNames);
+            WriteAppFile(AppFile.Fuel, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fuel), lookup, language, itemNames);
             WriteAppFile(AppFile.Harvest, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest), lookup, language, itemNames);
             WriteAppFile(AppFile.Industrial, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial), lookup, language, itemNames);
             WriteAppFile(AppFile.Interactive, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive), lookup, language, itemNames);

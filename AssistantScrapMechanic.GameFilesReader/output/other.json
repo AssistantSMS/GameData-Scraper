@@ -54,8 +54,26 @@
     "QualityLevel": 0
   },
   {
-    "ItemId": "df3734e2-f04b-443f-b568-fe5b076646c7",
+    "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92",
     "AppId": "other7",
+    "Name": "Gas Container",
+    "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146",
+    "AppId": "other8",
+    "Name": "Battery Container",
+    "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected.",
+    "Flammable": false,
+    "Density": 0.0,
+    "QualityLevel": 0
+  },
+  {
+    "ItemId": "df3734e2-f04b-443f-b568-fe5b076646c7",
+    "AppId": "other9",
     "Name": "Potted Plant",
     "Flammable": false,
     "Density": 0.0,
@@ -63,7 +81,7 @@
   },
   {
     "ItemId": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5",
-    "AppId": "other8",
+    "AppId": "other10",
     "Name": "Small Potted Plant",
     "Flammable": false,
     "Density": 0.0,
@@ -71,7 +89,7 @@
   },
   {
     "ItemId": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5",
-    "AppId": "other9",
+    "AppId": "other11",
     "Name": "Potted Vine Plant",
     "Flammable": false,
     "Density": 0.0,
@@ -79,7 +97,7 @@
   },
   {
     "ItemId": "7826f497-426b-42cb-a857-0d784f3ab2f3",
-    "AppId": "other10",
+    "AppId": "other12",
     "Name": "Big Pot",
     "Flammable": false,
     "Density": 0.0,
@@ -87,7 +105,7 @@
   },
   {
     "ItemId": "c4609540-bc32-4c3f-83b8-3b6926878012",
-    "AppId": "other11",
+    "AppId": "other13",
     "Name": "Potted Seed Plant",
     "Flammable": false,
     "Density": 0.0,
@@ -95,7 +113,7 @@
   },
   {
     "ItemId": "d1421af8-6f80-4413-8099-2c6b217fb929",
-    "AppId": "other12",
+    "AppId": "other14",
     "Name": "Potted Blooming Cactus",
     "Flammable": false,
     "Density": 0.0,
@@ -103,7 +121,7 @@
   },
   {
     "ItemId": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f",
-    "AppId": "other13",
+    "AppId": "other15",
     "Name": "Potted Cactus",
     "Flammable": false,
     "Density": 0.0,
@@ -111,7 +129,7 @@
   },
   {
     "ItemId": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f",
-    "AppId": "other14",
+    "AppId": "other16",
     "Name": "Potted Blue Flower",
     "Flammable": false,
     "Density": 0.0,
@@ -119,7 +137,7 @@
   },
   {
     "ItemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
-    "AppId": "other15",
+    "AppId": "other17",
     "Name": "Spud Gun",
     "Description": "Spud Gun with single potato shot.",
     "Flammable": false,
@@ -128,7 +146,7 @@
   },
   {
     "ItemId": "f6250bf4-9726-406f-a29a-945c06e460e5",
-    "AppId": "other16",
+    "AppId": "other18",
     "Name": "Spud Shotgun",
     "Description": "Shoots sizzling hot fries in a spread.",
     "Flammable": false,
@@ -137,7 +155,7 @@
   },
   {
     "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
-    "AppId": "other17",
+    "AppId": "other19",
     "Name": "Spudling Gun",
     "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo.",
     "Flammable": false,
@@ -146,7 +164,7 @@
   },
   {
     "ItemId": "8c7efc37-cd7c-4262-976e-39585f8527bf",
-    "AppId": "other18",
+    "AppId": "other20",
     "Name": "Connect Tool",
     "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
     "Flammable": false,

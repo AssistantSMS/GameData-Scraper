@@ -126,6 +126,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<GameItemLocalised> craftBot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot);
             List<GameItemLocalised> decor = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor);
             List<GameItemLocalised> fitting = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fitting);
+            List<GameItemLocalised> fuel = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Fuel);
             List<GameItemLocalised> harvest = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest);
             List<GameItemLocalised> industrial = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial);
             List<GameItemLocalised> intera = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive);
@@ -155,6 +156,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 .Concat(craftBot)
                 .Concat(decor)
                 .Concat(fitting)
+                .Concat(fuel)
                 .Concat(harvest)
                 .Concat(industrial)
                 .Concat(intera)
@@ -314,6 +316,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Craftbot, Prefix.Craftbot, OutputFile.Craftbot, itemNames);
             GenerateGameItemIntermediate(GameFile.Decor, Prefix.Decor, OutputFile.Decor, itemNames);
             GenerateGameItemIntermediate(GameFile.Fitting, Prefix.Fitting, OutputFile.Fitting, itemNames);
+            GenerateGameItemIntermediate(GameFile.Fuel, Prefix.Fuel, OutputFile.Fuel, itemNames);
             GenerateGameItemIntermediate(GameFile.Harvest, Prefix.Harvest, OutputFile.Harvest, itemNames);
             GenerateGameItemIntermediate(GameFile.Industrial, Prefix.Industrial, OutputFile.Industrial, itemNames);
             GenerateGameItemIntermediate(GameFile.Interactive, Prefix.Interactive, OutputFile.Interactive, itemNames);
