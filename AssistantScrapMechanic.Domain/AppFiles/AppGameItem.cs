@@ -20,8 +20,6 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
-        public decimal Density { get; set; }
-        public int QualityLevel { get; set; }
 
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
@@ -36,8 +34,6 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Color = Color,
                 Flammable = Flammable,
                 PhysicsMaterial = PhysicsMaterial,
-                QualityLevel = QualityLevel,
-                Density = Density,
                 Ratings = Ratings,
                 Box = Box,
                 Cylinder = Cylinder,
@@ -73,8 +69,6 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
-        public decimal Density { get; set; }
-        public int QualityLevel { get; set; }
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
         public CustomisationSourceType? CustomisationSource { get; set; }

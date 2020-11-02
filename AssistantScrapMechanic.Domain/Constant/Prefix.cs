@@ -4,6 +4,7 @@
     {
         public static string Block = "blk";
         public static string Build = "build";
+        public static string Component = "comp";
         public static string Construction = "constr";
         public static string Consumable = "consu";
         public static string Container = "cont";

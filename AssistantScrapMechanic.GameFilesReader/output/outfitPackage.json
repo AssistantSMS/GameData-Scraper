@@ -18,9 +18,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6",
@@ -41,9 +39,7 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b",
@@ -64,8 +60,6 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   }
 ]

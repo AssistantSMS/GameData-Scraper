@@ -18,9 +18,7 @@
       "Y": 3,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "d0afb527-e786-4a22-a907-6da7e7cba8cb",
@@ -40,9 +38,7 @@
       "Y": 7,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8",
@@ -62,9 +58,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5",
@@ -85,9 +79,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
@@ -108,9 +100,7 @@
       "Y": 3,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "c8b1bc7b-304e-44ce-9ca1-937b8e69d70c",
@@ -131,9 +121,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "8fd2cf31-70b3-499a-bfb0-7e3d2c580258",
@@ -154,9 +142,7 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "8694192c-d91b-444c-a184-910911bbb354",
@@ -176,9 +162,7 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "a930a42f-63ed-4fb0-933e-56ce8a889cc5",
@@ -199,9 +183,7 @@
       "Y": 8,
       "Z": 6
     },
-    "Flammable": true,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c",
@@ -222,9 +204,7 @@
       "Y": 11,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "767a3121-2c31-473c-a5ab-27e188fdd55a",
@@ -245,9 +225,7 @@
       "Y": 8,
       "Z": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54",
@@ -268,9 +246,7 @@
       "Y": 3,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "454ad69d-bac2-4b06-9386-6267bcbfece2",
@@ -291,9 +267,7 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7",
@@ -314,14 +288,33 @@
       "Y": 1,
       "Z": 7
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
+  },
+  {
+    "ItemId": "a5985971-1f95-4373-a5d9-4ce0a3e74851",
+    "GameName": "obj_interactive_beacon",
+    "AppId": "intera15",
+    "Name": "Radio Beacon",
+    "Description": "Emits a tracking signal that can be toggled in the Logbook.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 4,
+      "Y": 8,
+      "Z": 4
+    },
+    "Flammable": false
   },
   {
     "ItemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6",
     "GameName": "jnt_bearing",
-    "AppId": "intera15",
+    "AppId": "intera16",
     "Name": "Bearing",
     "Description": "Everything you place on the bearing will revolve. Bearings can also be connected to an engine or the driver's seat to be controlled in different ways.",
     "Color": "df7f01",
@@ -336,14 +329,12 @@
       "Diameter": 1,
       "Depth": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "aa8d89eb-919b-42f4-8b58-af6f0d5856bc",
     "GameName": "jnt_suspensionsport_creative",
-    "AppId": "intera16",
+    "AppId": "intera17",
     "Name": "Sport Suspension",
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension is small, but has a firmer bounce.",
     "Color": "df7f01",
@@ -358,14 +349,12 @@
       "Diameter": 1,
       "Depth": 2
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "a481138b-fae9-47c9-9bc2-91b6d2e2bf52",
     "GameName": "jnt_suspensionoffroad_creative",
-    "AppId": "intera17",
+    "AppId": "intera18",
     "Name": "Off-Road Suspension",
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
     "Color": "df7f01",
@@ -380,14 +369,12 @@
       "Diameter": 1,
       "Depth": 3
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "cf3fdcfc-a7e5-4497-b000-ffda67dd8db7",
     "GameName": "obj_interactive_driverseat_creative",
-    "AppId": "intera18",
+    "AppId": "intera19",
     "Name": "Driver's Seat",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat.",
     "Color": "df7f01",
@@ -403,14 +390,12 @@
       "Y": 4,
       "Z": 6
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "42786777-c148-4e13-9bab-e460564e79c3",
     "GameName": "obj_interactive_seat_creative",
-    "AppId": "intera19",
+    "AppId": "intera20",
     "Name": "Seat",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
     "Color": "df7f01",
@@ -426,14 +411,12 @@
       "Y": 4,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "38ee0516-abc5-4e46-9195-c763610d7ec4",
     "GameName": "obj_interactive_driversaddle_creative",
-    "AppId": "intera20",
+    "AppId": "intera21",
     "Name": "Driver's Saddle",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle.",
     "Color": "df7f01",
@@ -449,14 +432,12 @@
       "Y": 4,
       "Z": 5
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "20f59114-5964-451f-bb47-820da3ebbc3b",
     "GameName": "obj_interactive_saddle_creative",
-    "AppId": "intera21",
+    "AppId": "intera22",
     "Name": "Saddle",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
     "Color": "df7f01",
@@ -472,14 +453,12 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "ca003562-fde7-463c-969e-f8334ae54387",
     "GameName": "obj_interactive_toilet",
-    "AppId": "intera22",
+    "AppId": "intera23",
     "Name": "Toilet",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the toilet. Don't forget to flush!",
     "Color": "3e9ffe",
@@ -495,14 +474,12 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "d5e36413-b3c1-4636-8447-3410c352ec7b",
     "GameName": "obj_interactive_gasengine_creative",
-    "AppId": "intera23",
+    "AppId": "intera24",
     "Name": "Gas Engine",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or triggers.",
     "Color": "df7f01",
@@ -518,14 +495,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "6546c293-a5aa-4442-80d5-a2819f077746",
     "GameName": "obj_interactive_electricengine_creative",
-    "AppId": "intera24",
+    "AppId": "intera25",
     "Name": "Electric Engine",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A slow engine with a lot of strength. Can be connected to a driver's seat or triggers.",
     "Color": "df7f01",
@@ -541,14 +516,12 @@
       "Y": 2,
       "Z": 3
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "5e96037a-a338-490a-a76f-6b4d820f8e46",
     "GameName": "obj_interactive_thruster_creative",
-    "AppId": "intera25",
+    "AppId": "intera26",
     "Name": "Thruster",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate.",
     "Color": "df7f01",
@@ -564,14 +537,12 @@
       "Y": 2,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "12862001-666c-4bdd-8326-a1f43610d28b",
     "GameName": "obj_interactive_controller_creative",
-    "AppId": "intera26",
+    "AppId": "intera27",
     "Name": "Controller",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
     "Color": "df7f01",
@@ -587,14 +558,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "7cf717d7-d167-4f2d-a6e7-6b2c70aa3986",
     "GameName": "obj_interactive_switch",
-    "AppId": "intera27",
+    "AppId": "intera28",
     "Name": "Switch",
     "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more.",
     "Color": "df7f01",
@@ -610,14 +579,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "1e8d93a4-506b-470d-9ada-9c0a321e2db5",
     "GameName": "obj_interactive_button",
-    "AppId": "intera28",
+    "AppId": "intera29",
     "Name": "Button",
     "Description": "Activates stuff. The button activates as long as it remains pressed.",
     "Color": "df7f01",
@@ -633,14 +600,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "add3acc6-a6fd-44e8-a384-a7a16ce13c81",
     "GameName": "obj_interactive_sensor_creative",
-    "AppId": "intera29",
+    "AppId": "intera30",
     "Name": "Sensor",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
     "Color": "df7f01",
@@ -656,14 +621,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0",
     "GameName": "obj_interactive_radio",
-    "AppId": "intera30",
+    "AppId": "intera31",
     "Name": "Radio",
     "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it or by connecting it to a trigger.",
     "Color": "df7f01",
@@ -679,14 +642,12 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "818f4e15-ff51-4fed-b874-723a25d62e1c",
     "GameName": "obj_interactive_horn",
-    "AppId": "intera31",
+    "AppId": "intera32",
     "Name": "Horn",
     "Description": "Add it to your vehicle or use it as a door bell. Honk at your friends to avoid accidents. Set the pitch and connect it to a trigger to activate it.",
     "Color": "df7f01",
@@ -702,14 +663,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "9f0f56e8-2c31-4d83-996c-d00a9b296c3f",
     "GameName": "obj_interactive_logicgate",
-    "AppId": "intera32",
+    "AppId": "intera33",
     "Name": "Logic Gate",
     "Description": "The Logic Gate is a powerful block that allows you to build basic logical functions. By pressing E on the block, the mechanic can choose between different logic gate types. The logic gate can be connected to other logic gates, triggers, timers and more. Great for making advanced creations.",
     "Color": "df7f01",
@@ -725,14 +684,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f",
     "GameName": "obj_interactive_timer",
-    "AppId": "intera33",
+    "AppId": "intera34",
     "Name": "Timer",
     "Description": "The Timer allows you delay the interaction between two interactive parts. For example, between a switch and a controller. It goes great with Logic Gates.",
     "Color": "df7f01",
@@ -748,14 +705,12 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "161786c1-1290-4817-8f8b-7f80de755a06",
     "GameName": "obj_interactive_robotbasshead",
-    "AppId": "intera34",
+    "AppId": "intera35",
     "Name": "Totebot Head: Bass",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "1a538c",
@@ -771,14 +726,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "4c6e27a2-4c35-4df3-9794-5e206fef9012",
     "GameName": "obj_interactive_robotdrumhead",
-    "AppId": "intera35",
+    "AppId": "intera36",
     "Name": "Totebot Head: Percussion",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "a9831c",
@@ -794,14 +747,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "a052e116-f273-4d73-872c-924a97b86720",
     "GameName": "obj_interactive_robotsynthhead",
-    "AppId": "intera36",
+    "AppId": "intera37",
     "Name": "Totebot Head: Synth Voice",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "7f2418",
@@ -817,14 +768,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "1c04327f-1de4-4b06-92a8-2c9b40e491aa",
     "GameName": "obj_interactive_robotbliphead01",
-    "AppId": "intera37",
+    "AppId": "intera38",
     "Name": "Totebot Head: Blip",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "49642d",
@@ -840,14 +789,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": false,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "3efe715f-8745-475f-a609-5e7cbe09a8ef",
     "GameName": "obj_interactive_bathtub",
-    "AppId": "intera38",
+    "AppId": "intera39",
     "Name": "Bathtub",
     "Description": "Used for maximum relaxation. Sit down and relax or add it to your vehicle to stay nice and clean on the go. Can be connected to triggers which can activate other interactive parts from the bathtub.",
     "Color": "3e9ffe",
@@ -863,14 +810,12 @@
       "Y": 3,
       "Z": 7
     },
-    "Flammable": false,
-    "Density": 500.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "260b4597-f1ac-409c-8e6b-90c998c5fe94",
     "GameName": "jnt_interactive_piston_creative",
-    "AppId": "intera39",
+    "AppId": "intera40",
     "Name": "Piston",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
     "Color": "df7f01",
@@ -886,14 +831,12 @@
       "Y": 1,
       "Z": 1
     },
-    "Flammable": false,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "4152ce33-9b43-4c51-80a3-e0b4fe38841d",
     "GameName": "obj_interactive_raftshark",
-    "AppId": "intera40",
+    "AppId": "intera41",
     "Name": "Raft Shark Mount",
     "Description": "A plastic shark mount prop from the survival game Raft. It seems to have some mechanical joints inside. Maybe it can bite?",
     "Color": "304352",
@@ -909,14 +852,12 @@
       "Y": 4,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "0229f59d-1ba3-446a-8f9c-df8b0f816e51",
     "GameName": "obj_interactive_mountablespudgun_creative",
-    "AppId": "intera41",
+    "AppId": "intera42",
     "Name": "Mountable Spud Gun",
     "Description": "The potato shooting mountable spud gun is great for protecting your creations. Connect it to a trigger that is connected to a seat to shoot while seated.",
     "Color": "df7f01",
@@ -932,14 +873,12 @@
       "Y": 1,
       "Z": 4
     },
-    "Flammable": false,
-    "Density": 1250.0,
-    "QualityLevel": 0
+    "Flammable": false
   },
   {
     "ItemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33",
     "GameName": "obj_interactive_propanetank_small",
-    "AppId": "intera42",
+    "AppId": "intera43",
     "Name": "Small Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius.",
     "Color": "cb0a00",
@@ -955,14 +894,12 @@
       "Y": 2,
       "Z": 2
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   },
   {
     "ItemId": "24001201-40dd-4950-b99f-17d878a9e07b",
     "GameName": "obj_interactive_propanetank_large",
-    "AppId": "intera43",
+    "AppId": "intera44",
     "Name": "Large Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius.",
     "Color": "cb0a00",
@@ -978,8 +915,6 @@
       "Y": 4,
       "Z": 3
     },
-    "Flammable": true,
-    "Density": 250.0,
-    "QualityLevel": 0
+    "Flammable": true
   }
 ]

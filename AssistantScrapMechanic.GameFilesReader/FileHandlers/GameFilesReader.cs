@@ -120,6 +120,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         {
             List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
             List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
+            List<GameItemLocalised> components = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Component);
             List<GameItemLocalised> construction = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction);
             List<GameItemLocalised> consumable = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable);
             List<GameItemLocalised> containers = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers);
@@ -150,6 +151,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             List<GameItemLocalised> allItems = blocks
                 .Concat(buildings)
+                .Concat(components)
                 .Concat(construction)
                 .Concat(consumable)
                 .Concat(containers)
@@ -310,6 +312,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateCustomizationIntermediate(itemNames);
 
             GenerateGameItemIntermediate(GameFile.Building, Prefix.Build, OutputFile.Building, itemNames);
+            GenerateGameItemIntermediate(GameFile.Component, Prefix.Component, OutputFile.Component, itemNames);
             GenerateGameItemIntermediate(GameFile.Construction, Prefix.Construction, OutputFile.Construction, itemNames);
             GenerateGameItemIntermediate(GameFile.Consumable, Prefix.Consumable, OutputFile.Consumable, itemNames);
             GenerateGameItemIntermediate(GameFile.Containers, Prefix.Container, OutputFile.Containers, itemNames);

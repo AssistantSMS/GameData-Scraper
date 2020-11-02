@@ -19,8 +19,8 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
         public bool Flammable { get; set; }
-        public decimal Density { get; set; }
-        public int QualityLevel { get; set; }
+        //public decimal Density { get; set; }
+        //public int QualityLevel { get; set; }
         //public Restrictions Restrictions { get; set; }
         //public bool Glass { get; set; }
         //public bool Alpha { get; set; }

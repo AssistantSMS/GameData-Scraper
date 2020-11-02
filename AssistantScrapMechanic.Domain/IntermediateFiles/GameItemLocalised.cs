@@ -15,7 +15,5 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
-        public decimal Density { get; set; }
-        public int QualityLevel { get; set; }
     }
 }

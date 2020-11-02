@@ -226,13 +226,13 @@
       {
         "ItemId": "a03db277-9c10-4f75-a5ea-f2f9b24dde9e_male",
         "AppId": "custTorM8",
-        "Name": "Lumberjack_ Jacket",
+        "Name": "Lumberjack Jacket",
         "Tier": 1
       },
       {
         "ItemId": "a03db277-9c10-4f75-a5ea-f2f9b24dde9e_female",
         "AppId": "custTorF8",
-        "Name": "Lumberjack_ Jacket",
+        "Name": "Lumberjack Jacket",
         "Tier": 1
       },
       {
@@ -310,217 +310,217 @@
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_male",
         "AppId": "custTorM15",
-        "Name": "Torso",
+        "Name": "T-shirt 1",
         "Tier": 2
       },
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_female",
         "AppId": "custTorF15",
-        "Name": "Torso",
+        "Name": "T-shirt 1",
         "Tier": 2
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_male",
         "AppId": "custTorM16",
-        "Name": "Torso",
+        "Name": "T-shirt 2",
         "Tier": 1
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_female",
         "AppId": "custTorF16",
-        "Name": "Torso",
+        "Name": "T-shirt 2",
         "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_male",
         "AppId": "custTorM17",
-        "Name": "Torso",
+        "Name": "T-shirt 3",
         "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_female",
         "AppId": "custTorF17",
-        "Name": "Torso",
+        "Name": "T-shirt 3",
         "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_male",
         "AppId": "custTorM18",
-        "Name": "Torso",
+        "Name": "T-shirt 4",
         "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_female",
         "AppId": "custTorF18",
-        "Name": "Torso",
+        "Name": "T-shirt 4",
         "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_male",
         "AppId": "custTorM19",
-        "Name": "Torso",
+        "Name": "T-shirt 5",
         "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_female",
         "AppId": "custTorF19",
-        "Name": "Torso",
+        "Name": "T-shirt 5",
         "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_male",
         "AppId": "custTorM20",
-        "Name": "Torso",
+        "Name": "T-shirt 6",
         "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_female",
         "AppId": "custTorF20",
-        "Name": "Torso",
+        "Name": "T-shirt 6",
         "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_male",
         "AppId": "custTorM21",
-        "Name": "Torso",
+        "Name": "T-shirt 7",
         "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_female",
         "AppId": "custTorF21",
-        "Name": "Torso",
+        "Name": "T-shirt 7",
         "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_male",
         "AppId": "custTorM22",
-        "Name": "Torso",
+        "Name": "T-shirt 8",
         "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_female",
         "AppId": "custTorF22",
-        "Name": "Torso",
+        "Name": "T-shirt 8",
         "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_male",
         "AppId": "custTorM23",
-        "Name": "Torso",
+        "Name": "T-shirt 9",
         "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_female",
         "AppId": "custTorF23",
-        "Name": "Torso",
+        "Name": "T-shirt 9",
         "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_male",
         "AppId": "custTorM24",
-        "Name": "Torso",
+        "Name": "T-shirt 10",
         "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_female",
         "AppId": "custTorF24",
-        "Name": "Torso",
+        "Name": "T-shirt 10",
         "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_male",
         "AppId": "custTorM25",
-        "Name": "Torso",
+        "Name": "T-shirt 11",
         "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_female",
         "AppId": "custTorF25",
-        "Name": "Torso",
+        "Name": "T-shirt 11",
         "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_male",
         "AppId": "custTorM26",
-        "Name": "Torso",
+        "Name": "T-shirt 12",
         "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_female",
         "AppId": "custTorF26",
-        "Name": "Torso",
+        "Name": "T-shirt 12",
         "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_male",
         "AppId": "custTorM27",
-        "Name": "Torso",
+        "Name": "T-shirt 13",
         "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_female",
         "AppId": "custTorF27",
-        "Name": "Torso",
+        "Name": "T-shirt 13",
         "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_male",
         "AppId": "custTorM28",
-        "Name": "Torso",
+        "Name": "T-shirt 14",
         "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_female",
         "AppId": "custTorF28",
-        "Name": "Torso",
+        "Name": "T-shirt 14",
         "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_male",
         "AppId": "custTorM29",
-        "Name": "Torso",
+        "Name": "T-shirt 15",
         "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_female",
         "AppId": "custTorF29",
-        "Name": "Torso",
+        "Name": "T-shirt 15",
         "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_male",
         "AppId": "custTorM30",
-        "Name": "Torso",
+        "Name": "T-shirt 16",
         "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_female",
         "AppId": "custTorF30",
-        "Name": "Torso",
+        "Name": "T-shirt 16",
         "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_male",
         "AppId": "custTorM31",
-        "Name": "Torso",
+        "Name": "T-shirt 17",
         "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_female",
         "AppId": "custTorF31",
-        "Name": "Torso",
+        "Name": "T-shirt 17",
         "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_male",
         "AppId": "custTorM32",
-        "Name": "Torso",
+        "Name": "T-shirt 18",
         "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_female",
         "AppId": "custTorF32",
-        "Name": "Torso",
+        "Name": "T-shirt 18",
         "Tier": 1
       }
     ]
@@ -591,13 +591,13 @@
       {
         "ItemId": "454a36e7-faa2-4177-ae88-ceb2e110f201_male",
         "AppId": "custGloM6",
-        "Name": "Delivery Shoes",
+        "Name": "Delivery Gloves",
         "Tier": 1
       },
       {
         "ItemId": "454a36e7-faa2-4177-ae88-ceb2e110f201_female",
         "AppId": "custGloF6",
-        "Name": "Delivery Shoes",
+        "Name": "Delivery Gloves",
         "Tier": 1
       },
       {
@@ -615,13 +615,13 @@
       {
         "ItemId": "6bf46d8f-a8e9-4fb9-81d1-ea067318894a_male",
         "AppId": "custGloM8",
-        "Name": "Lumberjack_ Gloves",
+        "Name": "Lumberjack Gloves",
         "Tier": 1
       },
       {
         "ItemId": "6bf46d8f-a8e9-4fb9-81d1-ea067318894a_female",
         "AppId": "custGloF8",
-        "Name": "Lumberjack_ Gloves",
+        "Name": "Lumberjack Gloves",
         "Tier": 1
       },
       {
@@ -687,13 +687,13 @@
       {
         "ItemId": "5a05ccb7-dd1c-49c5-949c-45f63882fbb6_male",
         "AppId": "custGloM14",
-        "Name": "Gloves",
+        "Name": "Technician Gloves",
         "Tier": 1
       },
       {
         "ItemId": "5a05ccb7-dd1c-49c5-949c-45f63882fbb6_female",
         "AppId": "custGloF14",
-        "Name": "Gloves",
+        "Name": "Technician Gloves",
         "Tier": 1
       }
     ]
@@ -764,13 +764,13 @@
       {
         "ItemId": "e192f135-21a2-4277-97ae-66693988797e_male",
         "AppId": "custShoM6",
-        "Name": "Shoes",
+        "Name": "Delivery Shoes",
         "Tier": 1
       },
       {
         "ItemId": "e192f135-21a2-4277-97ae-66693988797e_female",
         "AppId": "custShoF6",
-        "Name": "Shoes",
+        "Name": "Delivery Shoes",
         "Tier": 1
       },
       {
@@ -836,13 +836,13 @@
       {
         "ItemId": "6f864131-3d63-459a-a452-4033257400f0_male",
         "AppId": "custShoM12",
-        "Name": "Golf Pants",
+        "Name": "Golf Shoes",
         "Tier": 1
       },
       {
         "ItemId": "6f864131-3d63-459a-a452-4033257400f0_female",
         "AppId": "custShoF12",
-        "Name": "Golf Pants",
+        "Name": "Golf Shoes",
         "Tier": 1
       },
       {
@@ -860,13 +860,13 @@
       {
         "ItemId": "8de62bd5-c7b3-4b2c-8d30-f986dff5ef70_male",
         "AppId": "custShoM14",
-        "Name": "Shoes",
+        "Name": "Technician Shoes",
         "Tier": 1
       },
       {
         "ItemId": "8de62bd5-c7b3-4b2c-8d30-f986dff5ef70_female",
         "AppId": "custShoF14",
-        "Name": "Shoes",
+        "Name": "Technician Shoes",
         "Tier": 1
       }
     ]
@@ -1009,13 +1009,13 @@
       {
         "ItemId": "6ed381c7-df16-4407-8fec-056b5534757f_male",
         "AppId": "custLegM12",
-        "Name": "Duck Pants",
+        "Name": "Golf Pants",
         "Tier": 2
       },
       {
         "ItemId": "6ed381c7-df16-4407-8fec-056b5534757f_female",
         "AppId": "custLegF12",
-        "Name": "Duck Pants",
+        "Name": "Golf Pants",
         "Tier": 2
       },
       {
