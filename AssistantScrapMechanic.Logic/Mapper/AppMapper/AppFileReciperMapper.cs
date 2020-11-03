@@ -17,7 +17,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Description = localisedData.Description,
                 CraftingTime = localisedData.CraftTime,
                 Output = localisedData.ItemId.GetAppIngredient(localisedData.Quantity, lookup),
-                Inputs = localisedData.IngredientListLocalised.Select(il => il.ItemId.GetAppIngredient(il.Quantity, lookup)).ToList()
+                Inputs = localisedData.IngredientListLocalised.Select(il => il.ItemId.GetAppIngredient(il.Quantity, lookup)).Where(il => !string.IsNullOrEmpty(il.AppId)).ToList()
             };
             return recipe;
         }
