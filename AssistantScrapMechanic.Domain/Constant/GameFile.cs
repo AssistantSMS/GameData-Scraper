@@ -2,6 +2,7 @@
 {
     public static class GameFile
     {
+        public static string Ammo = "ammo.json";
         public static string Blocks = "blocks.json";
         public static string Building = "building.json";
         public static string Component = "component.json";

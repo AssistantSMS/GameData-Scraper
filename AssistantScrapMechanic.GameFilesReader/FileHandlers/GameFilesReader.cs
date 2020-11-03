@@ -118,6 +118,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public List<GameItemLocalised> GetAllLocalisedGameItems(bool includeOtherItems = false)
         {
+            List<GameItemLocalised> ammo = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Ammo);
             List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
             List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
             List<GameItemLocalised> components = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Component);
@@ -149,7 +150,8 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<GameItemLocalised> vehicle = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Vehicle);
             List<GameItemLocalised> warehouse = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Warehouse);
 
-            List<GameItemLocalised> allItems = blocks
+            List<GameItemLocalised> allItems = ammo
+                .Concat(blocks)
                 .Concat(buildings)
                 .Concat(components)
                 .Concat(construction)
@@ -311,6 +313,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateBlockIntermediate(itemNames);
             GenerateCustomizationIntermediate(itemNames);
 
+            GenerateGameItemIntermediate(GameFile.Ammo, Prefix.Ammo, OutputFile.Ammo, itemNames);
             GenerateGameItemIntermediate(GameFile.Building, Prefix.Build, OutputFile.Building, itemNames);
             GenerateGameItemIntermediate(GameFile.Component, Prefix.Component, OutputFile.Component, itemNames);
             GenerateGameItemIntermediate(GameFile.Construction, Prefix.Construction, OutputFile.Construction, itemNames);

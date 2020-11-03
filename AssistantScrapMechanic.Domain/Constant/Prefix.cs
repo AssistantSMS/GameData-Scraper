@@ -2,6 +2,7 @@
 {
     public static class Prefix
     {
+        public static string Ammo = "ammo";
         public static string Block = "blk";
         public static string Build = "build";
         public static string Component = "comp";

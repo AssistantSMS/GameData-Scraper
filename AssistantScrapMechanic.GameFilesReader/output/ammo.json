@@ -1,0 +1,23 @@
+[
+  {
+    "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+    "GameName": "obj_plantables_potato",
+    "AppId": "ammo1",
+    "Name": "Potato",
+    "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns.",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 1,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
+  }
+]
