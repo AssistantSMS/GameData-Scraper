@@ -284,6 +284,12 @@ assets/img/items/custTorM3.png
 assets/img/items/custTorM30.png
 assets/img/items/custTorM31.png
 assets/img/items/custTorM32.png
+assets/img/items/custTorM33.png
+assets/img/items/custTorM34.png
+assets/img/items/custTorM35.png
+assets/img/items/custTorM36.png
+assets/img/items/custTorM37.png
+assets/img/items/custTorM38.png
 assets/img/items/custTorM4.png
 assets/img/items/custTorM5.png
 assets/img/items/custTorM6.png
