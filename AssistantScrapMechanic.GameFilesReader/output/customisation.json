@@ -5,133 +5,133 @@
       {
         "ItemId": "acc63e3d-29cf-4f4b-a515-d126d03746fa_male",
         "AppId": "custFacM1",
-        "Name": "Face",
+        "Name": "Face 1",
         "Tier": 0
       },
       {
         "ItemId": "acc63e3d-29cf-4f4b-a515-d126d03746fa_female",
         "AppId": "custFacF1",
-        "Name": "Face",
+        "Name": "Face 1",
         "Tier": 0
       },
       {
         "ItemId": "0fb22fe3-4fea-459a-a2b5-a226e9f7dcfb_male",
         "AppId": "custFacM2",
-        "Name": "Face",
+        "Name": "Face 2",
         "Tier": 0
       },
       {
         "ItemId": "0fb22fe3-4fea-459a-a2b5-a226e9f7dcfb_female",
         "AppId": "custFacF2",
-        "Name": "Face",
+        "Name": "Face 2",
         "Tier": 0
       },
       {
         "ItemId": "c958bad6-6a20-4526-829f-397e62f421f5_male",
         "AppId": "custFacM3",
-        "Name": "Face",
+        "Name": "Face 3",
         "Tier": 0
       },
       {
         "ItemId": "c958bad6-6a20-4526-829f-397e62f421f5_female",
         "AppId": "custFacF3",
-        "Name": "Face",
+        "Name": "Face 3",
         "Tier": 0
       },
       {
         "ItemId": "cc273e37-4ba8-498e-ac5e-3497403c7fe2_male",
         "AppId": "custFacM4",
-        "Name": "Face",
+        "Name": "Face 4",
         "Tier": 0
       },
       {
         "ItemId": "cc273e37-4ba8-498e-ac5e-3497403c7fe2_female",
         "AppId": "custFacF4",
-        "Name": "Face",
+        "Name": "Face 4",
         "Tier": 0
       },
       {
         "ItemId": "121bd328-4d24-4398-b35e-4d5e87842df3_male",
         "AppId": "custFacM5",
-        "Name": "Face",
+        "Name": "Face 5",
         "Tier": 0
       },
       {
         "ItemId": "121bd328-4d24-4398-b35e-4d5e87842df3_female",
         "AppId": "custFacF5",
-        "Name": "Face",
+        "Name": "Face 5",
         "Tier": 0
       },
       {
         "ItemId": "0c6a7c26-3dc6-442d-ab3b-b74cbf402786_male",
         "AppId": "custFacM6",
-        "Name": "Face",
+        "Name": "Face 6",
         "Tier": 0
       },
       {
         "ItemId": "0c6a7c26-3dc6-442d-ab3b-b74cbf402786_female",
         "AppId": "custFacF6",
-        "Name": "Face",
+        "Name": "Face 6",
         "Tier": 0
       },
       {
         "ItemId": "cd531ca0-f650-41b1-b739-a735096e798f_male",
         "AppId": "custFacM7",
-        "Name": "Face",
+        "Name": "Face 7",
         "Tier": 0
       },
       {
         "ItemId": "cd531ca0-f650-41b1-b739-a735096e798f_female",
         "AppId": "custFacF7",
-        "Name": "Face",
+        "Name": "Face 7",
         "Tier": 0
       },
       {
         "ItemId": "f2aa9bab-e2be-45d8-918d-ae6955aba7d4_male",
         "AppId": "custFacM8",
-        "Name": "Face",
+        "Name": "Face 8",
         "Tier": 0
       },
       {
         "ItemId": "f2aa9bab-e2be-45d8-918d-ae6955aba7d4_female",
         "AppId": "custFacF8",
-        "Name": "Face",
+        "Name": "Face 8",
         "Tier": 0
       },
       {
         "ItemId": "205a9e7d-f55a-412f-ad21-2889e1ee4111_male",
         "AppId": "custFacM9",
-        "Name": "Face",
+        "Name": "Face 9",
         "Tier": 0
       },
       {
         "ItemId": "205a9e7d-f55a-412f-ad21-2889e1ee4111_female",
         "AppId": "custFacF9",
-        "Name": "Face",
+        "Name": "Face 9",
         "Tier": 0
       },
       {
         "ItemId": "989cec9b-e03e-4e17-9812-bfc381028c40_male",
         "AppId": "custFacM10",
-        "Name": "Face",
+        "Name": "Face 10",
         "Tier": 0
       },
       {
         "ItemId": "989cec9b-e03e-4e17-9812-bfc381028c40_female",
         "AppId": "custFacF10",
-        "Name": "Face",
+        "Name": "Face 10",
         "Tier": 0
       },
       {
         "ItemId": "ae6ed023-cf3b-4926-8d8d-722dc302815b_male",
         "AppId": "custFacM11",
-        "Name": "Face",
+        "Name": "Face 11",
         "Tier": 0
       },
       {
         "ItemId": "ae6ed023-cf3b-4926-8d8d-722dc302815b_female",
         "AppId": "custFacF11",
-        "Name": "Face",
+        "Name": "Face 11",
         "Tier": 0
       }
     ]
@@ -310,217 +310,289 @@
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_male",
         "AppId": "custTorM15",
-        "Name": "T-shirt 1",
+        "Name": "Bearing T-Shirt",
         "Tier": 2
       },
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_female",
         "AppId": "custTorF15",
-        "Name": "T-shirt 1",
+        "Name": "Bearing T-Shirt",
         "Tier": 2
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_male",
         "AppId": "custTorM16",
-        "Name": "T-shirt 2",
+        "Name": "Seat T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_female",
         "AppId": "custTorF16",
-        "Name": "T-shirt 2",
+        "Name": "Seat T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_male",
         "AppId": "custTorM17",
-        "Name": "T-shirt 3",
+        "Name": "Scrap Muffin T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_female",
         "AppId": "custTorF17",
-        "Name": "T-shirt 3",
+        "Name": "Scrap Muffin T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_male",
         "AppId": "custTorM18",
-        "Name": "T-shirt 4",
+        "Name": "Control Freak T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_female",
         "AppId": "custTorF18",
-        "Name": "T-shirt 4",
+        "Name": "Control Freak T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_male",
         "AppId": "custTorM19",
-        "Name": "T-shirt 5",
+        "Name": "Need Lift T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_female",
         "AppId": "custTorF19",
-        "Name": "T-shirt 5",
+        "Name": "Need Lift T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_male",
         "AppId": "custTorM20",
-        "Name": "T-shirt 6",
+        "Name": "Axolot T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_female",
         "AppId": "custTorF20",
-        "Name": "T-shirt 6",
+        "Name": "Axolot T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_male",
         "AppId": "custTorM21",
-        "Name": "T-shirt 7",
+        "Name": "Sensitive T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_female",
         "AppId": "custTorF21",
-        "Name": "T-shirt 7",
+        "Name": "Sensitive T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_male",
         "AppId": "custTorM22",
-        "Name": "T-shirt 8",
+        "Name": "Totebot Moon T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_female",
         "AppId": "custTorF22",
-        "Name": "T-shirt 8",
+        "Name": "Totebot Moon T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_male",
         "AppId": "custTorM23",
-        "Name": "T-shirt 9",
+        "Name": "Team Tomato T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_female",
         "AppId": "custTorF23",
-        "Name": "T-shirt 9",
+        "Name": "Team Tomato T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_male",
         "AppId": "custTorM24",
-        "Name": "T-shirt 10",
+        "Name": "Team Banana T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_female",
         "AppId": "custTorF24",
-        "Name": "T-shirt 10",
+        "Name": "Team Banana T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_male",
         "AppId": "custTorM25",
-        "Name": "T-shirt 11",
+        "Name": "Team Broccoli T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_female",
         "AppId": "custTorF25",
-        "Name": "T-shirt 11",
+        "Name": "Team Broccoli T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_male",
         "AppId": "custTorM26",
-        "Name": "T-shirt 12",
+        "Name": "Team Blueberry T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_female",
         "AppId": "custTorF26",
-        "Name": "T-shirt 12",
+        "Name": "Team Blueberry T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_male",
         "AppId": "custTorM27",
-        "Name": "T-shirt 13",
+        "Name": "Connections T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_female",
         "AppId": "custTorF27",
-        "Name": "T-shirt 13",
+        "Name": "Connections T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_male",
         "AppId": "custTorM28",
-        "Name": "T-shirt 14",
+        "Name": "Playing Wrong T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_female",
         "AppId": "custTorF28",
-        "Name": "T-shirt 14",
+        "Name": "Playing Wrong T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_male",
         "AppId": "custTorM29",
-        "Name": "T-shirt 15",
+        "Name": "Quack T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_female",
         "AppId": "custTorF29",
-        "Name": "T-shirt 15",
+        "Name": "Quack T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_male",
         "AppId": "custTorM30",
-        "Name": "T-shirt 16",
+        "Name": "Company T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_female",
         "AppId": "custTorF30",
-        "Name": "T-shirt 16",
+        "Name": "Company T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_male",
         "AppId": "custTorM31",
-        "Name": "T-shirt 17",
+        "Name": "Totem T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_female",
         "AppId": "custTorF31",
-        "Name": "T-shirt 17",
+        "Name": "Totem T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_male",
         "AppId": "custTorM32",
-        "Name": "T-shirt 18",
+        "Name": "Totebot Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_female",
         "AppId": "custTorF32",
-        "Name": "T-shirt 18",
+        "Name": "Totebot Pattern T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "3534077b-ab28-446b-b875-63af2819e4cf_male",
+        "AppId": "custTorM33",
+        "Name": "Logical T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "3534077b-ab28-446b-b875-63af2819e4cf_female",
+        "AppId": "custTorF33",
+        "Name": "Logical T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "8ac0f0ce-8627-43cd-a25f-a44fd9cbe498_male",
+        "AppId": "custTorM34",
+        "Name": "Woc Love T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "8ac0f0ce-8627-43cd-a25f-a44fd9cbe498_female",
+        "AppId": "custTorF34",
+        "Name": "Woc Love T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "39325df6-fcb8-42b3-9dd9-94be00a53748_male",
+        "AppId": "custTorM35",
+        "Name": "Pizza Burger T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "39325df6-fcb8-42b3-9dd9-94be00a53748_female",
+        "AppId": "custTorF35",
+        "Name": "Pizza Burger T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "d5a20cbc-7dd8-447d-9321-4262c1133aaa_male",
+        "AppId": "custTorM36",
+        "Name": "Carrot Pattern T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "d5a20cbc-7dd8-447d-9321-4262c1133aaa_female",
+        "AppId": "custTorF36",
+        "Name": "Carrot Pattern T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "73fbbd12-fbca-4da5-92a4-802624002054_male",
+        "AppId": "custTorM37",
+        "Name": "Corn Pattern T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "73fbbd12-fbca-4da5-92a4-802624002054_female",
+        "AppId": "custTorF37",
+        "Name": "Corn Pattern T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "f01e782b-1619-4b28-ad94-0940dfcc9b1e_male",
+        "AppId": "custTorM38",
+        "Name": "Gas T-Shirt",
+        "Tier": 1
+      },
+      {
+        "ItemId": "f01e782b-1619-4b28-ad94-0940dfcc9b1e_female",
+        "AppId": "custTorF38",
+        "Name": "Gas T-Shirt",
         "Tier": 1
       }
     ]
@@ -1050,169 +1122,169 @@
       {
         "ItemId": "3e0e3926-7d8f-41b1-a149-b3c64706fd44_male",
         "AppId": "custFacM1",
-        "Name": "FacialHair",
+        "Name": "Classic",
         "Tier": 0
       },
       {
         "ItemId": "3e0e3926-7d8f-41b1-a149-b3c64706fd44_female",
         "AppId": "custFacF1",
-        "Name": "FacialHair",
+        "Name": "Classic",
         "Tier": 0
       },
       {
         "ItemId": "3a12115c-d9ee-460e-93c4-4eb5ed96ac86_male",
         "AppId": "custFacM2",
-        "Name": "FacialHair",
+        "Name": "Baguette",
         "Tier": 0
       },
       {
         "ItemId": "3a12115c-d9ee-460e-93c4-4eb5ed96ac86_female",
         "AppId": "custFacF2",
-        "Name": "FacialHair",
+        "Name": "Baguette",
         "Tier": 0
       },
       {
         "ItemId": "689bad89-e783-408f-a043-faf8e43fb119_male",
         "AppId": "custFacM3",
-        "Name": "FacialHair",
+        "Name": "Scarf",
         "Tier": 0
       },
       {
         "ItemId": "689bad89-e783-408f-a043-faf8e43fb119_female",
         "AppId": "custFacF3",
-        "Name": "FacialHair",
+        "Name": "Scarf",
         "Tier": 0
       },
       {
         "ItemId": "1d58f488-4944-4ce2-8efa-0759df4a3206_male",
         "AppId": "custFacM4",
-        "Name": "FacialHair",
+        "Name": "Duckietail",
         "Tier": 0
       },
       {
         "ItemId": "1d58f488-4944-4ce2-8efa-0759df4a3206_female",
         "AppId": "custFacF4",
-        "Name": "FacialHair",
+        "Name": "Duckietail",
         "Tier": 0
       },
       {
         "ItemId": "923ea632-61c5-4926-997c-b5a1e7f0f68f_male",
         "AppId": "custFacM5",
-        "Name": "FacialHair",
+        "Name": "Continental",
         "Tier": 0
       },
       {
         "ItemId": "923ea632-61c5-4926-997c-b5a1e7f0f68f_female",
         "AppId": "custFacF5",
-        "Name": "FacialHair",
+        "Name": "Continental",
         "Tier": 0
       },
       {
         "ItemId": "3b5f22bb-4b2d-4e52-a4b9-64d83ab03220_male",
         "AppId": "custFacM6",
-        "Name": "FacialHair",
+        "Name": "Lumberjack",
         "Tier": 0
       },
       {
         "ItemId": "3b5f22bb-4b2d-4e52-a4b9-64d83ab03220_female",
         "AppId": "custFacF6",
-        "Name": "FacialHair",
+        "Name": "Lumberjack",
         "Tier": 0
       },
       {
         "ItemId": "424890fc-934b-4434-a16a-e5e9a042e592_male",
         "AppId": "custFacM7",
-        "Name": "FacialHair",
+        "Name": "Fat Walrus",
         "Tier": 0
       },
       {
         "ItemId": "424890fc-934b-4434-a16a-e5e9a042e592_female",
         "AppId": "custFacF7",
-        "Name": "FacialHair",
+        "Name": "Fat Walrus",
         "Tier": 0
       },
       {
         "ItemId": "fbb96932-a443-4bd1-a163-400814677a3d_male",
         "AppId": "custFacM8",
-        "Name": "FacialHair",
+        "Name": "Piston",
         "Tier": 0
       },
       {
         "ItemId": "fbb96932-a443-4bd1-a163-400814677a3d_female",
         "AppId": "custFacF8",
-        "Name": "FacialHair",
+        "Name": "Piston",
         "Tier": 0
       },
       {
         "ItemId": "a2600104-1c18-47cf-886e-d52c116b4ebb_male",
         "AppId": "custFacM9",
-        "Name": "FacialHair",
+        "Name": "Handlebar",
         "Tier": 0
       },
       {
         "ItemId": "a2600104-1c18-47cf-886e-d52c116b4ebb_female",
         "AppId": "custFacF9",
-        "Name": "FacialHair",
+        "Name": "Handlebar",
         "Tier": 0
       },
       {
         "ItemId": "02e18f86-0de5-4a8f-9ea8-017ba9da35c4_male",
         "AppId": "custFacM10",
-        "Name": "FacialHair",
+        "Name": "Schnitzel",
         "Tier": 0
       },
       {
         "ItemId": "02e18f86-0de5-4a8f-9ea8-017ba9da35c4_female",
         "AppId": "custFacF10",
-        "Name": "FacialHair",
+        "Name": "Schnitzel",
         "Tier": 0
       },
       {
         "ItemId": "6e574c6b-f061-4ebf-99a3-6eebf2096fb1_male",
         "AppId": "custFacM11",
-        "Name": "FacialHair",
+        "Name": "King Beard",
         "Tier": 0
       },
       {
         "ItemId": "6e574c6b-f061-4ebf-99a3-6eebf2096fb1_female",
         "AppId": "custFacF11",
-        "Name": "FacialHair",
+        "Name": "King Beard",
         "Tier": 0
       },
       {
         "ItemId": "75d70a67-5193-48e7-a811-902d1faac0e3_male",
         "AppId": "custFacM12",
-        "Name": "FacialHair",
+        "Name": "Bearing",
         "Tier": 0
       },
       {
         "ItemId": "75d70a67-5193-48e7-a811-902d1faac0e3_female",
         "AppId": "custFacF12",
-        "Name": "FacialHair",
+        "Name": "Bearing",
         "Tier": 0
       },
       {
         "ItemId": "fb2a87e2-5316-40e0-b16f-f3d0760ea063_male",
         "AppId": "custFacM13",
-        "Name": "FacialHair",
+        "Name": "Villain",
         "Tier": 0
       },
       {
         "ItemId": "fb2a87e2-5316-40e0-b16f-f3d0760ea063_female",
         "AppId": "custFacF13",
-        "Name": "FacialHair",
+        "Name": "Villain",
         "Tier": 0
       },
       {
         "ItemId": "661cf3bd-f0a7-4609-a5fe-a90412726338_male",
         "AppId": "custFacM14",
-        "Name": "FacialHair",
+        "Name": "Gentlemen",
         "Tier": 0
       },
       {
         "ItemId": "661cf3bd-f0a7-4609-a5fe-a90412726338_female",
         "AppId": "custFacF14",
-        "Name": "FacialHair",
+        "Name": "Gentlemen",
         "Tier": 0
       }
     ]
@@ -1223,169 +1295,169 @@
       {
         "ItemId": "a47e35d6-a1fe-4274-a080-9ea71134679a_male",
         "AppId": "custHaiM1",
-        "Name": "Hair",
+        "Name": "None",
         "Tier": 0
       },
       {
         "ItemId": "a47e35d6-a1fe-4274-a080-9ea71134679a_female",
         "AppId": "custHaiF1",
-        "Name": "Hair",
+        "Name": "None",
         "Tier": 0
       },
       {
         "ItemId": "6e95d31c-36b9-4bb6-ad8f-bad5edce9632_male",
         "AppId": "custHaiM2",
-        "Name": "Hair",
+        "Name": "Mechanic",
         "Tier": 0
       },
       {
         "ItemId": "6e95d31c-36b9-4bb6-ad8f-bad5edce9632_female",
         "AppId": "custHaiF2",
-        "Name": "Hair",
+        "Name": "Mechanic",
         "Tier": 0
       },
       {
         "ItemId": "c429607b-4386-4058-982f-0dab6f210439_male",
         "AppId": "custHaiM3",
-        "Name": "Hair",
+        "Name": "Hawk",
         "Tier": 0
       },
       {
         "ItemId": "c429607b-4386-4058-982f-0dab6f210439_female",
         "AppId": "custHaiF3",
-        "Name": "Hair",
+        "Name": "Hawk",
         "Tier": 0
       },
       {
         "ItemId": "da891f94-15f0-40db-b34d-ed2a07d2e3b3_male",
         "AppId": "custHaiM4",
-        "Name": "Hair",
+        "Name": "Uppercut",
         "Tier": 0
       },
       {
         "ItemId": "da891f94-15f0-40db-b34d-ed2a07d2e3b3_female",
         "AppId": "custHaiF4",
-        "Name": "Hair",
+        "Name": "Uppercut",
         "Tier": 0
       },
       {
         "ItemId": "cdfa114a-bb70-43df-851e-e4ec93eae9d2_male",
         "AppId": "custHaiM5",
-        "Name": "Hair",
+        "Name": "Hinge",
         "Tier": 0
       },
       {
         "ItemId": "cdfa114a-bb70-43df-851e-e4ec93eae9d2_female",
         "AppId": "custHaiF5",
-        "Name": "Hair",
+        "Name": "Hinge",
         "Tier": 0
       },
       {
         "ItemId": "b40fa7ab-19d7-4c2b-88ca-f7bea496f7df_male",
         "AppId": "custHaiM6",
-        "Name": "Hair",
+        "Name": "Samurai",
         "Tier": 0
       },
       {
         "ItemId": "b40fa7ab-19d7-4c2b-88ca-f7bea496f7df_female",
         "AppId": "custHaiF6",
-        "Name": "Hair",
+        "Name": "Samurai",
         "Tier": 0
       },
       {
         "ItemId": "87b7d156-8b83-4612-9cb1-93b768de8dc1_male",
         "AppId": "custHaiM7",
-        "Name": "Hair",
+        "Name": "Army",
         "Tier": 0
       },
       {
         "ItemId": "87b7d156-8b83-4612-9cb1-93b768de8dc1_female",
         "AppId": "custHaiF7",
-        "Name": "Hair",
+        "Name": "Army",
         "Tier": 0
       },
       {
         "ItemId": "8b0b067e-858d-40ee-90f9-ddc527909312_male",
         "AppId": "custHaiM8",
-        "Name": "Hair",
+        "Name": "Natural",
         "Tier": 0
       },
       {
         "ItemId": "8b0b067e-858d-40ee-90f9-ddc527909312_female",
         "AppId": "custHaiF8",
-        "Name": "Hair",
+        "Name": "Natural",
         "Tier": 0
       },
       {
         "ItemId": "296ffd04-d3ff-449b-a079-386675a6faa3_male",
         "AppId": "custHaiM9",
-        "Name": "Hair",
+        "Name": "Princess",
         "Tier": 0
       },
       {
         "ItemId": "296ffd04-d3ff-449b-a079-386675a6faa3_female",
         "AppId": "custHaiF9",
-        "Name": "Hair",
+        "Name": "Princess",
         "Tier": 0
       },
       {
         "ItemId": "1eee6fc1-e031-49af-b91f-c38d99e6851e_male",
         "AppId": "custHaiM10",
-        "Name": "Hair",
+        "Name": "Bob",
         "Tier": 0
       },
       {
         "ItemId": "1eee6fc1-e031-49af-b91f-c38d99e6851e_female",
         "AppId": "custHaiF10",
-        "Name": "Hair",
+        "Name": "Bob",
         "Tier": 0
       },
       {
         "ItemId": "3b7a0ce5-0a99-4df4-80e7-b1967f51dd7b_male",
         "AppId": "custHaiM11",
-        "Name": "Hair",
+        "Name": "Side Bang",
         "Tier": 0
       },
       {
         "ItemId": "3b7a0ce5-0a99-4df4-80e7-b1967f51dd7b_female",
         "AppId": "custHaiF11",
-        "Name": "Hair",
+        "Name": "Side Bang",
         "Tier": 0
       },
       {
         "ItemId": "557ce0a0-1974-43b3-b29e-848a2b2d3f0b_male",
         "AppId": "custHaiM12",
-        "Name": "Hair",
+        "Name": "Waffle",
         "Tier": 0
       },
       {
         "ItemId": "557ce0a0-1974-43b3-b29e-848a2b2d3f0b_female",
         "AppId": "custHaiF12",
-        "Name": "Hair",
+        "Name": "Waffle",
         "Tier": 0
       },
       {
         "ItemId": "d632bba9-ae79-440f-a59d-763d24ee42cd_male",
         "AppId": "custHaiM13",
-        "Name": "Hair",
+        "Name": "Bun",
         "Tier": 0
       },
       {
         "ItemId": "d632bba9-ae79-440f-a59d-763d24ee42cd_female",
         "AppId": "custHaiF13",
-        "Name": "Hair",
+        "Name": "Bun",
         "Tier": 0
       },
       {
         "ItemId": "f778a483-9231-41de-a0e2-0115509c1a02_male",
         "AppId": "custHaiM14",
-        "Name": "Hair",
+        "Name": "Cornrows",
         "Tier": 0
       },
       {
         "ItemId": "f778a483-9231-41de-a0e2-0115509c1a02_female",
         "AppId": "custHaiF14",
-        "Name": "Hair",
+        "Name": "Cornrows",
         "Tier": 0
       }
     ]

@@ -294,18 +294,18 @@
     "ItemId": "a5985971-1f95-4373-a5d9-4ce0a3e74851",
     "GameName": "obj_interactive_beacon",
     "AppId": "intera15",
-    "Name": "Radio Beacon",
+    "Name": "Beacon",
     "Description": "Emits a tracking signal that can be toggled in the Logbook.",
     "Color": "df7f01",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
-      "Density": 5,
+      "Density": 3,
       "Durability": 6,
       "Friction": 3,
       "Buoyancy": 2
     },
     "Box": {
-      "X": 4,
+      "X": 3,
       "Y": 8,
       "Z": 4
     },
