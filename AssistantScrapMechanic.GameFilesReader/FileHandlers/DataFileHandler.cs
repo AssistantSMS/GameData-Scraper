@@ -212,10 +212,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 Platforms = new List<PlatformType> { PlatformType.Android, PlatformType.iOS },
             };
             ResultWithValue<string> whatIsNewResult = await apiRepo.Post(versionSearchUrl, JsonConvert.SerializeObject(searchVm));
-            if (whatIsNewResult.HasFailed)
-            {
-                return;
-            }
+            if (whatIsNewResult.HasFailed) return;
 
             try
             {
