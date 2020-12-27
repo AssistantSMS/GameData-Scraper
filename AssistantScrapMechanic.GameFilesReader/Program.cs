@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using AssistantScrapMechanic.Domain.Entity;
 using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
@@ -33,7 +34,7 @@ namespace AssistantScrapMechanic.GameFilesReader
         
         private static readonly LanguageType[] AvailableLangs = (LanguageType[])Enum.GetValues(typeof(LanguageType));
 
-        private static int Main(string[] args)
+        private static async Task<int> Main(string[] args)
         {
             FileSystemRepository shapeSetsFileSysRepo = new FileSystemRepository(ShapeSetsDirectory);
             FileSystemRepository legacyShapeSetsFileSysRepo = new FileSystemRepository(LegacyShapeSetsDirectory);
@@ -100,7 +101,8 @@ namespace AssistantScrapMechanic.GameFilesReader
                 Console.WriteLine($"2. Create App Files in {language.LanguageGameFolder}");
                 Console.WriteLine("3. Cut images from sprite map");
                 Console.WriteLine("4. Generate App Data files");
-                Console.WriteLine("5. Add item to Language Pack");
+                Console.WriteLine("5. Write server data to app files");
+                Console.WriteLine("6. Add item to Language Pack");
 
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out int numberInput)) return 0;
@@ -125,6 +127,9 @@ namespace AssistantScrapMechanic.GameFilesReader
                         dataFileHandler.GenerateDataFiles(gameItemsList);
                         break;
                     case 5:
+                        await WriteServerDataToAppFiles(inputFileSysRepo, appDataSysRepo);
+                        break;
+                    case 6:
                         AddItemToLanguagePacks();
                         break;
                     default:
@@ -141,6 +146,16 @@ namespace AssistantScrapMechanic.GameFilesReader
 
             Dictionary<string, InventoryDescription> itemNames = gameFilesReader.LoadItemNames(language.LanguageGameFolder);
             appFilesHandler.GenerateAppFiles(language, itemNames, lookup);
+        }
+
+        private static async Task WriteServerDataToAppFiles(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo)
+        {
+            DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo);
+            await dataFileHandler.WritePatreonFile();
+            await dataFileHandler.WriteDonatorsFile();
+            await dataFileHandler.WriteSteamNewsFile();
+            await dataFileHandler.WriteContributorsFile();
+            await dataFileHandler.WriteWhatIsNewFiles(AvailableLangs);
         }
 
         private static void AddItemToLanguagePacks()

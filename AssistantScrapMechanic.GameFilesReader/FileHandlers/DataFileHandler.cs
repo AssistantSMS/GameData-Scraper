@@ -1,13 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.Constant;
 using AssistantScrapMechanic.Domain.DataFiles;
+using AssistantScrapMechanic.Domain.Dto.Enum;
+using AssistantScrapMechanic.Domain.Dto.ViewModel;
+using AssistantScrapMechanic.Domain.Entity;
 using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
+using AssistantScrapMechanic.Domain.Result;
 using AssistantScrapMechanic.Integration;
+using AssistantScrapMechanic.Integration.Repository;
+using AssistantScrapMechanic.Logic;
 using AssistantScrapMechanic.Logic.Calculator;
+using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 {
@@ -103,7 +111,125 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _appDataSysRepo.WriteBackToJsonFile(appLoots, AppFile.Loot);
         }
 
-        private static void AddToAppLootDictionary(Dictionary<string, AppLoot> appLoopDict, List<LootChance> selectOne, AppLootContainerType containerType, Dictionary<string, string> gameNameToAppIdLookup, Dictionary<string, LootQuantitiesLookup> quantitiesLookup)
+        public async Task WritePatreonFile()
+        {
+            Console.WriteLine("\nGenerating Patron data");
+            const string patronUrl = "https://api.assistantapps.com/Patreon";
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+
+            ResultWithValue<List<PatreonViewModel>> patreonResult = await apiRepo.Get<List<PatreonViewModel>>(patronUrl);
+            if (patreonResult.HasFailed)
+            {
+                return;
+            }
+
+            Console.WriteLine($"Writing Patron Data to {AppFile.DataPatreon}");
+            _appDataSysRepo.WriteBackToJsonFile(patreonResult.Value, AppFile.DataPatreon);
+        }
+
+        public async Task WriteSteamNewsFile()
+        {
+            Console.WriteLine("\nGenerating Steam News data");
+            const string patronUrl = "https://api.scrapassistant.com/Steam/News";
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+
+            ResultWithValue<List<SteamNewsItemViewModel>> steamNewsResult = await apiRepo.Get<List<SteamNewsItemViewModel>>(patronUrl);
+            if (steamNewsResult.HasFailed)
+            {
+                return;
+            }
+
+            Console.WriteLine($"Writing SteamNews Data to {AppFile.DataSteamNews}");
+            _appDataSysRepo.WriteBackToJsonFile(steamNewsResult.Value, AppFile.DataSteamNews);
+        }
+
+        public async Task WriteContributorsFile()
+        {
+            Console.WriteLine("\nGenerating Contributors data");
+            const string contributorUrl = "https://raw.githubusercontent.com/AssistantSMS/App/master/contributors.json";
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+
+            ResultWithValue<List<ContributorViewModel>> contributorsResult = await apiRepo.Get<List<ContributorViewModel>>(contributorUrl);
+            if (contributorsResult.HasFailed)
+            {
+                return;
+            }
+
+            Console.WriteLine($"Writing Patron Data to {AppFile.DataContributors}");
+            _appDataSysRepo.WriteBackToJsonFile(contributorsResult.Value, AppFile.DataContributors);
+        }
+
+        public async Task WriteDonatorsFile()
+        {
+            Console.WriteLine("\nGenerating Donators data");
+            const string donationUrl = "https://api.assistantapps.com/Donation";
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+
+            ResultWithValue<ResultWithPagination<DonationViewModel>> donationResult = await apiRepo.Get<ResultWithPagination<DonationViewModel>>(donationUrl);
+            if (donationResult.HasFailed)
+            {
+                return;
+            }
+
+            List<DonationViewModel> allDonations = new List<DonationViewModel>();
+            allDonations.AddRange(donationResult.Value.Value);
+            for (int donationPage = donationResult.Value.CurrentPage; donationPage < donationResult.Value.TotalPages; donationPage++)
+            {
+                string pagedDonationUrl = donationUrl + $"?page={(donationPage + 1)}";
+                ResultWithValue<ResultWithPagination<DonationViewModel>> pagedDonationResult = await apiRepo.Get<ResultWithPagination<DonationViewModel>>(pagedDonationUrl);
+                if (donationResult.HasFailed) continue;
+
+                allDonations.AddRange(pagedDonationResult.Value.Value);
+            }
+
+            Console.WriteLine($"Writing Patron Data to {AppFile.DataDonation}");
+            _appDataSysRepo.WriteBackToJsonFile(allDonations, AppFile.DataDonation);
+        }
+
+        public async Task WriteWhatIsNewFiles(LanguageType[] availableLangs)
+        {
+            Console.WriteLine("\nGenerating What Is New data");
+
+            List<Task> tasks = availableLangs.Select(WriteWhatIsNewFile).ToList();
+            await Task.WhenAll(tasks);
+
+            Console.WriteLine("\n");
+        }
+
+        public async Task WriteWhatIsNewFile(LanguageType langType)
+        {
+            const string versionSearchUrl = "https://api.assistantapps.com/Version/Search";
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+
+            LanguageDetail language = LanguageHelper.GetLanguageDetail(langType);
+            string path = $"{AppFile.DataWhatIsNewFolder}/{language.LanguageAppFolder}.json";
+
+            VersionSearchViewModel searchVm = new VersionSearchViewModel
+            {
+                AppGuid = Guid.Parse("dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2"),
+                LanguageCode = language.LanguageAppFolder,
+                Page = 1,
+                Platforms = new List<PlatformType> { PlatformType.Android, PlatformType.iOS },
+            };
+            ResultWithValue<string> whatIsNewResult = await apiRepo.Post(versionSearchUrl, JsonConvert.SerializeObject(searchVm));
+            if (whatIsNewResult.HasFailed)
+            {
+                return;
+            }
+
+            try
+            {
+                ResultWithPagination<VersionViewModel> versionItem = JsonConvert.DeserializeObject<ResultWithPagination<VersionViewModel>>(whatIsNewResult.Value);
+                Console.WriteLine($"Writing WhatIsNew Data to {AppFile.DataWhatIsNewFolder} in {language.LanguageGameFolder}");
+                _appDataSysRepo.WriteBackToJsonFile(versionItem.Value, path);
+            }
+            catch
+            {
+                Console.WriteLine($"FAILED writing WhatIsNew Data to {AppFile.DataWhatIsNewFolder} in {language.LanguageGameFolder}");
+            }
+        }
+
+        private static void AddToAppLootDictionary(Dictionary<string, AppLoot> appLoopDict, List<LootChance> selectOne, AppLootContainerType containerType, IReadOnlyDictionary<string, string> gameNameToAppIdLookup, Dictionary<string, LootQuantitiesLookup> quantitiesLookup)
         {
             int normalTotalChance = LootCalculator.TotalChanceValue(selectOne);
             foreach (LootChance normalSelectOneLootChance in selectOne)

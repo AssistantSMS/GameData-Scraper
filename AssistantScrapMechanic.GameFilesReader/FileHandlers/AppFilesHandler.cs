@@ -163,10 +163,10 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             _appFileSysRepo.WriteBackToJsonFile(appBlockBaseItems, outputFileName);
             _appFileSysRepo.WriteBackToJsonFile(appBlock, GetJsonLang(language.LanguageAppFolder, outputFileName));
         }
-
+        
         //private void WriteAppFile(string outputFileName, IEnumerable<NotFoundItem> otherUnlocalised)
         //{
-            
+
         //}
 
         private static string GetJsonLang(string folder, string fileName)

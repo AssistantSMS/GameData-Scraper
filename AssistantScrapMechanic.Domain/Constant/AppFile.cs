@@ -46,5 +46,11 @@
         public static string RefineryRecipes = "recipeRefinery.json";
         //public static string Undecided = "undecided.json";
         public static string WorkbenchRecipes = "recipeWorkbench.json";
+
+        public static string DataPatreon = "patronsBackup.json";
+        public static string DataDonation = "donationBackup.json";
+        public static string DataContributors = "contributorBackup.json";
+        public static string DataSteamNews = "steamNewsBackup.json";
+        public static string DataWhatIsNewFolder = "whatIsNew";
     }
 }
