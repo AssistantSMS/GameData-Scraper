@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using AssistantScrapMechanic.Domain.Dto.ViewModel;
 using AssistantScrapMechanic.Domain.Entity;
 using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
+using AssistantScrapMechanic.Domain.Result;
 using AssistantScrapMechanic.GameFilesReader.FileHandlers;
 using AssistantScrapMechanic.Integration;
+using AssistantScrapMechanic.Integration.Repository;
 using AssistantScrapMechanic.Logic;
 
 namespace AssistantScrapMechanic.GameFilesReader
@@ -158,6 +162,52 @@ namespace AssistantScrapMechanic.GameFilesReader
             await dataFileHandler.WriteSteamNewsFile();
             await dataFileHandler.WriteContributorsFile();
             await dataFileHandler.WriteWhatIsNewFiles(AvailableLangs);
+
+            await LangUpToDateAudit(true);
+        }
+
+        private static async Task<List<string>> LangUpToDateAudit(bool persist = false)
+        {
+            const string translationExportUrl = "https://api.assistantapps.com/TranslationExport/{0}/{1}";
+            const string appGuid = "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2";
+            List<string> consoleOutput = new List<string>();
+
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+            ResultWithValue<List<LanguageViewModel>> langResult = await apiRepo.Get<List<LanguageViewModel>>("https://api.assistantapps.com/Language");
+            if (langResult.HasFailed)
+            {
+                consoleOutput.Add("Could not get Server Languages");
+                return consoleOutput;
+            }
+
+            FileSystemRepository appLangRepo = new FileSystemRepository(AppLangDirectory);
+            foreach (LanguageType langType in AvailableLangs)
+            {
+                LanguageDetail language = LanguageHelper.GetLanguageDetail(langType);
+
+                string languageFile = $"language.{language.LanguageAppFolder}.json";
+                Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict(languageFile);
+                langJson.TryGetValue("hashCode", out dynamic localHashCode);
+
+                LanguageViewModel langViewModel = langResult.Value.FirstOrDefault(l => l.LanguageCode.Equals(language.LanguageAppFolder));
+                if (langViewModel == null) continue;
+
+                ResultWithValue<Dictionary<string, string>> languageContent = await apiRepo.Get<Dictionary<string, string>>(translationExportUrl.Replace("{0}", appGuid).Replace("{1}", langViewModel.Guid.ToString()));
+                if (languageContent.HasFailed) continue;
+                languageContent.Value.TryGetValue("hashCode", out string serverHashCode);
+
+                bool hashCodeMatches = serverHashCode != null && localHashCode != null && localHashCode.Equals(serverHashCode);
+                if (hashCodeMatches) continue;
+
+                if (persist)
+                {
+                    appLangRepo.WriteBackToJsonFile(languageContent.Value, languageFile);
+                }
+
+                consoleOutput.Add($"{languageFile} Language Hashcode Audit has failed");
+            }
+
+            return consoleOutput;
         }
 
         private static void AddItemToLanguagePacks()
