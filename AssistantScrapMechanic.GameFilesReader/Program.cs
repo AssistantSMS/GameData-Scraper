@@ -48,6 +48,7 @@ namespace AssistantScrapMechanic.GameFilesReader
             FileSystemRepository appFilesSysRepo = new FileSystemRepository(AppJsonFilesDirectory);
             FileSystemRepository appImagesRepo = new FileSystemRepository(AppImagesDirectory);
             FileSystemRepository appDataSysRepo = new FileSystemRepository(AppDataDirectory);
+            FileSystemRepository appLangSysRepo = new FileSystemRepository(AppLangDirectory);
 
             LanguageDetail language = new LanguageDetail(LanguageType.English, "English", "en");
 
@@ -106,7 +107,9 @@ namespace AssistantScrapMechanic.GameFilesReader
 
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out int numberInput)) return 0;
-                
+
+                DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo, appLangSysRepo);
+
                 switch (numberInput)
                 {
                     case 1:
@@ -123,11 +126,10 @@ namespace AssistantScrapMechanic.GameFilesReader
                         break;
                     case 4:
                         List<GameItemLocalised> gameItemsList = gameFilesReader.GetAllLocalisedGameItems(includeOtherItems: true);
-                        DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo);
                         dataFileHandler.GenerateDataFiles(gameItemsList);
                         break;
                     case 5:
-                        await WriteServerDataToAppFiles(inputFileSysRepo, appDataSysRepo);
+                        await WriteServerDataToAppFiles(dataFileHandler);
                         break;
                     case 6:
                         AddItemToLanguagePacks();
@@ -148,11 +150,11 @@ namespace AssistantScrapMechanic.GameFilesReader
             appFilesHandler.GenerateAppFiles(language, itemNames, lookup);
         }
 
-        private static async Task WriteServerDataToAppFiles(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo)
+        private static async Task WriteServerDataToAppFiles(DataFileHandler dataFileHandler)
         {
-            DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo);
             await dataFileHandler.WritePatreonFile();
             await dataFileHandler.WriteDonatorsFile();
+            await dataFileHandler.WriteLanguageFiles();
             await dataFileHandler.WriteSteamNewsFile();
             await dataFileHandler.WriteContributorsFile();
             await dataFileHandler.WriteWhatIsNewFiles(AvailableLangs);
@@ -174,7 +176,7 @@ namespace AssistantScrapMechanic.GameFilesReader
                 if (completedFolders.Contains(language.LanguageAppFolder)) continue;
 
                 string languageFile = $"language.{language.LanguageAppFolder}.json";
-                Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict(languageFile);
+                Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict<dynamic>(languageFile);
                 if (langJson.ContainsKey(newKey)) continue;
 
                 langJson.Add(newKey, newValue);

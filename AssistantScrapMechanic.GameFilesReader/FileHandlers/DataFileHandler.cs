@@ -23,11 +23,13 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
     {
         private readonly FileSystemRepository _appDataSysRepo;
         private readonly FileSystemRepository _inputFileSysRepo;
+        public readonly FileSystemRepository _languageFileSysRepo;
 
-        public DataFileHandler(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo)
+        public DataFileHandler(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo, FileSystemRepository languageFileSysRepo)
         {
             _appDataSysRepo = appDataSysRepo;
             _inputFileSysRepo = inputFileSysRepo;
+            _languageFileSysRepo = languageFileSysRepo;
         }
 
         public void GenerateDataFiles(List<GameItemLocalised> localisedGameItems)
@@ -223,6 +225,32 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             catch
             {
                 Console.WriteLine($"FAILED writing WhatIsNew Data to {AppFile.DataWhatIsNewFolder} in {language.LanguageGameFolder}");
+            }
+        }
+
+        public async Task WriteLanguageFiles()
+        {
+            const string translationExportUrl = "https://api.assistantapps.com/TranslationExport/{0}/{1}";
+            const string appGuid = "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2";
+
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+            ResultWithValue<List<LanguageViewModel>> langResult = await apiRepo.Get<List<LanguageViewModel>>("https://api.assistantapps.com/Language");
+            if (langResult.HasFailed)
+            {
+                Console.WriteLine("Could not get Server Languages");
+                return;
+            }
+
+            foreach (string languageFile in LangFile.LanguagesInTheApp)
+            {
+                string langCode = languageFile.Replace("language.", string.Empty).Replace(".json", string.Empty);
+                LanguageViewModel langViewModel = langResult.Value.FirstOrDefault(l => l.LanguageCode.Equals(langCode));
+                if (langViewModel == null) continue;
+
+                ResultWithValue<Dictionary<string, string>> languageContent = await apiRepo.Get<Dictionary<string, string>>(translationExportUrl.Replace("{0}", appGuid).Replace("{1}", langViewModel.Guid.ToString()));
+                if (languageContent.HasFailed) continue;
+
+                _languageFileSysRepo.WriteBackToJsonFile(languageContent.Value, languageFile);
             }
         }
 
