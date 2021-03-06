@@ -40,5 +40,47 @@
       "Z": 2
     },
     "Flammable": true
+  },
+  {
+    "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28",
+    "GameName": "obj_consumable_water",
+    "AppId": "fuel3",
+    "Name": "Water",
+    "Description": "Great for watering plants, unfortunately not good for drinking.",
+    "Color": "3e9ffe",
+    "PhysicsMaterial": "Fruit",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 7
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": false
+  },
+  {
+    "ItemId": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+    "GameName": "obj_plantables_potato",
+    "AppId": "fuel4",
+    "Name": "Potato",
+    "Description": "A starchy Potato. Can also be used as ammo for spud guns and mountable spud guns.",
+    "Color": "505c30",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 2,
+      "Friction": 4,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 2,
+      "Y": 2,
+      "Z": 2
+    },
+    "Flammable": true
   }
 ]

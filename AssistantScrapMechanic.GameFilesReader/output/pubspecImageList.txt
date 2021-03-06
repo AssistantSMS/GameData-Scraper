@@ -1,4 +1,3 @@
-assets/img/items/ammo1.png
 assets/img/items/blk1.png
 assets/img/items/blk10.png
 assets/img/items/blk11.png
@@ -84,7 +83,6 @@ assets/img/items/constr8.png
 assets/img/items/constr9.png
 assets/img/items/consu1.png
 assets/img/items/consu10.png
-assets/img/items/consu11.png
 assets/img/items/consu2.png
 assets/img/items/consu3.png
 assets/img/items/consu4.png
@@ -405,6 +403,8 @@ assets/img/items/fitt8.png
 assets/img/items/fitt9.png
 assets/img/items/fuel1.png
 assets/img/items/fuel2.png
+assets/img/items/fuel3.png
+assets/img/items/fuel4.png
 assets/img/items/harv1.png
 assets/img/items/harv2.png
 assets/img/items/harv3.png
@@ -512,8 +512,6 @@ assets/img/items/intera4.png
 assets/img/items/intera40.png
 assets/img/items/intera41.png
 assets/img/items/intera42.png
-assets/img/items/intera43.png
-assets/img/items/intera44.png
 assets/img/items/intera5.png
 assets/img/items/intera6.png
 assets/img/items/intera7.png
@@ -522,8 +520,6 @@ assets/img/items/intera9.png
 assets/img/items/interc1.png
 assets/img/items/interc2.png
 assets/img/items/interc3.png
-assets/img/items/interc4.png
-assets/img/items/interc5.png
 assets/img/items/interu1.png
 assets/img/items/interu10.png
 assets/img/items/interu11.png
@@ -614,6 +610,10 @@ assets/img/items/other18.png
 assets/img/items/other19.png
 assets/img/items/other2.png
 assets/img/items/other20.png
+assets/img/items/other21.png
+assets/img/items/other22.png
+assets/img/items/other23.png
+assets/img/items/other24.png
 assets/img/items/other3.png
 assets/img/items/other4.png
 assets/img/items/other5.png

@@ -16,7 +16,7 @@ namespace AssistantScrapMechanic.GameFilesReader
 {
     class Program
     {
-        private const string BaseDirectory = @"E:\Steam\steamapps\common\Scrap Mechanic";
+        private const string BaseDirectory = @"D:\Steam\steamapps\common\Scrap Mechanic";
         private static readonly string LegacyShapeSetsDirectory = $@"{BaseDirectory}\Data\Objects\Database\ShapeSets";
         private static readonly string SurvivalCraftingDirectory = $@"{BaseDirectory}\Survival\CraftingRecipes";
         private static readonly string ShapeSetsDirectory = $@"{BaseDirectory}\Survival\Objects\Database\ShapeSets";
@@ -186,7 +186,7 @@ namespace AssistantScrapMechanic.GameFilesReader
                 LanguageDetail language = LanguageHelper.GetLanguageDetail(langType);
 
                 string languageFile = $"language.{language.LanguageAppFolder}.json";
-                Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict(languageFile);
+                Dictionary<string, dynamic> langJson = appLangRepo.LoadJsonDict<dynamic>(languageFile);
                 langJson.TryGetValue("hashCode", out dynamic localHashCode);
 
                 LanguageViewModel langViewModel = langResult.Value.FirstOrDefault(l => l.LanguageCode.Equals(language.LanguageAppFolder));
