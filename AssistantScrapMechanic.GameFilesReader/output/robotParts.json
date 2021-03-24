@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "ItemId": "d62ab46a-6d71-4858-85ba-c1a0e28e9abc",
+    "GameName": "obj_robotparts_redtapebothead",
+    "AppId": "robo2",
+    "Name": "",
+    "Description": "",
+    "Color": "ec1919",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 10,
+      "Friction": 5,
+      "Buoyancy": 4
+    },
+    "Box": {
+      "X": 2,
+      "Y": 3,
+      "Z": 2
+    },
+    "Flammable": false
+  }
+]

@@ -113,7 +113,6 @@ assets/img/items/cont7.png
 assets/img/items/cont8.png
 assets/img/items/cont9.png
 assets/img/items/craftb1.png
-assets/img/items/craftb2.png
 assets/img/items/custBacM1.png
 assets/img/items/custBacM10.png
 assets/img/items/custBacM11.png
@@ -509,9 +508,6 @@ assets/img/items/intera37.png
 assets/img/items/intera38.png
 assets/img/items/intera39.png
 assets/img/items/intera4.png
-assets/img/items/intera40.png
-assets/img/items/intera41.png
-assets/img/items/intera42.png
 assets/img/items/intera5.png
 assets/img/items/intera6.png
 assets/img/items/intera7.png
@@ -614,6 +610,10 @@ assets/img/items/other21.png
 assets/img/items/other22.png
 assets/img/items/other23.png
 assets/img/items/other24.png
+assets/img/items/other25.png
+assets/img/items/other26.png
+assets/img/items/other27.png
+assets/img/items/other28.png
 assets/img/items/other3.png
 assets/img/items/other4.png
 assets/img/items/other5.png
