@@ -120,10 +120,12 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         {
             List<GameItemLocalised> ammo = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Ammo);
             List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
+            List<GameItemLocalised> buckets = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Bucket);
             List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
             List<GameItemLocalised> components = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Component);
             List<GameItemLocalised> construction = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction);
             List<GameItemLocalised> consumable = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable);
+            List<GameItemLocalised> consumableShared = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ConsumableShared);
             List<GameItemLocalised> containers = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers);
             List<GameItemLocalised> craftBot = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot);
             List<GameItemLocalised> decor = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor);
@@ -132,6 +134,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<GameItemLocalised> harvest = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest);
             List<GameItemLocalised> industrial = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial);
             List<GameItemLocalised> intera = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive);
+            List<GameItemLocalised> inters = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveShared);
             List<GameItemLocalised> interu = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable);
             List<GameItemLocalised> interc = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer);
             List<GameItemLocalised> light = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light);
@@ -152,10 +155,12 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             List<GameItemLocalised> allItems = ammo
                 .Concat(blocks)
+                .Concat(buckets)
                 .Concat(buildings)
                 .Concat(components)
                 .Concat(construction)
                 .Concat(consumable)
+                .Concat(consumableShared)
                 .Concat(containers)
                 .Concat(craftBot)
                 .Concat(decor)
@@ -164,6 +169,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 .Concat(harvest)
                 .Concat(industrial)
                 .Concat(intera)
+                .Concat(inters)
                 .Concat(interu)
                 .Concat(interc)
                 .Concat(light)
@@ -314,10 +320,12 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateCustomizationIntermediate(itemNames);
 
             GenerateGameItemIntermediate(GameFile.Ammo, Prefix.Ammo, OutputFile.Ammo, itemNames);
+            GenerateGameItemIntermediate(GameFile.Bucket, Prefix.Bucket, OutputFile.Bucket, itemNames);
             GenerateGameItemIntermediate(GameFile.Building, Prefix.Build, OutputFile.Building, itemNames);
             GenerateGameItemIntermediate(GameFile.Component, Prefix.Component, OutputFile.Component, itemNames);
             GenerateGameItemIntermediate(GameFile.Construction, Prefix.Construction, OutputFile.Construction, itemNames);
             GenerateGameItemIntermediate(GameFile.Consumable, Prefix.Consumable, OutputFile.Consumable, itemNames);
+            GenerateGameItemIntermediate(GameFile.ConsumableShared, Prefix.ConsumableShared, OutputFile.ConsumableShared, itemNames);
             GenerateGameItemIntermediate(GameFile.Containers, Prefix.Container, OutputFile.Containers, itemNames);
             GenerateGameItemIntermediate(GameFile.Craftbot, Prefix.Craftbot, OutputFile.Craftbot, itemNames);
             GenerateGameItemIntermediate(GameFile.Decor, Prefix.Decor, OutputFile.Decor, itemNames);
@@ -326,6 +334,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Harvest, Prefix.Harvest, OutputFile.Harvest, itemNames);
             GenerateGameItemIntermediate(GameFile.Industrial, Prefix.Industrial, OutputFile.Industrial, itemNames);
             GenerateGameItemIntermediate(GameFile.Interactive, Prefix.Interactive, OutputFile.Interactive, itemNames);
+            GenerateGameItemIntermediate(GameFile.InteractiveShared, Prefix.InteractiveShared, OutputFile.InteractiveShared, itemNames);
             GenerateGameItemIntermediate(GameFile.InteractiveUpgradable, Prefix.InteractiveUpgradable, OutputFile.InteractiveUpgradable, itemNames);
             GenerateGameItemIntermediate(GameFile.InteractiveContainer, Prefix.InteractiveContainer, OutputFile.InteractiveContainer, itemNames);
             GenerateGameItemIntermediate(GameFile.Light, Prefix.Light, OutputFile.Light, itemNames);

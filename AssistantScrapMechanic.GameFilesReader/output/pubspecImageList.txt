@@ -1,3 +1,6 @@
+assets/img/items/bckt1.png
+assets/img/items/bckt2.png
+assets/img/items/bckt3.png
 assets/img/items/blk1.png
 assets/img/items/blk10.png
 assets/img/items/blk11.png
@@ -61,6 +64,13 @@ assets/img/items/build7.png
 assets/img/items/build8.png
 assets/img/items/build9.png
 assets/img/items/comp1.png
+assets/img/items/consshare1.png
+assets/img/items/consshare2.png
+assets/img/items/consshare3.png
+assets/img/items/consshare4.png
+assets/img/items/consshare5.png
+assets/img/items/consshare6.png
+assets/img/items/consshare7.png
 assets/img/items/constr1.png
 assets/img/items/constr10.png
 assets/img/items/constr11.png
@@ -82,15 +92,12 @@ assets/img/items/constr7.png
 assets/img/items/constr8.png
 assets/img/items/constr9.png
 assets/img/items/consu1.png
-assets/img/items/consu10.png
 assets/img/items/consu2.png
 assets/img/items/consu3.png
 assets/img/items/consu4.png
 assets/img/items/consu5.png
 assets/img/items/consu6.png
 assets/img/items/consu7.png
-assets/img/items/consu8.png
-assets/img/items/consu9.png
 assets/img/items/cont1.png
 assets/img/items/cont10.png
 assets/img/items/cont11.png
@@ -400,10 +407,6 @@ assets/img/items/fitt61.png
 assets/img/items/fitt7.png
 assets/img/items/fitt8.png
 assets/img/items/fitt9.png
-assets/img/items/fuel1.png
-assets/img/items/fuel2.png
-assets/img/items/fuel3.png
-assets/img/items/fuel4.png
 assets/img/items/harv1.png
 assets/img/items/harv2.png
 assets/img/items/harv3.png
@@ -516,6 +519,9 @@ assets/img/items/intera9.png
 assets/img/items/interc1.png
 assets/img/items/interc2.png
 assets/img/items/interc3.png
+assets/img/items/inters1.png
+assets/img/items/inters2.png
+assets/img/items/inters3.png
 assets/img/items/interu1.png
 assets/img/items/interu10.png
 assets/img/items/interu11.png
@@ -611,9 +617,6 @@ assets/img/items/other22.png
 assets/img/items/other23.png
 assets/img/items/other24.png
 assets/img/items/other25.png
-assets/img/items/other26.png
-assets/img/items/other27.png
-assets/img/items/other28.png
 assets/img/items/other3.png
 assets/img/items/other4.png
 assets/img/items/other5.png
@@ -875,9 +878,6 @@ assets/img/items/surv26.png
 assets/img/items/surv28.png
 assets/img/items/surv30.png
 assets/img/items/surv31.png
-assets/img/items/tools1.png
-assets/img/items/tools2.png
-assets/img/items/tools3.png
 assets/img/items/veh1.png
 assets/img/items/veh2.png
 assets/img/items/veh3.png

@@ -28,209 +28,140 @@
     "Flammable": false
   },
   {
-    "ItemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
-    "AppId": "other5",
-    "Name": "Large Chest",
-    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump.",
-    "Flammable": false
-  },
-  {
     "ItemId": "97f449b6-c948-448b-b8b3-4448e3f6b956",
-    "AppId": "other6",
+    "AppId": "other5",
     "Name": "Vacuum Pump",
     "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest.",
     "Flammable": false
   },
   {
     "ItemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
-    "AppId": "other7",
+    "AppId": "other6",
     "Name": "Vacuum Pipe",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
     "Flammable": false
   },
   {
     "ItemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2",
-    "AppId": "other8",
+    "AppId": "other7",
     "Name": "Vacuum Pipe Corner",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
     "Flammable": false
   },
   {
     "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92",
-    "AppId": "other9",
+    "AppId": "other8",
     "Name": "Gas Container",
     "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected.",
     "Flammable": false
   },
   {
     "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146",
-    "AppId": "other10",
+    "AppId": "other9",
     "Name": "Battery Container",
     "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected.",
     "Flammable": false
   },
   {
     "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
-    "AppId": "other11",
+    "AppId": "other10",
     "Name": "Water Container",
     "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
     "Flammable": false
   },
   {
     "ItemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54",
-    "AppId": "other12",
+    "AppId": "other11",
     "Name": "Water Cannon",
     "Description": "Connect it to a Water container with a trigger to water your plants more efficiently.",
     "Flammable": false
   },
   {
-    "ItemId": "798c2c81-1f8e-481b-8c32-b71b5dc5511a",
-    "AppId": "other13",
-    "Name": "Water Bucket",
-    "Description": "Fill it with water to water your plants.",
-    "Flammable": false
-  },
-  {
-    "ItemId": "d4d68946-aa03-4b8f-b1af-96b81ad4e305",
-    "AppId": "other14",
-    "Name": "Gasoline",
-    "Description": "Used to power gas engines and thrusters.",
-    "Flammable": false
-  },
-  {
-    "ItemId": "910a7f2c-52b0-46eb-8873-ad13255539af",
-    "AppId": "other15",
-    "Name": "Battery",
-    "Description": "Used to power electric parts.",
-    "Flammable": false
-  },
-  {
-    "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28",
-    "AppId": "other16",
-    "Name": "Water",
-    "Description": "Great for watering plants, unfortunately not good for drinking.",
-    "Flammable": false
-  },
-  {
-    "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25",
-    "AppId": "other17",
-    "Name": "Chemicals",
-    "Flammable": false
-  },
-  {
-    "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7",
-    "AppId": "other18",
-    "Name": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color.",
-    "Flammable": false
-  },
-  {
-    "ItemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9",
-    "AppId": "other19",
-    "Name": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better.",
-    "Flammable": false
-  },
-  {
     "ItemId": "df3734e2-f04b-443f-b568-fe5b076646c7",
-    "AppId": "other20",
+    "AppId": "other12",
     "Name": "Potted Plant",
     "Flammable": false
   },
   {
     "ItemId": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5",
-    "AppId": "other21",
+    "AppId": "other13",
     "Name": "Small Potted Plant",
     "Flammable": false
   },
   {
     "ItemId": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5",
-    "AppId": "other22",
+    "AppId": "other14",
     "Name": "Potted Vine Plant",
     "Flammable": false
   },
   {
     "ItemId": "7826f497-426b-42cb-a857-0d784f3ab2f3",
-    "AppId": "other23",
+    "AppId": "other15",
     "Name": "Big Pot",
     "Flammable": false
   },
   {
     "ItemId": "c4609540-bc32-4c3f-83b8-3b6926878012",
-    "AppId": "other24",
+    "AppId": "other16",
     "Name": "Potted Seed Plant",
     "Flammable": false
   },
   {
     "ItemId": "d1421af8-6f80-4413-8099-2c6b217fb929",
-    "AppId": "other25",
+    "AppId": "other17",
     "Name": "Potted Blooming Cactus",
     "Flammable": false
   },
   {
     "ItemId": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f",
-    "AppId": "other26",
+    "AppId": "other18",
     "Name": "Potted Cactus",
     "Flammable": false
   },
   {
     "ItemId": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f",
-    "AppId": "other27",
+    "AppId": "other19",
     "Name": "Potted Blue Flower",
     "Flammable": false
   },
   {
-    "ItemId": "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c",
-    "AppId": "other28",
-    "Name": "Refinebot",
-    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it.",
-    "Flammable": false
-  },
-  {
-    "ItemId": "a930a42f-63ed-4fb0-933e-56ce8a889cc5",
-    "AppId": "other29",
-    "Name": "Resource Collector",
-    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks.",
-    "Flammable": false
-  },
-  {
     "ItemId": "2af00456-b22e-4743-b338-a91934aba7c5",
-    "AppId": "other30",
+    "AppId": "other20",
     "Name": "Cookbot",
     "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends.",
     "Flammable": false
   },
   {
     "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
-    "AppId": "other31",
+    "AppId": "other21",
     "Name": "Potato Ammo Container",
     "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo.",
     "Flammable": false
   },
   {
     "ItemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
-    "AppId": "other32",
+    "AppId": "other22",
     "Name": "Spud Gun",
     "Description": "Spud Gun with single potato shot.",
     "Flammable": false
   },
   {
     "ItemId": "f6250bf4-9726-406f-a29a-945c06e460e5",
-    "AppId": "other33",
+    "AppId": "other23",
     "Name": "Spud Shotgun",
     "Description": "Shoots sizzling hot fries in a spread.",
     "Flammable": false
   },
   {
     "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
-    "AppId": "other34",
+    "AppId": "other24",
     "Name": "Spudling Gun",
     "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo.",
     "Flammable": false
   },
   {
     "ItemId": "8c7efc37-cd7c-4262-976e-39585f8527bf",
-    "AppId": "other35",
+    "AppId": "other25",
     "Name": "Connect Tool",
     "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
     "Flammable": false

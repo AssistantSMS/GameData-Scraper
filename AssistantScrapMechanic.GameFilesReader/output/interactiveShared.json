@@ -1,0 +1,65 @@
+[
+  {
+    "ItemId": "ad35f7e6-af8f-40fa-aef4-77d827ac8a8a",
+    "GameName": "obj_container_chest",
+    "AppId": "inters1",
+    "Name": "Large Chest",
+    "Description": "Great for storing a lot of items. Can also be used with a Vacuum Pump.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 6,
+      "Friction": 4,
+      "Buoyancy": 6
+    },
+    "Box": {
+      "X": 5,
+      "Y": 3,
+      "Z": 4
+    },
+    "Flammable": false
+  },
+  {
+    "ItemId": "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c",
+    "GameName": "obj_craftbot_refinery",
+    "AppId": "inters2",
+    "Name": "Refinebot",
+    "Description": "Let the Refinebot help you out and refine all your collected logs. Put them in by hand or by placing a Resource Collector with logs next to it.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 7,
+      "Durability": 7,
+      "Friction": 6,
+      "Buoyancy": 1
+    },
+    "Box": {
+      "X": 10,
+      "Y": 11,
+      "Z": 6
+    },
+    "Flammable": false
+  },
+  {
+    "ItemId": "a930a42f-63ed-4fb0-933e-56ce8a889cc5",
+    "GameName": "obj_craftbot_resourcecontainer",
+    "AppId": "inters3",
+    "Name": "Resource Collector",
+    "Description": "Perfect for collecting and stacking logs. When full, place it next to a refinebot to turn logs in to blocks.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 5,
+      "Durability": 5,
+      "Friction": 6,
+      "Buoyancy": 3
+    },
+    "Box": {
+      "X": 6,
+      "Y": 8,
+      "Z": 6
+    },
+    "Flammable": true
+  }
+]

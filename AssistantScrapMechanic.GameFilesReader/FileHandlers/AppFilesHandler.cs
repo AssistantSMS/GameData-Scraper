@@ -31,10 +31,12 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             WriteAppFile(AppFile.Ammo, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Ammo), lookup, language, itemNames);
             WriteAppFile(AppFile.Blocks, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks), lookup, language, itemNames);
+            WriteAppFile(AppFile.Bucket, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Bucket), lookup, language, itemNames);
             WriteAppFile(AppFile.Building, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building), lookup, language, itemNames);
             WriteAppFile(AppFile.Component, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Component), lookup, language, itemNames);
             WriteAppFile(AppFile.Construction, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction), lookup, language, itemNames);
             WriteAppFile(AppFile.Consumable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable), lookup, language, itemNames);
+            WriteAppFile(AppFile.ConsumableShared, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.ConsumableShared), lookup, language, itemNames);
             WriteAppFile(AppFile.Containers, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Containers), lookup, language, itemNames);
             WriteAppFile(AppFile.Craftbot, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Craftbot), lookup, language, itemNames);
             WriteAppFile(AppFile.Decor, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Decor), lookup, language, itemNames);
@@ -43,6 +45,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             WriteAppFile(AppFile.Harvest, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Harvest), lookup, language, itemNames);
             WriteAppFile(AppFile.Industrial, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Industrial), lookup, language, itemNames);
             WriteAppFile(AppFile.Interactive, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Interactive), lookup, language, itemNames);
+            WriteAppFile(AppFile.InteractiveShared, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveShared), lookup, language, itemNames);
             WriteAppFile(AppFile.InteractiveUpgradable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveUpgradable), lookup, language, itemNames);
             WriteAppFile(AppFile.InteractiveContainer, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.InteractiveContainer), lookup, language, itemNames);
             WriteAppFile(AppFile.Light, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Light), lookup, language, itemNames);
