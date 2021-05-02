@@ -17,15 +17,16 @@ namespace AssistantScrapMechanic.GameFilesReader
     class Program
     {
         private const string BaseDirectory = @"D:\Steam\steamapps\common\Scrap Mechanic";
-        private static readonly string LegacyShapeSetsDirectory = $@"{BaseDirectory}\Data\Objects\Database\ShapeSets";
+        private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
+        private static readonly string SurvivalLanguageDirectory = $@"{BaseDirectory}\Survival\Gui\Language";
         private static readonly string SurvivalCraftingDirectory = $@"{BaseDirectory}\Survival\CraftingRecipes";
         private static readonly string ShapeSetsDirectory = $@"{BaseDirectory}\Survival\Objects\Database\ShapeSets";
-        private static readonly string CharacterDirectory = $@"{BaseDirectory}\Data\Character";
-        private static readonly string LegacyLanguageDirectory = $@"{BaseDirectory}\Data\Gui\Language";
-        private static readonly string SurvivalLanguageDirectory = $@"{BaseDirectory}\Survival\Gui\Language";
 
         private static readonly string DataGuiDirectory = $@"{BaseDirectory}\Data\Gui";
-        private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
+        private static readonly string AttackDataDirectory = $@"{BaseDirectory}\Data\Melee";
+        private static readonly string CharacterDirectory = $@"{BaseDirectory}\Data\Character";
+        private static readonly string LegacyLanguageDirectory = $@"{BaseDirectory}\Data\Gui\Language";
+        private static readonly string LegacyShapeSetsDirectory = $@"{BaseDirectory}\Data\Objects\Database\ShapeSets";
 
         private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.App\assets";
         private const string ConsoleAppDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
@@ -46,6 +47,7 @@ namespace AssistantScrapMechanic.GameFilesReader
             FileSystemRepository characterFileSysRepo = new FileSystemRepository(CharacterDirectory);
             FileSystemRepository legacyLanguageFileSysRepo = new FileSystemRepository(LegacyLanguageDirectory);
             FileSystemRepository survivalLanguageFileSysRepo = new FileSystemRepository(SurvivalLanguageDirectory);
+            FileSystemRepository attackFileSysRepo = new FileSystemRepository(AttackDataDirectory);
 
             FileSystemRepository outputFileSysRepo = new FileSystemRepository(OutputDirectory);
             FileSystemRepository inputFileSysRepo = new FileSystemRepository(InputDirectory);
@@ -112,7 +114,7 @@ namespace AssistantScrapMechanic.GameFilesReader
                 string input = Console.ReadLine();
                 if (!int.TryParse(input, out int numberInput)) return 0;
 
-                DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo, appLangSysRepo);
+                DataFileHandler dataFileHandler = new DataFileHandler(inputFileSysRepo, appDataSysRepo, attackFileSysRepo, appLangSysRepo);
 
                 switch (numberInput)
                 {

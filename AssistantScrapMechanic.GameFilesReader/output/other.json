@@ -160,10 +160,24 @@
     "Flammable": false
   },
   {
-    "ItemId": "8c7efc37-cd7c-4262-976e-39585f8527bf",
+    "ItemId": "bb641a4f-e391-441c-bc6d-0ae21a069476",
     "AppId": "other25",
-    "Name": "Connect Tool",
-    "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
+    "Name": "Sledgehammer",
+    "Description": "This mighty sledgehammer will let you push loose items around by hitting them.",
+    "Flammable": false
+  },
+  {
+    "ItemId": "8f190ce2-3a59-423e-8483-a7aa67bd5bc0",
+    "AppId": "other26",
+    "Name": "Lift",
+    "Description": "Build on the lift to create freely movable constructions that won't be fixed to the ground. Can be elevated and lowered as well as lift creations that have flipped over.",
+    "Flammable": false
+  },
+  {
+    "ItemId": "3384010e-bc1c-42bb-83ef-dbc78a1f9636",
+    "AppId": "other27",
+    "Name": "Handbook",
+    "Description": "Contains all the information you need to learn how to build amazing machines and become a true Scrap Mechanic.",
     "Flammable": false
   }
 ]

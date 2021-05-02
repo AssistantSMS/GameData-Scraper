@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using AssistantScrapMechanic.Domain;
@@ -358,21 +359,24 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             Dictionary<string, List<ILocalised>> lookup = GetKeyValueOfGameItems();
 
             List<NotFoundItem> notFound = new List<NotFoundItem>();
-            notFound.AddRange(GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes, lookup, notFound.Count));
-            notFound.AddRange(GenerateRecipeIntermediate(GameFile.CraftBotRecipes, itemNames, Prefix.CraftBot, OutputFile.CraftBotRecipes, lookup, notFound.Count));
-            notFound.AddRange(GenerateRecipeIntermediate(GameFile.DispenserRecipes, itemNames, Prefix.Dispenser, OutputFile.DispenserRecipes, lookup, notFound.Count));
-            notFound.AddRange(GenerateRecipeIntermediate(GameFile.DressBotRecipes, itemNames, Prefix.DressBot, OutputFile.DressBotRecipes, lookup, notFound.Count));
-            notFound.AddRange(GenerateRecipeIntermediate(GameFile.HideOutRecipes, itemNames, Prefix.HideOut, OutputFile.HideOutRecipes, lookup, notFound.Count));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.CookBotRecipes, itemNames, Prefix.CookBot, OutputFile.CookBotRecipes, lookup, notFound));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.CraftBotRecipes, itemNames, Prefix.CraftBot, OutputFile.CraftBotRecipes, lookup, notFound));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.DispenserRecipes, itemNames, Prefix.Dispenser, OutputFile.DispenserRecipes, lookup, notFound));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.DressBotRecipes, itemNames, Prefix.DressBot, OutputFile.DressBotRecipes, lookup, notFound));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.HideOutRecipes, itemNames, Prefix.HideOut, OutputFile.HideOutRecipes, lookup, notFound));
             GenerateRefinerIntermediate(GameFile.RefineryRecipes, itemNames, Prefix.Refinery, OutputFile.RefineryRecipes);
-            notFound.AddRange(GenerateRecipeIntermediate(GameFile.WorkbenchRecipes, itemNames, Prefix.Workbench, OutputFile.WorkbenchRecipes, lookup, notFound.Count));
+            notFound.AddRange(GenerateRecipeIntermediate(GameFile.WorkbenchRecipes, itemNames, Prefix.Workbench, OutputFile.WorkbenchRecipes, lookup, notFound));
+
+            notFound.AddRange(ManuallyAddedItems.Tools);
 
             GenerateUnknownItemIntermediate(notFound, OutputFile.Other, itemNames);
         }
 
-        private List<NotFoundItem> GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename, Dictionary<string, List<ILocalised>> lookup, int currentOtherIndex)
+        private List<NotFoundItem> GenerateRecipeIntermediate(string filename, Dictionary<string, InventoryDescription> itemNames, string prefix, string outputFilename, Dictionary<string, List<ILocalised>> lookup, List<NotFoundItem> notFounds)
         {
             List<Recipe> jsonContent = _survivalCraftingFileSysRepo.LoadListJsonFile<Recipe>(filename);
 
+            int currentOtherIndex = notFounds.Count;
             int prefixCount = currentOtherIndex + 1;
             List<NotFoundItem> notFound = new List<NotFoundItem>();
 
@@ -384,12 +388,17 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
                 if (!lookup.ContainsKey(localised.ItemId))
                 {
-                    notFound.Add(new NotFoundItem
+                    bool nfContains = notFounds.Any(nf =>
+                        nf.ItemId.Equals(localised.ItemId, StringComparison.InvariantCultureIgnoreCase));
+                    if (!nfContains)
                     {
-                        AppId = $"{Prefix.Other}{prefixCount}",
-                        ItemId = recipe.ItemId,
-                    });
-                    prefixCount++;
+                        notFound.Add(new NotFoundItem
+                        {
+                            AppId = $"{Prefix.Other}{prefixCount}",
+                            ItemId = recipe.ItemId,
+                        });
+                        prefixCount++;
+                    }
                 }
                 fileData.Add(localised);
             }

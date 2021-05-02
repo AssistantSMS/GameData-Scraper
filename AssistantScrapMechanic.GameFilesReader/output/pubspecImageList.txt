@@ -624,6 +624,8 @@ assets/img/items/other22.png
 assets/img/items/other23.png
 assets/img/items/other24.png
 assets/img/items/other25.png
+assets/img/items/other26.png
+assets/img/items/other27.png
 assets/img/items/other3.png
 assets/img/items/other4.png
 assets/img/items/other5.png
