@@ -63,6 +63,13 @@ assets/img/items/build6.png
 assets/img/items/build7.png
 assets/img/items/build8.png
 assets/img/items/build9.png
+assets/img/items/char1.png
+assets/img/items/char2.png
+assets/img/items/char3.png
+assets/img/items/char4.png
+assets/img/items/char5.png
+assets/img/items/char6.png
+assets/img/items/char7.png
 assets/img/items/comp1.png
 assets/img/items/consshare1.png
 assets/img/items/consshare2.png

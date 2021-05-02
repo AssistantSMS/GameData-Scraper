@@ -6,6 +6,7 @@
         public static string Bucket = "bucket.json";
         public static string Blocks = "blocks.json";
         public static string Building = "building.json";
+        public static string CharObject = "characterObject.json";
         public static string Component = "component.json";
         public static string Construction = "construction.json";
         public static string Consumable = "consumable.json";

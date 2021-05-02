@@ -122,6 +122,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<GameItemLocalised> blocks = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks);
             List<GameItemLocalised> buckets = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Bucket);
             List<GameItemLocalised> buildings = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building);
+            List<GameItemLocalised> charObjects = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.CharObject);
             List<GameItemLocalised> components = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Component);
             List<GameItemLocalised> construction = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction);
             List<GameItemLocalised> consumable = _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable);
@@ -157,6 +158,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 .Concat(blocks)
                 .Concat(buckets)
                 .Concat(buildings)
+                .Concat(charObjects)
                 .Concat(components)
                 .Concat(construction)
                 .Concat(consumable)
@@ -322,6 +324,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateGameItemIntermediate(GameFile.Ammo, Prefix.Ammo, OutputFile.Ammo, itemNames);
             GenerateGameItemIntermediate(GameFile.Bucket, Prefix.Bucket, OutputFile.Bucket, itemNames);
             GenerateGameItemIntermediate(GameFile.Building, Prefix.Build, OutputFile.Building, itemNames);
+            GenerateGameItemIntermediate(GameFile.CharObject, Prefix.CharObject, OutputFile.CharObject, itemNames);
             GenerateGameItemIntermediate(GameFile.Component, Prefix.Component, OutputFile.Component, itemNames);
             GenerateGameItemIntermediate(GameFile.Construction, Prefix.Construction, OutputFile.Construction, itemNames);
             GenerateGameItemIntermediate(GameFile.Consumable, Prefix.Consumable, OutputFile.Consumable, itemNames);

@@ -33,6 +33,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             WriteAppFile(AppFile.Blocks, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Blocks), lookup, language, itemNames);
             WriteAppFile(AppFile.Bucket, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Bucket), lookup, language, itemNames);
             WriteAppFile(AppFile.Building, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Building), lookup, language, itemNames);
+            WriteAppFile(AppFile.CharObject, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.CharObject), lookup, language, itemNames);
             WriteAppFile(AppFile.Component, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Component), lookup, language, itemNames);
             WriteAppFile(AppFile.Construction, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Construction), lookup, language, itemNames);
             WriteAppFile(AppFile.Consumable, _outputFileSysRepo.LoadListJsonFile<GameItemLocalised>(OutputFile.Consumable), lookup, language, itemNames);
