@@ -9,6 +9,7 @@ using AssistantScrapMechanic.Domain.Dto.Enum;
 using AssistantScrapMechanic.Domain.Dto.ViewModel;
 using AssistantScrapMechanic.Domain.Entity;
 using AssistantScrapMechanic.Domain.Enum;
+using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 using AssistantScrapMechanic.Domain.Result;
 using AssistantScrapMechanic.Integration;
@@ -39,6 +40,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         {
             GenerateLootDataFiles(localisedGameItems);
             GenerateAttackDataFiles(localisedGameItems);
+            GenerateCrateRequirementFiles(localisedGameItems);
         }
 
         public void GenerateLootDataFiles(List<GameItemLocalised> localisedGameItems)
@@ -182,6 +184,39 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             _appDataSysRepo.WriteBackToJsonFile(appAttacks.OrderBy(aa => aa.AppId), AppDataFile.Attack);
         }
+
+        public void GenerateCrateRequirementFiles(List<GameItemLocalised> localisedGameItems)
+        {
+            List<AppRecipe> recipes = new List<AppRecipe>();
+            foreach (PackingStationItem packingStationItem in PackingStationLuaFile.AllItems)
+            {
+                string ingredientGameId = PackingStationLuaFile.NameToGuidDictionary[packingStationItem.projectileName];
+                GameItemLocalised ingredientAppItem = localisedGameItems.FirstOrDefault(g => g.ItemId.Equals(ingredientGameId));
+
+                if (ingredientAppItem == null) continue;
+
+                recipes.Add(new AppRecipe
+                {
+                    AppId = $"packing{recipes.Count + 1}",
+                    Output = new AppIngredient
+                    {
+                        AppId = packingStationItem.CrateGuid,
+                        Quantity = 1
+                    },
+                    Inputs = new List<AppIngredient>
+                    {
+                        new AppIngredient
+                        {
+                            AppId = ingredientAppItem.AppId,
+                            Quantity = packingStationItem.fullAmount
+                        }
+                    }
+                });
+            }
+
+            _appDataSysRepo.WriteBackToJsonFile(recipes.OrderBy(aa => aa.AppId), AppDataFile.PackingStation);
+        }
+
 
         public async Task WritePatreonFile()
         {

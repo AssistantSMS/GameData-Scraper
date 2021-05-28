@@ -7,14 +7,14 @@ namespace AssistantScrapMechanic.Domain.Constant
     // Scrap Mechanic\Survival\Scripts\game\interactables\PackingStationScreen.lua
     public static class PackingStationLuaFile
     {
-        public static string obj_crates_banana = "0bc74539-df8a-47c7-aad8-d55d809a01e4";
-        public static string obj_crates_blueberry = "e77d9577-589a-446b-96c1-f6d0d7495489";
-        public static string obj_crates_orange = "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2";
-        public static string obj_crates_pineapple = "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3";
-        public static string obj_crates_carrot = "9cd8288c-5a19-479f-af47-9eb55230ade2";
-        public static string obj_crates_redbeet = "628fd350-577d-413f-82a8-7f08a83de3d8";
-        public static string obj_crates_tomato = "1dcd74ca-39ba-4b00-a36a-3381b25055f4";
-        public static string obj_crates_broccoli = "99477093-e819-4199-b62a-fda6143aae89";
+        private static string obj_crates_banana = "0bc74539-df8a-47c7-aad8-d55d809a01e4";
+        private static string obj_crates_blueberry = "e77d9577-589a-446b-96c1-f6d0d7495489";
+        private static string obj_crates_orange = "c10a77d5-3357-4cb4-8113-a2cbe69c7ff2";
+        private static string obj_crates_pineapple = "bc69cb3b-7e0c-4c36-805d-f8d89fcfced3";
+        private static string obj_crates_carrot = "9cd8288c-5a19-479f-af47-9eb55230ade2";
+        private static string obj_crates_redbeet = "628fd350-577d-413f-82a8-7f08a83de3d8";
+        private static string obj_crates_tomato = "1dcd74ca-39ba-4b00-a36a-3381b25055f4";
+        private static string obj_crates_broccoli = "99477093-e819-4199-b62a-fda6143aae89";
 
         public static Dictionary<string, string> NameToGuidDictionary = new Dictionary<string, string>
         {
