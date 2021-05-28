@@ -3,11 +3,14 @@
     public static class GameFile
     {
         public static string Ammo = "ammo.json";
+        public static string Bucket = "bucket.json";
         public static string Blocks = "blocks.json";
         public static string Building = "building.json";
+        public static string CharObject = "characterobject.json";
         public static string Component = "component.json";
         public static string Construction = "construction.json";
         public static string Consumable = "consumable.json";
+        public static string ConsumableShared = "consumable_shared.json";
         public static string Containers = "containers.json";
         public static string Craftbot = "craftbot.json";
         public static string Decor = "decor.json";
@@ -16,6 +19,7 @@
         public static string Harvest = "harvests.json";
         public static string Industrial = "industrial.json";
         public static string Interactive = "interactive.json";
+        public static string InteractiveShared = "interactive_shared.json";
         public static string InteractiveUpgradable = "interactive_upgradeable.json";
         public static string InteractiveContainer = "interactivecontainers.json";
         public static string Light = "lights.json";

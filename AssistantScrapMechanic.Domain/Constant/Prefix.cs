@@ -3,11 +3,14 @@
     public static class Prefix
     {
         public static string Ammo = "ammo";
+        public static string Bucket = "bckt";
         public static string Block = "blk";
         public static string Build = "build";
+        public static string CharObject = "char";
         public static string Component = "comp";
         public static string Construction = "constr";
         public static string Consumable = "consu";
+        public static string ConsumableShared = "consshare";
         public static string Container = "cont";
         public static string Craftbot = "craftb";
         public static string Decor = "deco";
@@ -16,6 +19,7 @@
         public static string Harvest = "harv";
         public static string Industrial = "indus";
         public static string Interactive = "intera";
+        public static string InteractiveShared = "inters";
         public static string InteractiveUpgradable = "interu";
         public static string InteractiveContainer = "interc";
         public static string Light = "light";

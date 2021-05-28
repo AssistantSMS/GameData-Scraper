@@ -64,7 +64,7 @@
     "GameName": "obj_harvest_metal",
     "AppId": "harv4",
     "Name": "Scrap Metal",
-    "Color": "dfdfdf",
+    "Color": "e75b0f",
     "PhysicsMaterial": "Metal",
     "Ratings": {
       "Density": 6,

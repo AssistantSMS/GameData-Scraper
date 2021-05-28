@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using AssistantScrapMechanic.Domain.Constant;
 using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.GameFiles;
-using AssistantScrapMechanic.Domain.IntermediateFiles;
 using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.Domain.AppFiles

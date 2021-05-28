@@ -1,29 +1,8 @@
 [
   {
-    "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
-    "GameName": "obj_container_water",
-    "AppId": "interc1",
-    "Name": "Water Container",
-    "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
-    "Color": "008ae1",
-    "PhysicsMaterial": "Plastic",
-    "Ratings": {
-      "Density": 5,
-      "Durability": 6,
-      "Friction": 4,
-      "Buoyancy": 6
-    },
-    "Box": {
-      "X": 4,
-      "Y": 3,
-      "Z": 3
-    },
-    "Flammable": false
-  },
-  {
     "ItemId": "76331bbf-abbd-4b8d-bb54-f721a5b6193b",
     "GameName": "obj_container_fertilizer",
-    "AppId": "interc2",
+    "AppId": "interc1",
     "Name": "Fertilizer Container",
     "Description": "Place fertilizer and connect it to a Vacuum Pump with a trigger to shoot fertilizer on to plants.",
     "Color": "357a1b",
@@ -42,30 +21,9 @@
     "Flammable": false
   },
   {
-    "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
-    "GameName": "obj_container_ammo",
-    "AppId": "interc3",
-    "Name": "Potato Ammo Container",
-    "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo.",
-    "Color": "505c30",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 5,
-      "Durability": 6,
-      "Friction": 4,
-      "Buoyancy": 6
-    },
-    "Box": {
-      "X": 4,
-      "Y": 3,
-      "Z": 3
-    },
-    "Flammable": false
-  },
-  {
     "ItemId": "38ec258d-c644-4f08-8635-3f7434c884dd",
     "GameName": "obj_container_seed",
-    "AppId": "interc4",
+    "AppId": "interc2",
     "Name": "Seed Container",
     "Description": "Place Seeds and connect it to a Vacuum Pump with a trigger to shoot seeds in to soil.",
     "Color": "4c9938",
@@ -86,7 +44,7 @@
   {
     "ItemId": "be29592a-ef58-4b1d-b18c-895023abd27f",
     "GameName": "obj_container_chemical",
-    "AppId": "interc5",
+    "AppId": "interc3",
     "Name": "Chemical Container",
     "Color": "495975",
     "PhysicsMaterial": "Wood",

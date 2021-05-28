@@ -1750,7 +1750,7 @@
     },
     "IngredientListLocalised": [
       {
-        "Quantity": 5,
+        "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {
@@ -1767,7 +1767,7 @@
     "CraftTime": 42,
     "IngredientList": [
       {
-        "Quantity": 5,
+        "Quantity": 10,
         "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f"
       },
       {

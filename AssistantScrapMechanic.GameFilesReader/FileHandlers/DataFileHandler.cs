@@ -15,6 +15,7 @@ using AssistantScrapMechanic.Integration;
 using AssistantScrapMechanic.Integration.Repository;
 using AssistantScrapMechanic.Logic;
 using AssistantScrapMechanic.Logic.Calculator;
+using AssistantScrapMechanic.Logic.Mapper.AppMapper;
 using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
@@ -23,14 +24,24 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
     {
         private readonly FileSystemRepository _appDataSysRepo;
         private readonly FileSystemRepository _inputFileSysRepo;
+        private readonly FileSystemRepository _attackFileSysRepo;
+        public readonly FileSystemRepository _languageFileSysRepo;
 
-        public DataFileHandler(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo)
+        public DataFileHandler(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo, FileSystemRepository attackFileSysRepo, FileSystemRepository languageFileSysRepo)
         {
             _appDataSysRepo = appDataSysRepo;
             _inputFileSysRepo = inputFileSysRepo;
+            _attackFileSysRepo = attackFileSysRepo;
+            _languageFileSysRepo = languageFileSysRepo;
         }
 
         public void GenerateDataFiles(List<GameItemLocalised> localisedGameItems)
+        {
+            GenerateLootDataFiles(localisedGameItems);
+            GenerateAttackDataFiles(localisedGameItems);
+        }
+
+        public void GenerateLootDataFiles(List<GameItemLocalised> localisedGameItems)
         {
             LootDataFile lootData = _inputFileSysRepo.LoadJsonFile<LootDataFile>(DataFile.SurvivalLoot);
 
@@ -108,7 +119,68 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                 });
             }
 
-            _appDataSysRepo.WriteBackToJsonFile(appLoots, AppFile.Loot);
+            _appDataSysRepo.WriteBackToJsonFile(appLoots, AppDataFile.Loot);
+        }
+
+        public void GenerateAttackDataFiles(List<GameItemLocalised> localisedGameItems)
+        {
+            AttackDataFile attackData = _attackFileSysRepo.LoadJsonFile<AttackDataFile>(DataFile.Attack);
+
+            List<AppAttackDataFile> appAttacks = new List<AppAttackDataFile>
+            {
+                new AppAttackDataFile
+                {
+                    GameId = EnemyGuid.Sledgehammer,
+                    AppId = string.Empty,
+                    AttackHitChances = new List<AppAttackTypeWithHitChances>
+                    {
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Default, attackData.Sledgehammer),
+                    }
+                },
+                new AppAttackDataFile
+                {
+                    GameId = EnemyGuid.Farmbot,
+                    AppId = string.Empty,
+                    AttackHitChances = new List<AppAttackTypeWithHitChances>
+                    {
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Default, attackData.FarmbotBreach),
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Swipe, attackData.FarmbotSwipe),
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Step, attackData.FarmbotStep),
+                    }
+                },
+                new AppAttackDataFile
+                {
+                    GameId = EnemyGuid.Haybot,
+                    AppId = string.Empty,
+                    AttackHitChances = new List<AppAttackTypeWithHitChances>
+                    {
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Default, attackData.HaybotPitchfork),
+                    }
+                },
+                new AppAttackDataFile
+                {
+                    GameId = EnemyGuid.ToteBot,
+                    AppId = string.Empty,
+                    AttackHitChances = new List<AppAttackTypeWithHitChances>
+                    {
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Default, attackData.ToteBotAttack),
+                        AppFileAttackMapper.MapToAppAttackHitChances(AttackType.Swipe, attackData.ToteBotWhip),
+                    }
+                }
+            };
+
+            foreach (AppAttackDataFile appAttack in appAttacks)
+            {
+                string gameId = appAttack.GameId;
+                foreach (GameItemLocalised localisedGameItem in localisedGameItems)
+                {
+                    if (!localisedGameItem.ItemId.Equals(gameId)) continue;
+                    appAttack.AppId = localisedGameItem.AppId;
+                    break;
+                }
+            }
+
+            _appDataSysRepo.WriteBackToJsonFile(appAttacks.OrderBy(aa => aa.AppId), AppDataFile.Attack);
         }
 
         public async Task WritePatreonFile()
@@ -223,6 +295,32 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             catch
             {
                 Console.WriteLine($"FAILED writing WhatIsNew Data to {AppFile.DataWhatIsNewFolder} in {language.LanguageGameFolder}");
+            }
+        }
+
+        public async Task WriteLanguageFiles()
+        {
+            const string translationExportUrl = "https://api.assistantapps.com/TranslationExport/{0}/{1}";
+            const string appGuid = "dfe0dbc7-8df4-47fb-a5a5-49af1937c4e2";
+
+            BaseExternalApiRepository apiRepo = new BaseExternalApiRepository();
+            ResultWithValue<List<LanguageViewModel>> langResult = await apiRepo.Get<List<LanguageViewModel>>("https://api.assistantapps.com/Language");
+            if (langResult.HasFailed)
+            {
+                Console.WriteLine("Could not get Server Languages");
+                return;
+            }
+
+            foreach (string languageFile in LangFile.LanguagesInTheApp)
+            {
+                string langCode = languageFile.Replace("language.", string.Empty).Replace(".json", string.Empty);
+                LanguageViewModel langViewModel = langResult.Value.FirstOrDefault(l => l.LanguageCode.Equals(langCode));
+                if (langViewModel == null) continue;
+
+                ResultWithValue<Dictionary<string, string>> languageContent = await apiRepo.Get<Dictionary<string, string>>(translationExportUrl.Replace("{0}", appGuid).Replace("{1}", langViewModel.Guid.ToString()));
+                if (languageContent.HasFailed) continue;
+
+                _languageFileSysRepo.WriteBackToJsonFile(languageContent.Value, languageFile);
             }
         }
 

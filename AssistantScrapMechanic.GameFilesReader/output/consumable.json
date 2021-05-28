@@ -1,29 +1,8 @@
 [
   {
-    "ItemId": "869d4736-289a-4952-96cd-8a40117a2d28",
-    "GameName": "obj_consumable_water",
-    "AppId": "consu1",
-    "Name": "Water",
-    "Description": "Great for watering plants, unfortunately not good for drinking.",
-    "Color": "3e9ffe",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 2,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": false
-  },
-  {
     "ItemId": "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
     "GameName": "obj_consumable_fertilizer",
-    "AppId": "consu2",
+    "AppId": "consu1",
     "Name": "Fertilizer",
     "Description": "Makes plants grow faster.",
     "Color": "a5ca11",
@@ -42,69 +21,9 @@
     "Flammable": true
   },
   {
-    "ItemId": "f74c2891-79a9-45e0-982e-4896651c2e25",
-    "GameName": "obj_consumable_chemical",
-    "AppId": "consu3",
-    "Name": "Chemicals",
-    "Color": "495975",
-    "PhysicsMaterial": "Fruit",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 2,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Box": {
-      "X": 2,
-      "Y": 2,
-      "Z": 2
-    },
-    "Flammable": true
-  },
-  {
-    "ItemId": "c7322cd1-3158-41d9-b15a-eff2f2f8d9f7",
-    "GameName": "obj_consumable_inkammo",
-    "AppId": "consu4",
-    "Name": "Paint Ammo",
-    "Description": "Load your Paint Tool and give your creations some color.",
-    "Color": "1c8687",
-    "PhysicsMaterial": "Plastic",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 2,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Cylinder": {
-      "Diameter": 1,
-      "Depth": 1
-    },
-    "Flammable": true
-  },
-  {
-    "ItemId": "3a3280e4-03b6-4a4d-9e02-e348478213c9",
-    "GameName": "obj_consumable_glowstick",
-    "AppId": "consu5",
-    "Name": "Glowstick",
-    "Description": "Throw them at night or other dark places to see things better.",
-    "Color": "ccffcc",
-    "PhysicsMaterial": "Metal",
-    "Ratings": {
-      "Density": 2,
-      "Durability": 2,
-      "Friction": 4,
-      "Buoyancy": 7
-    },
-    "Cylinder": {
-      "Diameter": 1,
-      "Depth": 1
-    },
-    "Flammable": true
-  },
-  {
     "ItemId": "cb7305b2-d8b5-4302-aff3-6cdd9212ca64",
     "GameName": "obj_consumable_sunshake",
-    "AppId": "consu6",
+    "AppId": "consu2",
     "Name": "Sunshake",
     "Description": "Mechanics love a cold sunshake when thirsty.",
     "Color": "fe878c",
@@ -124,7 +43,7 @@
   {
     "ItemId": "54d84731-d9ec-435d-bc9d-d48e0763b1bf",
     "GameName": "obj_consumable_pizzaburger",
-    "AppId": "consu7",
+    "AppId": "consu3",
     "Name": "Pizza Burger",
     "Description": "A mechanics favorite food. Fills up all your meters to the max.",
     "Color": "3e9ffe",
@@ -145,7 +64,7 @@
   {
     "ItemId": "54d8ef21-357d-48a3-a66d-40446f6bb686",
     "GameName": "obj_consumable_carrotburger",
-    "AppId": "consu8",
+    "AppId": "consu4",
     "Name": "Veggie Burger",
     "Description": "A vegetarian alternative. Fills up all your meters to the max.",
     "Color": "ccffcc",
@@ -166,7 +85,7 @@
   {
     "ItemId": "e243f642-6934-42bb-8cdd-f8ff1704d411",
     "GameName": "obj_consumable_longsandwich",
-    "AppId": "consu9",
+    "AppId": "consu5",
     "Name": "Revival Baguette",
     "Description": "Feed your fallen friends to get them back on their feet and back in action.",
     "Color": "3e9ffe",
@@ -187,7 +106,7 @@
   {
     "ItemId": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8",
     "GameName": "obj_consumable_milk",
-    "AppId": "consu10",
+    "AppId": "consu6",
     "Name": "Woc Milk",
     "Color": "ffffff",
     "PhysicsMaterial": "Fruit",
@@ -206,7 +125,7 @@
   {
     "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad",
     "GameName": "obj_consumable_soilbag",
-    "AppId": "consu11",
+    "AppId": "consu7",
     "Name": "Soil Bag",
     "Description": "Use them on the ground to place your seeds in.",
     "Color": "3a9c51",

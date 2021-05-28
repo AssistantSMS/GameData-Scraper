@@ -19,13 +19,13 @@ namespace AssistantScrapMechanic.Integration
             };
         }
 
-        public Dictionary<string, dynamic> LoadJsonDict(string fileName)
+        public Dictionary<string, T> LoadJsonDict<T>(string fileName)
         {
             string jsonFilePath = Path.Combine(_jsonDirectory, fileName);
             try
             {
                 string json = File.ReadAllText(jsonFilePath);
-                Dictionary<string, dynamic> result = JsonConvert.DeserializeObject<Dictionary<string, dynamic>>(json);
+                Dictionary<string, T> result = JsonConvert.DeserializeObject<Dictionary<string, T>>(json);
                 return result;
             }
             catch
@@ -33,7 +33,7 @@ namespace AssistantScrapMechanic.Integration
                 //unused
             }
 
-            return new Dictionary<string, dynamic>();
+            return new Dictionary<string, T>();
         }
 
         public Dictionary<string, T> LoadJsonDictOfType<T>(string fileName)

@@ -4,10 +4,13 @@
     {
         public static string Ammo = "ammo.json";
         public static string Blocks = "blocks.json";
+        public static string Bucket = "bucket.json";
         public static string Building = "building.json";
+        public static string CharObject = "characterObject.json";
         public static string Component = "component.json";
         public static string Construction = "construction.json";
         public static string Consumable = "consumable.json";
+        public static string ConsumableShared = "consumableShared.json";
         public static string Containers = "containers.json";
         public static string Craftbot = "craftbot.json";
         public static string Decor = "decor.json";
@@ -16,6 +19,7 @@
         public static string Harvest = "harvests.json";
         public static string Industrial = "industrial.json";
         public static string Interactive = "interactive.json";
+        public static string InteractiveShared = "interactiveShared.json";
         public static string InteractiveUpgradable = "interactiveUpgradeable.json";
         public static string InteractiveContainer = "interactiveContainers.json";
         public static string Light = "lights.json";
@@ -35,7 +39,6 @@
 
         public static string Customisation = "customisation.json";
         public static string Other = "other.json";
-        public static string Loot = "loot.json";
 
         public static string CookBotRecipes = "recipeCookbot.json";
         public static string CraftBotRecipes = "recipeCraftbot.json";
@@ -52,5 +55,11 @@
         public static string DataContributors = "contributorBackup.json";
         public static string DataSteamNews = "steamNewsBackup.json";
         public static string DataWhatIsNewFolder = "whatIsNew";
+    }
+
+    public static class AppDataFile
+    {
+        public static string Loot = "loot.json";
+        public static string Attack = "attack.json";
     }
 }
