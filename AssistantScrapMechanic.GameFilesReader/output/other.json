@@ -4,180 +4,207 @@
     "AppId": "other1",
     "Name": "Connect Tool",
     "Description": "Every mechanic's favorite tool. Connects interactive parts together, for example: a gas engine to bearings or a thruster to a driver's seat.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "c60b9627-fc2b-4319-97c5-05921cb976c6",
     "AppId": "other2",
     "Name": "Paint Tool",
     "Description": "Paint any part or block to personalize your creations or even make beautiful art! Paint using the left mouse button and delete with the right. Press 'Q' to open the color selector. Simply hold down left mouse button and drag if you want to paint larger surfaces.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "fdb8b8be-96e7-4de0-85c7-d2f42e4f33ce",
     "AppId": "other3",
     "Name": "Weld Tool",
     "Description": "Weld your creations together! Select the Weld Tool and left-click on a loose creation, then left-click on a surface of another creation to weld them together. You can also join touching parts on the lift. Hold the left mouse button on the first part and drag to the part you wish to weld together.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "a5985971-1f95-4373-a5d9-4ce0a3e74851",
     "AppId": "other4",
     "Name": "Beacon",
     "Description": "Emits a tracking signal that can be toggled in the Logbook.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "97f449b6-c948-448b-b8b3-4448e3f6b956",
     "AppId": "other5",
     "Name": "Vacuum Pump",
     "Description": "The Vaccum Pump has many uses when connected to a trigger. Suck up water in to a water container. Pick up plants in to a chest. It can even shoot and place items from a chest.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "9b8f2abd-265c-4750-b8b9-fe6cb564633c",
     "AppId": "other6",
     "Name": "Vacuum Pipe",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "5939f460-ab6c-48f2-9d07-a66845ce8cf2",
     "AppId": "other7",
     "Name": "Vacuum Pipe Corner",
     "Description": "Use it with the Vacuum Pump to make items travel through pipes.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "056e5ff1-f030-40df-946a-b830bf494c92",
     "AppId": "other8",
     "Name": "Gas Container",
     "Description": "Can stores more gas and loads gas in to Gas Engines and other interactive parts that require Gas when connected.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "da4833fd-f981-4e08-a9f7-48e630a7c146",
     "AppId": "other9",
     "Name": "Battery Container",
     "Description": "Can Store more batteries and loads batteries in to Electric Engines and other interactive parts that require batteries when connected.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "ea10d1af-b97a-46fb-8895-dfd1becb53bb",
     "AppId": "other10",
     "Name": "Water Container",
     "Description": "Connect it to a Vacuum Pump that is under water to fil the Water Container with water.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "69559e81-50fa-40ae-afa2-a22c1a49eb54",
     "AppId": "other11",
     "Name": "Water Cannon",
     "Description": "Connect it to a Water container with a trigger to water your plants more efficiently.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "df3734e2-f04b-443f-b568-fe5b076646c7",
     "AppId": "other12",
     "Name": "Potted Plant",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "89f6c762-c0ed-44ad-b3f1-a60dbdd889c5",
     "AppId": "other13",
     "Name": "Small Potted Plant",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "cec1d36c-b48a-43d2-9667-5e53b62dd4c5",
     "AppId": "other14",
     "Name": "Potted Vine Plant",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "7826f497-426b-42cb-a857-0d784f3ab2f3",
     "AppId": "other15",
     "Name": "Big Pot",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "c4609540-bc32-4c3f-83b8-3b6926878012",
     "AppId": "other16",
     "Name": "Potted Seed Plant",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "d1421af8-6f80-4413-8099-2c6b217fb929",
     "AppId": "other17",
     "Name": "Potted Blooming Cactus",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "bc575e0c-d1aa-438e-9f3d-0a80f4ea915f",
     "AppId": "other18",
     "Name": "Potted Cactus",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "bb443a05-b5b9-4fad-90fc-5e04aa90fd8f",
     "AppId": "other19",
     "Name": "Potted Blue Flower",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "2af00456-b22e-4743-b338-a91934aba7c5",
     "AppId": "other20",
     "Name": "Cookbot",
     "Description": "Cooks delicious food that will fill up your health bar or revive fallen friends.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "096d4daf-639e-4947-a1a6-1890eaa94464",
     "AppId": "other21",
     "Name": "Potato Ammo Container",
     "Description": "Connect it to a Mountable Spud Gun with a trigger to shoot potato ammo.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "c5ea0c2f-185b-48d6-b4df-45c386a575cc",
     "AppId": "other22",
     "Name": "Spud Gun",
     "Description": "Spud Gun with single potato shot.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "f6250bf4-9726-406f-a29a-945c06e460e5",
     "AppId": "other23",
     "Name": "Spud Shotgun",
     "Description": "Shoots sizzling hot fries in a spread.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "9fde0601-c2ba-4c70-8d5c-2a7a9fdd122b",
     "AppId": "other24",
     "Name": "Spudling Gun",
     "Description": "Shoots potatoes in a rapid fire. Uses a lot of potato ammo.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "bb641a4f-e391-441c-bc6d-0ae21a069476",
     "AppId": "other25",
     "Name": "Sledgehammer",
     "Description": "This mighty sledgehammer will let you push loose items around by hitting them.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "8f190ce2-3a59-423e-8483-a7aa67bd5bc0",
     "AppId": "other26",
     "Name": "Lift",
     "Description": "Build on the lift to create freely movable constructions that won't be fixed to the ground. Can be elevated and lowered as well as lift creations that have flipped over.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "3384010e-bc1c-42bb-83ef-dbc78a1f9636",
     "AppId": "other27",
     "Name": "Handbook",
     "Description": "Contains all the information you need to learn how to build amazing machines and become a true Scrap Mechanic.",
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   }
 ]

@@ -26,7 +26,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         private readonly FileSystemRepository _appDataSysRepo;
         private readonly FileSystemRepository _inputFileSysRepo;
         private readonly FileSystemRepository _attackFileSysRepo;
-        public readonly FileSystemRepository _languageFileSysRepo;
+        private readonly FileSystemRepository _languageFileSysRepo;
 
         public DataFileHandler(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo, FileSystemRepository attackFileSysRepo, FileSystemRepository languageFileSysRepo)
         {
@@ -190,9 +190,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<AppRecipe> recipes = new List<AppRecipe>();
             foreach (PackingStationItem packingStationItem in PackingStationLuaFile.AllItems)
             {
+                GameItemLocalised outputAppItem = localisedGameItems.FirstOrDefault(g => g.ItemId.Equals(packingStationItem.CrateGuid));
+                if (outputAppItem == null) continue;
+
                 string ingredientGameId = PackingStationLuaFile.NameToGuidDictionary[packingStationItem.projectileName];
                 GameItemLocalised ingredientAppItem = localisedGameItems.FirstOrDefault(g => g.ItemId.Equals(ingredientGameId));
-
                 if (ingredientAppItem == null) continue;
 
                 recipes.Add(new AppRecipe
@@ -200,7 +202,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     AppId = $"packing{recipes.Count + 1}",
                     Output = new AppIngredient
                     {
-                        AppId = packingStationItem.CrateGuid,
+                        AppId = outputAppItem.AppId,
                         Quantity = 1
                     },
                     Inputs = new List<AppIngredient>

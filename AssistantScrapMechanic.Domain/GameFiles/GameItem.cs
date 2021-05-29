@@ -26,6 +26,7 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         public bool Flammable { get; set; }
         public decimal Density { get; set; }
         public int StackSize { get; set; }
+        public Edible Edible { get; set; }
     }
 
     public class Cylinder
@@ -42,5 +43,11 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         public int Y { get; set; }
         public int Z { get; set; }
     }
-
+    
+    public class Edible
+    {
+        public int HpGain { get; set; }
+        public int FoodGain { get; set; }
+        public int WaterGain { get; set; }
+    }
 }

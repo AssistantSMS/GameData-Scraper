@@ -18,6 +18,8 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
+        //public int StackSize { get; set; }
+        public Edible Edible { get; set; }
 
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
@@ -35,6 +37,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Ratings = Ratings,
                 Box = Box,
                 Cylinder = Cylinder,
+                Edible = Edible,
                 Upgrade = Upgrade,
                 Features = Features,
                 CustomisationSource = CustomisationSource == CustomisationSourceType.Unknown 
@@ -68,6 +71,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
         public Upgrade Upgrade { get; set; }
+        public Edible Edible { get; set; }
         public List<Feature> Features { get; set; }
         public CustomisationSourceType? CustomisationSource { get; set; }
     }

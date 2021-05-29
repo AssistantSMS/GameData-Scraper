@@ -15,5 +15,7 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
+        public int StackSize { get; set; }
+        public Edible Edible { get; set; }
     }
 }

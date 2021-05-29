@@ -21,6 +21,8 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Ratings = gameItem.Ratings,
                 Box = gameItem.Box,
                 Cylinder = gameItem.Cylinder,
+                StackSize = gameItem.StackSize,
+                Edible = gameItem.Edible,
             };
 
             List<int> boxSizes = GetSizesFromBox(blockLocalised.Box);

@@ -17,7 +17,8 @@
       "Diameter": 5,
       "Depth": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   },
   {
     "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
@@ -38,6 +39,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "StackSize": 0
   }
 ]
