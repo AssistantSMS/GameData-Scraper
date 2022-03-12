@@ -18,6 +18,7 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         //public Cylinder Cylinder { get; set; }
         //public string RotationSet { get; set; }
         //public string Sticky { get; set; }
+        public string Tiling { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }
         public Box Box { get; set; }

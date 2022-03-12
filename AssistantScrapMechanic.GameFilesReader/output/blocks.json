@@ -4,6 +4,7 @@
     "GameName": "blk_scrapwood",
     "AppId": "blk1",
     "Name": "Scrap Wood Block",
+    "Tiling": "8",
     "Color": "cd9d71",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -20,6 +21,7 @@
     "GameName": "blk_wood2",
     "AppId": "blk2",
     "Name": "Wood Block 2",
+    "Tiling": "8",
     "Color": "dc9153",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -36,6 +38,7 @@
     "GameName": "blk_wood3",
     "AppId": "blk3",
     "Name": "Wood Block 3",
+    "Tiling": "8",
     "Color": "f2ad74",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -52,6 +55,7 @@
     "GameName": "blk_scrapmetal",
     "AppId": "blk4",
     "Name": "Scrap Metal Block",
+    "Tiling": "16",
     "Color": "df6226",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -68,6 +72,7 @@
     "GameName": "blk_metal2",
     "AppId": "blk5",
     "Name": "Metal Block 2",
+    "Tiling": "8",
     "Color": "869499",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -84,6 +89,7 @@
     "GameName": "blk_metal3",
     "AppId": "blk6",
     "Name": "Metal Block 3",
+    "Tiling": "8",
     "Color": "88a5ac",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -100,6 +106,7 @@
     "GameName": "blk_scrapstone",
     "AppId": "blk7",
     "Name": "Scrap Stone Block",
+    "Tiling": "8",
     "Color": "848484",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -116,6 +123,7 @@
     "GameName": "blk_concrete2",
     "AppId": "blk8",
     "Name": "Concrete Block 2",
+    "Tiling": "8",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -132,6 +140,7 @@
     "GameName": "blk_concrete3",
     "AppId": "blk9",
     "Name": "Concrete Block 3",
+    "Tiling": "8",
     "Color": "c9d7dc",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -148,6 +157,7 @@
     "GameName": "blk_crackedconcrete",
     "AppId": "blk10",
     "Name": "Cracked Concrete Block",
+    "Tiling": "8",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -164,6 +174,7 @@
     "GameName": "blk_concretetiles",
     "AppId": "blk11",
     "Name": "Concrete Slab Block",
+    "Tiling": "16",
     "Color": "af967b",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -180,6 +191,7 @@
     "GameName": "blk_metalbricks",
     "AppId": "blk12",
     "Name": "Rusted Metal Block",
+    "Tiling": "8",
     "Color": "738192",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -196,6 +208,7 @@
     "GameName": "blk_beam",
     "AppId": "blk13",
     "Name": "Extruded Metal Block",
+    "Tiling": "8",
     "Color": "858795",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -212,6 +225,7 @@
     "GameName": "blk_bubblewrap",
     "AppId": "blk14",
     "Name": "Bubble Plastic Block",
+    "Tiling": "2",
     "Color": "9acfd2",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -228,6 +242,7 @@
     "GameName": "blk_plastic",
     "AppId": "blk15",
     "Name": "Plastic Block",
+    "Tiling": "4",
     "Color": "0b9ade",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -244,6 +259,7 @@
     "GameName": "blk_insulation",
     "AppId": "blk16",
     "Name": "Insulation Block",
+    "Tiling": "8",
     "Color": "fff063",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -260,6 +276,7 @@
     "GameName": "blk_drywall",
     "AppId": "blk17",
     "Name": "Plaster Block",
+    "Tiling": "8",
     "Color": "979797",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -276,6 +293,7 @@
     "GameName": "blk_carpet",
     "AppId": "blk18",
     "Name": "Carpet Block",
+    "Tiling": "4",
     "Color": "368085",
     "PhysicsMaterial": "Grass",
     "Ratings": {
@@ -292,6 +310,7 @@
     "GameName": "blk_plasticwall",
     "AppId": "blk19",
     "Name": "Painted Wall Block",
+    "Tiling": "8",
     "Color": "eeeeee",
     "PhysicsMaterial": "Grass",
     "Ratings": {
@@ -308,6 +327,7 @@
     "GameName": "blk_metalnet",
     "AppId": "blk20",
     "Name": "Net Block",
+    "Tiling": "1",
     "Color": "435359",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -324,6 +344,7 @@
     "GameName": "blk_crossnet",
     "AppId": "blk21",
     "Name": "Solid Net Block",
+    "Tiling": "1",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -340,6 +361,7 @@
     "GameName": "blk_tryponet",
     "AppId": "blk22",
     "Name": "Punched Steel Block",
+    "Tiling": "1",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -356,6 +378,7 @@
     "GameName": "blk_stripednet",
     "AppId": "blk23",
     "Name": "Striped Net Block",
+    "Tiling": "8",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -372,6 +395,7 @@
     "GameName": "blk_squarenet",
     "AppId": "blk24",
     "Name": "Square Mesh Block",
+    "Tiling": "1",
     "Color": "c36512",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -388,6 +412,7 @@
     "GameName": "blk_restroom",
     "AppId": "blk25",
     "Name": "Restroom Block",
+    "Tiling": "8",
     "Color": "607b79",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -404,6 +429,7 @@
     "GameName": "blk_treadplate",
     "AppId": "blk26",
     "Name": "Diamond Plate Block",
+    "Tiling": "4",
     "Color": "43494d",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -420,6 +446,7 @@
     "GameName": "blk_warehousefloor",
     "AppId": "blk27",
     "Name": "Aluminum Block",
+    "Tiling": "4",
     "Color": "727272",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -436,6 +463,7 @@
     "GameName": "blk_wornmetal",
     "AppId": "blk28",
     "Name": "Worn Metal Block",
+    "Tiling": "8",
     "Color": "66837c",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -452,6 +480,7 @@
     "GameName": "blk_spaceshipfloor",
     "AppId": "blk29",
     "Name": "Spaceship Floor Block",
+    "Tiling": "8",
     "Color": "dadada",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -468,6 +497,7 @@
     "GameName": "blk_sand",
     "AppId": "blk30",
     "Name": "Sand Block",
+    "Tiling": "8",
     "Color": "c69146",
     "PhysicsMaterial": "Sand",
     "Ratings": {
@@ -484,6 +514,7 @@
     "GameName": "blk_armoredglass",
     "AppId": "blk31",
     "Name": "Armored Glass Block",
+    "Tiling": "4",
     "Color": "3abfb1",
     "PhysicsMaterial": "Glass",
     "Ratings": {
@@ -500,6 +531,7 @@
     "GameName": "blk_concrete1",
     "AppId": "blk32",
     "Name": "Concrete Block 1",
+    "Tiling": "8",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -516,6 +548,7 @@
     "GameName": "blk_wood1",
     "AppId": "blk33",
     "Name": "Wood Block 1",
+    "Tiling": "8",
     "Color": "9b683a",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -532,6 +565,7 @@
     "GameName": "blk_metal1",
     "AppId": "blk34",
     "Name": "Metal Block 1",
+    "Tiling": "8",
     "Color": "675f51",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -548,6 +582,7 @@
     "GameName": "blk_caution",
     "AppId": "blk35",
     "Name": "Barrier Block",
+    "Tiling": "8",
     "Color": "ce9e0c",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -564,6 +599,7 @@
     "GameName": "blk_tiles",
     "AppId": "blk36",
     "Name": "Tile Block",
+    "Tiling": "4",
     "Color": "bfdfed",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -580,6 +616,7 @@
     "GameName": "blk_bricks",
     "AppId": "blk37",
     "Name": "Brick Block",
+    "Tiling": "8",
     "Color": "af967b",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -596,6 +633,7 @@
     "GameName": "blk_glass",
     "AppId": "blk38",
     "Name": "Glass Block",
+    "Tiling": "8",
     "Color": "e4f8ff",
     "PhysicsMaterial": "Glass",
     "Ratings": {
@@ -612,6 +650,7 @@
     "GameName": "blk_glasstile",
     "AppId": "blk39",
     "Name": "Glass Tile Block",
+    "Tiling": "8",
     "Color": "c2f9ff",
     "PhysicsMaterial": "Glass",
     "Ratings": {
@@ -628,6 +667,7 @@
     "GameName": "blk_lights",
     "AppId": "blk40",
     "Name": "Path Light Block",
+    "Tiling": "2",
     "Color": "727272",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -644,6 +684,7 @@
     "GameName": "blk_spaceshipmetal",
     "AppId": "blk41",
     "Name": "Spaceship Block",
+    "Tiling": "4",
     "Color": "820a0a",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -660,6 +701,7 @@
     "GameName": "blk_cardboard",
     "AppId": "blk42",
     "Name": "Cardboard Block",
+    "Tiling": "16",
     "Color": "a48052",
     "PhysicsMaterial": "Cardboard",
     "Ratings": {

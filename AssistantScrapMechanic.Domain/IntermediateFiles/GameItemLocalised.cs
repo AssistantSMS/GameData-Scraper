@@ -9,6 +9,7 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public string AppId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Tiling { get; set; }
         public string Color { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }

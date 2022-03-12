@@ -14,7 +14,7 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         //public string Dif { get; set; }
         //public string Asg { get; set; }
         //public string Nor { get; set; }
-        //public int Tiling { get; set; }
+        public string Tiling { get; set; }
         public string Color { get; set; }
         public string PhysicsMaterial { get; set; }
         public Ratings Ratings { get; set; }

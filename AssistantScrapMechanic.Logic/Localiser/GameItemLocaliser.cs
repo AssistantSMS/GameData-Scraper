@@ -14,6 +14,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 ItemId = gameItem.Uuid,
                 GameName = gameItem.Name,
                 Color = gameItem.Color,
+                Tiling = gameItem.Tiling,
                 Flammable = gameItem.Flammable,
                 Name = itemNames.GetTitle(gameItem.Uuid),
                 Description = itemNames.GetDescription(gameItem.Uuid),

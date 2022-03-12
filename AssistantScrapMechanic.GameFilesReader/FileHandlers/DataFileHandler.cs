@@ -225,37 +225,60 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<AppDevDetailFile> devDetails = new List<AppDevDetailFile>();
             foreach (GameItemLocalised localisedGameItem in localisedGameItems)
             {
+                List<AppDevDetailItem> detailList = new List<AppDevDetailItem>
+                {
+                    new AppDevDetailItem
+                    {
+                        Name = "GameName",
+                        Value = localisedGameItem.GameName
+                    },
+                    new AppDevDetailItem
+                    {
+                        Name = "Uuid",
+                        Value = localisedGameItem.ItemId
+                    },
+                };
+
+                if (!string.IsNullOrEmpty(localisedGameItem.Color))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "Color",
+                        Value = localisedGameItem.Color
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.Tiling))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "Tiling",
+                        Value = localisedGameItem.Tiling
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.PhysicsMaterial))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "PhysicsMaterial",
+                        Value = localisedGameItem.PhysicsMaterial
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.Flammable.ToString()))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "Flammable",
+                        Value = localisedGameItem.Flammable.ToString()
+                    });
+                }
+
                 devDetails.Add(new AppDevDetailFile
                 {
                     AppId = localisedGameItem.AppId,
-                    Details = new List<AppDevDetailItem>
-                    {
-                        new AppDevDetailItem
-                        {
-                            Name = "GameName",
-                            Value = localisedGameItem.GameName
-                        },
-                        new AppDevDetailItem
-                        {
-                            Name = "ItemId",
-                            Value = localisedGameItem.ItemId
-                        },
-                        new AppDevDetailItem
-                        {
-                            Name = "Color",
-                            Value = localisedGameItem.Color
-                        },
-                        new AppDevDetailItem
-                        {
-                            Name = "PhysicsMaterial",
-                            Value = localisedGameItem.PhysicsMaterial
-                        },
-                        new AppDevDetailItem
-                        {
-                            Name = "Flammable",
-                            Value = localisedGameItem.Flammable.ToString()
-                        },
-                    }
+                    Details = detailList,
                 });
             }
 

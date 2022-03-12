@@ -14,6 +14,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 GameName = block.Name,
                 ItemId = block.Uuid,
                 Color = block.Color,
+                Tiling = block.Tiling,
                 Flammable = block.Flammable,
                 Name = itemNames.GetTitle(block.Uuid),
                 PhysicsMaterial = block.PhysicsMaterial,
