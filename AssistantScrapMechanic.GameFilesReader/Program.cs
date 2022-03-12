@@ -16,7 +16,7 @@ namespace AssistantScrapMechanic.GameFilesReader
 {
     class Program
     {
-        private const string BaseDirectory = @"D:\Steam\steamapps\common\Scrap Mechanic";
+        private const string BaseDirectory = @"C:\Steam\steamapps\common\Scrap Mechanic";
         private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
         private static readonly string SurvivalLanguageDirectory = $@"{BaseDirectory}\Survival\Gui\Language";
         private static readonly string SurvivalCraftingDirectory = $@"{BaseDirectory}\Survival\CraftingRecipes";

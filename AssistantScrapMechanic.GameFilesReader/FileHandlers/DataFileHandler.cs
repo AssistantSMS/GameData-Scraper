@@ -41,6 +41,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateLootDataFiles(localisedGameItems);
             GenerateAttackDataFiles(localisedGameItems);
             GenerateCrateRequirementFiles(localisedGameItems);
+            GenerateDevDetails(localisedGameItems);
         }
 
         public void GenerateLootDataFiles(List<GameItemLocalised> localisedGameItems)
@@ -217,6 +218,48 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             _appDataSysRepo.WriteBackToJsonFile(recipes.OrderBy(aa => aa.AppId), AppDataFile.PackingStation);
+        }
+
+        public void GenerateDevDetails(List<GameItemLocalised> localisedGameItems)
+        {
+            List<AppDevDetailFile> devDetails = new List<AppDevDetailFile>();
+            foreach (GameItemLocalised localisedGameItem in localisedGameItems)
+            {
+                devDetails.Add(new AppDevDetailFile
+                {
+                    AppId = localisedGameItem.AppId,
+                    Details = new List<AppDevDetailItem>
+                    {
+                        new AppDevDetailItem
+                        {
+                            Name = "GameName",
+                            Value = localisedGameItem.GameName
+                        },
+                        new AppDevDetailItem
+                        {
+                            Name = "ItemId",
+                            Value = localisedGameItem.ItemId
+                        },
+                        new AppDevDetailItem
+                        {
+                            Name = "Color",
+                            Value = localisedGameItem.Color
+                        },
+                        new AppDevDetailItem
+                        {
+                            Name = "PhysicsMaterial",
+                            Value = localisedGameItem.PhysicsMaterial
+                        },
+                        new AppDevDetailItem
+                        {
+                            Name = "Flammable",
+                            Value = localisedGameItem.Flammable.ToString()
+                        },
+                    }
+                });
+            }
+
+            _appDataSysRepo.WriteBackToJsonFile(devDetails.OrderBy(aa => aa.AppId), AppDataFile.DevDetail);
         }
 
 

@@ -62,5 +62,6 @@
         public static string Loot = "loot.json";
         public static string Attack = "attack.json";
         public static string PackingStation = "packing.json";
+        public static string DevDetail = "devDetail.json";
     }
 }
