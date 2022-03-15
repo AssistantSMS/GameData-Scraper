@@ -19,7 +19,10 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 20,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "cb7305b2-d8b5-4302-aff3-6cdd9212ca64",
@@ -40,7 +43,15 @@
       "Depth": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 5,
+    "Edible": {
+      "HpGain": 10,
+      "FoodGain": 25,
+      "WaterGain": 35
+    },
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "54d84731-d9ec-435d-bc9d-d48e0763b1bf",
@@ -62,7 +73,15 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 5,
+    "Edible": {
+      "HpGain": 100,
+      "FoodGain": 100,
+      "WaterGain": 100
+    },
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "54d8ef21-357d-48a3-a66d-40446f6bb686",
@@ -84,7 +103,15 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 5,
+    "Edible": {
+      "HpGain": 100,
+      "FoodGain": 100,
+      "WaterGain": 100
+    },
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "e243f642-6934-42bb-8cdd-f8ff1704d411",
@@ -106,7 +133,10 @@
       "Z": 6
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 5,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "2c4a2633-153a-4800-ba3d-2ac0d993b9c8",
@@ -126,7 +156,15 @@
       "Depth": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 5,
+    "Edible": {
+      "HpGain": 0,
+      "FoodGain": 10,
+      "WaterGain": 40
+    },
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "9a3e478c-2224-44fa-887c-239965bd05ad",
@@ -148,6 +186,9 @@
       "Z": 5
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 5,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

@@ -26,7 +26,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         private readonly FileSystemRepository _appDataSysRepo;
         private readonly FileSystemRepository _inputFileSysRepo;
         private readonly FileSystemRepository _attackFileSysRepo;
-        public readonly FileSystemRepository _languageFileSysRepo;
+        private readonly FileSystemRepository _languageFileSysRepo;
 
         public DataFileHandler(FileSystemRepository inputFileSysRepo, FileSystemRepository appDataSysRepo, FileSystemRepository attackFileSysRepo, FileSystemRepository languageFileSysRepo)
         {
@@ -41,6 +41,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             GenerateLootDataFiles(localisedGameItems);
             GenerateAttackDataFiles(localisedGameItems);
             GenerateCrateRequirementFiles(localisedGameItems);
+            GenerateDevDetails(localisedGameItems);
         }
 
         public void GenerateLootDataFiles(List<GameItemLocalised> localisedGameItems)
@@ -190,9 +191,11 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             List<AppRecipe> recipes = new List<AppRecipe>();
             foreach (PackingStationItem packingStationItem in PackingStationLuaFile.AllItems)
             {
+                GameItemLocalised outputAppItem = localisedGameItems.FirstOrDefault(g => g.ItemId.Equals(packingStationItem.CrateGuid));
+                if (outputAppItem == null) continue;
+
                 string ingredientGameId = PackingStationLuaFile.NameToGuidDictionary[packingStationItem.projectileName];
                 GameItemLocalised ingredientAppItem = localisedGameItems.FirstOrDefault(g => g.ItemId.Equals(ingredientGameId));
-
                 if (ingredientAppItem == null) continue;
 
                 recipes.Add(new AppRecipe
@@ -200,7 +203,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     AppId = $"packing{recipes.Count + 1}",
                     Output = new AppIngredient
                     {
-                        AppId = packingStationItem.CrateGuid,
+                        AppId = outputAppItem.AppId,
                         Quantity = 1
                     },
                     Inputs = new List<AppIngredient>
@@ -215,6 +218,98 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             _appDataSysRepo.WriteBackToJsonFile(recipes.OrderBy(aa => aa.AppId), AppDataFile.PackingStation);
+        }
+
+        public void GenerateDevDetails(List<GameItemLocalised> localisedGameItems)
+        {
+            List<AppDevDetailFile> devDetails = new List<AppDevDetailFile>();
+            foreach (GameItemLocalised localisedGameItem in localisedGameItems)
+            {
+                List<AppDevDetailItem> detailList = new List<AppDevDetailItem>
+                {
+                    new AppDevDetailItem
+                    {
+                        Name = "GameName",
+                        Value = localisedGameItem.GameName
+                    },
+                    new AppDevDetailItem
+                    {
+                        Name = "Uuid",
+                        Value = localisedGameItem.ItemId
+                    },
+                };
+
+                if (!string.IsNullOrEmpty(localisedGameItem.Color))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "Color",
+                        Value = localisedGameItem.Color
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.Tiling))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "Tiling",
+                        Value = localisedGameItem.Tiling
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.PhysicsMaterial))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "PhysicsMaterial",
+                        Value = localisedGameItem.PhysicsMaterial
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.StackSize.ToString()))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "StackSize",
+                        Value = localisedGameItem.StackSize.ToString()
+                    });
+                }
+
+                if (!string.IsNullOrEmpty(localisedGameItem.IsCreative.ToString()))
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "IsCreative",
+                        Value = localisedGameItem.IsCreative.ToString()
+                    });
+                }
+
+                if (localisedGameItem.Density > 0)
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "Density",
+                        Value = localisedGameItem.Density.ToString()
+                    });
+                }
+
+                if (localisedGameItem.QualityLevel > 0)
+                {
+                    detailList.Add(new AppDevDetailItem
+                    {
+                        Name = "QualityLevel",
+                        Value = localisedGameItem.QualityLevel.ToString()
+                    });
+                }
+
+                devDetails.Add(new AppDevDetailFile
+                {
+                    AppId = localisedGameItem.AppId,
+                    Details = detailList,
+                });
+            }
+
+            _appDataSysRepo.WriteBackToJsonFile(devDetails.OrderBy(aa => aa.AppId), AppDataFile.DevDetail);
         }
 
 

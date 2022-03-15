@@ -22,6 +22,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 Cylinder = localisedData.Cylinder,
                 Features = features,
                 Upgrade = upgrades,
+                Edible = localisedData.Edible,
             };
             return recipe;
         }

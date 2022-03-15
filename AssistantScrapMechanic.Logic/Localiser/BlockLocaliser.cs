@@ -14,6 +14,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 GameName = block.Name,
                 ItemId = block.Uuid,
                 Color = block.Color,
+                Tiling = block.Tiling,
                 Flammable = block.Flammable,
                 IsCreative = block.Name.Contains("creative", System.StringComparison.InvariantCultureIgnoreCase),
                 Name = itemNames.GetTitle(block.Uuid),
@@ -21,6 +22,8 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Ratings = block.Ratings,
                 Box = null,
                 Cylinder = null,
+                Density = block.Density,
+                QualityLevel = block.QualityLevel,
             };
             return blockLocalised;
         }

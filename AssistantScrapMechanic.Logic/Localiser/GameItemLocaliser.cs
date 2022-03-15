@@ -14,6 +14,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 ItemId = gameItem.Uuid,
                 GameName = gameItem.Name,
                 Color = gameItem.Color,
+                Tiling = gameItem.Tiling,
                 Flammable = gameItem.Flammable,
                 IsCreative = (gameItem.Name ?? string.Empty).Contains("creative", System.StringComparison.InvariantCultureIgnoreCase),
                 Name = itemNames.GetTitle(gameItem.Uuid),
@@ -22,6 +23,8 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 Ratings = gameItem.Ratings,
                 Box = gameItem.Box,
                 Cylinder = gameItem.Cylinder,
+                StackSize = gameItem.StackSize,
+                Edible = gameItem.Edible,
             };
 
             List<int> boxSizes = GetSizesFromBox(blockLocalised.Box);

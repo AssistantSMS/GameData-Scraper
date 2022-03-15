@@ -4,6 +4,7 @@
     "GameName": "blk_scrapwood",
     "AppId": "blk1",
     "Name": "Scrap Wood Block",
+    "Tiling": "8",
     "Color": "cd9d71",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -13,13 +14,17 @@
       "Buoyancy": 4
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "1897ee42-0291-43e4-9645-8c5a5d310398",
     "GameName": "blk_wood2",
     "AppId": "blk2",
     "Name": "Wood Block 2",
+    "Tiling": "8",
     "Color": "dc9153",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -29,13 +34,17 @@
       "Buoyancy": 8
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "061b5d4b-0a6a-4212-b0ae-9e9681f1cbfb",
     "GameName": "blk_wood3",
     "AppId": "blk3",
     "Name": "Wood Block 3",
+    "Tiling": "8",
     "Color": "f2ad74",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -45,13 +54,17 @@
       "Buoyancy": 9
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "1f7ac0bb-ad45-4246-9817-59bdf7f7ab39",
     "GameName": "blk_scrapmetal",
     "AppId": "blk4",
     "Name": "Scrap Metal Block",
+    "Tiling": "16",
     "Color": "df6226",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -61,13 +74,17 @@
       "Buoyancy": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "1016cafc-9f6b-40c9-8713-9019d399783f",
     "GameName": "blk_metal2",
     "AppId": "blk5",
     "Name": "Metal Block 2",
+    "Tiling": "8",
     "Color": "869499",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -77,13 +94,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "c0dfdea5-a39d-433a-b94a-299345a5df46",
     "GameName": "blk_metal3",
     "AppId": "blk6",
     "Name": "Metal Block 3",
+    "Tiling": "8",
     "Color": "88a5ac",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -93,13 +114,17 @@
       "Buoyancy": 6
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "30a2288b-e88e-4a92-a916-1edbfc2b2dac",
     "GameName": "blk_scrapstone",
     "AppId": "blk7",
     "Name": "Scrap Stone Block",
+    "Tiling": "8",
     "Color": "848484",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -109,13 +134,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "ff234e42-5da4-43cc-8893-940547c97882",
     "GameName": "blk_concrete2",
     "AppId": "blk8",
     "Name": "Concrete Block 2",
+    "Tiling": "8",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -125,13 +154,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "e281599c-2343-4c86-886e-b2c1444e8810",
     "GameName": "blk_concrete3",
     "AppId": "blk9",
     "Name": "Concrete Block 3",
+    "Tiling": "8",
     "Color": "c9d7dc",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -141,13 +174,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "f5ceb7e3-5576-41d2-82d2-29860cf6e20e",
     "GameName": "blk_crackedconcrete",
     "AppId": "blk10",
     "Name": "Cracked Concrete Block",
+    "Tiling": "8",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -157,13 +194,17 @@
       "Buoyancy": 4
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "cd0eff89-b693-40ee-bd4c-3500b23df44e",
     "GameName": "blk_concretetiles",
     "AppId": "blk11",
     "Name": "Concrete Slab Block",
+    "Tiling": "16",
     "Color": "af967b",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -173,13 +214,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "220b201e-aa40-4995-96c8-e6007af160de",
     "GameName": "blk_metalbricks",
     "AppId": "blk12",
     "Name": "Rusted Metal Block",
+    "Tiling": "8",
     "Color": "738192",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -189,13 +234,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "25a5ffe7-11b1-4d3e-8d7a-48129cbaf05e",
     "GameName": "blk_beam",
     "AppId": "blk13",
     "Name": "Extruded Metal Block",
+    "Tiling": "8",
     "Color": "858795",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -205,13 +254,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "f406bf6e-9fd5-4aa0-97c1-0b3c2118198e",
     "GameName": "blk_bubblewrap",
     "AppId": "blk14",
     "Name": "Bubble Plastic Block",
+    "Tiling": "2",
     "Color": "9acfd2",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -221,13 +274,17 @@
       "Buoyancy": 8
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "628b2d61-5ceb-43e9-8334-a4135566df7a",
     "GameName": "blk_plastic",
     "AppId": "blk15",
     "Name": "Plastic Block",
+    "Tiling": "4",
     "Color": "0b9ade",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -237,13 +294,17 @@
       "Buoyancy": 7
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "9be6047c-3d44-44db-b4b9-9bcf8a9aab20",
     "GameName": "blk_insulation",
     "AppId": "blk16",
     "Name": "Insulation Block",
+    "Tiling": "8",
     "Color": "fff063",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -253,13 +314,17 @@
       "Buoyancy": 6
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "b145d9ae-4966-4af6-9497-8fca33f9aee3",
     "GameName": "blk_drywall",
     "AppId": "blk17",
     "Name": "Plaster Block",
+    "Tiling": "8",
     "Color": "979797",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -269,13 +334,17 @@
       "Buoyancy": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "febce8a6-6c05-4e5d-803b-dfa930286944",
     "GameName": "blk_carpet",
     "AppId": "blk18",
     "Name": "Carpet Block",
+    "Tiling": "4",
     "Color": "368085",
     "PhysicsMaterial": "Grass",
     "Ratings": {
@@ -285,13 +354,17 @@
       "Buoyancy": 4
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "e981c337-1c8a-449c-8602-1dd990cbba3a",
     "GameName": "blk_plasticwall",
     "AppId": "blk19",
     "Name": "Painted Wall Block",
+    "Tiling": "8",
     "Color": "eeeeee",
     "PhysicsMaterial": "Grass",
     "Ratings": {
@@ -301,13 +374,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "4aa2a6f0-65a4-42e3-bf96-7dec62570e0b",
     "GameName": "blk_metalnet",
     "AppId": "blk20",
     "Name": "Net Block",
+    "Tiling": "1",
     "Color": "435359",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -317,13 +394,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "3d0b7a6e-5b40-474c-bbaf-efaa54890e6a",
     "GameName": "blk_crossnet",
     "AppId": "blk21",
     "Name": "Solid Net Block",
+    "Tiling": "1",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -333,13 +414,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "ea6864db-bb4f-4a89-b9ec-977849b6713a",
     "GameName": "blk_tryponet",
     "AppId": "blk22",
     "Name": "Punched Steel Block",
+    "Tiling": "1",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -349,13 +434,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "a479066d-4b03-46b5-8437-e99fec3f43ee",
     "GameName": "blk_stripednet",
     "AppId": "blk23",
     "Name": "Striped Net Block",
+    "Tiling": "8",
     "Color": "888888",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -365,13 +454,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "b4fa180c-2111-4339-b6fd-aed900b57093",
     "GameName": "blk_squarenet",
     "AppId": "blk24",
     "Name": "Square Mesh Block",
+    "Tiling": "1",
     "Color": "c36512",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -381,13 +474,17 @@
       "Buoyancy": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "920b40c8-6dfc-42e7-84e1-d7e7e73128f6",
     "GameName": "blk_restroom",
     "AppId": "blk25",
     "Name": "Restroom Block",
+    "Tiling": "8",
     "Color": "607b79",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -397,13 +494,17 @@
       "Buoyancy": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "f7d4bfed-1093-49b9-be32-394c872a1ef4",
     "GameName": "blk_treadplate",
     "AppId": "blk26",
     "Name": "Diamond Plate Block",
+    "Tiling": "4",
     "Color": "43494d",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -413,13 +514,17 @@
       "Buoyancy": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "3e3242e4-1791-4f70-8d1d-0ae9ba3ee94c",
     "GameName": "blk_warehousefloor",
     "AppId": "blk27",
     "Name": "Aluminum Block",
+    "Tiling": "4",
     "Color": "727272",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -429,13 +534,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "d740a27d-cc0f-4866-9e07-6a5c516ad719",
     "GameName": "blk_wornmetal",
     "AppId": "blk28",
     "Name": "Worn Metal Block",
+    "Tiling": "8",
     "Color": "66837c",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -445,13 +554,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "4ad97d49-c8a5-47f3-ace3-d56ba3affe50",
     "GameName": "blk_spaceshipfloor",
     "AppId": "blk29",
     "Name": "Spaceship Floor Block",
+    "Tiling": "8",
     "Color": "dadada",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -461,13 +574,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "c56700d9-bbe5-4b17-95ed-cef05bd8be1b",
     "GameName": "blk_sand",
     "AppId": "blk30",
     "Name": "Sand Block",
+    "Tiling": "8",
     "Color": "c69146",
     "PhysicsMaterial": "Sand",
     "Ratings": {
@@ -477,13 +594,17 @@
       "Buoyancy": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "b5ee5539-75a2-4fef-873b-ef7c9398b3f5",
     "GameName": "blk_armoredglass",
     "AppId": "blk31",
     "Name": "Armored Glass Block",
+    "Tiling": "4",
     "Color": "3abfb1",
     "PhysicsMaterial": "Glass",
     "Ratings": {
@@ -493,13 +614,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "a6c6ce30-dd47-4587-b475-085d55c6a3b4",
     "GameName": "blk_concrete1",
     "AppId": "blk32",
     "Name": "Concrete Block 1",
+    "Tiling": "8",
     "Color": "8d8f89",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -509,13 +634,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "df953d9c-234f-4ac2-af5e-f0490b223e71",
     "GameName": "blk_wood1",
     "AppId": "blk33",
     "Name": "Wood Block 1",
+    "Tiling": "8",
     "Color": "9b683a",
     "PhysicsMaterial": "Wood",
     "Ratings": {
@@ -525,13 +654,17 @@
       "Buoyancy": 6
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "8aedf6c2-94e1-4506-89d4-a0227c552f1e",
     "GameName": "blk_metal1",
     "AppId": "blk34",
     "Name": "Metal Block 1",
+    "Tiling": "8",
     "Color": "675f51",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -541,13 +674,17 @@
       "Buoyancy": 4
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "09ca2713-28ee-4119-9622-e85490034758",
     "GameName": "blk_caution",
     "AppId": "blk35",
     "Name": "Barrier Block",
+    "Tiling": "8",
     "Color": "ce9e0c",
     "PhysicsMaterial": "Plastic",
     "Ratings": {
@@ -557,13 +694,17 @@
       "Buoyancy": 7
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "8ca49bff-eeef-4b43-abd0-b527a567f1b7",
     "GameName": "blk_tiles",
     "AppId": "blk36",
     "Name": "Tile Block",
+    "Tiling": "4",
     "Color": "bfdfed",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -573,13 +714,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "0603b36e-0bdb-4828-b90c-ff19abcdfe34",
     "GameName": "blk_bricks",
     "AppId": "blk37",
     "Name": "Brick Block",
+    "Tiling": "8",
     "Color": "af967b",
     "PhysicsMaterial": "Rock",
     "Ratings": {
@@ -589,13 +734,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "5f41af56-df4c-4837-9b3c-10781335757f",
     "GameName": "blk_glass",
     "AppId": "blk38",
     "Name": "Glass Block",
+    "Tiling": "8",
     "Color": "e4f8ff",
     "PhysicsMaterial": "Glass",
     "Ratings": {
@@ -605,13 +754,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "749f69e0-56c9-488c-adf6-66c58531818f",
     "GameName": "blk_glasstile",
     "AppId": "blk39",
     "Name": "Glass Tile Block",
+    "Tiling": "8",
     "Color": "c2f9ff",
     "PhysicsMaterial": "Glass",
     "Ratings": {
@@ -621,13 +774,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "073f92af-f37e-4aff-96b3-d66284d5081c",
     "GameName": "blk_lights",
     "AppId": "blk40",
     "Name": "Path Light Block",
+    "Tiling": "2",
     "Color": "727272",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -637,13 +794,17 @@
       "Buoyancy": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "027bd4ec-b16d-47d2-8756-e18dc2af3eb6",
     "GameName": "blk_spaceshipmetal",
     "AppId": "blk41",
     "Name": "Spaceship Block",
+    "Tiling": "4",
     "Color": "820a0a",
     "PhysicsMaterial": "Metal",
     "Ratings": {
@@ -653,13 +814,17 @@
       "Buoyancy": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "f0cba95b-2dc4-4492-8fd9-36546a4cb5aa",
     "GameName": "blk_cardboard",
     "AppId": "blk42",
     "Name": "Cardboard Block",
+    "Tiling": "16",
     "Color": "a48052",
     "PhysicsMaterial": "Cardboard",
     "Ratings": {
@@ -669,6 +834,9 @@
       "Buoyancy": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

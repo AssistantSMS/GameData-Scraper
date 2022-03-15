@@ -18,7 +18,10 @@
       "Depth": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 1,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "103fc4e6-7e57-465e-a86d-983343415877",
@@ -39,7 +42,10 @@
       "Depth": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 1,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "2e792123-4a10-4cc6-b9ef-c5a518655cb4",
@@ -60,6 +66,9 @@
       "Depth": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 1,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

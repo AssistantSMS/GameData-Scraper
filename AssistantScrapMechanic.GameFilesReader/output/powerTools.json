@@ -18,7 +18,10 @@
       "Depth": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "276fd55b-ae54-4a7a-ace6-fddd2d3370a5",
@@ -40,6 +43,9 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

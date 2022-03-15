@@ -18,7 +18,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "080ef1dd-07a7-4d31-86b8-ac907e1468bf",
@@ -39,7 +42,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "4d54298c-93a0-4b6d-8719-7380430a27bb",
@@ -60,7 +66,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "4724913e-4f9b-4334-8408-4b0850a1c7de",
@@ -81,7 +90,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "2bacc33e-60fb-40c3-b751-ef76f79392c7",
@@ -102,7 +114,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "e71b55c7-8547-4bef-bb77-e976c8abde0b",
@@ -123,7 +138,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "acc00050-d40e-42e9-9c2e-22ec2109dc3e",
@@ -144,7 +162,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "7728c105-1fd9-4aaa-95ec-1da45b425d89",
@@ -165,7 +186,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "884080be-c723-4e6e-828b-6019af8beed6",
@@ -186,7 +210,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "221badef-0313-419c-9a7c-7469d26b0d5b",
@@ -207,7 +234,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "e08d860d-650e-4b81-8cfa-411ea8e6e9c0",
@@ -228,7 +258,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "d053adac-e217-49de-b184-ad4bfbe1e52d",
@@ -248,7 +281,10 @@
       "Depth": 6
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "da86d1c6-e29b-4741-8b65-eed067222dc7",
@@ -269,7 +305,10 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "659488be-3d33-4244-b762-e7d77dcdcbbe",
@@ -290,7 +329,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "c7772f74-f120-4008-8121-977e52a1d7c0",
@@ -311,7 +353,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "ea64acf0-c0a8-44c4-a946-f358d232e965",
@@ -332,7 +377,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 10,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "7bc20d55-6b49-450c-830c-16282ce7fb2d",
@@ -353,7 +401,10 @@
       "Z": 3
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "31ada55e-7c79-4aee-86b6-809c0e5468df",
@@ -374,7 +425,10 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "d4ae8963-40e9-4680-934d-5626a3bfc363",
@@ -395,7 +449,10 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "7540ef9a-5c84-4dd2-b111-176d8de66e47",
@@ -416,7 +473,10 @@
       "Z": 4
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "d361b477-69b2-4a3a-b119-ec99a3938f5b",
@@ -437,7 +497,10 @@
       "Z": 4
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "5ad298e4-f5ad-479c-9ec6-6c4f9d3fb8ae",
@@ -458,7 +521,10 @@
       "Z": 5
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "db2ce519-490e-4432-b329-c973ecc8f5d9",
@@ -479,7 +545,10 @@
       "Z": 5
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "23ac6823-51a4-4581-b8ca-061c76f093f6",
@@ -500,7 +569,10 @@
       "Z": 5
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "74a3f240-65b2-4f52-9555-9b52173fca0a",
@@ -520,7 +592,10 @@
       "Depth": 5
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "e2a0770b-9bb9-4b3b-b9f2-994b534b79f3",
@@ -539,7 +614,10 @@
       "Depth": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "3fa0afca-7715-459e-86fa-2a81cf3027b8",
@@ -560,7 +638,10 @@
       "Z": 2
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "a6ec1dcc-07e9-418a-819e-904e28a32f63",
@@ -580,7 +661,10 @@
       "Depth": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "c89f7bc8-5720-474d-989d-761916a411b2",
@@ -601,7 +685,10 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "b1dd7967-da2a-4ff5-a90f-bbd7e9bae4d7",
@@ -622,7 +709,10 @@
       "Z": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "80bc2b9f-98a9-44e4-9cb8-d4ec7e95b40f",
@@ -642,7 +732,10 @@
       "Depth": 1
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "c5e56da5-bc3f-4519-91c2-b307d36e15aa",
@@ -663,7 +756,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 10,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "edd445cc-c298-4ce3-9a58-745c1bee1bc7",
@@ -684,7 +780,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 10,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "2ccaa006-008e-4069-8de1-15668050f92e",
@@ -705,7 +804,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "70bf77d0-c9dd-4232-9e05-fbf7f49bd62c",
@@ -726,7 +828,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "99b7fd1d-7126-4928-bfc2-f82befcbd905",
@@ -747,7 +852,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "a5198434-2639-4cb0-8e01-865bc4d9b791",
@@ -768,7 +876,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "068a89ca-504e-4782-9ede-48f710aeea73",
@@ -789,7 +900,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "14e8f5d0-7d6a-41ab-96a1-fc34588de868",
@@ -810,7 +924,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "d509a432-85f9-419f-8b02-8d58b1082f97",
@@ -831,7 +948,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "b4498227-6650-4e52-b5a6-6db7a7b34d14",
@@ -852,7 +972,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "c79a1857-a5c7-4616-b507-f1b151c31fe8",
@@ -873,7 +996,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "3878d965-de4a-4e7b-a15a-73cc032158b6",
@@ -894,7 +1020,10 @@
       "Z": 1
     },
     "Flammable": false,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "1f334b62-8955-4406-8848-91e03228c330",
@@ -915,7 +1044,10 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "9eead4cf-4743-486e-99be-a553c4c10740",
@@ -936,7 +1068,10 @@
       "Z": 7
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   },
   {
     "ItemId": "ff2207c1-e40b-416f-8bdd-66a9efd6d1a9",
@@ -957,6 +1092,9 @@
       "Z": 2
     },
     "Flammable": true,
-    "IsCreative": false
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0
   }
 ]

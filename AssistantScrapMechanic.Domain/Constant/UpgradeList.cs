@@ -109,28 +109,28 @@ namespace AssistantScrapMechanic.Domain.Constant
             {
                 Uuid = "2d3016f7-febe-416e-93bc-41d80ca3910d",
                 LocaleKey = "level2",
-                TargetUuid = "bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4",
+                TargetUuid = "c39b3537-d9b2-45f8-b2ea-0e9002c896d9",
                 Cost = 1,
             },
             new Upgrade
             {
-                Uuid = "bb2ed406-f0d3-4fd6-b3f9-7caadfa8e4e4",
+                Uuid = "c39b3537-d9b2-45f8-b2ea-0e9002c896d9",
                 LocaleKey = "level3",
-                TargetUuid = "6953b17e-0a38-4107-8c56-5ee97e68bee3",
+                TargetUuid = "797e07a3-6d56-4b74-949b-9492c7946e0d",
                 Cost = 2,
             },
             new Upgrade
             {
-                Uuid = "6953b17e-0a38-4107-8c56-5ee97e68bee3",
+                Uuid = "797e07a3-6d56-4b74-949b-9492c7946e0d",
                 LocaleKey = "level4",
-                TargetUuid = "41960868-6245-47b5-97c4-f446e199812f",
+                TargetUuid = "7516f5b8-9a15-4606-92bb-ea9a96a16594",
                 Cost = 3,
             },
             new Upgrade
             {
-                Uuid = "41960868-6245-47b5-97c4-f446e199812f",
+                Uuid = "7516f5b8-9a15-4606-92bb-ea9a96a16594",
                 LocaleKey = "level5",
-                TargetUuid = "9dd1ccea-1e44-430d-b706-3ff45416583e",
+                TargetUuid = "42f70341-207d-4e9d-b8ed-37962603a926",
                 Cost = 5,
             }
         };
