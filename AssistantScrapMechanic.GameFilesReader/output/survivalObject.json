@@ -18,7 +18,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "ff09d816-843a-43e9-aab6-dc35e73787fd",
@@ -38,7 +39,8 @@
       "Y": 6,
       "Z": 5
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "a553bf2f-3a66-404a-b4c6-ce9e7b73f9d4",
@@ -58,7 +60,8 @@
       "Y": 3,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "61bdf048-c09f-4cf5-8b47-35ba28c0580c",
@@ -78,7 +81,8 @@
       "Y": 2,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "f47612db-e035-4d62-81e2-64fc3453ccc3",
@@ -98,7 +102,8 @@
       "Y": 4,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "c4a0a65b-3b24-4beb-bd7a-d687f4210169",
@@ -118,7 +123,8 @@
       "Y": 1,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "2ff2b13f-5a50-443c-bbda-1f40f6aa917f",
@@ -138,7 +144,8 @@
       "Y": 11,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "e59afe5b-2c5f-4934-95d7-8c187b22fd6d",
@@ -158,7 +165,8 @@
       "Y": 10,
       "Z": 1
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "c0159b96-edf3-46cd-9fbe-96ee1126304b",
@@ -178,7 +186,8 @@
       "Y": 12,
       "Z": 2
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "c654a023-ca53-4109-9f18-d297c18e9a02",
@@ -198,7 +207,8 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "ec0bb005-f3c1-425a-94c4-6feca8567068",
@@ -218,7 +228,8 @@
       "Y": 6,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "8d601982-4608-4d5e-bb9e-e4041486f7c7",
@@ -233,7 +244,8 @@
       "Friction": 3,
       "Buoyancy": 8
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "712a5ebd-0793-49ba-b1ef-681a8fdceba6",
@@ -253,7 +265,8 @@
       "Y": 6,
       "Z": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "de7eea5b-9262-476b-a5bb-238d0e91f81f",
@@ -272,7 +285,8 @@
       "Diameter": 2,
       "Depth": 4
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "79cc711e-7094-4029-8419-bbbf8f08c6f2",
@@ -292,6 +306,7 @@
       "Y": 9,
       "Z": 10
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

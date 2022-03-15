@@ -15,5 +15,6 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
+        public bool IsCreative { get; set; }
     }
 }

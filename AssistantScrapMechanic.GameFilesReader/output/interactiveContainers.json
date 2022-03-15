@@ -18,7 +18,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "38ec258d-c644-4f08-8635-3f7434c884dd",
@@ -39,7 +40,8 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   },
   {
     "ItemId": "be29592a-ef58-4b1d-b18c-895023abd27f",
@@ -59,6 +61,7 @@
       "Y": 3,
       "Z": 3
     },
-    "Flammable": false
+    "Flammable": false,
+    "IsCreative": false
   }
 ]

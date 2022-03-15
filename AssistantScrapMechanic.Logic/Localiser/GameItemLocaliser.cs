@@ -15,6 +15,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 GameName = gameItem.Name,
                 Color = gameItem.Color,
                 Flammable = gameItem.Flammable,
+                IsCreative = (gameItem.Name ?? string.Empty).Contains("creative", System.StringComparison.InvariantCultureIgnoreCase),
                 Name = itemNames.GetTitle(gameItem.Uuid),
                 Description = itemNames.GetDescription(gameItem.Uuid),
                 PhysicsMaterial = gameItem.PhysicsMaterial,

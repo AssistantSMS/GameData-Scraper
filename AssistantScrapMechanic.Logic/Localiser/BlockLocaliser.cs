@@ -15,6 +15,7 @@ namespace AssistantScrapMechanic.Logic.Localiser
                 ItemId = block.Uuid,
                 Color = block.Color,
                 Flammable = block.Flammable,
+                IsCreative = block.Name.Contains("creative", System.StringComparison.InvariantCultureIgnoreCase),
                 Name = itemNames.GetTitle(block.Uuid),
                 PhysicsMaterial = block.PhysicsMaterial,
                 Ratings = block.Ratings,

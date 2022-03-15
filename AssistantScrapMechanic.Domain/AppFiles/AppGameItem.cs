@@ -18,6 +18,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
+        public bool IsCreative { get; set; }
 
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
@@ -31,6 +32,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Icon = icon,
                 Color = Color,
                 Flammable = Flammable,
+                IsCreative = IsCreative,
                 PhysicsMaterial = PhysicsMaterial,
                 Ratings = Ratings,
                 Box = Box,
@@ -67,6 +69,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Box Box { get; set; }
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
+        public bool IsCreative { get; set; }
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
         public CustomisationSourceType? CustomisationSource { get; set; }

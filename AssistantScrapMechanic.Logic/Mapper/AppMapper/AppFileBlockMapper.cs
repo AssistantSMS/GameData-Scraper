@@ -13,6 +13,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             {
                 AppId = localisedData.AppId,
                 Flammable = localisedData.Flammable,
+                IsCreative = localisedData.IsCreative,
                 PhysicsMaterial = localisedData.PhysicsMaterial,
                 Title = localisedData.Name,
                 Color = localisedData.Color,
@@ -31,6 +32,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             {
                 AppId = localisedData.AppId,
                 Flammable = false,
+                IsCreative = false,
                 PhysicsMaterial = "",
                 Title = localisedData.Name,
                 Description = category,
