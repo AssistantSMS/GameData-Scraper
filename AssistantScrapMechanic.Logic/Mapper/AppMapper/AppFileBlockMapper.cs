@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using AssistantScrapMechanic.Domain.AppFiles;
 using AssistantScrapMechanic.Domain.Constant;
+using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 
 namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
@@ -14,6 +15,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
                 AppId = localisedData.AppId,
                 Flammable = localisedData.Flammable,
                 IsCreative = localisedData.IsCreative,
+                IsChallenge = localisedData.DataSourceCategory == DataSourceCategory.Challenge,
                 PhysicsMaterial = localisedData.PhysicsMaterial,
                 Title = localisedData.Name,
                 Color = localisedData.Color,

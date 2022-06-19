@@ -1,4 +1,5 @@
-﻿using AssistantScrapMechanic.Domain.GameFiles;
+﻿using AssistantScrapMechanic.Domain.Enum;
+using AssistantScrapMechanic.Domain.GameFiles;
 
 namespace AssistantScrapMechanic.Domain.IntermediateFiles
 {
@@ -21,5 +22,6 @@ namespace AssistantScrapMechanic.Domain.IntermediateFiles
         public bool IsCreative { get; set; }
         public decimal Density { get; set; }
         public int QualityLevel { get; set; }
+        public DataSourceCategory DataSourceCategory { get; set; }
     }
 }

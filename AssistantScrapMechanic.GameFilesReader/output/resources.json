@@ -20,7 +20,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "fcf0958c-084d-4854-9b1b-b06594b4262a",
@@ -44,7 +45,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "40e8bd0d-04a0-4e95-b593-4038b54b156f",
@@ -68,7 +70,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "3440440b-d362-4473-aa03-b7c41e1fe7ad",
@@ -92,7 +95,8 @@
     "StackSize": 20,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "fe8bfeba-850b-4827-9785-10e2468c9c23",
@@ -117,7 +121,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "f152e4df-bc40-44fb-8d20-3b3ff70cdfe3",
@@ -141,7 +146,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "fb0f128c-e607-4c52-9c25-f44dfd2dd95e",
@@ -165,7 +171,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "388adeab-67e5-4901-afe8-c56217754510",
@@ -189,7 +196,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "c9396a42-67c3-4fa3-b682-31428ff9eced",
@@ -212,7 +220,8 @@
     "StackSize": 20,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "36335664-6e61-4d44-9876-54f9660a8565",
@@ -236,7 +245,8 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "1147e59d-6940-42b4-840b-07f05054f5e0",
@@ -260,6 +270,7 @@
     "StackSize": 20,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   }
 ]

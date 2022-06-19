@@ -22,7 +22,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "d0afb527-e786-4a22-a907-6da7e7cba8cb",
@@ -46,7 +47,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8",
@@ -70,7 +72,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "fcfae5e2-1df9-47d8-bb9a-30bec9b5b1f5",
@@ -95,7 +98,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "c8b1bc7b-304e-44ce-9ca1-937b8e69d70c",
@@ -120,7 +124,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "8fd2cf31-70b3-499a-bfb0-7e3d2c580258",
@@ -145,7 +150,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "8694192c-d91b-444c-a184-910911bbb354",
@@ -169,7 +175,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "767a3121-2c31-473c-a5ab-27e188fdd55a",
@@ -194,7 +201,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "454ad69d-bac2-4b06-9386-6267bcbfece2",
@@ -219,7 +227,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "5eb8975b-0acf-43a7-ab4e-62ce661c0df7",
@@ -244,12 +253,33 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
+  },
+  {
+    "ItemId": "e83a22c5-8783-413f-a199-46bc30ca8dac",
+    "GameName": "obj_interactive_builderguideblock",
+    "AppId": "intera11",
+    "Name": "",
+    "Description": "",
+    "Color": "ca372d00",
+    "PhysicsMaterial": "Metal",
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 3
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "4a1b886b-913e-4aad-b5b6-6e41b0db23a6",
     "GameName": "jnt_bearing",
-    "AppId": "intera11",
+    "AppId": "intera12",
     "Name": "Bearing",
     "Description": "Everything you place on the bearing will revolve. Bearings can also be connected to an engine or the driver's seat to be controlled in different ways.",
     "Color": "df7f01",
@@ -268,12 +298,13 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "aa8d89eb-919b-42f4-8b58-af6f0d5856bc",
     "GameName": "jnt_suspensionsport_creative",
-    "AppId": "intera12",
+    "AppId": "intera13",
     "Name": "Sport Suspension",
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension is small, but has a firmer bounce.",
     "Color": "df7f01",
@@ -292,12 +323,13 @@
     "StackSize": 5,
     "IsCreative": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "a481138b-fae9-47c9-9bc2-91b6d2e2bf52",
     "GameName": "jnt_suspensionoffroad_creative",
-    "AppId": "intera13",
+    "AppId": "intera14",
     "Name": "Off-Road Suspension",
     "Description": "Adds bounce and stability. Great for vehicles to prevent them from easily tipping over. This suspension has a lot of bounce, making it ideal for off-road vehicles.",
     "Color": "df7f01",
@@ -316,12 +348,13 @@
     "StackSize": 5,
     "IsCreative": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "cf3fdcfc-a7e5-4497-b000-ffda67dd8db7",
     "GameName": "obj_interactive_driverseat_creative",
-    "AppId": "intera14",
+    "AppId": "intera15",
     "Name": "Driver's Seat",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the seat.",
     "Color": "df7f01",
@@ -341,12 +374,13 @@
     "StackSize": 0,
     "IsCreative": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "42786777-c148-4e13-9bab-e460564e79c3",
     "GameName": "obj_interactive_seat_creative",
-    "AppId": "intera15",
+    "AppId": "intera16",
     "Name": "Seat",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the seat.",
     "Color": "df7f01",
@@ -366,12 +400,13 @@
     "StackSize": 0,
     "IsCreative": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "38ee0516-abc5-4e46-9195-c763610d7ec4",
     "GameName": "obj_interactive_driversaddle_creative",
-    "AppId": "intera16",
+    "AppId": "intera17",
     "Name": "Driver's Saddle",
     "Description": "Makes bearings turn left and right. Can be connected to an engine to control the direction of travel. Can also be connected to triggers that can be activated from the saddle.",
     "Color": "df7f01",
@@ -391,12 +426,13 @@
     "StackSize": 0,
     "IsCreative": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "20f59114-5964-451f-bb47-820da3ebbc3b",
     "GameName": "obj_interactive_saddle_creative",
-    "AppId": "intera17",
+    "AppId": "intera18",
     "Name": "Saddle",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the saddle.",
     "Color": "df7f01",
@@ -415,13 +451,14 @@
     "Flammable": false,
     "StackSize": 0,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "ca003562-fde7-463c-969e-f8334ae54387",
     "GameName": "obj_interactive_toilet",
-    "AppId": "intera18",
+    "AppId": "intera19",
     "Name": "Toilet",
     "Description": "Used for avoiding standing. Take a seat and relax or add it to your vehicle so your friends can tag along. Can be connected to triggers which can activate other interactive parts from the toilet. Don't forget to flush!",
     "Color": "3e9ffe",
@@ -441,12 +478,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "d5e36413-b3c1-4636-8447-3410c352ec7b",
     "GameName": "obj_interactive_gasengine_creative",
-    "AppId": "intera19",
+    "AppId": "intera20",
     "Name": "Gas Engine",
     "Description": "An engine with fixed speed and adjustable power, ideally suited to powering vehicles. Can be connected to a driver's seat or triggers.",
     "Color": "df7f01",
@@ -465,13 +503,14 @@
     "Flammable": false,
     "StackSize": 0,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "6546c293-a5aa-4442-80d5-a2819f077746",
     "GameName": "obj_interactive_electricengine_creative",
-    "AppId": "intera20",
+    "AppId": "intera21",
     "Name": "Electric Engine",
     "Description": "Powers bearings. An engine with fixed power and adjustable speed. A slow engine with a lot of strength. Can be connected to a driver's seat or triggers.",
     "Color": "df7f01",
@@ -490,13 +529,14 @@
     "Flammable": false,
     "StackSize": 0,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "5e96037a-a338-490a-a76f-6b4d820f8e46",
     "GameName": "obj_interactive_thruster_creative",
-    "AppId": "intera21",
+    "AppId": "intera22",
     "Name": "Thruster",
     "Description": "Enough of these can make things fly. Needs to be connected to a trigger or the driver's seat in order to activate.",
     "Color": "df7f01",
@@ -515,13 +555,14 @@
     "Flammable": false,
     "StackSize": 0,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "12862001-666c-4bdd-8326-a1f43610d28b",
     "GameName": "obj_interactive_controller_creative",
-    "AppId": "intera22",
+    "AppId": "intera23",
     "Name": "Controller",
     "Description": "Allows bearings to rotate in sequence. Perfect for building transforming creations. Needs to be connected to bearings. Activated by connecting a trigger or driver's seat to the controller.",
     "Color": "df7f01",
@@ -540,13 +581,14 @@
     "Flammable": false,
     "StackSize": 5,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "7cf717d7-d167-4f2d-a6e7-6b2c70aa3986",
     "GameName": "obj_interactive_switch",
-    "AppId": "intera23",
+    "AppId": "intera24",
     "Name": "Switch",
     "Description": "Unlimited toggling on demand. The Switch activates whatever it's connected to, making it indispensible when you want to turn things on and off with a single push. It can activate an engine, a thruster, the controller and more.",
     "Color": "df7f01",
@@ -566,12 +608,13 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "1e8d93a4-506b-470d-9ada-9c0a321e2db5",
     "GameName": "obj_interactive_button",
-    "AppId": "intera24",
+    "AppId": "intera25",
     "Name": "Button",
     "Description": "Activates stuff. The button activates as long as it remains pressed.",
     "Color": "df7f01",
@@ -591,12 +634,13 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "add3acc6-a6fd-44e8-a384-a7a16ce13c81",
     "GameName": "obj_interactive_sensor_creative",
-    "AppId": "intera25",
+    "AppId": "intera26",
     "Name": "Sensor",
     "Description": "It detects, it activates! The sensor activates when detecting any kind of surface that comes into its view, and has a reach of ten blocks. It can activate an engine, a thruster, the controller and more.",
     "Color": "df7f01",
@@ -615,13 +659,14 @@
     "Flammable": false,
     "StackSize": 10,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "dfefc9d7-db03-4d25-ad85-eae1d824d8c0",
     "GameName": "obj_interactive_radio",
-    "AppId": "intera26",
+    "AppId": "intera27",
     "Name": "Radio",
     "Description": "All hits, all the time. Those beastly bots have hijacked and are now transmitting classic selections from their deeply unusual taste in music. Activate it by interacting with it or by connecting it to a trigger.",
     "Color": "df7f01",
@@ -641,12 +686,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "818f4e15-ff51-4fed-b874-723a25d62e1c",
     "GameName": "obj_interactive_horn",
-    "AppId": "intera27",
+    "AppId": "intera28",
     "Name": "Horn",
     "Description": "Add it to your vehicle or use it as a door bell. Honk at your friends to avoid accidents. Set the pitch and connect it to a trigger to activate it.",
     "Color": "df7f01",
@@ -666,12 +712,13 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "9f0f56e8-2c31-4d83-996c-d00a9b296c3f",
     "GameName": "obj_interactive_logicgate",
-    "AppId": "intera28",
+    "AppId": "intera29",
     "Name": "Logic Gate",
     "Description": "The Logic Gate is a powerful block that allows you to build basic logical functions. By pressing E on the block, the mechanic can choose between different logic gate types. The logic gate can be connected to other logic gates, triggers, timers and more. Great for making advanced creations.",
     "Color": "df7f01",
@@ -691,12 +738,13 @@
     "StackSize": 10,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "8f7fd0e7-c46e-4944-a414-7ce2437bb30f",
     "GameName": "obj_interactive_timer",
-    "AppId": "intera29",
+    "AppId": "intera30",
     "Name": "Timer",
     "Description": "The Timer allows you delay the interaction between two interactive parts. For example, between a switch and a controller. It goes great with Logic Gates.",
     "Color": "df7f01",
@@ -716,12 +764,13 @@
     "StackSize": 5,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "161786c1-1290-4817-8f8b-7f80de755a06",
     "GameName": "obj_interactive_robotbasshead",
-    "AppId": "intera30",
+    "AppId": "intera31",
     "Name": "Totebot Head: Bass",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "1a538c",
@@ -741,12 +790,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "4c6e27a2-4c35-4df3-9794-5e206fef9012",
     "GameName": "obj_interactive_robotdrumhead",
-    "AppId": "intera31",
+    "AppId": "intera32",
     "Name": "Totebot Head: Percussion",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "a9831c",
@@ -766,15 +816,16 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "a052e116-f273-4d73-872c-924a97b86720",
     "GameName": "obj_interactive_robotsynthhead",
-    "AppId": "intera32",
+    "AppId": "intera33",
     "Name": "Totebot Head: Synth Voice",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
-    "Color": "7f2418",
+    "Color": "cb0a00",
     "PhysicsMaterial": "Mechanical",
     "Ratings": {
       "Density": 4,
@@ -791,12 +842,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "1c04327f-1de4-4b06-92a8-2c9b40e491aa",
     "GameName": "obj_interactive_robotbliphead01",
-    "AppId": "intera33",
+    "AppId": "intera34",
     "Name": "Totebot Head: Blip",
     "Description": "This robot head is broken. But the sound generator inside seems to still be working. Creative mechanics can probably find a way to make music with this.",
     "Color": "49642d",
@@ -816,12 +868,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "3efe715f-8745-475f-a609-5e7cbe09a8ef",
     "GameName": "obj_interactive_bathtub",
-    "AppId": "intera34",
+    "AppId": "intera35",
     "Name": "Bathtub",
     "Description": "Used for maximum relaxation. Sit down and relax or add it to your vehicle to stay nice and clean on the go. Can be connected to triggers which can activate other interactive parts from the bathtub.",
     "Color": "3e9ffe",
@@ -841,12 +894,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "260b4597-f1ac-409c-8e6b-90c998c5fe94",
     "GameName": "jnt_interactive_piston_creative",
-    "AppId": "intera35",
+    "AppId": "intera36",
     "Name": "Piston",
     "Description": "Extends and contracts! Connect it to a trigger to activate. The piston can also be connected to a controller to make it extend and contract in a sequence. Perfect for creating impressive creations.",
     "Color": "df7f01",
@@ -866,12 +920,13 @@
     "StackSize": 10,
     "IsCreative": true,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "4152ce33-9b43-4c51-80a3-e0b4fe38841d",
     "GameName": "obj_interactive_raftshark",
-    "AppId": "intera36",
+    "AppId": "intera37",
     "Name": "Raft Shark Mount",
     "Description": "A plastic shark mount prop from the survival game Raft. It seems to have some mechanical joints inside. Maybe it can bite?",
     "Color": "304352",
@@ -891,12 +946,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "0229f59d-1ba3-446a-8f9c-df8b0f816e51",
     "GameName": "obj_interactive_mountablespudgun_creative",
-    "AppId": "intera37",
+    "AppId": "intera38",
     "Name": "Mountable Spud Gun",
     "Description": "The potato shooting mountable spud gun is great for protecting your creations. Connect it to a trigger that is connected to a seat to shoot while seated.",
     "Color": "df7f01",
@@ -915,13 +971,14 @@
     "Flammable": false,
     "StackSize": 0,
     "IsCreative": true,
-    "Density": 0.0,
-    "QualityLevel": 0
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "8d3b98de-c981-4f05-abfe-d22ee4781d33",
     "GameName": "obj_interactive_propanetank_small",
-    "AppId": "intera38",
+    "AppId": "intera39",
     "Name": "Small Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a small explosion radius.",
     "Color": "cb0a00",
@@ -941,12 +998,13 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
   },
   {
     "ItemId": "24001201-40dd-4950-b99f-17d878a9e07b",
     "GameName": "obj_interactive_propanetank_large",
-    "AppId": "intera39",
+    "AppId": "intera40",
     "Name": "Large Explosive Canister",
     "Description": "Highly explosive canister that can detonate by strong collisions or by Spud Guns. This canister has a large explosion radius.",
     "Color": "cb0a00",
@@ -966,6 +1024,613 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 1
+  },
+  {
+    "ItemId": "b3402155-e8a3-452d-b6fb-55c8d4e4e681",
+    "GameName": "obj_challenge_interactive_challengechest",
+    "AppId": "intera41",
+    "Name": "Challenge Chest",
+    "Description": "Fill with the items you want the player to build with in your challenge.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 3,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "b5858089-b1f8-4d13-a485-fdaa204d9c6b",
+    "GameName": "obj_challenge_interactive_startposition",
+    "AppId": "intera42",
+    "Name": "Player Start",
+    "Description": "Players will start on these when playing the challenge.",
+    "Color": "4e9be3",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "af130ba7-f0ed-4a5a-97f8-be78b54e972b",
+    "GameName": "obj_challenge_interactive_ballspawner",
+    "AppId": "intera43",
+    "Name": "Ball Spawner",
+    "Description": "Spawns a ball when the challenge starts. Connect to a trigger to control the spawning. A new one will spawn if the ball falls off the edge.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "fa9de66b-fd92-4d67-bf68-6584937b736d",
+    "GameName": "obj_challenge_interactive_explosivespawner",
+    "AppId": "intera44",
+    "Name": "Explosive Canister Spawner",
+    "Description": "Spawns an explosive canister when the challenge starts. Connect to a trigger to control the spawning. A new one will spawn if the canister is destroyed.",
+    "Color": "cb0a00",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 2,
+      "Y": 1,
+      "Z": 2
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "7bbf53fd-2b5e-4717-9b9c-ba8962b611e1",
+    "GameName": "obj_challenge_interactive_goal",
+    "AppId": "intera45",
+    "Name": "Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 48,
+      "Y": 2,
+      "Z": 48
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "0a224575-1943-4fec-bc54-bf531018fd03",
+    "GameName": "obj_challenge_interactive_buildarea",
+    "AppId": "intera46",
+    "Name": "Build Platform",
+    "Description": "As long as the challenge has not started the player can build their creation here.",
+    "Color": "4e9be3",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 48,
+      "Y": 2,
+      "Z": 48
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "88a73e45-6740-4a60-b3cc-fbe4e010eb9f",
+    "GameName": "obj_challenge_interactive_ball",
+    "AppId": "intera47",
+    "Name": "Ball",
+    "Description": "It's spherical!",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "badc4d45-1b75-4528-9451-a46270189190",
+    "GameName": "obj_challenge_interactive_ballsocket",
+    "AppId": "intera48",
+    "Name": "Ball Socket",
+    "Description": "Bring a ball of matching color into the socket to activate.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 8,
+      "Y": 4,
+      "Z": 8
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "dff53b11-2d8d-4044-ad51-59321f117f8e",
+    "GameName": "obj_challenge_interactive_bigpiston",
+    "AppId": "intera49",
+    "Name": "Big Piston",
+    "Description": "A really long and powerful piston useful for moving large doors and platforms in challenges.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "8684ad89-94ad-4f46-b50e-c1aff63893f4",
+    "GameName": "obj_challenge_interactive_trigger",
+    "AppId": "intera50",
+    "Name": "Big Sensor",
+    "Description": "Senses creations and players in front of it. 64 block range. Senses through walls.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "5929670a-fe70-40a7-83e4-45cf179b0aef",
+    "GameName": "obj_challenge_interactive_light",
+    "AppId": "intera51",
+    "Name": "On / Off Light Block",
+    "Description": "Used to communicate challenge logic to the player.",
+    "Color": "4a4a4a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "9b9e4547-0846-42da-b812-9f1a5b22e52f",
+    "GameName": "obj_challenge_interactive_arrow_light",
+    "AppId": "intera52",
+    "Name": "Arrow Light Block",
+    "Description": "Connect in a series to light up a path.",
+    "Color": "3cff34",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "4a9929e9-aa85-4791-89c2-f8799920793f",
+    "GameName": "obj_challenge_interactive_starter_block",
+    "AppId": "intera53",
+    "Name": "Challenge Starter",
+    "Description": "The Challenge Starter allows you to create challenges that does not require a creation to trigger the goal. Needs to be connected to a trigger to start the challenge.",
+    "Color": "123456",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "3da9c71f-9900-48a2-be66-8d1c80f88ac8",
+    "GameName": "obj_challenge_interactive_finishblock",
+    "AppId": "intera54",
+    "Name": "Goal Block",
+    "Description": "This block will finish a challenge when triggered. It's useful if you want your challenge to end with a switch, sensor or button activation.",
+    "Color": "4b4b4b",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 4,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "945d6152-fc82-48ec-a113-3896c14e8c5f",
+    "GameName": "obj_challenge_interactive_celebrationbot",
+    "AppId": "intera55",
+    "Name": "Celebrationbot",
+    "Description": "Connect to a trigger and activate to start the celebration!",
+    "Color": "808080",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 30,
+      "Y": 12,
+      "Z": 9
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 500.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "18c148a4-fa2f-4948-95fd-809316f38584",
+    "GameName": "obj_challenge_celebrationbotleg",
+    "AppId": "intera56",
+    "Name": "Celebrationbot Stand",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 12,
+      "Y": 10,
+      "Z": 3
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "474b6aa3-b22f-4509-85b9-b5e281ff05f5",
+    "GameName": "obj_challenge_interactive_soundcube",
+    "AppId": "intera57",
+    "Name": "Confirmation Sound Cube",
+    "Description": "Makes a sound when triggered.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "8ec1120b-b272-44e8-9ad2-5b1998cb2477",
+    "GameName": "obj_challenge_interactive_ballspawnfront",
+    "AppId": "intera58",
+    "Name": "Ball Spawner Frame One",
+    "Description": "A frame with an arrow that lights up when triggered.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 6,
+      "Y": 8,
+      "Z": 1
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "2855df9b-8684-44ae-aaa8-8df0f96dbef6",
+    "GameName": "obj_challenge_interactive_ballspawnside",
+    "AppId": "intera59",
+    "Name": "Ball Spawner Frame Two",
+    "Description": "A frame with an arrow that lights up when triggered.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 8,
+      "Y": 8,
+      "Z": 1
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "6ca42dd6-0f2f-4abe-9aee-e1acb2bfcf40",
+    "GameName": "obj_challenge_interactive_mapinspector",
+    "AppId": "intera60",
+    "Name": "Map Computer",
+    "Description": "Gives an overview of the challenge.",
+    "Color": "9f2600",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 8,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "fc3b1e92-1e81-45cf-9cbc-7ddb85604ff6",
+    "GameName": "obj_challenge_interactive_observerbot",
+    "AppId": "intera61",
+    "Name": "Observerbot",
+    "Description": "Takes notes whenever the player builds something.",
+    "Color": "745540",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 4,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 4,
+      "Y": 9,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "dcbab714-d981-4998-9b90-5332e36d3632",
+    "GameName": "obj_challenge_interactive_popupaudience",
+    "AppId": "intera62",
+    "Name": "Pop-up Audience",
+    "Description": "They love you!\nPerfect for celebrating the completion of a challenge.",
+    "Color": "808080",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 0,
+      "Durability": 0,
+      "Friction": 7,
+      "Buoyancy": 0
+    },
+    "Box": {
+      "X": 12,
+      "Y": 6,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 1250.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "61b85d08-4087-4d7c-9ddb-64caeb60e447",
+    "GameName": "obj_interactive_characterspawner",
+    "AppId": "intera63",
+    "Name": "Character Spawner",
+    "Description": "The Character Spawner lets you spawn characters from Survival mode in your challenges. Connect it to a trigger or the Challenge starter to spawn the selected character.",
+    "Color": "df7f01",
+    "PhysicsMaterial": "Mechanical",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 4,
+      "Y": 1,
+      "Z": 4
+    },
+    "Flammable": false,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
+  },
+  {
+    "ItemId": "90109b86-3dcf-44b3-a8e1-28c37122d5a7",
+    "GameName": "obj_challenge_interactive_smallgoal",
+    "AppId": "intera64",
+    "Name": "Small Goal Platform",
+    "Description": "Bringing your creation over this Goal Platform wins the challenge. Connect an input to set a win condition. Connect outputs to trigger celebration events.",
+    "Color": "a71a1a",
+    "PhysicsMaterial": "Metal",
+    "Ratings": {
+      "Density": 2,
+      "Durability": 3,
+      "Friction": 3,
+      "Buoyancy": 2
+    },
+    "Box": {
+      "X": 3,
+      "Y": 2,
+      "Z": 3
+    },
+    "Flammable": true,
+    "StackSize": 0,
+    "IsCreative": false,
+    "Density": 0.0,
+    "QualityLevel": 0,
+    "DataSourceCategory": 3
   }
 ]

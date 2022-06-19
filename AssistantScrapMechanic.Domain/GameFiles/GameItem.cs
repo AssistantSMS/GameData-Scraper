@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using AssistantScrapMechanic.Domain.Enum;
 using Newtonsoft.Json;
 
 namespace AssistantScrapMechanic.Domain.GameFiles
@@ -27,6 +28,7 @@ namespace AssistantScrapMechanic.Domain.GameFiles
         public decimal Density { get; set; }
         public int StackSize { get; set; }
         public Edible Edible { get; set; }
+        public DataSourceCategory DataSourceCategory { get; set; }
     }
 
     public class Cylinder

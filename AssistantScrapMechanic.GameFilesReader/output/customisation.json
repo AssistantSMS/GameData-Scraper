@@ -179,13 +179,13 @@
         "ItemId": "9778b063-26ff-456f-820b-2a47e85e5a68_male",
         "AppId": "custTorM4",
         "Name": "Applicator Jacket",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "9778b063-26ff-456f-820b-2a47e85e5a68_female",
         "AppId": "custTorF4",
         "Name": "Applicator Jacket",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "8fd35b59-b4d5-4378-adf7-44f02d9abd33_male",
@@ -308,290 +308,302 @@
         "Tier": 1
       },
       {
-        "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_male",
+        "ItemId": "420ea3ba-f09b-44ce-9e4c-7040ef057a0c_male",
         "AppId": "custTorM15",
+        "Name": "Stuntman Jacket",
+        "Tier": 0
+      },
+      {
+        "ItemId": "420ea3ba-f09b-44ce-9e4c-7040ef057a0c_female",
+        "AppId": "custTorF15",
+        "Name": "Stuntman Jacket",
+        "Tier": 0
+      },
+      {
+        "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_male",
+        "AppId": "custTorM16",
         "Name": "Bearing T-Shirt",
         "Tier": 2
       },
       {
         "ItemId": "f18fb8f9-57aa-488f-a4b9-4472977ed385_female",
-        "AppId": "custTorF15",
+        "AppId": "custTorF16",
         "Name": "Bearing T-Shirt",
         "Tier": 2
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_male",
-        "AppId": "custTorM16",
+        "AppId": "custTorM17",
         "Name": "Seat T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "32ae4da2-b41c-4d7a-9a46-151fa8fdaef5_female",
-        "AppId": "custTorF16",
+        "AppId": "custTorF17",
         "Name": "Seat T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_male",
-        "AppId": "custTorM17",
+        "AppId": "custTorM18",
         "Name": "Scrap Muffin T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "bce9f168-e972-4364-b3c6-22f014b3cc1a_female",
-        "AppId": "custTorF17",
+        "AppId": "custTorF18",
         "Name": "Scrap Muffin T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_male",
-        "AppId": "custTorM18",
+        "AppId": "custTorM19",
         "Name": "Control Freak T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "32afd4e5-fe9a-4b43-83ac-610647a90013_female",
-        "AppId": "custTorF18",
+        "AppId": "custTorF19",
         "Name": "Control Freak T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_male",
-        "AppId": "custTorM19",
+        "AppId": "custTorM20",
         "Name": "Need Lift T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d5cdc0d0-30ff-49d4-adac-e0342caf75be_female",
-        "AppId": "custTorF19",
+        "AppId": "custTorF20",
         "Name": "Need Lift T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_male",
-        "AppId": "custTorM20",
+        "AppId": "custTorM21",
         "Name": "Axolot T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de3abc13-31ea-42bc-93cc-3e2a24f306cd_female",
-        "AppId": "custTorF20",
+        "AppId": "custTorF21",
         "Name": "Axolot T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_male",
-        "AppId": "custTorM21",
+        "AppId": "custTorM22",
         "Name": "Sensitive T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "5b5dbb48-d6dc-4866-bbb9-5771984bedd8_female",
-        "AppId": "custTorF21",
+        "AppId": "custTorF22",
         "Name": "Sensitive T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_male",
-        "AppId": "custTorM22",
+        "AppId": "custTorM23",
         "Name": "Totebot Moon T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "de94b7cd-3070-41c0-bb03-d99de71d38ac_female",
-        "AppId": "custTorF22",
+        "AppId": "custTorF23",
         "Name": "Totebot Moon T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_male",
-        "AppId": "custTorM23",
+        "AppId": "custTorM24",
         "Name": "Team Tomato T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f17d12a7-071b-4fc1-b16d-f4bbfeac8ae8_female",
-        "AppId": "custTorF23",
+        "AppId": "custTorF24",
         "Name": "Team Tomato T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_male",
-        "AppId": "custTorM24",
+        "AppId": "custTorM25",
         "Name": "Team Banana T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "8b4e2978-02e8-4cd1-ab96-a9b151897e9d_female",
-        "AppId": "custTorF24",
+        "AppId": "custTorF25",
         "Name": "Team Banana T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_male",
-        "AppId": "custTorM25",
+        "AppId": "custTorM26",
         "Name": "Team Broccoli T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "9b3da27a-9c60-4577-9878-eb2b5fb8eaf9_female",
-        "AppId": "custTorF25",
+        "AppId": "custTorF26",
         "Name": "Team Broccoli T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_male",
-        "AppId": "custTorM26",
+        "AppId": "custTorM27",
         "Name": "Team Blueberry T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "882d65f2-b9b1-4805-ae1c-9cd7d20e38ec_female",
-        "AppId": "custTorF26",
+        "AppId": "custTorF27",
         "Name": "Team Blueberry T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_male",
-        "AppId": "custTorM27",
+        "AppId": "custTorM28",
         "Name": "Connections T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f9571933-d116-4974-a870-de174c8a9138_female",
-        "AppId": "custTorF27",
+        "AppId": "custTorF28",
         "Name": "Connections T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_male",
-        "AppId": "custTorM28",
+        "AppId": "custTorM29",
         "Name": "Playing Wrong T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d63dbfef-0b6c-44e4-9ac8-32788b8467a7_female",
-        "AppId": "custTorF28",
+        "AppId": "custTorF29",
         "Name": "Playing Wrong T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_male",
-        "AppId": "custTorM29",
+        "AppId": "custTorM30",
         "Name": "Quack T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "77e9bb3b-e99e-4c02-86fe-d92d0550029e_female",
-        "AppId": "custTorF29",
+        "AppId": "custTorF30",
         "Name": "Quack T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_male",
-        "AppId": "custTorM30",
+        "AppId": "custTorM31",
         "Name": "Company T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "b970dc1e-64eb-4444-b438-bb05bf213f7a_female",
-        "AppId": "custTorF30",
+        "AppId": "custTorF31",
         "Name": "Company T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_male",
-        "AppId": "custTorM31",
+        "AppId": "custTorM32",
         "Name": "Totem T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "ce977a4d-2cd3-4a0f-93ac-27add8156334_female",
-        "AppId": "custTorF31",
+        "AppId": "custTorF32",
         "Name": "Totem T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_male",
-        "AppId": "custTorM32",
+        "AppId": "custTorM33",
         "Name": "Totebot Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d6570900-30d7-4b1f-af27-d57375ab07aa_female",
-        "AppId": "custTorF32",
+        "AppId": "custTorF33",
         "Name": "Totebot Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "3534077b-ab28-446b-b875-63af2819e4cf_male",
-        "AppId": "custTorM33",
+        "AppId": "custTorM34",
         "Name": "Logical T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "3534077b-ab28-446b-b875-63af2819e4cf_female",
-        "AppId": "custTorF33",
+        "AppId": "custTorF34",
         "Name": "Logical T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "8ac0f0ce-8627-43cd-a25f-a44fd9cbe498_male",
-        "AppId": "custTorM34",
+        "AppId": "custTorM35",
         "Name": "Woc Love T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "8ac0f0ce-8627-43cd-a25f-a44fd9cbe498_female",
-        "AppId": "custTorF34",
+        "AppId": "custTorF35",
         "Name": "Woc Love T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "39325df6-fcb8-42b3-9dd9-94be00a53748_male",
-        "AppId": "custTorM35",
+        "AppId": "custTorM36",
         "Name": "Pizza Burger T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "39325df6-fcb8-42b3-9dd9-94be00a53748_female",
-        "AppId": "custTorF35",
+        "AppId": "custTorF36",
         "Name": "Pizza Burger T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d5a20cbc-7dd8-447d-9321-4262c1133aaa_male",
-        "AppId": "custTorM36",
+        "AppId": "custTorM37",
         "Name": "Carrot Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "d5a20cbc-7dd8-447d-9321-4262c1133aaa_female",
-        "AppId": "custTorF36",
+        "AppId": "custTorF37",
         "Name": "Carrot Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "73fbbd12-fbca-4da5-92a4-802624002054_male",
-        "AppId": "custTorM37",
+        "AppId": "custTorM38",
         "Name": "Corn Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "73fbbd12-fbca-4da5-92a4-802624002054_female",
-        "AppId": "custTorF37",
+        "AppId": "custTorF38",
         "Name": "Corn Pattern T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f01e782b-1619-4b28-ad94-0940dfcc9b1e_male",
-        "AppId": "custTorM38",
+        "AppId": "custTorM39",
         "Name": "Gas T-Shirt",
         "Tier": 1
       },
       {
         "ItemId": "f01e782b-1619-4b28-ad94-0940dfcc9b1e_female",
-        "AppId": "custTorF38",
+        "AppId": "custTorF39",
         "Name": "Gas T-Shirt",
         "Tier": 1
       }
@@ -640,13 +652,13 @@
         "ItemId": "ecdf2659-3a13-4296-98d9-2bd469daea8e_male",
         "AppId": "custGloM4",
         "Name": "Applicator Gloves",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "ecdf2659-3a13-4296-98d9-2bd469daea8e_female",
         "AppId": "custGloF4",
         "Name": "Applicator Gloves",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "bc253f7e-bd45-4dde-b663-30d9353cfa73_male",
@@ -767,6 +779,18 @@
         "AppId": "custGloF14",
         "Name": "Technician Gloves",
         "Tier": 1
+      },
+      {
+        "ItemId": "6413e3f6-1eb9-4bf4-8c17-88f32e31f458_male",
+        "AppId": "custGloM15",
+        "Name": "Stuntman Gloves",
+        "Tier": 0
+      },
+      {
+        "ItemId": "6413e3f6-1eb9-4bf4-8c17-88f32e31f458_female",
+        "AppId": "custGloF15",
+        "Name": "Stuntman Gloves",
+        "Tier": 0
       }
     ]
   },
@@ -813,13 +837,13 @@
         "ItemId": "583ba7e5-edbe-48e2-9ae5-fa939e7d1769_male",
         "AppId": "custShoM4",
         "Name": "Applicator Shoes",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "583ba7e5-edbe-48e2-9ae5-fa939e7d1769_female",
         "AppId": "custShoF4",
         "Name": "Applicator Shoes",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "01b0634c-4294-4aa6-adf5-4e653ad6a782_male",
@@ -940,6 +964,18 @@
         "AppId": "custShoF14",
         "Name": "Technician Shoes",
         "Tier": 1
+      },
+      {
+        "ItemId": "000487f4-7843-4f0a-8052-ff79f2072d1d_male",
+        "AppId": "custShoM15",
+        "Name": "Stuntman Shoes",
+        "Tier": 0
+      },
+      {
+        "ItemId": "000487f4-7843-4f0a-8052-ff79f2072d1d_female",
+        "AppId": "custShoF15",
+        "Name": "Stuntman Shoes",
+        "Tier": 0
       }
     ]
   },
@@ -986,13 +1022,13 @@
         "ItemId": "9293d50d-4a60-4e5d-9712-33d04a5fbea2_male",
         "AppId": "custLegM4",
         "Name": "Applicator Pants",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "9293d50d-4a60-4e5d-9712-33d04a5fbea2_female",
         "AppId": "custLegF4",
         "Name": "Applicator Pants",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "cf9470ae-5fed-442f-9da2-573f1358c73c_male",
@@ -1113,6 +1149,18 @@
         "AppId": "custLegF14",
         "Name": "Technician Pants",
         "Tier": 2
+      },
+      {
+        "ItemId": "472dcc0f-64c2-493a-abdf-39c3a5f4133f_male",
+        "AppId": "custLegM15",
+        "Name": "Stuntman Pants",
+        "Tier": 0
+      },
+      {
+        "ItemId": "472dcc0f-64c2-493a-abdf-39c3a5f4133f_female",
+        "AppId": "custLegF15",
+        "Name": "Stuntman Pants",
+        "Tier": 0
       }
     ]
   },
@@ -1469,13 +1517,13 @@
         "ItemId": "be0e65e5-a2e6-41ef-94d3-f8d4ac2f304e_male",
         "AppId": "custHatM1",
         "Name": "Applicator Hat",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "be0e65e5-a2e6-41ef-94d3-f8d4ac2f304e_female",
         "AppId": "custHatF1",
         "Name": "Applicator Hat",
-        "Tier": 0
+        "Tier": 2
       },
       {
         "ItemId": "46861beb-3adb-4ddb-92f7-0ef24716caa0_male",
@@ -1596,6 +1644,18 @@
         "AppId": "custHatF11",
         "Name": "Technician Hat",
         "Tier": 2
+      },
+      {
+        "ItemId": "6d8ecd00-0b01-48e9-900a-e222d3933515_male",
+        "AppId": "custHatM12",
+        "Name": "Stuntman Helmet",
+        "Tier": 0
+      },
+      {
+        "ItemId": "6d8ecd00-0b01-48e9-900a-e222d3933515_female",
+        "AppId": "custHatF12",
+        "Name": "Stuntman Helmet",
+        "Tier": 0
       }
     ]
   },
@@ -1630,13 +1690,13 @@
         "ItemId": "05553c50-bb4a-42bf-ae5e-ebd1b2412656_male",
         "AppId": "custBacM3",
         "Name": "Applicator Backpack",
-        "Tier": 0
+        "Tier": 3
       },
       {
         "ItemId": "05553c50-bb4a-42bf-ae5e-ebd1b2412656_female",
         "AppId": "custBacF3",
         "Name": "Applicator Backpack",
-        "Tier": 0
+        "Tier": 3
       },
       {
         "ItemId": "d94f4713-dc51-4171-9e52-6b2a7de911c3_male",
@@ -1733,6 +1793,18 @@
         "AppId": "custBacF11",
         "Name": "Technician Backpack",
         "Tier": 1
+      },
+      {
+        "ItemId": "7ea91f3c-bf9b-42b6-b19b-3e8cd112c205_male",
+        "AppId": "custBacM12",
+        "Name": "Stuntman Backpack",
+        "Tier": 0
+      },
+      {
+        "ItemId": "7ea91f3c-bf9b-42b6-b19b-3e8cd112c205_female",
+        "AppId": "custBacF12",
+        "Name": "Stuntman Backpack",
+        "Tier": 0
       }
     ]
   }

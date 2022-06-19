@@ -16,7 +16,7 @@ namespace AssistantScrapMechanic.GameFilesReader
 {
     class Program
     {
-        private const string BaseDirectory = @"D:\Steam\steamapps\common\Scrap Mechanic";
+        private const string BaseDirectory = @"C:\Steam\steamapps\common\Scrap Mechanic";
         private static readonly string SurvivalGuiDirectory = $@"{BaseDirectory}\Survival\Gui";
         private static readonly string SurvivalLanguageDirectory = $@"{BaseDirectory}\Survival\Gui\Language";
         private static readonly string SurvivalCraftingDirectory = $@"{BaseDirectory}\Survival\CraftingRecipes";
@@ -27,6 +27,10 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static readonly string CharacterDirectory = $@"{BaseDirectory}\Data\Character";
         private static readonly string LegacyLanguageDirectory = $@"{BaseDirectory}\Data\Gui\Language";
         private static readonly string LegacyShapeSetsDirectory = $@"{BaseDirectory}\Data\Objects\Database\ShapeSets";
+
+        private static readonly string ChallengeGuiDirectory = $@"{BaseDirectory}\ChallengeData\Gui";
+        private static readonly string ChallengeLanguageDirectory = $@"{BaseDirectory}\ChallengeData\Gui\Language";
+        private static readonly string ChallengeShapeSetsDirectory = $@"{BaseDirectory}\ChallengeData\Objects\Database\ShapeSets";
 
         private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.App\assets";
         private const string ConsoleAppDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
@@ -43,11 +47,13 @@ namespace AssistantScrapMechanic.GameFilesReader
         {
             FileSystemRepository shapeSetsFileSysRepo = new FileSystemRepository(ShapeSetsDirectory);
             FileSystemRepository legacyShapeSetsFileSysRepo = new FileSystemRepository(LegacyShapeSetsDirectory);
+            FileSystemRepository challengeShapeSetsFileSysRepo = new FileSystemRepository(ChallengeShapeSetsDirectory);
             FileSystemRepository survivalCraftingFileSysRepo = new FileSystemRepository(SurvivalCraftingDirectory);
             FileSystemRepository characterFileSysRepo = new FileSystemRepository(CharacterDirectory);
             FileSystemRepository legacyLanguageFileSysRepo = new FileSystemRepository(LegacyLanguageDirectory);
             FileSystemRepository survivalLanguageFileSysRepo = new FileSystemRepository(SurvivalLanguageDirectory);
             FileSystemRepository attackFileSysRepo = new FileSystemRepository(AttackDataDirectory);
+            FileSystemRepository challengeLanguageFileSysRepo = new FileSystemRepository(ChallengeLanguageDirectory);
 
             FileSystemRepository outputFileSysRepo = new FileSystemRepository(OutputDirectory);
             FileSystemRepository inputFileSysRepo = new FileSystemRepository(InputDirectory);
@@ -81,9 +87,9 @@ namespace AssistantScrapMechanic.GameFilesReader
             }
 
             FileHandlers.GameFilesReader gameFilesReader = new FileHandlers.GameFilesReader(outputFileSysRepo,
-                shapeSetsFileSysRepo, legacyShapeSetsFileSysRepo,
+                shapeSetsFileSysRepo, legacyShapeSetsFileSysRepo, challengeShapeSetsFileSysRepo,
                 survivalCraftingFileSysRepo, characterFileSysRepo,
-                legacyLanguageFileSysRepo, survivalLanguageFileSysRepo);
+                legacyLanguageFileSysRepo, survivalLanguageFileSysRepo, challengeLanguageFileSysRepo);
 
             if (langNumberInput != 0 && langNumberInput == AvailableLangs.Length)
             {
@@ -127,7 +133,7 @@ namespace AssistantScrapMechanic.GameFilesReader
                     case 3:
                         Dictionary<string, List<ILocalised>> keyValueOfGameItems = gameFilesReader.GetKeyValueOfAllItems(includeOtherItems: true);
 
-                        ImageCutter imageCutter = new ImageCutter(DataGuiDirectory, SurvivalGuiDirectory, OutputDirectory);
+                        ImageCutter imageCutter = new ImageCutter(DataGuiDirectory, SurvivalGuiDirectory, ChallengeGuiDirectory, OutputDirectory);
                         imageCutter.CutOutImages(keyValueOfGameItems);
                         break;
                     case 4:

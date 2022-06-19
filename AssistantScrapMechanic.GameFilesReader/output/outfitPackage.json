@@ -22,7 +22,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "27a221b1-9809-4df1-901a-caafe119c9b6",
@@ -47,7 +48,8 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   },
   {
     "ItemId": "7ab0cac7-b055-4283-b0bc-f85dd4d0416b",
@@ -72,6 +74,7 @@
     "StackSize": 0,
     "IsCreative": false,
     "Density": 0.0,
-    "QualityLevel": 0
+    "QualityLevel": 0,
+    "DataSourceCategory": 2
   }
 ]

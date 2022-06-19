@@ -17,6 +17,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
     {
         private readonly string _dataGuiDirectory;
         private readonly string _survivalGuiDirectory;
+        private readonly string _challengeGuiDirectory;
         private readonly string _outputDirectory;
 
         private const int ImageSize = 96;
@@ -26,11 +27,14 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         private const string SurvivalImageCoordinatesMap = "IconMapSurvival.xml";
         private const string CustomizationImageMap = "CustomizationIconMap.png";
         private const string CustomizationImageCoordinatesMap = "CustomizationIconMap.xml";
+        private const string ChallengeImageMap = "IconMapChallenge.png";
+        private const string ChallengeImageCoordinatesMap = "IconMapChallenge.xml";
 
-        public ImageCutter(string dataGuiDirectory, string survivalGuiDirectory, string outputDirectory)
+        public ImageCutter(string dataGuiDirectory, string survivalGuiDirectory, string challengeGuiDirectory, string outputDirectory)
         {
             _dataGuiDirectory = dataGuiDirectory;
             _survivalGuiDirectory = survivalGuiDirectory;
+            _challengeGuiDirectory = challengeGuiDirectory;
             _outputDirectory = outputDirectory;
         }
 
@@ -40,6 +44,7 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             imageListForPubSpec.AddRange(CutOutDataImages(keyValueOfGameItems));
             imageListForPubSpec.AddRange(CutOutSurvivalImages(keyValueOfGameItems));
             imageListForPubSpec.AddRange(CutOutCustomisationImages(keyValueOfGameItems));
+            imageListForPubSpec.AddRange(CutOutChallengeImages(keyValueOfGameItems));
 
             string outputPath = Path.Combine(_outputDirectory, "pubspecImageList.txt");
             if (File.Exists(outputPath)) File.Delete(outputPath);
@@ -74,6 +79,20 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             }
 
             return CutOutImage(coords, Path.Combine(_survivalGuiDirectory, SurvivalImageMap), keyValueOfGameItems);
+        }
+
+        private List<string> CutOutChallengeImages(Dictionary<string, List<ILocalised>> keyValueOfGameItems)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load(Path.Combine(_challengeGuiDirectory, ChallengeImageCoordinatesMap));
+
+            List<IconMapCoordinates> coords = new List<IconMapCoordinates>();
+            foreach (XmlNode tableItem in doc.DocumentElement.FirstChild.ChildNodes)
+            {
+                coords.AddRange(tableItem.ChildNodes.MapImageCoordinates());
+            }
+
+            return CutOutImage(coords, Path.Combine(_challengeGuiDirectory, ChallengeImageMap), keyValueOfGameItems);
         }
 
         private List<string> CutOutCustomisationImages(Dictionary<string, List<ILocalised>> keyValueOfGameItems)

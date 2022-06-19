@@ -10,6 +10,11 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
     {
         public static AppAttackTypeWithHitChances MapToAppAttackHitChances(string type, DamageStruct damage)
         {
+            if (damage == null)
+            {
+                return null;
+            }
+
             decimal totalChance = damage.Destruction.DestructionLevels.Sum(dl => dl.Chance);
 
             List<AppAttackHitChance> hitChances = new List<AppAttackHitChance>();

@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using AssistantScrapMechanic.Domain;
 using AssistantScrapMechanic.Domain.Constant;
+using AssistantScrapMechanic.Domain.Enum;
 using AssistantScrapMechanic.Domain.GameFiles;
 using AssistantScrapMechanic.Domain.IntermediateFiles;
 using AssistantScrapMechanic.Integration;
@@ -16,23 +17,27 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
         private readonly FileSystemRepository _outputFileSysRepo;
         private readonly FileSystemRepository _shapeSetsFileSysRepo;
         private readonly FileSystemRepository _legacyShapeSetsFileSysRepo;
+        private readonly FileSystemRepository _challengeShapeSetsFileSysRepo;
         private readonly FileSystemRepository _survivalCraftingFileSysRepo;
         private readonly FileSystemRepository _characterFileSysRepo;
         private readonly FileSystemRepository _legacyLanguageFileSysRepo;
         private readonly FileSystemRepository _survivalLanguageFileSysRepo;
+        private readonly FileSystemRepository _challengeLanguageFileSysRepo;
 
         public GameFilesReader(FileSystemRepository outputFileSysRepo,
-            FileSystemRepository shapeSetsFileSysRepo, FileSystemRepository legacyShapeSetsFileSysRepo, 
+            FileSystemRepository shapeSetsFileSysRepo, FileSystemRepository legacyShapeSetsFileSysRepo, FileSystemRepository challengeShapeSetsFileSysRepo,
             FileSystemRepository survivalCraftingFileSysRepo, FileSystemRepository characterFileSysRepo, 
-            FileSystemRepository legacyLanguageFileSysRepo, FileSystemRepository survivalLanguageFileSysRepo)
+            FileSystemRepository legacyLanguageFileSysRepo, FileSystemRepository survivalLanguageFileSysRepo, FileSystemRepository challengeLanguageFileSysRepo)
         {
             _outputFileSysRepo = outputFileSysRepo;
             _legacyShapeSetsFileSysRepo = legacyShapeSetsFileSysRepo;
+            _challengeShapeSetsFileSysRepo = challengeShapeSetsFileSysRepo;
             _shapeSetsFileSysRepo = shapeSetsFileSysRepo;
             _survivalCraftingFileSysRepo = survivalCraftingFileSysRepo;
             _characterFileSysRepo = characterFileSysRepo;
             _legacyLanguageFileSysRepo = legacyLanguageFileSysRepo;
             _survivalLanguageFileSysRepo = survivalLanguageFileSysRepo;
+            _challengeLanguageFileSysRepo = challengeLanguageFileSysRepo;
         }
 
         public Dictionary<string, InventoryDescription> LoadItemNames(string language)
@@ -40,11 +45,20 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             string survivalInvDescripFilePath = Path.Combine(language, "inventoryDescriptions.json");
             string dataInvDescripFilePath = Path.Combine(language, "InventoryItemDescriptions.json");
             string custDescripFilePath = Path.Combine(language, "CustomizationDescriptions.json");
+            string challengeInvDescripFilePath = Path.Combine(language, "inventoryDescriptions.json");
 
             Dictionary<string, InventoryDescription> survivalDict = _survivalLanguageFileSysRepo.LoadJsonDictOfType<InventoryDescription>(survivalInvDescripFilePath);
             Dictionary<string, InventoryDescription> baseGameDict = _legacyLanguageFileSysRepo.LoadJsonDictOfType<InventoryDescription>(dataInvDescripFilePath);
+            Dictionary<string, InventoryDescription> challengeDict = _challengeLanguageFileSysRepo.LoadJsonDictOfType<InventoryDescription>(challengeInvDescripFilePath);
 
             foreach ((string invKey, InventoryDescription invValue) in baseGameDict)
+            {
+                if (!survivalDict.ContainsKey(invKey))
+                {
+                    survivalDict.Add(invKey, invValue);
+                }
+            }
+            foreach ((string invKey, InventoryDescription invValue) in challengeDict)
             {
                 if (!survivalDict.ContainsKey(invKey))
                 {
@@ -287,8 +301,9 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateBlockIntermediate(Dictionary<string, InventoryDescription> itemNames)
         {
-            Blocklist legacyBlocklist = _legacyShapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
             Blocklist blocklist = _shapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
+            Blocklist legacyBlocklist = _legacyShapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
+            Blocklist challengeBlocklist = _challengeShapeSetsFileSysRepo.LoadJsonFile<Blocklist>(GameFile.Blocks);
 
             Dictionary<string, Blocks> distinctItems = new Dictionary<string, Blocks>();
             foreach (Blocks block in blocklist?.BlockList ?? new List<Blocks>())
@@ -298,6 +313,10 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
             foreach (Blocks legacyBlock in legacyBlocklist?.BlockList ?? new List<Blocks>())
             {
                 if (!distinctItems.ContainsKey(legacyBlock.Uuid)) distinctItems.Add(legacyBlock.Uuid, legacyBlock);
+            }            
+            foreach (Blocks challengeBlock in challengeBlocklist?.BlockList ?? new List<Blocks>())
+            {
+                if (!distinctItems.ContainsKey(challengeBlock.Uuid)) distinctItems.Add(challengeBlock.Uuid, challengeBlock);
             }
 
             List<Blocks> all = distinctItems.Values.ToList();
@@ -424,17 +443,25 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
         public void GenerateGameItemIntermediate(string filename, string prefix, string outputFilename, Dictionary<string, InventoryDescription> itemNames)
         {
-            GameItemlist legacyGameItemList = _legacyShapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
             GameItemlist gameItemList = _shapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
+            GameItemlist legacyGameItemList = _legacyShapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
+            GameItemlist challengeGameItemList = _challengeShapeSetsFileSysRepo.LoadJsonFile<GameItemlist>(filename);
 
             Dictionary<string, GameItem> distinctItems = new Dictionary<string, GameItem>();
             foreach (GameItem gameItem in gameItemList?.GameItemList ?? new List<GameItem>())
             {
+                gameItem.DataSourceCategory = DataSourceCategory.Survival;
                 if (!distinctItems.ContainsKey(gameItem.Uuid)) distinctItems.Add(gameItem.Uuid, gameItem);
             }
             foreach (GameItem legacyGameItem in legacyGameItemList?.GameItemList ?? new List<GameItem>())
             {
+                legacyGameItem.DataSourceCategory = DataSourceCategory.Legacy;
                 if (!distinctItems.ContainsKey(legacyGameItem.Uuid)) distinctItems.Add(legacyGameItem.Uuid, legacyGameItem);
+            }
+            foreach (GameItem challengeGameItem in challengeGameItemList?.GameItemList ?? new List<GameItem>())
+            {
+                challengeGameItem.DataSourceCategory = DataSourceCategory.Challenge;
+                if (!distinctItems.ContainsKey(challengeGameItem.Uuid)) distinctItems.Add(challengeGameItem.Uuid, challengeGameItem);
             }
 
             List<GameItem> all = distinctItems.Values.ToList();
@@ -448,7 +475,9 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
 
             if (fileData.Count < 1)
             {
-                var k = 1 + 1;
+#pragma warning disable CS0219 // Variable is assigned but its value is never used
+                int k = 1 + 1;
+#pragma warning restore CS0219 // Variable is assigned but its value is never used
             }
 
             _outputFileSysRepo.WriteBackToJsonFile(fileData, outputFilename);

@@ -21,6 +21,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         //public int StackSize { get; set; }
         public Edible Edible { get; set; }
         public bool IsCreative { get; set; }
+        public bool IsChallenge { get; set; }
 
         public Upgrade Upgrade { get; set; }
         public List<Feature> Features { get; set; }
@@ -35,6 +36,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
                 Color = Color,
                 Flammable = Flammable,
                 IsCreative = IsCreative,
+                IsChallenge = IsChallenge,
                 PhysicsMaterial = PhysicsMaterial,
                 Ratings = Ratings,
                 Box = Box,
@@ -73,6 +75,7 @@ namespace AssistantScrapMechanic.Domain.AppFiles
         public Cylinder Cylinder { get; set; }
         public bool Flammable { get; set; }
         public bool IsCreative { get; set; }
+        public bool IsChallenge { get; set; }
         public Upgrade Upgrade { get; set; }
         public Edible Edible { get; set; }
         public List<Feature> Features { get; set; }
