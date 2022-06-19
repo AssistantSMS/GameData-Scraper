@@ -32,7 +32,7 @@ namespace AssistantScrapMechanic.GameFilesReader
         private static readonly string ChallengeLanguageDirectory = $@"{BaseDirectory}\ChallengeData\Gui\Language";
         private static readonly string ChallengeShapeSetsDirectory = $@"{BaseDirectory}\ChallengeData\Objects\Database\ShapeSets";
 
-        private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.App\assets";
+        private const string AppFilesDirectory = @"C:\Development\Projects\AssistantSMS\scrapmechanic_app\assets";
         private const string ConsoleAppDirectory = @"C:\Development\Projects\AssistantSMS\ScrapMechanic.Data\AssistantScrapMechanic.GameFilesReader";
         private static readonly string OutputDirectory = $@"{ConsoleAppDirectory}\output";
         private static readonly string InputDirectory = $@"{ConsoleAppDirectory}\input";
