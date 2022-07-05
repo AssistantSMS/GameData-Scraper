@@ -275,14 +275,17 @@ namespace AssistantScrapMechanic.GameFilesReader.FileHandlers
                     });
                 }
 
-                if (!string.IsNullOrEmpty(localisedGameItem.IsCreative.ToString()))
+                detailList.Add(new AppDevDetailItem
                 {
-                    detailList.Add(new AppDevDetailItem
-                    {
-                        Name = "IsCreative",
-                        Value = localisedGameItem.IsCreative.ToString()
-                    });
-                }
+                    Name = "IsCreative",
+                    Value = (localisedGameItem.IsCreative).ToString()
+                });
+
+                detailList.Add(new AppDevDetailItem
+                {
+                    Name = "IsChallenge",
+                    Value = (localisedGameItem.DataSourceCategory == DataSourceCategory.Challenge).ToString()
+                });
 
                 if (localisedGameItem.Density > 0)
                 {

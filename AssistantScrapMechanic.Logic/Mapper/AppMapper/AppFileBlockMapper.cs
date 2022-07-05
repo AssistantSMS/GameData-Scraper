@@ -13,6 +13,7 @@ namespace AssistantScrapMechanic.Logic.Mapper.AppMapper
             AppGameItem recipe = new AppGameItem
             {
                 AppId = localisedData.AppId,
+                Description = localisedData.Description,
                 Flammable = localisedData.Flammable,
                 IsCreative = localisedData.IsCreative,
                 IsChallenge = localisedData.DataSourceCategory == DataSourceCategory.Challenge,
